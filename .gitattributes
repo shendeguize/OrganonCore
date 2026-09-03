@@ -1,0 +1,19 @@
+# Normalize text files to LF in the repository.
+* text=auto eol=lf
+
+# Keep the repository's source and data formats explicitly textual.
+*.md text
+*.py text
+*.json text
+*.jsonl text
+*.yml text
+*.yaml text
+*.sh text
+*.txt text
+
+# These files are intended for direct viewing, not diffing as source.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary

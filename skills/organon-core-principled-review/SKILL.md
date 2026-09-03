@@ -1,0 +1,45 @@
+---
+name: organon-core-principled-review
+description: Review claims, designs, methods, or systems using six review principles under stated goals, scope, and standards. Return grounded findings for structural, self-, or six-dimension analysis and substantive revisions; assess owns the current Organon compatibility judgment, and absorb owns philosophical adoption.
+---
+
+# Organon Core Principled Review
+
+Read the [English philosophical authority](../../PHILOSOPHY.md), including its meanings and limits, and the [shared iteration rules](../references/iteration.md). Respond in the user's language. This skill is a revisable analysis method, not six additional universal philosophical obligations or a uniform capability standard.
+
+## When to use
+
+Run the complete analysis when structural, self-, or six-dimension analysis is explicitly requested, or when a proposal materially changes philosophical commitments, applicability, method steps, evaluation criteria, or the allocation of their responsibilities. Routine narrow assessment retains its targeted checks. A wording-only task uses the wording skill without a full analysis cycle.
+
+`organon-core-assess` owns judgments of compatibility with the adopted philosophy; `organon-core-absorb` owns philosophical adoption and its necessary synchronization. Shared maintenance handles independent skill and documentation revisions. Callers reuse these findings when the conditions above apply. This skill returns analysis to its caller; it does not invoke either skill, edit the object, or adopt a revision. It does not replace independent cross-validation required by the caller.
+
+## Fix the object and grounds
+
+Identify the object, claims, objectives, scope, and application requirements. Distinguish the object’s own commitments, the standards selected for this review, and the constraints on the review method itself. Organon constrains this method; its use does not mean that the object has adopted Organon. When comparing an object with Organon, identify that external basis rather than treating a difference as the object’s internal contradiction. Distinguish facts, inferences, values, and method choices. Keep each declared baseline fixed: a proposed standard is not already the standard used to assess it.
+
+Gather discoverable facts before questioning the user. Use the real external `grilling` capability when explicitly requested or when material unresolved choices require it, under the shared dependency rules. Continue checks independent of pending answers. Missing evidence, an unanswered choice, and non-applicability are different conditions. Do not invent a goal or preference to finish a comparison.
+
+## Six dimensions
+
+For a full invocation, address each dimension’s applicability, grounds, judgment, and limits. These are review principles, not six additional core commitments. Identify the applicable standard for each material finding; a difference from a method preference does not by itself establish a philosophical conflict. In particular, an object’s lack of generative orientation is not automatically a defect under its own goals. Use the following definitions as the shared method; callers should link here rather than maintain separate versions.
+
+| Dimension | Analysis responsibility | Limits |
+| --- | --- | --- |
+| Internal consistency | Compare judgments and implications under the same assumptions, meanings, and scope. | Value tension, different conditions, and explicitly withdrawn judgments are not automatically contradictions. |
+| Minimal completeness | Within the stated objective and scope, look for omitted necessary situations and examine what would be lost by deleting or merging apparently redundant content. | Preserve necessary conditions, obligations, and distinctions. Brevity is not sufficiency; coverage of the examined cases does not establish domain completeness, formal independence, or a globally minimal form. Focus removal checks on plausible redundancies, not every pair of sentences. |
+| External adequacy | Examine whether claims hold for or fit relevant external facts, objects, objectives, and actual constraints. | Missing relevant external information leaves the affected judgment unresolved; available grounds insufficient for the claim warrant a support limitation. Neither is non-applicability. Agreement is not a substitute for grounds, and not every claim requires an experiment or third-party endorsement. |
+| Falsifiability: rebuttal and revision conditions | For empirical claims, examine what evidence could count against them and under what conditions. For inferences, examine support relations and counterexamples. For value commitments, examine reasons, limits, consequences, and relevant criticism or grounds for revision. | Do not require empirical refutation of every value commitment or invent a condition that must change someone's values. Distinguish these forms of criticism rather than treating them as one empirical test. |
+| Self-transcendence | For applicable systems, examine generative orientation, non-finality, and conditions for revising their organization, methods, or principles. When an achievement is claimed, compare its baseline, contribution, and grounds. | A static artifact need not itself have a system's orientation. Justified stability or external assistance is not failure; more documents or a claim of breakthrough does not establish expansion. Apply the core's conditions rather than impose improvement on every action. |
+| Occam's razor review | Compare the assumptions, entities, or rule complexity of candidates with comparable support, explanatory reach, coverage, and satisfaction of relevant constraints. Prefer avoiding unnecessary complexity when those conditions are comparable. | Word count is not a complexity measure by default. A conditional preference for adoption does not establish greater truth. State which complexity dimensions matter; when they trade off without grounds for a preference, retain the unresolved comparison rather than invent a score. |
+
+Minimal completeness examines the object's coverage and redundant content; Occam review examines a comparative preference among candidates. With no adequately comparable alternative, a proposed simplification remains a candidate to assess, not an established comparative advantage. A deletion that removes an application limit is not justified merely because it shortens the text.
+
+## Return findings and examine this analysis
+
+State what is supported, in conflict, insufficiently supported, unresolved, or inapplicable, with reasons for the distinctions. State the standard supporting each material judgment, including applicable core provisions and additional premises where relevant. Return findings for the caller to use; assess must establish whether they warrant a current philosophical compatibility judgment, and absorb must separately establish a case for adoption. Consolidate each actual issue with its grounds, effect, and smallest correction direction; one issue may concern several dimensions without becoming several defects. Do not produce a composite score or infer quality from completing six headings.
+
+Apply the relevant dimensions to this report, the analysis method used, and its evaluation criteria within the same bounded review. Check for unsupported conclusions, omissions, hidden preferences, self-exemptions, and a counterexample that could change the judgment. Reuse those results rather than generating a separate full report recursively.
+
+Criteria may be criticized, but changing them creates a proposed new version and a new judgment; preserve the old judgment and explain the difference. A proposed philosophical change still requires the user's explicit decision. Report possible method or core revisions to the caller without silently adopting them or reopening settled choices merely to seek approval again.
+
+Use the shared record and stopping rules. For repository work, retain actual evidence under ignored `.local/`; ordinary analysis may stay in the conversation. Continue a review only for new grounds, counterexamples, or material revisions. State remaining unknowns without declaring success. File checks, self-application, and agreement do not prove philosophical correctness or universal method effectiveness.
