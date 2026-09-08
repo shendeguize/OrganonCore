@@ -1,11 +1,11 @@
 ---
 name: organon-core-principled-review
-description: Review claims, designs, methods, or systems using six review principles under stated goals, scope, and standards. Return grounded findings for structural, self-, or six-dimension analysis and substantive revisions; assess owns the current Organon compatibility judgment, and absorb owns philosophical adoption.
+description: Review claims, designs, methods, or systems using six review principles under stated goals, scope, and standards. Return grounded findings for structural, self-, or six-dimension analysis and substantive revisions; assess owns compatibility judgments against the selected philosophy, and absorb owns philosophical adoption.
 ---
 
 # Organon Core Principled Review
 
-Read the [English philosophical authority](../../PHILOSOPHY.md), including its meanings and limits, and the [shared iteration rules](../references/iteration.md). Respond in the user's language. This skill is a revisable analysis method, not six additional universal philosophical obligations or a uniform capability standard.
+Read the adopted philosophy using [philosophy resolution](../references/philosophy-resolution.md), including its meanings and limits, and the [shared iteration rules](../references/iteration.md). Respond in the user's language. This skill is a revisable analysis method, not six additional universal philosophical obligations or a uniform capability standard.
 
 ## When to use
 
@@ -15,13 +15,13 @@ Run the complete analysis when structural, self-, or six-dimension analysis is e
 
 ## Fix the object and grounds
 
-Identify the object, claims, objectives, scope, and application requirements. Distinguish the object’s own commitments, the standards selected for this review, and the constraints on the review method itself. Organon constrains this method; its use does not mean that the object has adopted Organon. When comparing an object with Organon, identify that external basis rather than treating a difference as the object’s internal contradiction. Distinguish facts, inferences, values, and method choices. Keep each declared baseline fixed: a proposed standard is not already the standard used to assess it.
+Identify the object, claims, objectives, scope, and application requirements. Distinguish the object's own commitments, the selected philosophical baseline and other review standards, and the constraints on the review method itself. Core constrains this method; its use does not mean that the object or a downstream adopter has adopted every Core commitment. When comparing an object with the selected philosophy, identify that external basis rather than treating a difference as the object's internal contradiction. Distinguish facts, inferences, values, and method choices. Keep each declared baseline fixed: a proposed standard is not already the standard used to assess it. Retain the caller's selected text when consulting shared references or returning findings; do not replace it with bundled Core. Report any method limitation separately from a conflict with the selected philosophy.
 
 Gather discoverable facts before questioning the user. Use the real external `grilling` capability when explicitly requested or when material unresolved choices require it, under the shared dependency rules. Continue checks independent of pending answers. Missing evidence, an unanswered choice, and non-applicability are different conditions. Do not invent a goal or preference to finish a comparison.
 
 ## Six dimensions
 
-For a full invocation, address each dimension’s applicability, grounds, judgment, and limits. These are review principles, not six additional core commitments. Identify the applicable standard for each material finding; a difference from a method preference does not by itself establish a philosophical conflict. In particular, an object’s lack of generative orientation is not automatically a defect under its own goals. Use the following definitions as the shared method; callers should link here rather than maintain separate versions.
+For a full invocation, address each dimension's applicability, grounds, judgment, and limits. These are review principles, not six additional commitments of the selected philosophy. Identify the applicable standard for each material finding; a difference from a method preference does not by itself establish a philosophical conflict. In particular, an object's lack of generative orientation is not automatically a defect under its own goals. Use the following definitions as the shared Core method; if a selected downstream philosophy has revised a named Core commitment, identify that difference rather than attributing the original commitment to the selected text. Callers should link here rather than maintain separate versions.
 
 | Dimension | Analysis responsibility | Limits |
 | --- | --- | --- |
@@ -36,7 +36,7 @@ Minimal completeness examines the object's coverage and redundant content; Occam
 
 ## Return findings and examine this analysis
 
-State what is supported, in conflict, insufficiently supported, unresolved, or inapplicable, with reasons for the distinctions. State the standard supporting each material judgment, including applicable core provisions and additional premises where relevant. Return findings for the caller to use; assess must establish whether they warrant a current philosophical compatibility judgment, and absorb must separately establish a case for adoption. Consolidate each actual issue with its grounds, effect, and smallest correction direction; one issue may concern several dimensions without becoming several defects. Do not produce a composite score or infer quality from completing six headings.
+State what is supported, in conflict, insufficiently supported, unresolved, or inapplicable, with reasons for the distinctions. State the standard supporting each material judgment, distinguishing selected philosophical provisions, Core method constraints, and additional premises where relevant. Return findings for the caller to use; assess must establish whether they warrant a current philosophical compatibility judgment, and absorb must separately establish a case for adoption. Consolidate each actual issue with its grounds, effect, and smallest correction direction; one issue may concern several dimensions without becoming several defects. Do not produce a composite score or infer quality from completing six headings.
 
 Apply the relevant dimensions to this report, the analysis method used, and its evaluation criteria within the same bounded review. Check for unsupported conclusions, omissions, hidden preferences, self-exemptions, and a counterexample that could change the judgment. Reuse those results rather than generating a separate full report recursively.
 

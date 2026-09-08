@@ -2,6 +2,8 @@
 
 Read [PHILOSOPHY.md](PHILOSOPHY.md), including its meanings and limits, before assessing or changing this repository. It is the English authority. [Rationale](docs/rationale.md) explains the philosophy without adding core obligations. Skills implement context-specific methods and may be revised.
 
+For skills applied outside this repository, use [philosophy resolution](skills/references/philosophy-resolution.md) to retain the caller's selected adopted baseline; Core remains the baseline for maintaining this repository. The [document format](skills/references/structure.md) specifies version metadata and stable text-unit IDs as revisable interfaces, not additional philosophical commitments.
+
 For an input assessment, use [organon-core-assess](skills/organon-core-assess/SKILL.md). For philosophical absorption and its necessary synchronization, use [organon-core-absorb](skills/organon-core-absorb/SKILL.md). Read their shared [iteration rules](skills/references/iteration.md) for external grilling, independent-first cross-validation, authorization, records, and stopping. Delegated reviewers return findings instead of recursively requesting review.
 
 Use [organon-core-principled-review](skills/organon-core-principled-review/SKILL.md) for full analysis when its stated trigger conditions apply. It owns the six-dimension method, including bounded review of its own output and criteria. Reuse findings with their standards and grounds; assess owns current philosophical compatibility judgments, while absorb owns philosophical adoption. Method findings do not automatically establish core conflicts, and principled review does not replace independent cross-validation. Routine narrow assessment and wording-only work retain their separate scope.

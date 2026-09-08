@@ -8,6 +8,7 @@ Organon is a text-centered philosophical core: **Self-Transcendence, Internal Co
 - [Rationale](docs/rationale.md) explains contributions, dependencies, counterexamples, and applications. It cannot independently add obligations to the core.
 - Chinese translations are maintained under `zh/` for readability and follow the English authority.
 - [Agent guidance](AGENTS.md) identifies how to work on this repository. The skills below are revisable applications under this repository's goals, not additional philosophical truths.
+- [Philosophy resolution](skills/references/philosophy-resolution.md) selects the adopted baseline; the [document format](skills/references/structure.md) defines version metadata, stable text-unit IDs, and a revisable starting template.
 
 ## Use the skills
 
@@ -19,6 +20,8 @@ Organon is a text-centered philosophical core: **Self-Transcendence, Internal Co
 | `organon-core-wording-review` | Review text for grammatical correctness, precision, ambiguity, terminology, redundancy, and necessary qualifications. | [SKILL.md](skills/organon-core-wording-review/SKILL.md) |
 
 Give an agent the relevant entrypoint and your input, for example: “Use `organon-core-assess` to assess this design under its stated assumptions,” or “Use `organon-core-absorb` to consider whether this counterexample warrants a change.” These skills use English instructions and respond in the user's language. They can be invoked separately but reference this repository's guidance; copying a skill folder alone does not make a standalone distribution. Load the entrypoint explicitly if the host does not discover this directory; no automatic installation or discovery is assumed.
+
+For a downstream assessment or absorption, supply the adopted philosophy's path. Assess, absorb, and principled review retain that selection through their shared references and distinguish it from Core's method constraints. Direct Core invocations without a caller selection use the bundled English philosophy. A missing selected file stops the dependent operation without fallback. Wording review remains independent of philosophical lookup. Core's own maintenance continues to use its English authority.
 
 Use the real external `grilling` capability, directly or through `grill-me`, when explicitly requested or when material unresolved choices require it. Gather facts before questioning; a fully specified ordinary assessment needs neither dependency lookup nor an interview. When the required capability is unavailable, state which stage is incomplete and continue independent work. Cross-validation requires a different agent’s initial judgment before seeing the author’s proposal; missing that capability leaves a provisional result, not completed cross-validation.
 
