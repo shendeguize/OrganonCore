@@ -1,13 +1,13 @@
 ---
 format_version: 0.1.0
-philosophy_version: 0.1.0
-core_version: 0.1.0
+philosophy_version: 0.1.1
+core_version: 0.1.1
 derived_from: null
 ---
 # Organon Philosophy: Charter and Grounds
 <!-- organon:id organon.preamble -->
 
-This is the current authoritative statement of Organon’s philosophy. It expresses adopted commitments, not factual assertions about every system or a proof of universal correctness.
+This is the authoritative statement of Organon’s philosophy. It expresses adopted commitments, not factual assertions about every system or a proof of universal correctness.
 
 The quoted provisions, their meanings, and their conditions of application form the core. The charter and Grounds constrain one another; their grouping establishes neither a deductive hierarchy nor an order of priority. [Rationale](docs/rationale.md) supplies arguments and cases without adding obligations to this core. Skills are revisable applications under the repository’s stated objectives and constraints, not part of the philosophical commitments themselves.
 
@@ -21,7 +21,7 @@ The quoted provisions, their meanings, and their conditions of application form 
 
 > A system is intrinsically oriented toward expanding what it can understand and construct. It brings itself and its principles within the scope of generation and assessment, with internal consistency constraining this process.
 
-The overview connects three distinct requirements: self-transcendence establishes a generative orientation and refuses to treat existing forms as final, internal consistency constrains judgments held simultaneously, and reflexivity brings the system and its principles within the scope of application. The provisions below specify the precise conditions for each.
+The overview connects three distinct requirements: self-transcendence establishes a generative orientation and refuses to treat existing forms as final, internal consistency constrains judgments held simultaneously, and reflexivity brings the system and its principles within the scope of their own generation and assessment. The provisions below specify the conditions for each.
 
 ### 1.2 Self-Transcendence
 <!-- organon:id organon.charter.self-transcendence -->
@@ -31,12 +31,12 @@ The overview connects three distinct requirements: self-transcendence establishe
 #### 1.2.1 Generative Orientation
 <!-- organon:id organon.charter.self-transcendence.orientation -->
 
-A commitment to keeping generative possibilities open is distinct from valuing their expansion. Regarding that expansion as worth pursuing constitutes an intrinsic orientation. Merely permitting change does not fully express this orientation.
+A commitment to keeping generative possibilities open is distinct from valuing their expansion. A system has an intrinsic orientation when it regards that expansion as worth pursuing. Merely permitting change does not fully express this orientation.
 
 #### 1.2.2 Non-finality
 <!-- organon:id organon.charter.self-transcendence.non-finality -->
 
-Refusing to regard an existing form as an endpoint keeps it open to being surpassed. “Existing form” includes a system’s current organization, methods, and principles, not only its artifacts. These remain within the scope of possible change; their revisability does not guarantee actual breakthroughs.
+Refusing to regard an existing form as an endpoint keeps it open to being surpassed. “Existing form” includes a system’s current organization, methods, and principles, not only its appearance or artifacts. These remain within the scope of possible change; their revisability does not guarantee actual progress.
 
 #### 1.2.3 Grounds for Achievement and Limits
 <!-- organon:id organon.charter.self-transcendence.limits -->
@@ -56,16 +56,15 @@ Whether progress has actually occurred remains a separate judgment. Having the o
 #### 1.3.1 Meaning
 <!-- organon:id organon.charter.consistency.meaning -->
 
-“Held simultaneously” identifies the principles, judgments, and implications that need to hold together. Revision may withdraw an earlier judgment; old and new principles need not remain compatible forever. When a change has occurred, it cannot be represented as though nothing changed.
+“Held simultaneously” specifies which principles, judgments, and implications must hold together. Revision may withdraw an earlier judgment; old and new principles need not remain compatible forever. When a change has occurred, that change cannot be represented as though it had not occurred.
 
-“The same assumptions, meanings of terms, and scope of application” specifies the basis for comparing judgments. Differences under different conditions do not automatically constitute contradictions. Nor can unacknowledged changes in assumptions, meanings, or scope be used to conceal an existing contradiction.
+“The same assumptions, meanings of terms, and scope of application” specifies the basis for comparing judgments. Divergent judgments under different conditions do not automatically constitute contradictions. Nor can unacknowledged changes in assumptions, meanings, or scope be used to conceal an existing contradiction.
 
 #### 1.3.2 Conditions and Limits
 <!-- organon:id organon.charter.consistency.limits -->
 
-- Tension between different evaluations or values does not directly constitute a contradiction. Revision or qualification is needed when they require incompatible conclusions under the same conditions.
-- Internal consistency permits revision of principles; it does not require a system to maintain its original views forever.
-- Internal consistency is not correctness or sufficiency. A set of principles may be internally consistent while relying on false assumptions or omitting important questions.
+- Tension between different assessments or values does not directly constitute a contradiction. Revision or qualification is needed when they require incompatible conclusions under the same conditions.
+- Internal consistency is not correctness or sufficiency. A set of principles may be internally consistent while relying on false assumptions or neglecting important questions.
 
 ### 1.4 Reflexivity
 <!-- organon:id organon.charter.reflexivity -->
@@ -75,14 +74,14 @@ Whether progress has actually occurred remains a separate judgment. Having the o
 #### 1.4.1 Meaning
 <!-- organon:id organon.charter.reflexivity.meaning -->
 
-Reflexivity encompasses both the system itself and its principles. Assessment concerns not only whether the system conforms to its principles, but also how those principles are formed, where they apply, and why they may need revision. The formation and alteration of principles thus also become objects of generation and assessment.
+Reflexivity encompasses both the system itself and its principles. Assessment concerns not only whether the system conforms to its principles, but also how those principles are formed, where they apply, and why they may need revision. The formation and revision of principles thus also become objects of generation and assessment.
 
 #### 1.4.2 Conditions and Limits
 <!-- organon:id organon.charter.reflexivity.limits -->
 
-- Equal application retains the conditions of application. When the relevant conditions hold, being the system itself is not a basis for exemption. Nor does the requirement of reflexivity establish that every principle can be applied to itself without examining its applicability.
+- Applying principles equally retains their conditions of application. When the relevant conditions hold, being the system itself is not a basis for exemption. Nor does the requirement of reflexivity establish that every principle can be applied to itself without examining its applicability.
 - Self-application does not constitute self-proof. Subjecting a principle to its own assessment does not thereby establish its correctness.
-- A revision’s being produced by the system itself does not give it sufficient grounds.
+- That a revision is produced by the system itself does not give it sufficient grounds.
 
 ## 2. Grounds
 <!-- organon:id organon.grounds -->
@@ -97,10 +96,10 @@ Articulation and assessment have distinct responsibilities. Articulability requi
 | Type of claim | Responsibility of assessment | What cannot substitute for that responsibility |
 | --- | --- | --- |
 | Empirical claim | Examine observations, evidence, and performance, together with the conditions, scope, and uncertainty of their support for the claim. | Treating measurability or repeatability itself as proof of relevance, correctness, or value. |
-| Inference | Examine whether the conclusion is supported by the stated assumptions and inferential relations. | Treating the absence of conflict between a conclusion and its assumptions as sufficient to establish that the conclusion follows from them. |
+| Inferential claim | Examine whether the conclusion is supported by the stated assumptions and inferential relations. | Treating the absence of conflict between a conclusion and its assumptions as sufficient to establish that the conclusion follows from them. |
 | Value commitment | State the position taken, its reasons, limits of application, and consequences, and remain open to relevant criticism. | Presenting a commitment as an empirical fact or a necessary inference, or substituting self-assertion for reasons. |
 
-Initial value commitments may be stated explicitly as commitments; they need not prove all their own starting assumptions. “Strength of a claim” does not require conversion to a common numerical scale. Different types of claims specify their support and limits in accordance with their nature.
+Initial value commitments may be stated explicitly as commitments; they need not prove all their own starting assumptions. The strength and scope of a claim do not require conversion to a common numerical scale. Different types of claims specify their support and limits in accordance with their nature.
 
 ### 2.2 Relations, Scope, and the Limits of Measurement
 <!-- organon:id organon.grounds.scope -->
@@ -109,7 +108,7 @@ Performance is discerned within particular relations, conditions, and scopes of 
 
 Measurement can make some differences comparable. Repeated assessment can help examine the stability of corresponding conclusions. Their roles, and the role of any assessment framework, must be explained relative to the claim and its context. Measurement, repeatability, and an assessment framework do not form a universally necessary chain on which all judgments must depend.
 
-An observation that has not been reproduced may still offer limited support, and random outcomes need not be identical on every occasion. The verifiability of observations, reproducibility of conditions, and stability of conclusions must be distinguished. Whether an event can be replayed identically does not determine the standing of all grounds at once.
+An observation that has not been reproduced may still offer limited support, and random outcomes need not be identical on every occasion. The verifiability of observations, reproducibility of conditions, and stability of conclusions must be distinguished.
 
 ### 2.3 Capability Claims
 <!-- organon:id organon.grounds.capabilities -->
@@ -123,14 +122,14 @@ Grounds for a capability claim may be supplied by an external assessor. Their ar
 
 > The choice of an implementation must be supported by reasons connected to the objectives and values pursued and to the relevant constraints. Its name, conventional use, or established status alone does not provide sufficient grounds for giving it priority.
 
-This choice provision retains an additional evaluative commitment: identity or status alone is insufficient to establish priority. Grouping it under Grounds does not mean that it follows from the general requirement to assess reasons, or merely from the discernibility of performance. Conventions and existing arrangements may have practical significance, but that significance must be connected to the objectives and values pursued and to the relevant constraints.
+This choice provision adds an additional evaluative commitment: name, conventional use, or established status alone is insufficient to establish priority. Grouping it under Grounds does not mean that it follows from the general requirement to assess reasons, or merely from the discernibility of performance. Conventions and existing arrangements may have practical significance, but that significance must be connected to the objectives and values pursued and to the relevant constraints.
 
-#### Conditions and Limits
+#### 2.4.1 Conditions and Limits
 <!-- organon:id organon.grounds.implementations.limits -->
 
 - Openness does not make all implementations equivalent, nor does it guarantee multiple feasible implementations for the same objective.
-- A method’s explanatory power, limits of application, simplicity, and explicit process requirements may all provide grounded reasons for evaluation. They cannot be excluded merely because they concern internal methods.
-- Identical local performance does not establish overall equivalence. Relations, conditions, and the scope of comparison are constrained by the Grounds principle.
+- A method’s explanatory power, limits of application, simplicity, and explicit process requirements may all provide grounded reasons for assessment. They cannot be excluded merely because they concern methods internal to the implementation.
+- Identical local performance does not establish overall equivalence. Relations, conditions, and the scope of comparison are constrained by the provisions of Grounds.
 - Openness does not reject an implementation merely because it already exists or is conventionally used. Relevant reasons may still give it priority.
 
 ## 3. Relationships and Necessary Terms
@@ -141,9 +140,9 @@ This choice provision retains an additional evaluative commitment: identity or s
 
 The charter states the generative orientation, the consistency constraint, and reflexive application. Grounds specifies support requirements for judgments and includes an additional commitment concerning implementation choices. Both parts belong to the core and constrain one another. Their placement neither makes Grounds a deduction from the charter nor gives the charter priority over it. Each commitment needs its own reasons.
 
-Internal Consistency concerns whether simultaneously held judgments can hold together; Grounds concerns why a claim receives support. A conclusion may fail to conflict with its assumptions without being supported by them. Self-Transcendence specifies a generative orientation and non-finality; neither establishes actual capability. Applications may supply objectives, values, and capability definitions; claims made under them remain subject to the relevant core provisions.
+Internal Consistency concerns whether simultaneously held judgments can hold together; Grounds concerns whether and how far a claim is supported. A conclusion may fail to conflict with its assumptions without being supported by them. Self-Transcendence specifies a generative orientation and non-finality; neither establishes actual capability. Applications may supply objectives, values, and capability definitions; claims made under those objectives, values, and definitions remain subject to the relevant core provisions.
 
-Self-Transcendence does not substitute for Reflexivity: keeping existing forms open to being surpassed differs from applying relevant principles to the system and to their own formation, application, and revision. Reflexivity extends those requirements to these objects. The grounds and limits of Grounds must themselves be articulable. The system’s own capability claims remain subject to assessment, and this philosophy’s existing form cannot gain priority merely from its established status. Such mutual application provides no self-proof and does not remove conditions of application.
+Self-Transcendence does not substitute for Reflexivity: keeping existing forms open to being surpassed differs from applying relevant principles to the system and to their own formation, application, and revision. Reflexivity extends these requirements to the system and to the formation, application, and revision of its principles. The grounds and limits of the Grounds provisions must themselves be articulable. The system’s own capability claims remain subject to assessment, and this philosophy’s existing form cannot gain priority merely from its established status. Such mutual application provides no self-proof and does not remove conditions of application.
 
 ### 3.2 Necessary Terms
 <!-- organon:id organon.relationships.terms -->
@@ -151,4 +150,4 @@ Self-Transcendence does not substitute for Reflexivity: keeping existing forms o
 | Term | Meaning in this philosophy |
 | --- | --- |
 | Existing form | The system’s current organization, methods, and principles, not only its appearance or artifacts. |
-| Assessment | Examination of reasons, applicability, and performance; not limited to executable tests. |
+| Assessment | Examination of reasons, applicability, and observed performance; not limited to executable tests. |
