@@ -1,7 +1,7 @@
 ---
 format_version: 0.1.0
-philosophy_version: 0.1.1
-core_version: 0.1.1
+philosophy_version: 0.1.2
+core_version: 0.1.2
 derived_from: null
 ---
 # Organon Philosophy: Charter and Grounds
@@ -41,7 +41,7 @@ Refusing to regard an existing form as an endpoint keeps it open to being surpas
 #### 1.2.3 Grounds for Achievement and Limits
 <!-- organon:id organon.charter.self-transcendence.limits -->
 
-Whether progress has actually occurred remains a separate judgment. Having the orientation does not guarantee progress. Generation cannot be established merely by an increase in the number of artifacts, levels of abstraction, or terms.
+Whether progress has actually occurred remains a separate judgment. Having the orientation does not guarantee progress. Progress cannot be established merely by an increase in the number of artifacts, levels of abstraction, or terms.
 
 - “Intrinsic orientation” expresses Organon’s philosophical commitment; it does not assert that all systems in fact develop autonomously.
 - Self-transcendence does not imply independence from external experience, knowledge, or collaboration, nor does it guarantee autonomous execution or self-improvement.
@@ -91,7 +91,7 @@ Reflexivity encompasses both the system itself and its principles. Assessment co
 ### 2.1 Articulation and Responsibilities of Assessment
 <!-- organon:id organon.grounds.assessment -->
 
-Articulation and assessment have distinct responsibilities. Articulability requires that concepts, assumptions, reasons, and limits can be identified. Assessability requires examining whether those grounds support the corresponding claim. Clearly expressed grounds are not thereby sufficiently established.
+Articulation and assessment have distinct responsibilities. Articulability requires that concepts, assumptions, reasons, and limits can be identified. Assessment requires examining whether those grounds support the corresponding claim. Clearly expressed grounds are not thereby sufficiently established.
 
 | Type of claim | Responsibility of assessment | What cannot substitute for that responsibility |
 | --- | --- | --- |

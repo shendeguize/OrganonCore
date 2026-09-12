@@ -20,6 +20,8 @@ Define relevant [validation cases](skills/references/validation.md) before a met
 
 Keep private inputs and iteration records under ignored `.local/`. The legacy archive is historical, not an active source of obligations. Preserve user configuration and original requirements. The delivered core and skills remain text-only; do not restore the legacy checker or release workflow as part of ordinary maintenance.
 
+For local records, start with `.local/ACTIVE.md`. Keep feedback records active. Exclude `.local/archived/` from default recursive searches and do not open archive packages by default. When the task explicitly requires historical material, consult `.local/archived/INDEX.md` and retrieve only the relevant packages or members, following their recorded dependencies and restoration conditions. Archived decisions are historical evidence, not active obligations; later corrections belong in separate records linked to the originals.
+
 ## Remote publication authorization
 
 - Remote publication includes `git push` (branches or tags), release publication,
