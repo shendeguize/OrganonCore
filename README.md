@@ -6,6 +6,7 @@ Organon is a text-centered philosophical core: **Self-Transcendence, Internal Co
 
 - [Philosophy](PHILOSOPHY.md) is the current English authority, including the meanings and limits of its provisions.
 - [Rationale](docs/rationale.md) explains contributions, dependencies, counterexamples, and applications. It cannot independently add obligations to the core.
+- Lean reader editions: [Core overview](lean/core-overview.md) and [line explanations](lean/core-details.md); [rationale overview](lean/rationale-overview.md) and [line explanations](lean/rationale-details.md). [Chinese Core](zh/lean/core-overview.md) and [Chinese rationale](zh/lean/rationale-overview.md) mirror these bounded results. These companion manuscripts report encoding and review limits; they are not philosophical commitments or proof of whole-text correctness.
 - Chinese translations are maintained under `zh/` for readability and follow the English authority.
 - [Agent guidance](AGENTS.md) identifies how to work on this repository. The skills below are revisable applications under this repository's goals, not additional philosophical truths.
 - [Philosophy resolution](skills/references/philosophy-resolution.md) selects the adopted baseline; the [document format](skills/references/structure.md) defines version metadata, stable text-unit IDs, and a revisable starting template.
@@ -18,6 +19,8 @@ Organon is a text-centered philosophical core: **Self-Transcendence, Internal Co
 | `organon-core-absorb` | Decide whether input warrants revising the philosophy; develop, review, and implement authorized adoption with necessary synchronization. | [SKILL.md](skills/organon-core-absorb/SKILL.md) |
 | `organon-core-principled-review` | Review an object under six principles and stated standards; return findings, including bounded review of the method and criteria. | [SKILL.md](skills/organon-core-principled-review/SKILL.md) |
 | `organon-core-wording-review` | Review text for grammatical correctness, precision, ambiguity, terminology, redundancy, and necessary qualifications. | [SKILL.md](skills/organon-core-wording-review/SKILL.md) |
+| `organon-core-leanify-prove` | Review source correspondence, check conditional proofs and countermodels, and maintain current evidence. | [SKILL.md](skills/organon-core-leanify-prove/SKILL.md) |
+| `organon-core-lean-natural-language` | Explain actual Lean definitions and proofs; produce blind translations and bilingual reader editions. | [SKILL.md](skills/organon-core-lean-natural-language/SKILL.md) |
 
 Give an agent the relevant entrypoint and your input, for example: “Use `organon-core-assess` to assess this design under its stated assumptions,” or “Use `organon-core-absorb` to consider whether this counterexample warrants a change.” These skills use English instructions and respond in the user's language. They can be invoked separately but reference this repository's guidance; copying a skill folder alone does not make a standalone distribution. Load the entrypoint explicitly if the host does not discover this directory; no automatic installation or discovery is assumed.
 
@@ -43,6 +46,6 @@ Validation examines actual reasoning and behavior, including justified non-absor
 
 The former `ORGANON.md`, checker, fixtures, governance records, and CI were retired together. Their original relative paths and archive hash inventory are retained locally in `.local/archived/to_absorb/legacy-core/`; the archive is ignored and is not included in a fresh clone. Earlier tracked versions remain in Git history. Completed local requirements, discussions, and iteration records are collected under `.local/archived/`, with an index in its `README.md`.
 
-This core and its skills contain no runtime scripts, executable checker, or automated release mechanism. One-off file integrity checks used during maintenance do not become philosophical requirements.
+Core includes Lean implementations, their checking tools, shared parsing and bilingual reader manuscripts. See [standalone Lean use and evidence](lean/README.md) and [dependency-driven maintenance](AGENTS.md#lean-evidence-maintenance). No automated release mechanism is introduced; checking a model does not establish philosophical correctness.
 
 Licensed under [MIT](LICENSE).

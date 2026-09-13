@@ -1,0 +1,71 @@
+{
+  "passed": true,
+  "semantic_status": "not_evaluated",
+  "errors": [],
+  "checked": [
+    "CoreReader.Duties",
+    "CoreReader.mixed_projection",
+    "CoreReader.labels_do_not_waive",
+    "CoreReader.complete_mixed_fixture",
+    "CoreReader.empirical_only_rejected",
+    "CoreReader.unrelated_grounds_rejected",
+    "CoreReader.omitted_labels_still_rejected",
+    "CoreReader.Consistent",
+    "CoreReader.joint_conflict",
+    "CoreReader.withdrawn_current_set",
+    "CoreReader.distinct_contexts",
+    "CoreReader.ChangeReported",
+    "CoreReader.changed_set_needs_report",
+    "CoreReader.ObservationComplete",
+    "CoreReader.observation_gap",
+    "CoreReader.gap_with_true_conclusion",
+    "CoreReader.gap_with_false_conclusion",
+    "CoreReader.self_assessment_not_correctness"
+  ],
+  "dependencies": {
+    "CoreReader.Duties": [],
+    "CoreReader.mixed_projection": [],
+    "CoreReader.labels_do_not_waive": [],
+    "CoreReader.complete_mixed_fixture": [],
+    "CoreReader.empirical_only_rejected": [],
+    "CoreReader.unrelated_grounds_rejected": [
+      "propext"
+    ],
+    "CoreReader.omitted_labels_still_rejected": [],
+    "CoreReader.Consistent": [],
+    "CoreReader.joint_conflict": [
+      "propext"
+    ],
+    "CoreReader.withdrawn_current_set": [
+      "propext"
+    ],
+    "CoreReader.distinct_contexts": [
+      "propext"
+    ],
+    "CoreReader.ChangeReported": [],
+    "CoreReader.changed_set_needs_report": [],
+    "CoreReader.ObservationComplete": [],
+    "CoreReader.observation_gap": [
+      "propext"
+    ],
+    "CoreReader.gap_with_true_conclusion": [
+      "propext"
+    ],
+    "CoreReader.gap_with_false_conclusion": [
+      "propext"
+    ],
+    "CoreReader.self_assessment_not_correctness": [
+      "propext"
+    ]
+  },
+  "build_returncode": 0,
+  "audit_returncode": 0,
+  "source_sha256": "1a0bebd61e35d46a3ba2e882305ce60f423e37a343ecdfd0b6f314e437aade59",
+  "baseline_sha256": "1a0bebd61e35d46a3ba2e882305ce60f423e37a343ecdfd0b6f314e437aade59",
+  "run_sha256": "dc8cefb44f8c2f60248302da5a7ddefc283bc711e21a4f6c84cc2eb30ae92943",
+  "code_sha256": {
+    "leanified/CoreReader.lean": "49ee787c12f59a9885573c5b135a1d6bcaf02480246d29eae99891d1fb1d6803"
+  },
+  "raw_summary_sha256": "f3d0183c54061a27925a6707df475a0bbb48adbc9414c65c91b4c26ffd8d982e",
+  "record_note": "Extract of an actual check; machine-specific evidence directory omitted. Kernel checking does not validate fidelity."
+}

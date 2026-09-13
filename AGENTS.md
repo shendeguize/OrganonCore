@@ -18,9 +18,19 @@ For repository text you create or revise and for user-facing replies, use gramma
 
 Define relevant [validation cases](skills/references/validation.md) before a method change and retain actual results and independent review locally. Update affected documents and links together. Do not represent file checks, agent agreement, or self-application as proof of philosophical correctness.
 
-Keep private inputs and iteration records under ignored `.local/`. The legacy archive is historical, not an active source of obligations. Preserve user configuration and original requirements. The delivered core and skills remain text-only; do not restore the legacy checker or release workflow as part of ordinary maintenance.
+Keep private inputs and iteration records under ignored `.local/`. The legacy archive is historical, not an active source of obligations. Preserve user configuration and original requirements. Core delivers philosophical text together with maintained Lean implementations, evidence, reader manuscripts and their checking tools. These tools do not acquire philosophical authority. Do not restore the retired legacy checker or release workflow as part of ordinary maintenance.
 
 For local records, start with `.local/ACTIVE.md`. Keep feedback records active. Exclude `.local/archived/` from default recursive searches and do not open archive packages by default. When the task explicitly requires historical material, consult `.local/archived/INDEX.md` and retrieve only the relevant packages or members, following their recorded dependencies and restoration conditions. Archived decisions are historical evidence, not active obligations; later corrections belong in separate records linked to the originals.
+
+## Lean evidence maintenance
+
+Use [organon-core-leanify-prove](skills/organon-core-leanify-prove/SKILL.md) for source-faithful formalization and [organon-core-lean-natural-language](skills/organon-core-lean-natural-language/SKILL.md) for code explanation and reader editions. [Lean delivery](lean/README.md) identifies current and historical run objects and the standalone checks. English philosophy remains authoritative; a mismatch is a correspondence finding, not permission to change a philosophical commitment.
+
+Before changing philosophy, rationale, source versions, encoded statements, assumptions, or tool/skill behavior that affects evidence, identify the affected source units, declarations, review objects and bilingual manuscripts. Preserve the preceding snapshots and judgments. Content hashes matter even without a version bump; a version number alone cannot establish currentness. Unrelated repository changes do not require fresh semantic review of every proof.
+
+Do not declare the affected maintenance complete until required builds, declaration/dependency audits, source-fidelity review and both manuscript granularities in English and Chinese have been synchronized and checked. Reuse unchanged proof or review material only with its exact objects verified and reuse disclosed. Changed source or interpretation needs a new reviewed object; do not merely refresh old expected hashes. Missing tools or independent review leave the dependent stage explicitly incomplete while unrelated work may continue.
+
+This completion condition requires accurate evidence and states, not complete formalization or successful proof of every claim. Preserve limited, failed, incomplete, inapplicable and stale results with their reasons. Separate historical replay from current-source approval. [Translation guidance](zh/AGENTS.md#lean-对照稿) preserves those distinctions in Chinese. Ordinary philosophical assessment does not require Lean.
 
 ## Remote publication authorization
 

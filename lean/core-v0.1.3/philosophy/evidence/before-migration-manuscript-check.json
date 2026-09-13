@@ -1,0 +1,942 @@
+{
+  "passed": true,
+  "semantic_status": "not_evaluated",
+  "errors": [],
+  "checked": [
+    "CoreReader.Duties",
+    "CoreReader.mixed_projection",
+    "CoreReader.labels_do_not_waive",
+    "CoreReader.complete_mixed_fixture",
+    "CoreReader.empirical_only_rejected",
+    "CoreReader.unrelated_grounds_rejected",
+    "CoreReader.omitted_labels_still_rejected",
+    "CoreReader.Consistent",
+    "CoreReader.joint_conflict",
+    "CoreReader.withdrawn_current_set",
+    "CoreReader.distinct_contexts",
+    "CoreReader.ChangeReported",
+    "CoreReader.changed_set_needs_report",
+    "CoreReader.ObservationComplete",
+    "CoreReader.observation_gap",
+    "CoreReader.gap_with_true_conclusion",
+    "CoreReader.gap_with_false_conclusion",
+    "CoreReader.self_assessment_not_correctness"
+  ],
+  "dependencies": {
+    "CoreReader.Duties": [],
+    "CoreReader.mixed_projection": [],
+    "CoreReader.labels_do_not_waive": [],
+    "CoreReader.complete_mixed_fixture": [],
+    "CoreReader.empirical_only_rejected": [],
+    "CoreReader.unrelated_grounds_rejected": [
+      "propext"
+    ],
+    "CoreReader.omitted_labels_still_rejected": [],
+    "CoreReader.Consistent": [],
+    "CoreReader.joint_conflict": [
+      "propext"
+    ],
+    "CoreReader.withdrawn_current_set": [
+      "propext"
+    ],
+    "CoreReader.distinct_contexts": [
+      "propext"
+    ],
+    "CoreReader.ChangeReported": [],
+    "CoreReader.changed_set_needs_report": [],
+    "CoreReader.ObservationComplete": [],
+    "CoreReader.observation_gap": [
+      "propext"
+    ],
+    "CoreReader.gap_with_true_conclusion": [
+      "propext"
+    ],
+    "CoreReader.gap_with_false_conclusion": [
+      "propext"
+    ],
+    "CoreReader.self_assessment_not_correctness": [
+      "propext"
+    ]
+  },
+  "reported_reviews": [],
+  "build_returncode": 0,
+  "audit_returncode": 0,
+  "manuscript": {
+    "passed": true,
+    "semantic_status": "not_evaluated",
+    "current_source": "current",
+    "current_baseline": "current",
+    "errors": [],
+    "entries": [
+      {
+        "id": "c-10-c1",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-10-c2",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-12-c1",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-12-c2",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-12-c3",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-12-c4",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "organon.charter",
+        "kernel": "not_checked",
+        "reported_fidelity": "not_applicable",
+        "reported_status": "not_applicable",
+        "effective_status": "not_applicable"
+      },
+      {
+        "id": "c-22-c1",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-22-c2",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-24-c1",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-24-c2",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-29-c1",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-29-c2",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-34-c1",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-34-c2",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-34-c3",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-39-c1",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-39-c2",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-39-c3",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-39-c4",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-44-c1",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-44-c2",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-44-c3",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-46-c1",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-46-c2",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-47-c1",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-48-c1",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-48-c2",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-49-c1",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-49-c2",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-54-c1",
+        "kernel": "passed",
+        "reported_fidelity": "partial",
+        "reported_status": "limited",
+        "effective_status": "limited"
+      },
+      {
+        "id": "c-59-c1",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-59-c2",
+        "kernel": "passed",
+        "reported_fidelity": "partial",
+        "reported_status": "limited",
+        "effective_status": "limited"
+      },
+      {
+        "id": "c-59-c3",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-59-c4",
+        "kernel": "passed",
+        "reported_fidelity": "partial",
+        "reported_status": "limited",
+        "effective_status": "limited"
+      },
+      {
+        "id": "c-61-c1",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-61-c2",
+        "kernel": "passed",
+        "reported_fidelity": "partial",
+        "reported_status": "limited",
+        "effective_status": "limited"
+      },
+      {
+        "id": "c-61-c3",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-66-c1",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-66-c2",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-67-c1",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-67-c2",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-72-c1",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-77-c1",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-77-c2",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-77-c3",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-82-c1",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-82-c2",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-82-c3",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-83-c1",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-83-c2",
+        "kernel": "passed",
+        "reported_fidelity": "partial",
+        "reported_status": "limited",
+        "effective_status": "limited"
+      },
+      {
+        "id": "c-84-c1",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-89-c1",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-89-c2",
+        "kernel": "passed",
+        "reported_fidelity": "rejected",
+        "reported_status": "failed",
+        "effective_status": "failed"
+      },
+      {
+        "id": "c-94-c1",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-94-c2",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-94-c3",
+        "kernel": "passed",
+        "reported_fidelity": "rejected",
+        "reported_status": "failed",
+        "effective_status": "failed"
+      },
+      {
+        "id": "c-94-c4",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-94-c5",
+        "kernel": "passed",
+        "reported_fidelity": "partial",
+        "reported_status": "limited",
+        "effective_status": "limited"
+      },
+      {
+        "id": "c-94-c6",
+        "kernel": "passed",
+        "reported_fidelity": "partial",
+        "reported_status": "limited",
+        "effective_status": "limited"
+      },
+      {
+        "id": "c-98-c1",
+        "kernel": "not_checked",
+        "reported_fidelity": "not_applicable",
+        "reported_status": "not_applicable",
+        "effective_status": "not_applicable"
+      },
+      {
+        "id": "c-98-c2",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-98-c3",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-99-c1",
+        "kernel": "not_checked",
+        "reported_fidelity": "not_applicable",
+        "reported_status": "not_applicable",
+        "effective_status": "not_applicable"
+      },
+      {
+        "id": "c-99-c2",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-99-c3",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-100-c1",
+        "kernel": "not_checked",
+        "reported_fidelity": "not_applicable",
+        "reported_status": "not_applicable",
+        "effective_status": "not_applicable"
+      },
+      {
+        "id": "c-100-c2",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-100-c3",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-102-c1",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-102-c2",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-102-c3",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-102-c4",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-107-c1",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-107-c2",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-107-c3",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-109-c1",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-109-c2",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-109-c3",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-109-c4",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-111-c1",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-111-c2",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-116-c1",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-116-c2",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-116-c3",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-118-c1",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-118-c2",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-118-c3",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-118-c4",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-118-c5",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-123-c1",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-123-c2",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-125-c1",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-125-c2",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-125-c3",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-130-c1",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-131-c1",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-131-c2",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-132-c1",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-132-c2",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-133-c1",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-133-c2",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "organon.relationships",
+        "kernel": "not_checked",
+        "reported_fidelity": "not_applicable",
+        "reported_status": "not_applicable",
+        "effective_status": "not_applicable"
+      },
+      {
+        "id": "c-141-c1",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-141-c2",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-141-c3",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-141-c4",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-141-c5",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-143-c1",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-143-c2",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-143-c3",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-143-c4",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-143-c5",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-145-c1",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-145-c2",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-145-c3",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-145-c4",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-145-c5",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-152-c1",
+        "kernel": "not_checked",
+        "reported_fidelity": "not_applicable",
+        "reported_status": "not_applicable",
+        "effective_status": "not_applicable"
+      },
+      {
+        "id": "c-152-c2",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-153-c1",
+        "kernel": "not_checked",
+        "reported_fidelity": "not_applicable",
+        "reported_status": "not_applicable",
+        "effective_status": "not_applicable"
+      },
+      {
+        "id": "c-153-c2",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      },
+      {
+        "id": "c-153-c3",
+        "kernel": "not_checked",
+        "reported_fidelity": "pending",
+        "reported_status": "incomplete",
+        "effective_status": "incomplete"
+      }
+    ],
+    "manifest_sha256": "80535ab7d351555636e11c5e2d76e21fe48d3a02f4cc5616e24c5823331abb0d"
+  },
+  "kernel_passed": true,
+  "actual_summary_sha256": "bd18087a6abc02e174cf823db3011c5302c3e7dfd371b5d2c33629158fdb0002",
+  "checker_sha256": {
+    "skills/organon-leanify-prove/scripts/check.js": "477e9bd0e87f4abb1748dba017952e1e03794900bbdb3dda3fbfa423990a6fb7",
+    "skills/organon-leanify-prove/scripts/manuscript.js": "45a6713732e843b8e6b928c4dc9e40e9f39fd9571b2b9f5d41752f7dd576d32f"
+  },
+  "record_note": "Actual final check with machine-specific evidence-directory field omitted; semantic judgments remain reported."
+}

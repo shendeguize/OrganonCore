@@ -1,0 +1,12 @@
+{
+  "command": [
+    "rtk",
+    "proxy",
+    "python3",
+    "<skill-creator>/scripts/quick_validate.py",
+    "skills/organon-leanify-prove"
+  ],
+  "returncode": 0,
+  "stdout": "Skill is valid!\n",
+  "stderr": ""
+}

@@ -1,0 +1,5 @@
+name = "RationaleReader"
+version = "0.0.1"
+defaultTargets = ["RationaleReader"]
+[[lean_lib]]
+name = "RationaleReader"

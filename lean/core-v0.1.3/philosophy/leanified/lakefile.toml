@@ -1,0 +1,5 @@
+name = "CoreReader"
+version = "0.0.1"
+defaultTargets = ["CoreReader"]
+[[lean_lib]]
+name = "CoreReader"

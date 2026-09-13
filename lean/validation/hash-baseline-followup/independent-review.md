@@ -1,0 +1,5 @@
+# Independent hash-baseline review
+
+The independent reviewer compared the current bilingual philosophy with the approved C1 expected files and adoption manifest. Both complete texts and SHA-256 digests match. The prior Core HEAD matches the approved before files: the only changes are the authorized Assessment clarification and philosophy/core metadata from 0.1.2 to 0.1.3. The old fixed test hashes correspond to that preceding text, so updating the two expected constants is justified without changing the philosophy or normalization algorithm.
+
+Using the same parsed direct body with ID comments removed, the new expected hashes are English `41496fa241aa3c3cb6e3abc83992f904f4cbc4555f6fee935b72fc799fe06ee1` and Chinese `27d81360a31a44fa207bcee48d08b09da18d2f0d58beb592879b779ac5ad9cf5`. Independent in-memory alterations of each Assessment body produce different hashes, preserving detection of future text changes. No blocking finding remained. This is a test-baseline correction, not a new philosophical judgment or proof.

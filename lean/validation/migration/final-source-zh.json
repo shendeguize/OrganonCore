@@ -1,0 +1,13 @@
+{
+  "command": [
+    "rtk",
+    "proxy",
+    "node",
+    "scripts/check.js",
+    "--source",
+    "OrganonCore/zh/PHILOSOPHY.md"
+  ],
+  "returncode": 0,
+  "stdout": "{\n  \"file\": \"<Core>/zh/PHILOSOPHY.md\",\n  \"realPath\": \"<Core>/zh/PHILOSOPHY.md\",\n  \"mode\": \"source\",\n  \"sections\": 22,\n  \"warnings\": []\n}\n",
+  "stderr": ""
+}

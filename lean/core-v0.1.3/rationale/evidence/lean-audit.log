@@ -1,0 +1,32 @@
+RationaleReader.original_comparison :
+  RationaleReader.direct RationaleReader.initial = RationaleReader.cachedRead RationaleReader.initial ∧
+    RationaleReader.withinBudget RationaleReader.originalLatency
+'RationaleReader.original_comparison' does not depend on any axioms
+RationaleReader.update_read_counterexample :
+  RationaleReader.direct RationaleReader.initial = RationaleReader.cachedRead RationaleReader.initial ∧
+    RationaleReader.direct (RationaleReader.updateOnly RationaleReader.initial 11) ≠
+      RationaleReader.cachedRead (RationaleReader.updateOnly RationaleReader.initial 11)
+'RationaleReader.update_read_counterexample' does not depend on any axioms
+RationaleReader.cached_freshness_refuted :
+  ¬∀ (n : Nat), RationaleReader.cachedRead (RationaleReader.updateOnly RationaleReader.initial n) = n
+'RationaleReader.cached_freshness_refuted' depends on axioms: [propext]
+RationaleReader.unchanged_update_retained :
+  RationaleReader.direct (RationaleReader.updateOnly RationaleReader.initial 10) =
+    RationaleReader.cachedRead (RationaleReader.updateOnly RationaleReader.initial 10)
+'RationaleReader.unchanged_update_retained' does not depend on any axioms
+RationaleReader.budget_change_is_distinct :
+  RationaleReader.withinBudget RationaleReader.originalLatency ∧
+    ¬RationaleReader.withinBudget RationaleReader.stricterLatency
+'RationaleReader.budget_change_is_distinct' does not depend on any axioms
+RationaleReader.namedUniversalTruth (P : Prop) (h : P) : P
+'RationaleReader.namedUniversalTruth' does not depend on any axioms
+RationaleReader.encoded_statement : 0 ≤ 1
+'RationaleReader.encoded_statement' does not depend on any axioms
+RationaleReader.different_statement_refuted : ¬∀ (n : Nat), n ≤ 1
+'RationaleReader.different_statement_refuted' depends on axioms: [propext]
+RationaleReader.proof_of_different_claim : 0 ≤ 1 ∧ ¬∀ (n : Nat), n ≤ 1
+'RationaleReader.proof_of_different_claim' depends on axioms: [propext]
+RationaleReader.revised_method_retains_case :
+  RationaleReader.compareReads RationaleReader.originalStates = [(10, 10)] ∧
+    RationaleReader.compareReads RationaleReader.revisedStates = [(10, 10), (11, 10)]
+'RationaleReader.revised_method_retains_case' does not depend on any axioms

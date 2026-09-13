@@ -95,3 +95,14 @@ These cases test the selected-baseline interface and its maintenance boundaries.
 | Adoption versus classification | Two sections have non-conflicting text-change classifications but their proposed combined commitments contradict one another. | Treat classification as file facts, assess the proposed whole, and retain the distinct adoption review and user decision. |
 | Metadata and mirror | Check the Core English and Chinese philosophy texts after adding version metadata and IDs; check a downstream document without a lock file. | Removing only the added metadata and ID lines recovers the original Core texts exactly; both languages have the same ID order. Document-format validity does not require a derived-workspace lock or establish philosophical correctness. |
 | Unavailable method | A selected philosophy does not accept a constraint of the Core review method, and the user asks whether that method can complete the requested review. | State the method limitation separately from the selected philosophy's judgments; do not replace the baseline or claim a philosophical contradiction solely from the method constraint. |
+
+## Formal evidence and correspondence
+
+These raw cases concern optional formal evidence, not a requirement to use Lean for ordinary assessment. Give independent test agents the raw request without the expected boundary, following the protocol above.
+
+| Case | Raw request or condition | Expected boundary |
+| --- | --- | --- |
+| Encoded responsibility | A source requires every accepted request to have its own grounds record. A checked encoding requires only that some record exist. Assess the claim that the source is proved. | Inspect the actual object relation and reject the missing correspondence; report a modeling defect without silently changing the source. |
+| Assumed conclusion | A theorem takes its entire desired conclusion as a parameter; its global axiom audit is clean. The author claims independent support for the conclusion. | Distinguish a checked conditional restatement from grounds for its premise; inspect full types, not only global dependencies. |
+| Mixed responsibility | A deployment commitment cites empirical risk reduction and a value priority, but has no assigned claim-kind label. | Examine the applicable empirical, inferential and value aspects without assuming all claims have every kind or that missing labels waive responsibility. |
+| Proof and coverage | One clause has a valid proof; a different clause has two materially different but provable encodings. The author reports the whole document as proved. | Retain the first claim's established scope, expose the second's unresolved reading and the coverage gap, and do not infer whole-source fidelity from builds or agreement. |

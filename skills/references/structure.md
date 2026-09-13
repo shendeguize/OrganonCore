@@ -1,6 +1,6 @@
 # Philosophy document format
 
-This is a revisable document interface for tools and callers. It adds no philosophical commitments and does not make a format check an assessment of meaning, support, or adoption. Core remains text-only; external tools may implement these conventions.
+This is a revisable document interface for tools and callers. It adds no philosophical commitments and does not make a format check an assessment of meaning, support, or adoption. Core supplies shared parsing for its Lean checks; external tools may also implement these conventions. Tool results do not change the status of this format as a revisable interface.
 
 ## Version header
 

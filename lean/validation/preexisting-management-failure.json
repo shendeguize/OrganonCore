@@ -1,0 +1,7 @@
+{
+  "command": "rtk proxy node --test --test-name-pattern=source checks cover 22 tests/management.test.js",
+  "object": "unchanged task-start snapshot with original relative Core mirror",
+  "returncode": 1,
+  "stdout": "TAP version 13\n# Subtest: source checks cover 22 matching bilingual IDs; root mirror needs no lock\nnot ok 1 - source checks cover 22 matching bilingual IDs; root mirror needs no lock\n  ---\n  duration_ms: 3.613458\n  type: 'test'\n  location: '[task-start baseline copy]/tests/management.test.js:45:1'\n  failureType: 'testCodeFailure'\n  error: |-\n    Expected values to be strictly equal:\n    + actual - expected\n    \n    + '41496fa241aa3c3cb6e3abc83992f904f4cbc4555f6fee935b72fc799fe06ee1'\n    - '2c20e768e68f438edc462647dca33d253b9882cc5125874b70d55bc83ae9da57'\n    \n  code: 'ERR_ASSERTION'\n  name: 'AssertionError'\n  expected: '2c20e768e68f438edc462647dca33d253b9882cc5125874b70d55bc83ae9da57'\n  actual: '41496fa241aa3c3cb6e3abc83992f904f4cbc4555f6fee935b72fc799fe06ee1'\n  operator: 'strictEqual'\n  stack: |-\n    TestContext.<anonymous> ([task-start baseline copy]/tests/management.test.js:52:10)\n    Test.runInAsyncScope (node:async_hooks:214:14)\n    Test.run (node:internal/test_runner/test:1047:25)\n    Test.start (node:internal/test_runner/test:944:17)\n    startSubtestAfterBootstrap (node:internal/test_runner/harness:296:17)\n  ...\n1..1\n# tests 1\n# suites 0\n# pass 0\n# fail 1\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 75.522375\n",
+  "stderr": ""
+}

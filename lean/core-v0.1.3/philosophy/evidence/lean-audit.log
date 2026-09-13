@@ -1,0 +1,49 @@
+CoreReader.Duties (applicable : Nat → CoreReader.Aspect → Prop) (examined : Nat → Nat → CoreReader.Aspect → Prop)
+  (claim grounds : Nat) : Prop
+'CoreReader.Duties' does not depend on any axioms
+CoreReader.mixed_projection (a : Nat → CoreReader.Aspect → Prop) (e : Nat → Nat → CoreReader.Aspect → Prop) (c g : Nat)
+  (h : CoreReader.Duties a e c g) (he : a c CoreReader.Aspect.empirical) (hv : a c CoreReader.Aspect.value) :
+  e c g CoreReader.Aspect.empirical ∧ e c g CoreReader.Aspect.value
+'CoreReader.mixed_projection' does not depend on any axioms
+CoreReader.labels_do_not_waive (xs ys : List CoreReader.Aspect) (a : Nat → CoreReader.Aspect → Prop)
+  (e : Nat → Nat → CoreReader.Aspect → Prop) (c g : Nat) :
+  CoreReader.Assessed xs a e c g ↔ CoreReader.Assessed ys a e c g
+'CoreReader.labels_do_not_waive' does not depend on any axioms
+CoreReader.complete_mixed_fixture : CoreReader.Duties CoreReader.mixedClaim CoreReader.bothExamined 7 3
+'CoreReader.complete_mixed_fixture' does not depend on any axioms
+CoreReader.empirical_only_rejected : ¬CoreReader.Duties CoreReader.mixedClaim CoreReader.empiricalOnly 7 3
+'CoreReader.empirical_only_rejected' does not depend on any axioms
+CoreReader.unrelated_grounds_rejected : ¬CoreReader.Duties CoreReader.mixedClaim CoreReader.bothExamined 7 4
+'CoreReader.unrelated_grounds_rejected' depends on axioms: [propext]
+CoreReader.omitted_labels_still_rejected : ¬CoreReader.Assessed [] CoreReader.mixedClaim CoreReader.empiricalOnly 7 3
+'CoreReader.omitted_labels_still_rejected' does not depend on any axioms
+CoreReader.Consistent (consequence : List CoreReader.Fact → Nat → Bool → Prop) (held : List CoreReader.Fact) : Prop
+'CoreReader.Consistent' does not depend on any axioms
+CoreReader.joint_conflict :
+  ¬CoreReader.Consistent CoreReader.fixtureConsequence
+      [CoreReader.Fact.p, CoreReader.Fact.pImpliesQ, CoreReader.Fact.notQ]
+'CoreReader.joint_conflict' depends on axioms: [propext]
+CoreReader.withdrawn_current_set :
+  CoreReader.Consistent CoreReader.fixtureConsequence [CoreReader.Fact.p, CoreReader.Fact.pImpliesQ]
+'CoreReader.withdrawn_current_set' depends on axioms: [propext]
+CoreReader.distinct_contexts :
+  CoreReader.Consistent CoreReader.fixtureConsequence [CoreReader.Fact.positiveInOne, CoreReader.Fact.negativeInTwo]
+'CoreReader.distinct_contexts' depends on axioms: [propext]
+CoreReader.ChangeReported (before after : List CoreReader.Fact) (claimsUnchanged : Bool) : Prop
+'CoreReader.ChangeReported' does not depend on any axioms
+CoreReader.changed_set_needs_report :
+  ¬CoreReader.ChangeReported [CoreReader.Fact.p, CoreReader.Fact.pImpliesQ, CoreReader.Fact.notQ]
+      [CoreReader.Fact.p, CoreReader.Fact.pImpliesQ] true
+'CoreReader.changed_set_needs_report' does not depend on any axioms
+CoreReader.ObservationComplete (observed : List Nat) : Prop
+'CoreReader.ObservationComplete' does not depend on any axioms
+CoreReader.observation_gap : ¬CoreReader.ObservationComplete [0, 1]
+'CoreReader.observation_gap' depends on axioms: [propext]
+CoreReader.gap_with_true_conclusion : ¬CoreReader.ObservationComplete [0, 1] ∧ ∀ (n : Nat), n + 0 = n
+'CoreReader.gap_with_true_conclusion' depends on axioms: [propext]
+CoreReader.gap_with_false_conclusion : ¬CoreReader.ObservationComplete [0, 1] ∧ ¬∀ (n : Nat), n = 0
+'CoreReader.gap_with_false_conclusion' depends on axioms: [propext]
+CoreReader.self_assessment_not_correctness :
+  CoreReader.runOwnAssessment CoreReader.sampleSystem = true ∧
+    ¬∀ (n : Nat), CoreReader.sampleSystem.ownPrinciple n = true
+'CoreReader.self_assessment_not_correctness' depends on axioms: [propext]

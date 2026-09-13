@@ -1,0 +1,904 @@
+{
+  "schema_version": 1,
+  "run_sha256": "dc8cefb44f8c2f60248302da5a7ddefc283bc711e21a4f6c84cc2eb30ae92943",
+  "source_sha256": "1a0bebd61e35d46a3ba2e882305ce60f423e37a343ecdfd0b6f314e437aade59",
+  "code_sha256": {
+    "leanified/CoreReader.lean": "49ee787c12f59a9885573c5b135a1d6bcaf02480246d29eae99891d1fb1d6803"
+  },
+  "initial_records": [
+    {
+      "role": "source_initial",
+      "path": "reviews/source-initial.md",
+      "sha256": "64196e2e045faa5899c9db07c9d755d21ff778d135351b4806a97d9f257729c4"
+    },
+    {
+      "role": "code_blind",
+      "path": "reviews/code-blind-initial.en.md",
+      "sha256": "0f75aab3ab41a923af47524858e7868101d9f731798332a6a02056d4a1e0ac92"
+    },
+    {
+      "role": "code_informed_update",
+      "path": "reviews/code-informed-update.en.md",
+      "sha256": "dc42e72aa998deb430b7a27a4038f64f5aa10d56f93d5f520215906b682f4053"
+    },
+    {
+      "role": "source_comparison",
+      "path": "reviews/source-comparison-current.md",
+      "sha256": "2f39acfa49d709bab0a86db77938356fda270138b29895518a908b7386ab9ea6"
+    },
+    {
+      "role": "source_initial_migration",
+      "path": "reviews/migration-source-initial.md",
+      "sha256": "6c16785adf65077a7187a18094704874c9ae09721e01a8d7d88c7d96e7eb0a11"
+    },
+    {
+      "role": "source_comparison_migration",
+      "path": "reviews/migration-source-comparison.md",
+      "sha256": "3691f6e7a6479436b62c927abc3b7ccb4491c1f7aa59bfc25880b52c867f75aa"
+    }
+  ],
+  "entries": [
+    {
+      "id": "c-10-c1",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-10-c2",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-12-c1",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-12-c2",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-12-c3",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-12-c4",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "organon.charter",
+      "fidelity": "not_applicable",
+      "reason": "This is a document-structure element or a table-cell role/name. It has no independent propositional content to formalize; preserve it as source context.",
+      "reason_zh": "此项是文档结构或表格单元的角色/名称，没有独立待形式化命题；应作为源文上下文保留。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-22-c1",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-22-c2",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-24-c1",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-24-c2",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-29-c1",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-29-c2",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-34-c1",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-34-c2",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-34-c3",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-39-c1",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-39-c2",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-39-c3",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-39-c4",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-44-c1",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-44-c2",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-44-c3",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-46-c1",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-46-c2",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-47-c1",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-48-c1",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-48-c2",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-49-c1",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-49-c2",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-54-c1",
+      "fidelity": "partial",
+      "reason": "Consistent checks both polarities from the entire held list at one context; the concrete p/pImpliesQ/notQ rule supplies a joint consequence. It represents one question and a collapsed context identifier, not separate meanings/assumptions/scopes or a general consequence calculus; the normative obligation is encoded as a predicate, not proved universally obeyed.",
+      "reason_zh": "Consistent以整个同时持有列表推得同一context的正反结论，p/pImpliesQ/notQ实例确有联合推论。这里只表示一个问题和合并的context编号，未分开含义、假设、范围，也不是一般推论演算；义务仅被定义为谓词，未证明普遍履行。",
+      "review_stage": "informed_source_comparison_after_separate_initial_records"
+    },
+    {
+      "id": "c-59-c1",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-59-c2",
+      "fidelity": "partial",
+      "reason": "The reduced current list [.p,.pImpliesQ] has no negative consequence in fixtureConsequence, illustrating a compatible result after withdrawal. No revision event, earlier/current time relation or permission semantics is modeled.",
+      "reason_zh": "缩减后的当前列表[.p,.pImpliesQ]在fixtureConsequence中没有否定结论，可示例说明撤回后的相容状态；未建模修订事件、前后时态关系或许可语义。",
+      "review_stage": "informed_source_comparison_after_separate_initial_records"
+    },
+    {
+      "id": "c-59-c3",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-59-c4",
+      "fidelity": "partial",
+      "reason": "The chosen removal makes ChangeReported false when claimsUnchanged=true. This is a reporting-constraint interface, not evidence that reporting occurred. General before/after List inequality is stronger than semantic change because reordering or duplicates also differ; the accepted correspondence is limited to the displayed substantive removal.",
+      "reason_zh": "选定的撤回操作在claimsUnchanged=true时不满足ChangeReported，只演示报告约束，并未证明报告实际发生。一般List不等还包含重排或重复元素的差别，强于语义变化；对应关系仅限展示的实质撤回实例。",
+      "review_stage": "informed_source_comparison_after_separate_initial_records"
+    },
+    {
+      "id": "c-61-c1",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-61-c2",
+      "fidelity": "partial",
+      "reason": "Opposite polarities at distinct context IDs cannot form a same-context conflict in the selected fixture. This witnesses the source non-automatic-contradiction distinction, while what makes actual assumptions/meanings/scopes different remains interpreted outside Lean.",
+      "reason_zh": "选定实例中，不同context编号下的相反结论不能组成同一context冲突，可展示原文“不自动构成矛盾”的区别；实际假设、含义、范围为何不同仍需在Lean之外解释。",
+      "review_stage": "informed_source_comparison_after_separate_initial_records"
+    },
+    {
+      "id": "c-61-c3",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-66-c1",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-66-c2",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-67-c1",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-67-c2",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-72-c1",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-77-c1",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-77-c2",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-77-c3",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-82-c1",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-82-c2",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-82-c3",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-83-c1",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-83-c2",
+      "fidelity": "partial",
+      "reason": "The revision now stores an actual ownPrinciple and samples in SelfAssessingSystem and computes runOwnAssessment from that same owned predicate. The displayed system returns true on its own sample [1] while its own predicate is false at 0, supplying an interpreted finite self-assessment counterexample. Empty samples also pass, adding 0 rejects, and an always-true owned principle both passes and is universally correct. Thus the correspondence is limited to this concrete ownership/testing interpretation: it proves neither every self-assessment inadequate nor complete reflexivity, formation/revision, applicability or evaluation of the assessment rule itself.",
+      "reason_zh": "修订在SelfAssessingSystem中实际存储ownPrinciple与samples，并以同一所属谓词计算runOwnAssessment。展示的系统在自身样本[1]上返回true，而其自身谓词在0处为假，形成有解释依据的有限自评反例。空样本也通过，加入0则拒绝；另一个恒真所属原则既通过又普遍正确。因此对应仅限此具体所属关系与测试解释：不证明每次自评都不足，也未完整编码反身性、形成/修订、适用性或对评估规则本身的评价。",
+      "review_stage": "informed_source_comparison_after_separate_initial_records"
+    },
+    {
+      "id": "c-84-c1",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-89-c1",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-89-c2",
+      "fidelity": "rejected",
+      "reason": "ObservationComplete only asks whether every natural number occurs in a list. It contains no observation outcomes, claim identity, grounds relation or proportional-support rule. The true/false arithmetic conclusions merely coexist with the same coverage gap; indeed the true arithmetic conclusion has an independent proof. Missing exhaustive coverage is not by itself insufficient support, and exhaustive input coverage without outcomes is not sufficient support. This edition retains the checked attempt as a rejected source correspondence; it is not evidence for this source duty.",
+      "reason_zh": "ObservationComplete只问列表是否包含所有自然数，没有观测结果、主张身份、根据关系或支持相称规则。真假算术结论仅分别与同一覆盖缺口并列，且真结论本身另有证明。未穷尽输入不等于支持不足，无观测结果的穷尽输入也不等于充分支持。本版保留该受检尝试，并明确判为来源对应失败；它不能作为该原文责任的证明依据。",
+      "review_stage": "informed_source_comparison_after_separate_initial_records"
+    },
+    {
+      "id": "c-94-c1",
+      "fidelity": "pending",
+      "reason": "No mapped declaration encodes this substantive articulation, assessment-content or claim-type limitation. Duties/Aspect/record-ID fixtures cannot fill it by names or successful kernel checking.",
+      "reason_zh": "没有映射声明编码此实质性的可表述、考察内容或主张类型限定；Duties、Aspect及记录编号实例不能凭名称或内核通过补足它。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-94-c2",
+      "fidelity": "pending",
+      "reason": "No mapped declaration encodes this substantive articulation, assessment-content or claim-type limitation. Duties/Aspect/record-ID fixtures cannot fill it by names or successful kernel checking.",
+      "reason_zh": "没有映射声明编码此实质性的可表述、考察内容或主张类型限定；Duties、Aspect及记录编号实例不能凭名称或内核通过补足它。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-94-c3",
+      "fidelity": "rejected",
+      "reason": "unrelated_grounds_rejected rejects numeric ID 4 because bothExamined requires ID 3. This preserves identity sensitivity only; there is no examination of whether specific grounds support the corresponding claim, no outcome and no interpreted basis for treating the record as such an examination. It cannot establish this source duty merely by the name examined. This edition retains the checked attempt as a rejected source correspondence; it is not evidence for this source duty.",
+      "reason_zh": "unrelated_grounds_rejected因bothExamined要求编号3而拒绝编号4，只保留编号敏感性。它没有考察具体根据是否支持对应主张，没有考察结果，也没有将该记录解释为这种考察的依据。变量名examined不能建立原文责任。本版保留该受检尝试，并明确判为来源对应失败；它不能作为该原文责任的证明依据。",
+      "review_stage": "informed_source_comparison_after_separate_initial_records"
+    },
+    {
+      "id": "c-94-c4",
+      "fidelity": "pending",
+      "reason": "No mapped declaration encodes this substantive articulation, assessment-content or claim-type limitation. Duties/Aspect/record-ID fixtures cannot fill it by names or successful kernel checking.",
+      "reason_zh": "没有映射声明编码此实质性的可表述、考察内容或主张类型限定；Duties、Aspect及记录编号实例不能凭名称或内核通过补足它。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-94-c5",
+      "fidelity": "partial",
+      "reason": "Duties preserves forall applicable aspects of the same claim/grounds pair, and empirical-only records fail for the concrete empirical/value fixture. Aspect has three constructors; it is a stipulated application ontology, not a derived exhaustive classification. mixed_projection projects an assumed duty and bothExamined stipulates records. None models the substantive empirical/inferential/value assessment responsibilities or validates the examined relation.",
+      "reason_zh": "Duties保留同一主张/根据对上每个适用面的全称责任，经验/价值混合实例确实拒绝仅有经验记录。Aspect的三个构造子是预设应用分类，不是推导出的穷尽分类；mixed_projection展开既有责任假设，bothExamined预设记录。均未建模经验、推论、价值考察的实质责任，也未验证examined关系。",
+      "review_stage": "informed_source_comparison_after_separate_initial_records"
+    },
+    {
+      "id": "c-94-c6",
+      "fidelity": "partial",
+      "reason": "Assessed deliberately ignores labels while using actual applicability, so any two label lists are definitionally equivalent and an empty list cannot hide a missing applicable value record. This is a conditional interface design and concrete omission probe, not an independent proof that a real classifier found every applicable responsibility.",
+      "reason_zh": "Assessed刻意忽略labels并依据实际适用性，因此任意标签列表在定义上等价，空列表也不能掩盖适用价值记录的缺失。这是条件化接口设计及具体遗漏探针，并非实际分类器发现全部适用责任的独立证明。",
+      "review_stage": "informed_source_comparison_after_separate_initial_records"
+    },
+    {
+      "id": "c-98-c1",
+      "fidelity": "not_applicable",
+      "reason": "This is a document-structure element or a table-cell role/name. It has no independent propositional content to formalize; preserve it as source context.",
+      "reason_zh": "此项是文档结构或表格单元的角色/名称，没有独立待形式化命题；应作为源文上下文保留。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-98-c2",
+      "fidelity": "pending",
+      "reason": "No mapped declaration encodes this substantive articulation, assessment-content or claim-type limitation. Duties/Aspect/record-ID fixtures cannot fill it by names or successful kernel checking.",
+      "reason_zh": "没有映射声明编码此实质性的可表述、考察内容或主张类型限定；Duties、Aspect及记录编号实例不能凭名称或内核通过补足它。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-98-c3",
+      "fidelity": "pending",
+      "reason": "No mapped declaration encodes this substantive articulation, assessment-content or claim-type limitation. Duties/Aspect/record-ID fixtures cannot fill it by names or successful kernel checking.",
+      "reason_zh": "没有映射声明编码此实质性的可表述、考察内容或主张类型限定；Duties、Aspect及记录编号实例不能凭名称或内核通过补足它。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-99-c1",
+      "fidelity": "not_applicable",
+      "reason": "This is a document-structure element or a table-cell role/name. It has no independent propositional content to formalize; preserve it as source context.",
+      "reason_zh": "此项是文档结构或表格单元的角色/名称，没有独立待形式化命题；应作为源文上下文保留。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-99-c2",
+      "fidelity": "pending",
+      "reason": "No mapped declaration encodes this substantive articulation, assessment-content or claim-type limitation. Duties/Aspect/record-ID fixtures cannot fill it by names or successful kernel checking.",
+      "reason_zh": "没有映射声明编码此实质性的可表述、考察内容或主张类型限定；Duties、Aspect及记录编号实例不能凭名称或内核通过补足它。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-99-c3",
+      "fidelity": "pending",
+      "reason": "No mapped declaration encodes this substantive articulation, assessment-content or claim-type limitation. Duties/Aspect/record-ID fixtures cannot fill it by names or successful kernel checking.",
+      "reason_zh": "没有映射声明编码此实质性的可表述、考察内容或主张类型限定；Duties、Aspect及记录编号实例不能凭名称或内核通过补足它。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-100-c1",
+      "fidelity": "not_applicable",
+      "reason": "This is a document-structure element or a table-cell role/name. It has no independent propositional content to formalize; preserve it as source context.",
+      "reason_zh": "此项是文档结构或表格单元的角色/名称，没有独立待形式化命题；应作为源文上下文保留。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-100-c2",
+      "fidelity": "pending",
+      "reason": "No mapped declaration encodes this substantive articulation, assessment-content or claim-type limitation. Duties/Aspect/record-ID fixtures cannot fill it by names or successful kernel checking.",
+      "reason_zh": "没有映射声明编码此实质性的可表述、考察内容或主张类型限定；Duties、Aspect及记录编号实例不能凭名称或内核通过补足它。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-100-c3",
+      "fidelity": "pending",
+      "reason": "No mapped declaration encodes this substantive articulation, assessment-content or claim-type limitation. Duties/Aspect/record-ID fixtures cannot fill it by names or successful kernel checking.",
+      "reason_zh": "没有映射声明编码此实质性的可表述、考察内容或主张类型限定；Duties、Aspect及记录编号实例不能凭名称或内核通过补足它。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-102-c1",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-102-c2",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-102-c3",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-102-c4",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-107-c1",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-107-c2",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-107-c3",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-109-c1",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-109-c2",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-109-c3",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-109-c4",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-111-c1",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-111-c2",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-116-c1",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-116-c2",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-116-c3",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-118-c1",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-118-c2",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-118-c3",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-118-c4",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-118-c5",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-123-c1",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-123-c2",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-125-c1",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-125-c2",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-125-c3",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-130-c1",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-131-c1",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-131-c2",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-132-c1",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-132-c2",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-133-c1",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-133-c2",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "organon.relationships",
+      "fidelity": "not_applicable",
+      "reason": "This is a document-structure element or a table-cell role/name. It has no independent propositional content to formalize; preserve it as source context.",
+      "reason_zh": "此项是文档结构或表格单元的角色/名称，没有独立待形式化命题；应作为源文上下文保留。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-141-c1",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-141-c2",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-141-c3",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-141-c4",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-141-c5",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-143-c1",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-143-c2",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-143-c3",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-143-c4",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-143-c5",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-145-c1",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-145-c2",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-145-c3",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-145-c4",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-145-c5",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-152-c1",
+      "fidelity": "not_applicable",
+      "reason": "This is a document-structure element or a table-cell role/name. It has no independent propositional content to formalize; preserve it as source context.",
+      "reason_zh": "此项是文档结构或表格单元的角色/名称，没有独立待形式化命题；应作为源文上下文保留。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-152-c2",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-153-c1",
+      "fidelity": "not_applicable",
+      "reason": "This is a document-structure element or a table-cell role/name. It has no independent propositional content to formalize; preserve it as source context.",
+      "reason_zh": "此项是文档结构或表格单元的角色/名称，没有独立待形式化命题；应作为源文上下文保留。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-153-c2",
+      "fidelity": "pending",
+      "reason": "No mapped declaration encodes this substantive articulation, assessment-content or claim-type limitation. Duties/Aspect/record-ID fixtures cannot fill it by names or successful kernel checking.",
+      "reason_zh": "没有映射声明编码此实质性的可表述、考察内容或主张类型限定；Duties、Aspect及记录编号实例不能凭名称或内核通过补足它。",
+      "review_stage": "source_inventory_no_source_proof"
+    },
+    {
+      "id": "c-153-c3",
+      "fidelity": "pending",
+      "reason": "No faithful encoding or proof is supplied for this clause in this run. Its commitment, argument, premise or application limit remains part of the source; omission here does not refute it or waive its responsibilities.",
+      "reason_zh": "本轮未提供该子句的保真编码或证明。其承诺、论据、前提或适用限制仍属于源文；未编码不等于反驳或免除其责任。",
+      "review_stage": "source_inventory_no_source_proof"
+    }
+  ],
+  "limits": "Bindings and reported judgments only. Code initial review had automatic workflow context; source initial review disclosed limited historical ACTIVE summary exposure. Round2 reviews are informed; they are not new blind trials. Pure relocation: source, code and original initial records have identical bytes; the preceding correspondence grades are reused, not newly blind-assessed. Migration source/method comparison is separately recorded."
+}

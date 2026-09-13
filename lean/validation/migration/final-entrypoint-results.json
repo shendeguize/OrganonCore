@@ -1,0 +1,27 @@
+[
+  {
+    "kind": "philosophy",
+    "returncode": 0,
+    "kernel": true,
+    "manuscript": true,
+    "current_source": "current",
+    "outer_returncode": 0,
+    "outer_core_results_identical": true
+  },
+  {
+    "kind": "rationale-core-tools",
+    "returncode": 0,
+    "kernel": true,
+    "manuscript": true,
+    "current_source": "current",
+    "outer_returncode": 0,
+    "outer_core_results_identical": true
+  },
+  {
+    "kind": "rationale",
+    "returncode": 1,
+    "kernel": true,
+    "manuscript": false,
+    "current_source": "stale"
+  }
+]
