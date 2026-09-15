@@ -15,6 +15,8 @@ const checkCurrent = run => checkManuscript(run, 'manuscript.json', read(path.jo
 test('current delivery retains the frozen proof contract and complete reviewed bindings', () => {
   const run = path.join(core, 'lean/philosophy');
   const manifest = read(path.join(run, 'run.json'));
+  const snapshot = path.resolve(run, manifest.source.snapshot);
+  assert(fs.readdirSync(path.dirname(snapshot)).includes(path.basename(snapshot)), 'Snapshot filename must match the recorded case on every filesystem');
   const raw = fs.readFileSync(path.join(run, 'targets.json'));
   assert.equal(crypto.createHash('sha256').update(raw).digest('hex'), frozenTargets);
   assert.equal(manifest.proof_targets.sha256, frozenTargets);
