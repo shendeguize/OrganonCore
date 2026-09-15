@@ -69,7 +69,7 @@ Entry `fidelity` is the reported `full`, `partial`, `rejected`, `pending`, or `n
 | `limited` | Passed named declarations, full or partial reported fidelity, both initial records, and explicit limits in `reason`. |
 | `failed` | Failed kernel, rejected source correspondence, or a verified countermodel that refutes the source claim. Explain which cause. |
 | `incomplete` | Work or review remains incomplete; no approval implied. |
-| `not_applicable` | Reported inapplicability, no declarations, and a reason. |
+| `not_applicable` | Reported inapplicability and a reason; no declarations, except explicitly reviewed context-only citations in a target-aware run. |
 | `stale` | Current source differs from the frozen source. This always fails current publication checking. |
 
 A structural or unmodeled item need not have a review object to remain `not_applicable` or `incomplete`. No count of passed entries is required. Status markers are consistency assertions, not a truth oracle; their visible prose must preserve the same limits.
@@ -99,6 +99,8 @@ Every view contains one bounded section per entry. Inside it, include exactly th
 <!-- /lean-entry assessment.claim -->
 ```
 
+An overview may collect structural entries in a compact inventory and omit repeated explanatory boilerplate. Each entry still needs its own boundaries, exact excerpt and status marker. Grouping does not merge identities or waive coverage; escaping a table excerpt can change its exact bytes. Keep full source context, code and dependency explanations in the details. Validate a representative presentation sample before batch conversion.
+
 Each details view also contains the entire exact normalized content of every inventoried Lean file in this layout:
 
 ````markdown
@@ -124,3 +126,7 @@ Run `node --test tests/lean-manuscript.test.js` for integrity/status fixtures, r
 When run.json binds an adopted baseline, include `baseline_current: {"path": "<run-relative current philosophy>", "sha256": "<run.baseline.sha256>"}`. Missing binding fails the public-manuscript check. Changing that current baseline makes the presentation stale even if its source text (for example, rationale) has not changed. The historical frozen-source kernel result remains separate.
 
 A fully reviewed and checked clause can be reported passed within a partially modeled source unit; this does not certify its unmodeled neighbors. Full source-unit completion cannot be inferred from one passed entry.
+
+For an agreed complete-proof scope, the optional [proof-target catalog](proof-targets.md) binds planned goals, actual Lean types and target review separately from source coverage. Its completion result does not upgrade source fidelity or certify philosophical correctness.
+
+A target-aware source entry may use `context_only: true` for a reviewed background citation under the [context-citation rules](proof-targets.md#context-citations). Bind the same flag and reason in its source review entry; retain exact source and declaration mappings, `fidelity: "not_applicable"` and `status: "not_applicable"`. Place `<!-- lean-context-only -->` inside that entry in each view and explain that the source remains applicable context, not a claimed theorem. Checking its referenced declarations does not prove the background paragraph. A proof target still requires substantive source correspondence and cannot complete with only context citations.

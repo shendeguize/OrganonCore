@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "role": "informed_reader_revision_after_semantic_review",
+  "scope": "Reader explanations and one bounded T27 conclusion correction; no source, Lean, frozen target or prior review object was changed.",
+  "inputs_sha256": {
+    "line-explanations-lemmas-revised-en.json": "ce57c1485c8bbbd8cfefd67433c7694882ba0081ec0b8b034cc2014a4e019f7c",
+    "code-explanations-revised-en-part.json": "669822354a5a2ff08de7893f3e40b2c9ce766250eff2d008376e55c4eb4e3f79",
+    "line-explanations-final-en.json": "0b3cc70de637969d30fc4d7d5417981aee4d985c365bf17852c2905b407dae91",
+    "line-explanations-lemmas-revised-zh.json": "1e4ebef903e2d927b2e7209ddecbab9ca12903c6cbf386fba36578ac8f57147a",
+    "code-explanations-revised-zh-part.json": "2793c189877b351f19ab33835d1861fea01a90bd6d343c08a547f26fb30f6418",
+    "line-explanations-final-zh.json": "854ac205ffdaaec44cd4195a725518ac46dd7abaa2b5140242f47929f7b9f37d"
+  },
+  "reviewer_revision_manifest_sha256": "fd5dd79d7f2ac3f02cf15cffcdfd2896ce29773a750d903d7cbe9cced1ed08cc",
+  "repairs": [
+    "T27 retains support for the identity contract while the registered successor-contract claim lacks support.",
+    "Concrete objects, conditions, construction steps and proof consequences replace generic syntax-only explanations.",
+    "Three missing English possessives are repaired.",
+    "Integration clarifies Evidence line 483 as commitment true by reduction and contradiction with the empty reason list."
+  ],
+  "views": {
+    "overview_en": {
+      "path": "overview.md",
+      "sha256": "21c288dab58314cc9215217c3d77a0e94e5af0df5743bc89b1ebf4bb4a77abd2"
+    },
+    "details_en": {
+      "path": "details.md",
+      "sha256": "f1a90f0aacdd9d6ba8eccc82973e770cb8317f527c4db15de42e9e41ecc2fbf5"
+    },
+    "overview_zh": {
+      "path": "../../zh/lean/philosophy/overview.md",
+      "sha256": "b252cd8665ec49fe72ef6aa1fa4ef5bc777870f914310f39075a3399be72535f"
+    },
+    "details_zh": {
+      "path": "../../zh/lean/philosophy/details.md",
+      "sha256": "9e5c27ac66c60d74d58b75ef2cb194c48e813b3dd0cdc2c4a73acc4e9aa8dcc0"
+    }
+  },
+  "nonblank_lines_per_language": 2474,
+  "limits": "These hashes identify preserved translation inputs; those files are not execution dependencies. Original translation parts and semantic reviews remain unchanged. Line coverage alone does not establish semantic accuracy."
+}

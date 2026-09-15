@@ -1,0 +1,705 @@
+[
+  {
+    "id": "T01",
+    "status": "accepted",
+    "reason": "仅接受权威、标题、采纳/事实区别及非定理边界的表达；不由本项宣称其余目标保真。",
+    "findings": [
+      {
+        "branch": "authority-and-source",
+        "status": "accepted",
+        "reason": "固定 source SHA 与冻结目标一致，run 将实质单元标 partial、结构标题无虚构定理；62 声明未声称哲学普遍正确。"
+      },
+      {
+        "branch": "all-meanings-and-limits",
+        "status": "accepted",
+        "reason": "全文来源仍完整保留；各语义条款的实际实现结果分别见 T02–T28，不能以 T01 代为通过。"
+      }
+    ]
+  },
+  {
+    "id": "T02",
+    "status": "rejected",
+    "reason": "jointWitness 有真实算法/观察/预算内容，但所声称全核心同一系统及逐承诺根据尚未建立。",
+    "findings": [
+      {
+        "branch": "nonempty-content",
+        "status": "accepted",
+        "reason": "Integration:23–68,238–245 的 identity 世界、输出和预算判断、观察及选择非空且互有关联。"
+      },
+      {
+        "branch": "same-system-charter",
+        "status": "rejected",
+        "reason": "Charter:95 不依赖见证 w；openPolicy、owner=0/work 与 implementation w 无所有者/执行语义关联，OwnCapabilityDuty:101–103 只是通用工作标记与 Grounds 的并列。",
+        "issue": "F4"
+      },
+      {
+        "branch": "all-commitment-grounds-and-no-priority",
+        "status": "rejected",
+        "reason": "逐承诺 Grounds 使用存在对应字段但未检查价值主张相关性的 ValueProcedure；.grounds 还替换成能力评估实例，故全核心联合保真不能据此完成。",
+        "issue": "F1/F2"
+      }
+    ]
+  },
+  {
+    "id": "T03",
+    "status": "accepted",
+    "reason": "接受为规范接口：视扩展值得追求与所有当前形式可修订分开，未内置进步或未来执行。",
+    "findings": [
+      {
+        "branch": "valuation-nonfinality",
+        "status": "accepted",
+        "reason": "Agency:17–35 分别有 worthPursuing/current/revisable；permitsVersion 独立，Generative 不是实际普遍事实。"
+      },
+      {
+        "branch": "no-guaranteed-change",
+        "status": "accepted",
+        "reason": "定义不要求存在成功后继；openPolicy 明确有 version=0 的五类当前形式。"
+      }
+    ]
+  },
+  {
+    "id": "T04",
+    "status": "accepted",
+    "reason": "许可真实不同版本而无价值取向的具体 policy 反例成立，只接受许可不蕴涵取向这个方向。",
+    "findings": [
+      {
+        "branch": "permission-without-valuation",
+        "status": "accepted",
+        "reason": "Agency:43–51 的 neutralPolicy 继承可修订/许可但 worthPursuing 全假，故非 Generative 不是由其它缺项偷偷造成。"
+      }
+    ]
+  },
+  {
+    "id": "T05",
+    "status": "accepted",
+    "reason": "五类形式覆盖的规范投影及可修订但无扩展的有限列表状态见证成立。",
+    "findings": [
+      {
+        "branch": "organization-method-principle-appearance-artifact",
+        "status": "accepted",
+        "reason": "Agency:5–11,58–59 全 FormKind 参数化，并由 current 条件限制。"
+      },
+      {
+        "branch": "revisable-without-progress",
+        "status": "accepted",
+        "reason": "Agency:102–127 有 copy 的实际理解/构造列表，stableTrace 不增加操作；只代表披露的有限能力内容。"
+      }
+    ]
+  },
+  {
+    "id": "T06",
+    "status": "rejected",
+    "reason": "a–j 的有限实例可成立，但 k 没有实际自报告事件及其与扩展主张/根据的关系。",
+    "findings": [
+      {
+        "branch": "a-orientation-without-progress",
+        "status": "accepted",
+        "reason": "Agency:157–160 与 stableTrace 的有限操作集合不扩展。"
+      },
+      {
+        "branch": "b-artifacts",
+        "status": "accepted",
+        "reason": "Agency:161 与160：列表复制数量增加，理解/构造集合未增。"
+      },
+      {
+        "branch": "c-abstraction-layers",
+        "status": "accepted",
+        "reason": "Agency:162 与160：重复 copy 层，无新增已建模能力。"
+      },
+      {
+        "branch": "d-terms",
+        "status": "accepted",
+        "reason": "Agency:163 与160：重复 vocabulary，未增加操作。"
+      },
+      {
+        "branch": "e-experience",
+        "status": "accepted",
+        "reason": "Agency:164–165 实际 Option 解释器缺 experience 时不能返回结果。"
+      },
+      {
+        "branch": "f-knowledge",
+        "status": "accepted",
+        "reason": "Agency:166 缺 knowledge 时返回 none。"
+      },
+      {
+        "branch": "g-collaboration",
+        "status": "accepted",
+        "reason": "Agency:167 缺 collaborator 时返回 none。"
+      },
+      {
+        "branch": "h-autonomous-execution",
+        "status": "accepted",
+        "reason": "Agency:168 在全部外部输入缺失时无法执行该有限任务；不是所有自主性理论。"
+      },
+      {
+        "branch": "i-self-improvement",
+        "status": "accepted",
+        "reason": "Agency:169 取向与不增长的全时序 stableTrace 可并存。"
+      },
+      {
+        "branch": "j-grounded-stability",
+        "status": "accepted",
+        "reason": "Agency:145–147,170 保留同一构造内容且原状态满足单项预算、膨胀方案超预算，给出具体稳定理由。"
+      },
+      {
+        "branch": "k-self-announcement-without-achievement-support",
+        "status": "rejected",
+        "reason": "Agency:171 只有 Announcement.expanded = .expanded 的自反等式；未建自报告发生、报告内容对应此次前后状态或支持不足，不能把构造子相等算作系统声称生成。",
+        "issue": "F5"
+      }
+    ]
+  },
+  {
+    "id": "T07",
+    "status": "rejected",
+    "reason": "辅助充分性定理成立；AchievementAccountability 只是存在缺口的 Grounds 别名，未完成成就根据规范及具体扩展实例。",
+    "findings": [
+      {
+        "branch": "conditional-support-truth",
+        "status": "accepted",
+        "reason": "Evidence:113–115 完整前提为 Compatible records actual 与 Supports records achievement；方向正确且可靠性前提明确。"
+      },
+      {
+        "branch": "same-achievement-accountability",
+        "status": "rejected",
+        "reason": "Evidence:102–104 直接别名 Grounds，继承 ValueProcedure 与 commitment 不相联的缺口；没有将前后 State/Expanded 与该规范实例连接。",
+        "issue": "F1/F5"
+      },
+      {
+        "branch": "orientation-or-report-does-not-supply-support",
+        "status": "rejected",
+        "reason": "无具体以同一扩展 claim/record 为对象的取向或自报告反例；T06.k 的构造子等式不足。",
+        "issue": "F5"
+      }
+    ]
+  },
+  {
+    "id": "T08",
+    "status": "accepted",
+    "reason": "真实语义理论、问题/假设/术语/范围和可满足模型推出同条件不矛盾；联合冲突实例不为空。",
+    "findings": [
+      {
+        "branch": "same-context-closure",
+        "status": "accepted",
+        "reason": "Logic:14–35 对全体 Admissible 世界计算正反 Consequence；inhabited 是公开前提，不是预装 Consistent。"
+      },
+      {
+        "branch": "joint-not-single-premise",
+        "status": "accepted",
+        "reason": "Logic:50–69 使用 P、P→Q、¬Q，分别可满足而联合不可满足，实际检验推论交互。"
+      }
+    ]
+  },
+  {
+    "id": "T09",
+    "status": "accepted",
+    "reason": "撤回前后及三个上下文维度的非空实例均成立，不要求跨时全局兼容。",
+    "findings": [
+      {
+        "branch": "explicit-retraction",
+        "status": "accepted",
+        "reason": "Logic:71–88 的 time0/time1 单例理论相反，各自有模型而 union 无模型。"
+      },
+      {
+        "branch": "assumptions",
+        "status": "accepted",
+        "reason": "Logic:91–92,102–122 对不同 assumptions 分别给出可容纳世界。"
+      },
+      {
+        "branch": "meanings",
+        "status": "accepted",
+        "reason": "Logic:93–94 改变同一问题的 meaning，保留具体世界证明。"
+      },
+      {
+        "branch": "scope",
+        "status": "accepted",
+        "reason": "Logic:95–96 限制不同 scope，正反结论来自不同语境。"
+      }
+    ]
+  },
+  {
+    "id": "T10",
+    "status": "accepted",
+    "reason": "接受为已披露的报告规范及其条件后果；独立修订标识避免把同义形式修订抹去。",
+    "findings": [
+      {
+        "branch": "report-actual-change",
+        "status": "accepted",
+        "reason": "Logic:123–144 对 SameContent 差异或 revisionIdentity 差异要求 reported=true；定理是如实标注的规范投影。"
+      },
+      {
+        "branch": "reorder",
+        "status": "accepted",
+        "reason": "Logic:150–152 只证两个 claim 的集合 union 交换，不宣称现实修订不存在。"
+      },
+      {
+        "branch": "hidden-assumption-meaning-scope-and-form",
+        "status": "accepted",
+        "reason": "Logic:160–180 分别证三类上下文变化及 revisionIdentity 变化不可隐瞒。"
+      },
+      {
+        "branch": "report-not-adequacy",
+        "status": "accepted",
+        "reason": "Logic:165–166 明示报告 true 与新 assumptions 在给定实际世界为假可并存。"
+      }
+    ]
+  },
+  {
+    "id": "T11",
+    "status": "accepted",
+    "reason": "资源上下限的不同目标可共存；同条件相反 Consequence 导致违反 Consistent 的后果正确。",
+    "findings": [
+      {
+        "branch": "tension-without-contradiction",
+        "status": "accepted",
+        "reason": "Logic:186–190 用 4≤budget 与 budget≤6、见证5；模型仅表示资源约束张力。"
+      },
+      {
+        "branch": "conflict-needs-revision-or-qualification",
+        "status": "accepted",
+        "reason": "Logic:195–197 从同一理论/context/q 的正反推论推出 ¬Consistent；不声称自动决定如何修订。"
+      }
+    ]
+  },
+  {
+    "id": "T12",
+    "status": "accepted",
+    "reason": "一致但实际假及问句未决定的语义反例成立；不把它们推广成任何现实知识集的判定。",
+    "findings": [
+      {
+        "branch": "consistent-false",
+        "status": "accepted",
+        "reason": "Logic:205–208 单例 w=true 在true可满足、在指定false世界不成立。"
+      },
+      {
+        "branch": "consistent-incomplete",
+        "status": "accepted",
+        "reason": "Logic:216–222 的 Bool 世界与 on/off 问句非空，空前提不能决定正反。前提集为空的范围明确，不能描述为一个内容丰富知识库。"
+      }
+    ]
+  },
+  {
+    "id": "T13",
+    "status": "rejected",
+    "reason": "对象与活动范围有保留，但源码只登记工作标签，遗漏原则形成理由、适用说明和修订理由等冻结语义。",
+    "findings": [
+      {
+        "branch": "system-principle-formation-application-revision",
+        "status": "accepted",
+        "reason": "Agency:175–190,253–262 构造五类自身对象，generation/assessment 两活动齐备。"
+      },
+      {
+        "branch": "applicability-no-exemption-interface",
+        "status": "accepted",
+        "reason": "Agency:192–207 按规则适用性与 owner 条件产生 Performed 责任，可作范围接口。"
+      },
+      {
+        "branch": "formation-scope-revision-reasons-and-actual-application",
+        "status": "rejected",
+        "reason": "Principle 只有 activity/applicable；Performed 只是 (Subject,Activity) 在列表中。没有评估的问题、所用原则内容、形成/修订理由，也未把 subject principle id 与 rules 身份绑定。",
+        "issue": "F3"
+      }
+    ]
+  },
+  {
+    "id": "T14",
+    "status": "accepted",
+    "reason": "接受范围投影、非适用例外及有限自测/生成函数反例；它们不证明完整反身评估内容已履行。",
+    "findings": [
+      {
+        "branch": "no-self-exemption",
+        "status": "accepted",
+        "reason": "Agency:213–216 在 Reflexive、规则成员、owner与applicable公开前提下取规范后果。"
+      },
+      {
+        "branch": "inapplicable-self",
+        "status": "accepted",
+        "reason": "Agency:228–251 有实际 application 工作，但不要求 system assessment；非空规则而非空域捷径。"
+      },
+      {
+        "branch": "self-test-not-correctness",
+        "status": "accepted",
+        "reason": "Agency:287–304 同一算式在样本1真、0假，有限自测不能证全域。"
+      },
+      {
+        "branch": "self-origin-not-support",
+        "status": "accepted",
+        "reason": "Evidence:331–350 实际 generator 产出的函数在0通过、1失败；只接受函数生成/局部样本的有限片段。"
+      }
+    ]
+  },
+  {
+    "id": "T15",
+    "status": "rejected",
+    "reason": "支持方向及同facet articulation 关联改进有效；Grounds 的价值面向仍遗漏主张相关性与支持相称，不能作完整规范接口。",
+    "findings": [
+      {
+        "branch": "same-claim-articulation-adapter",
+        "status": "accepted",
+        "reason": "Evidence:57–74,89–93 将 assumptions/reasons/limits 对接同一 facet，并要求 facet.claim=claim；unrelatedArticulationRejected有实际反例。"
+      },
+      {
+        "branch": "conclusion-weakening",
+        "status": "accepted",
+        "reason": "Evidence:123–132 固定 records、使用 P→Q；还提供删除证据丢失支持的反例。"
+      },
+      {
+        "branch": "scope-restriction",
+        "status": "accepted",
+        "reason": "Evidence:140–144 固定 records、narrow⊆wide，缩小结论量化域。"
+      },
+      {
+        "branch": "nature-appropriate-grounding-and-proportionality",
+        "status": "rejected",
+        "reason": "Evidence:35–38 的 ValueProcedure 不读取 commitment/starting，故支持检查不针对价值主张；独立 Lean 探针保持原理由而换恒False commitment仍得到 Grounds。",
+        "issue": "F1"
+      }
+    ]
+  },
+  {
+    "id": "T16",
+    "status": "rejected",
+    "reason": "责任并集、未分类及混合缺项实例成立；三类责任完整表达尚受价值面向关联缺口影响。",
+    "findings": [
+      {
+        "branch": "mixed-aspects-union",
+        "status": "accepted",
+        "reason": "Evidence:156–160 基于实际 applicable 的谓词并集，未采用互斥主张分类。"
+      },
+      {
+        "branch": "labels-cannot-waive",
+        "status": "accepted",
+        "reason": "Evidence:167–168 是透明的规范接口不依赖 labels；并在210给出 labels=[] 的失败实例。"
+      },
+      {
+        "branch": "actual-mixed-missing-reason",
+        "status": "accepted",
+        "reason": "Evidence:181–214 同一 w=true 主张的经验面向成功，价值面向 reasons=[] 失败。"
+      },
+      {
+        "branch": "all-facet-responsibility-content",
+        "status": "rejected",
+        "reason": "现有 ValueProcedure 的理由只联系 consequence 而不联系 commitment；不能以已表示几个字段等同原文的主张相关评估责任全部表达。",
+        "issue": "F1"
+      }
+    ]
+  },
+  {
+    "id": "T17",
+    "status": "accepted",
+    "reason": "接受所构造的有限不充分性反例：清楚/可测/重复/相容/自断言不替代对应支持。",
+    "findings": [
+      {
+        "branch": "articulated-not-supported",
+        "status": "accepted",
+        "reason": "Evidence:216–226 明确无信息前提与可识别True理由，Bool反世界使所称开关结论不被推出。"
+      },
+      {
+        "branch": "measurement-repeat-relevance-correctness",
+        "status": "accepted",
+        "reason": "Evidence:237–243,273–278 温度观测固定而另一开关结果可变，单次与重复均不支持所称结果。"
+      },
+      {
+        "branch": "measurement-repeat-value-consequence",
+        "status": "accepted",
+        "reason": "Evidence:248–293 相同行动观测允许预算0/3，均不足以支持该行动预算后果；只涉及已声明的预算评价片段。"
+      },
+      {
+        "branch": "compatible-not-entailed",
+        "status": "accepted",
+        "reason": "Logic:229–234 给共享满足世界又有反世界；非蕴涵不被表述为恒假。"
+      },
+      {
+        "branch": "self-assertion",
+        "status": "accepted",
+        "reason": "Evidence:253–306 另有非空activate断言在预算0时真，而 affordability 后果假；没有只靠空理由记录演示全部分支。"
+      }
+    ]
+  },
+  {
+    "id": "T18",
+    "status": "accepted",
+    "reason": "接受具体预算/收益价值立场的程序性相容见证及异类表示，不接受其为价值终极证成或通用Grounds充分性证明。",
+    "findings": [
+      {
+        "branch": "value-starting-not-self-proved",
+        "status": "accepted",
+        "reason": "Evidence:181–193,313–316 有选中行动的成本3/收益4/预算3理由、限度和回应，starting有true模型，commitment不由空事实推出。"
+      },
+      {
+        "branch": "heterogeneous-no-common-number",
+        "status": "accepted",
+        "reason": "Evidence:323–328 分列观察、语义推论及价值程序；未对全部支持类型构造共同评分。特定成本数字不是统一价值尺度。"
+      },
+      {
+        "branch": "adequacy-boundary",
+        "status": "accepted",
+        "reason": "仅此具体程序实例的理由可由语义审查理解为相关；不因此消除 F1 所指出通用 ValueProcedure 的漏洞。"
+      }
+    ]
+  },
+  {
+    "id": "T19",
+    "status": "accepted",
+    "reason": "明确真子域、真实函数扩展和遗漏输入的反例均成立。",
+    "findings": [
+      {
+        "branch": "local-not-universal",
+        "status": "accepted",
+        "reason": "Evidence:357–365 一次输入0观测容许全真函数及仅0为真的函数，输入1为实际反例。"
+      },
+      {
+        "branch": "omitted-difference",
+        "status": "accepted",
+        "reason": "Evidence:372–375 两函数在0同、1异；不把选域遗漏差异当成差异不存在。"
+      }
+    ]
+  },
+  {
+    "id": "T20",
+    "status": "accepted",
+    "reason": "有限观察、非观察推论及变动结果/稳定界限实例成立，明确不含概率或现实可靠性定理。",
+    "findings": [
+      {
+        "branch": "unrepeated-bounded-support",
+        "status": "accepted",
+        "reason": "Evidence:383–388 一条实际输入0记录，支持该输入结论而不支持全域。"
+      },
+      {
+        "branch": "no-universal-chain",
+        "status": "accepted",
+        "reason": "Evidence:390–405 的2→3推论具有满足前提的实例且无 observation 面向，足以否定所有判断必经整个测量链。"
+      },
+      {
+        "branch": "variable-outcomes-stable-bound",
+        "status": "accepted",
+        "reason": "Evidence:421–425 同setting的1与2不同但均≤2，只表示有限可能结果。"
+      },
+      {
+        "branch": "verification-reproduction-stability",
+        "status": "accepted",
+        "reason": "Evidence:432–436 以真实/记录结果和setting给出分离实例；不是把三者设为任意标签。"
+      }
+    ]
+  },
+  {
+    "id": "T21",
+    "status": "accepted",
+    "reason": "同一进程的输出与可提供解释证书契约、外部证书及四类数量重复结果成立；认知理解本身不被这些契约普遍定义。",
+    "findings": [
+      {
+        "branch": "same-process-output-vs-explanation",
+        "status": "accepted",
+        "reason": "Evidence:437–464 解释程序 eval 必须匹配同一个 Process.output；outputOnlyProcess无证书，非比较无关函数。"
+      },
+      {
+        "branch": "different-application-contracts",
+        "status": "accepted",
+        "reason": "Evidence:470–474 输出契约与输出+解释契约不同，explainedProcess可满足后者。"
+      },
+      {
+        "branch": "external-assessment",
+        "status": "accepted",
+        "reason": "Evidence:476–486 从实际 n+n 函数构造外部证书，不借进程内解释响应。"
+      },
+      {
+        "branch": "documents-terms-tools-artifacts",
+        "status": "accepted",
+        "reason": "Agency:68–92 对任意四类 InventoryKind、操作列表及操作证明复制不增 represented content；不声称所有新工具都不增能力。"
+      }
+    ]
+  },
+  {
+    "id": "T22",
+    "status": "rejected",
+    "reason": "三个地位排除分支成立，但 JustifiedChoice 把一个理由的相关/可用性直接当成充分选择支持。",
+    "findings": [
+      {
+        "branch": "name-convention-standing-alone",
+        "status": "accepted",
+        "reason": "Choice:42–59 的 status 三种均不满足额外采纳的 Relevant，定理是规范后果。"
+      },
+      {
+        "branch": "existing-with-real-reason",
+        "status": "accepted",
+        "reason": "Choice:61–112 identity 满足实际输出要求，惯例可伴随该理由保留资格。"
+      },
+      {
+        "branch": "choice-grounding-relevant-constraints",
+        "status": "rejected",
+        "reason": "Choice:46–47 只有 ∃Relevant，不保证当前目标与约束的理由充分；独立探针 cost=1而run=n+1仍因simplicity被判 JustifiedChoice。",
+        "issue": "F6"
+      }
+    ]
+  },
+  {
+    "id": "T23",
+    "status": "accepted",
+    "reason": "接受首轮代码明确限定的程序片段非蕴涵；不接受其为完整Grounds充分履行后的独立性证明。",
+    "findings": [
+      {
+        "branch": "same-claim-nonempty-reasons",
+        "status": "accepted",
+        "reason": "Choice:169–192 固定 identity优先的 priorityClaim，以同一identity的convention/established事实为非空理由，两个选择解释均满足这些事实。"
+      },
+      {
+        "branch": "actual-negative-assessment",
+        "status": "accepted",
+        "reason": "AssessmentAccurate false 通过实际 .successor 反解释和 statusDoesNotEntailPriority证明；不是任意负面flag。"
+      },
+      {
+        "branch": "finite-procedure-not-full-Grounds",
+        "status": "accepted",
+        "reason": "Choice:194–208 明写仅评估程序不强制额外选择规则，继续保持不受支持优先性也违反一般相称性。没有假造 Grounds 证明。"
+      },
+      {
+        "branch": "scope-limit",
+        "status": "accepted",
+        "reason": "只在statusFacts这个前提片段内成立；不得称反解释满足 identityRequirements 的可行性约束，因为singleFeasible另已证明successor不可行。不能由此推出加入全部任务约束后的非蕴涵。"
+      }
+    ]
+  },
+  {
+    "id": "T24",
+    "status": "rejected",
+    "reason": "单一可行者、局部不整体、两实现差异及四类内部理由资格有实例；未保留“内部理由不自动充分”的冻结界限。",
+    "findings": [
+      {
+        "branch": "one-feasible",
+        "status": "accepted",
+        "reason": "Choice:128–136 对两个实际算法给恰好identity可行，并有明确输出理由。"
+      },
+      {
+        "branch": "not-all-equivalent",
+        "status": "accepted",
+        "reason": "Choice:164–167 两实际 run 在0不同。"
+      },
+      {
+        "branch": "local-not-global",
+        "status": "accepted",
+        "reason": "Choice:142–147 在0同而1异。"
+      },
+      {
+        "branch": "existing-not-rejected",
+        "status": "accepted",
+        "reason": "可复用conventionWithReason的实际相关输出理由。"
+      },
+      {
+        "branch": "internal-explanation-scope-simplicity-procedure",
+        "status": "accepted",
+        "reason": "Choice:34–39,153–158 四类分别有函数符合、输入域、成本和trace内容；仅把它们作为该应用中的可能资格。"
+      },
+      {
+        "branch": "eligible-not-automatically-sufficient",
+        "status": "rejected",
+        "reason": "Relevant一旦成立即可构造JustifiedChoice单项理由，成本通过即可选择错误输出实现；实际Lean探针已验证。",
+        "issue": "F6"
+      }
+    ]
+  },
+  {
+    "id": "T25",
+    "status": "rejected",
+    "reason": "局部修订/能力观察推导真实，但 Grounds自我评估、当前哲学对象及同系统关系发生替代或仅以名字建立。",
+    "findings": [
+      {
+        "branch": "revision-consistency",
+        "status": "accepted",
+        "reason": "Integration:70–90 对同一held/context加入已支持实例，有actual模型和显式revisionIdentity。"
+      },
+      {
+        "branch": "own-capability-same-system",
+        "status": "rejected",
+        "reason": "OwnCapabilityDuty:101–103 无系统对象将work、policy、implementation、claim绑定；仅以system0工作标记并列算法能力。",
+        "issue": "F4"
+      },
+      {
+        "branch": "Grounds-itself",
+        "status": "rejected",
+        "reason": "Integration:126 的 commitmentClaim .grounds 是 OwnCapabilityDuty capability，188–194评估的是一次能力评估存在性；不是Grounds规范自身的根据/限度。",
+        "issue": "F2"
+      },
+      {
+        "branch": "existing-philosophy-itself",
+        "status": "rejected",
+        "reason": "Integration:197–198 将identityImpl只改name为existing philosophy；没有被评估哲学/原则实现对象的语义联系，仅命名不足。",
+        "issue": "F2"
+      },
+      {
+        "branch": "self-application-no-self-proof",
+        "status": "rejected",
+        "reason": "部分适用条件保留，但逐承诺理由由ValueProcedure和字段等式得到，未建立所称规范对象的理由关系。",
+        "issue": "F1/F2"
+      }
+    ]
+  },
+  {
+    "id": "T26",
+    "status": "rejected",
+    "reason": "生成不蕴涵工作日志式反身性和cost不支持output的局部反例真实；完整Charter/Grounds同系统及联合相容性分支受T02/T13缺口阻断。",
+    "findings": [
+      {
+        "branch": "generation-not-reflexive-interface",
+        "status": "accepted",
+        "reason": "Agency:277–284 开放policy与遗漏实际适用system assessment的空work可并存，作为已披露工作记录接口的反例。"
+      },
+      {
+        "branch": "charter-not-grounded-specific-evidence",
+        "status": "accepted",
+        "reason": "Integration:247–278 cost≤2记录在两个算法都真而output不同，确实不支持同一capability。"
+      },
+      {
+        "branch": "same-system-full-Charter-and-joint-witness",
+        "status": "rejected",
+        "reason": "全Charter内容尚缺原则形成/修订评估内容，且与系统implementation的绑定未建立；不能从给固定全局Charter另配差facet升级为全核心系统关系完成。",
+        "issue": "F3/F4"
+      }
+    ]
+  },
+  {
+    "id": "T27",
+    "status": "rejected",
+    "reason": "代码证明改labels不影响一个固定应用的职责；没有冻结所要求的应用目标/价值/能力契约变化下的通用关系，逐承诺理由也未完成。",
+    "findings": [
+      {
+        "branch": "labels-retain-fixed-duties",
+        "status": "accepted",
+        "reason": "Integration:218–226 对labels参数保留固定identity capability及work责任。"
+      },
+      {
+        "branch": "application-defined-objectives-values-contracts",
+        "status": "rejected",
+        "reason": "该定理只参数化List String，目标、预算、能力契约、适用面向全部固定；不能用标签变化代替应用定义变化。",
+        "issue": "F7"
+      },
+      {
+        "branch": "reasons-per-commitment",
+        "status": "rejected",
+        "reason": "Integration:173–180 主要证明record字段等式；reflexivity理由与后果同一work事实，grounds主张为能力评估替身，ValueProcedure不问commitment关系。",
+        "issue": "F1/F2"
+      }
+    ]
+  },
+  {
+    "id": "T28",
+    "status": "accepted",
+    "reason": "接受实际算术推论作为无需观察测试的评估例子，并保留独立经验面向的观察责任；不把工具运行等同模型内评估。",
+    "findings": [
+      {
+        "branch": "non-test-inferential-assessment",
+        "status": "accepted",
+        "reason": "Evidence:496–502 对n=2→n+1=3有相连的canonicalArticulation、满足前提世界和推论；usesObservation=false只用于说明无需观测方法。"
+      },
+      {
+        "branch": "empirical-duty-retained",
+        "status": "accepted",
+        "reason": "同一声明同时保留switchEmpirical及usesObservation=true。"
+      },
+      {
+        "branch": "scope",
+        "status": "accepted",
+        "reason": "这是不用实测的数学论证实例；不据usesObservation字段证明所有非经验活动都不含任何计算或可执行检查。"
+      }
+    ]
+  }
+]

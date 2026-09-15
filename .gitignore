@@ -37,3 +37,7 @@ htmlcov/
 
 # .local
 
+
+node_modules/
+
+*.log

@@ -1,7 +1,7 @@
 ---
 format_version: 0.1.0
-philosophy_version: 0.1.3
-core_version: 0.1.3
+philosophy_version: 0.1.4
+core_version: 0.1.4
 derived_from: null
 ---
 # Organon 哲学：总纲与根据
@@ -9,7 +9,7 @@ derived_from: null
 
 本文是 Organon 哲学正本的中文对应译本，表达已采纳的承诺，不断言所有体系事实上具有这些属性，也不证明这些承诺普遍正确。[英文正本](../PHILOSOPHY.md) 与本文章节对应；含义发生分歧时以英文为准。
 
-引用正文、含义及适用条件共同构成核心。总纲与根据相互约束；这种分组既不确立推导层级，也不确立优先次序。[配套论证](rationale.md) 提供论证与情境，不向核心增加义务。Skill 是在本仓库已说明的目标与约束下形成的可修订应用，不属于哲学承诺本身。
+引用正文、含义及适用条件共同构成核心。总纲与根据相互约束；这种分组既不确立推导层级，也不确立优先次序。[配套论证](rationale/README.md) 提供论证与情境，不向核心增加义务。Skill 是在本仓库已说明的目标与约束下形成的可修订应用，不属于哲学承诺本身。
 
 ## 1. 总纲
 <!-- organon:id organon.charter -->

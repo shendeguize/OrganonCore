@@ -1,0 +1,67 @@
+name: Observed stars
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 2 * * *'
+permissions: {}
+concurrency:
+  group: site-data-${{ github.repository }}
+  cancel-in-progress: false
+jobs:
+  prepare:
+    if: github.repository == 'shendeguize/OrganonCore' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/release/1.0.0')
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    permissions:
+      contents: write
+    outputs:
+      deploy: ${{ steps.state.outputs.deploy }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '22.23.2'
+      - name: Read fixed workspace tooling
+        id: tooling
+        run: |
+          node --input-type=module - <<'NODE'
+          import fs from 'node:fs';
+          const tooling = JSON.parse(fs.readFileSync('release/tooling.json', 'utf8'));
+          if (tooling.schema_version !== 1 || tooling.workspace?.repository !== 'shendeguize/AgentOrganon' || !/^[a-f0-9]{40}$/.test(tooling.workspace.commit)) throw new Error('Invalid fixed workspace tooling');
+          fs.appendFileSync(process.env.GITHUB_OUTPUT, `commit=${tooling.workspace.commit}\n`);
+          NODE
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          repository: shendeguize/AgentOrganon
+          ref: ${{ steps.tooling.outputs.commit }}
+          path: .tooling/workspace
+          persist-credentials: false
+      - name: Sample actual total and retain released HTML
+        id: state
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ github.token }}
+        run: node .tooling/workspace/scripts/release/site-data.mjs stars
+      - uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa
+        if: steps.state.outputs.deploy == 'true'
+        with:
+          name: github-pages-${{ github.run_attempt }}
+          path: ${{ steps.state.outputs.public_dir }}
+  deploy:
+    needs: prepare
+    if: needs.prepare.outputs.deploy == 'true'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e
+        id: deployment
+        with:
+          artifact_name: github-pages-${{ github.run_attempt }}

@@ -1,5 +1,5 @@
-core-v0.1.3/*/evidence/checks/
-core-v0.1.3/*/leanified/.lake/
-core-v0.1.3/*/leanified/lake-manifest.json
-!core-v0.1.3/*/evidence/lean-audit.log
-!core-v0.1.3/*/evidence/lake-build.log
+**/evidence/checks/
+**/leanified/.lake/
+**/leanified/lake-manifest.json
+!**/evidence/lean-audit.log
+!**/evidence/lake-build.log

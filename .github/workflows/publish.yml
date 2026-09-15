@@ -1,0 +1,86 @@
+name: Publish verified product
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: Exact validated product version
+        required: true
+      manifest_sha256:
+        description: Canonical sealed manifest digest
+        required: true
+      operation:
+        description: Controlled publication step
+        required: true
+        type: choice
+        options: [publish, promote]
+      bootstrap_npm:
+        description: Use the short-lived first-publication credential
+        type: boolean
+        default: false
+permissions:
+  contents: read
+concurrency:
+  group: publish-${{ inputs.version }}
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: github.ref == 'refs/heads/release/1.0.0'
+    environment: ${{ startsWith(inputs.version, '1.0.0-rc.') && 'npm-rc' || 'npm-stable' }}
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+      actions: read
+      id-token: write
+    env:
+      RELEASE_VERSION: ${{ inputs.version }}
+      RELEASE_MANIFEST_SHA256: ${{ inputs.manifest_sha256 }}
+      APPROVED_RC_MANIFEST_SHA256: ${{ vars.APPROVED_RC_MANIFEST_SHA256 }}
+      NPM_CHANNEL_STRATEGY: ${{ vars.NPM_CHANNEL_STRATEGY }}
+      RELEASE_OPERATION: ${{ inputs.operation }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: ${{ github.sha }}
+          path: product
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '22.23.2'
+          registry-url: https://registry.npmjs.org
+      - name: Read fixed release tooling
+        id: tooling
+        working-directory: product
+        run: |
+          node --input-type=module -e 'import fs from "node:fs"; const t=JSON.parse(fs.readFileSync("release/tooling.json")); if(t.workspace.repository!=="shendeguize/AgentOrganon" || !/^[a-f0-9]{40}$/.test(t.workspace.commit)) throw Error("Unpinned tools"); fs.appendFileSync(process.env.GITHUB_OUTPUT,"workspace="+t.workspace.commit+"\n")'
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          repository: shendeguize/AgentOrganon
+          ref: ${{ steps.tooling.outputs.workspace }}
+          path: tools
+          persist-credentials: false
+      - name: Install exact npm with OIDC support in the temporary runner
+        run: npm install --global npm@12.0.2 --ignore-scripts
+      - name: Fetch exact public validated bundle
+        
+        run: node tools/scripts/release/publish.mjs fetch --version "$RELEASE_VERSION" --manifest-sha256 "$RELEASE_MANIFEST_SHA256" --out candidate
+      - name: Verify identity and every gate before credentials are exposed
+        run: |
+          node tools/scripts/release/manifest.mjs check --manifest candidate/release-manifest.json
+          node --input-type=module -e 'import {readJSON} from "./tools/scripts/release/lib.mjs"; import {assertDispatch} from "./tools/scripts/release/manifest.mjs"; assertDispatch(readJSON("candidate/release-manifest.json"),process.env,"core")'
+      - name: Verify approved RC to stable source transition
+        if: inputs.version == '1.0.0'
+        run: node tools/scripts/release/stable.mjs --manifest candidate/release-manifest.json
+      - name: First npm publication with short-lived bootstrap credential
+        if: inputs.operation == 'publish' && inputs.bootstrap_npm
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_BOOTSTRAP_TOKEN }}
+        run: node tools/scripts/release/publish.mjs publish --manifest candidate/release-manifest.json --product core
+      - name: OIDC publication or credential-free bundle operation
+        if: inputs.operation != 'promote' && !(inputs.operation == 'publish' && inputs.bootstrap_npm)
+        run: node tools/scripts/release/publish.mjs "$RELEASE_OPERATION" --manifest candidate/release-manifest.json --product core
+      - name: Complete channel recommendation only after all three products match
+        if: inputs.operation == 'promote'
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TAG_TOKEN }}
+        run: node tools/scripts/release/publish.mjs promote --manifest candidate/release-manifest.json --product core

@@ -1,0 +1,14 @@
+{
+  "run.json": "773ef6bd7c459a65cc678d26d7561c04453c50f0afb92b77bcbf72da6171c8b2",
+  "PREREGISTERED.md": "242feb5156c4dd9b7d47dcf712a8c196131a2907ea331d06d4aab8ea8fe3a079",
+  "snapshots/PHILOSOPHY.md": "226fa3522943955d5a0f1f0b88e883c97b3505b3bcfd285329e432757912543f",
+  "leanified/lakefile.toml": "45b7327bd68ebe8cbca3dccd419df21e4876773005900079cd7c6fdf0f43dd49",
+  "targets.json": "2400383120ab2d98454597a73cdcaaadf45b8e47b18a646118708dc5d81da2a4",
+  "leanified/CoreReader/Agency.lean": "b0dca4187a88a0a0f33c3dd6a11bb383907603ef514e80e9e3f09f95ce9633e2",
+  "leanified/CoreReader/Choice.lean": "07cf17f73802bdd34ae00ecba317ddc0283321cce00f15a84b69df421c3fe25f",
+  "leanified/CoreReader/Evidence.lean": "18beb2b94450fdab36229b645e2df129348f3e67306104e842e0dce6e72443e8",
+  "leanified/CoreReader/Integration.lean": "b5ba8617e06f03963c4284344fbe3c662188f1b88542c55cc15beb1cd5f99c03",
+  "leanified/CoreReader/Logic.lean": "6b70be8964763b6447a2603bde665ff58106678f2e1d421bebd8c6b29ae46e04",
+  "leanified/CoreReader/Reflexivity.lean": "25292faa71c5585a8f50cb07d72c2f44fa12dcfb125b2b92094f9306fecb4fd0",
+  "leanified/CoreReader.lean": "80eee78ec3453fefdb26d3dbce97f0447d4b9ffeb4683604dad0c03902a1bfdd"
+}

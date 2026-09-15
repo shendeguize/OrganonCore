@@ -1,8 +1,0 @@
-{
-  "command": "skill-format",
-  "chunk_id": "50ad34",
-  "wall_time_seconds": 2.667e-06,
-  "exit_code": 0,
-  "original_token_count": 4,
-  "output": "Skill is valid!\n"
-}

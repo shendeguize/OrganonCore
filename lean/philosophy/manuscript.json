@@ -1,0 +1,653 @@
+{
+  "schema_version": 1,
+  "repository_root": "../..",
+  "source_current": {
+    "path": "../../PHILOSOPHY.md",
+    "sha256": "226fa3522943955d5a0f1f0b88e883c97b3505b3bcfd285329e432757912543f"
+  },
+  "proof_targets": {
+    "path": "targets.json",
+    "sha256": "2400383120ab2d98454597a73cdcaaadf45b8e47b18a646118708dc5d81da2a4"
+  },
+  "code_files": [
+    {
+      "path": "leanified/CoreReader/Agency.lean",
+      "sha256": "b0dca4187a88a0a0f33c3dd6a11bb383907603ef514e80e9e3f09f95ce9633e2"
+    },
+    {
+      "path": "leanified/CoreReader/Choice.lean",
+      "sha256": "07cf17f73802bdd34ae00ecba317ddc0283321cce00f15a84b69df421c3fe25f"
+    },
+    {
+      "path": "leanified/CoreReader/Evidence.lean",
+      "sha256": "18beb2b94450fdab36229b645e2df129348f3e67306104e842e0dce6e72443e8"
+    },
+    {
+      "path": "leanified/CoreReader/Integration.lean",
+      "sha256": "b5ba8617e06f03963c4284344fbe3c662188f1b88542c55cc15beb1cd5f99c03"
+    },
+    {
+      "path": "leanified/CoreReader/Logic.lean",
+      "sha256": "6b70be8964763b6447a2603bde665ff58106678f2e1d421bebd8c6b29ae46e04"
+    },
+    {
+      "path": "leanified/CoreReader/Reflexivity.lean",
+      "sha256": "25292faa71c5585a8f50cb07d72c2f44fa12dcfb125b2b92094f9306fecb4fd0"
+    },
+    {
+      "path": "leanified/CoreReader.lean",
+      "sha256": "80eee78ec3453fefdb26d3dbce97f0447d4b9ffeb4683604dad0c03902a1bfdd"
+    }
+  ],
+  "review": {
+    "path": "reviews/fidelity.json",
+    "sha256": "d6c6c7414736e26558ddfe620f1b3db45743f45b967c36b348aecf991bc15779"
+  },
+  "views": {
+    "overview_en": {
+      "path": "overview.md",
+      "sha256": "9fbeb16d59c36789b578cd3df1f5e88559c82b243801c83d84df0855997866d7"
+    },
+    "details_en": {
+      "path": "details.md",
+      "sha256": "b84342748d5cc5df26db610d7ab53cf8e553922f1847091be9b49d9bbbfb004a"
+    },
+    "overview_zh": {
+      "path": "../../zh/lean/philosophy/overview.md",
+      "sha256": "4ff68caa6bb800d5a7adfce0538bb01b3a4c95afa3be78ce25167c8739c6b26b"
+    },
+    "details_zh": {
+      "path": "../../zh/lean/philosophy/details.md",
+      "sha256": "1810b4d6800f4dd98699bf17db168718f22a0e3146ad7ecc90810c65cb4f84fe"
+    }
+  },
+  "entries": [
+    {
+      "id": "organon.preamble.p1",
+      "unit": "organon.preamble",
+      "clause": "p1",
+      "excerpt": "This is the authoritative statement of Organon’s philosophy. It expresses adopted commitments, not factual assertions about every system or a proof of universal correctness.",
+      "declarations": [
+        "CoreReader.Integration.jointWitness"
+      ],
+      "kernel": "passed",
+      "fidelity": "not_applicable",
+      "status": "not_applicable",
+      "reason": "This declares textual authority and adopted-commitment scope, not a mathematical proposition about all systems. The review retains this boundary without manufacturing a Lean theorem of authority.",
+      "context_only": true
+    },
+    {
+      "id": "organon.preamble.p2",
+      "unit": "organon.preamble",
+      "clause": "p2",
+      "excerpt": "The quoted provisions, their meanings, and their conditions of application form the core. The charter and Grounds constrain one another; their grouping establishes neither a deductive hierarchy nor an order of priority. [Rationale](rationale/README.md) supplies arguments and cases without adding obligations to this core. Skills are revisable applications under the repository’s stated objectives and constraints, not part of the philosophical commitments themselves.",
+      "declarations": [
+        "CoreReader.Integration.jointWitness"
+      ],
+      "kernel": "passed",
+      "fidelity": "partial",
+      "status": "limited",
+      "reason": "The shared model exhibits compatible constraints without a chapter-priority inference. Authority of meanings and limits, the role of Rationale and revisability of actual skills remain textual commitments outside this finite witness."
+    },
+    {
+      "id": "organon.charter",
+      "unit": "organon.charter",
+      "clause": null,
+      "excerpt": "\n",
+      "declarations": [],
+      "kernel": "not_checked",
+      "fidelity": "not_applicable",
+      "status": "not_applicable",
+      "reason": "Structural heading without substantive direct-body content; no theorem is assigned."
+    },
+    {
+      "id": "organon.charter.overview.p1",
+      "unit": "organon.charter.overview",
+      "clause": "p1",
+      "excerpt": "**Self-Transcendence · Internal Consistency · Reflexivity**",
+      "declarations": [],
+      "kernel": "not_checked",
+      "fidelity": "not_applicable",
+      "status": "not_applicable",
+      "reason": "This is a structural list of three headings. It organizes substantive provisions and requires no fabricated theorem."
+    },
+    {
+      "id": "organon.charter.overview.p2",
+      "unit": "organon.charter.overview",
+      "clause": "p2",
+      "excerpt": "> A system is intrinsically oriented toward expanding what it can understand and construct. It brings itself and its principles within the scope of generation and assessment, with internal consistency constraining this process.",
+      "declarations": [
+        "CoreReader.Integration.jointWitness",
+        "CoreReader.Agency.Generative"
+      ],
+      "kernel": "passed",
+      "fidelity": "partial",
+      "status": "limited",
+      "reason": "jointWitness combines valued expansion, revisability, contextual consistency and contentful owned principle work in one inhabited system. It proves model satisfiability, not actual compliance by arbitrary systems."
+    },
+    {
+      "id": "organon.charter.overview.p3",
+      "unit": "organon.charter.overview",
+      "clause": "p3",
+      "excerpt": "The overview connects three distinct requirements: self-transcendence establishes a generative orientation and refuses to treat existing forms as final, internal consistency constrains judgments held simultaneously, and reflexivity brings the system and its principles within the scope of their own generation and assessment. The provisions below specify the conditions for each.",
+      "declarations": [
+        "CoreReader.Integration.jointWitness",
+        "CoreReader.Agency.Generative"
+      ],
+      "kernel": "passed",
+      "fidelity": "partial",
+      "status": "limited",
+      "reason": "The three requirements remain distinct predicates with a shared example and specific nonentailments. Their interpretation as philosophical obligations and their full conditions in arbitrary applications are not derived from the example."
+    },
+    {
+      "id": "organon.charter.self-transcendence.p1",
+      "unit": "organon.charter.self-transcendence",
+      "clause": "p1",
+      "excerpt": "> A system is intrinsically oriented toward expanding what it can understand and construct. It does not regard any existing form as the endpoint of generation.",
+      "declarations": [
+        "CoreReader.Agency.Generative"
+      ],
+      "kernel": "passed",
+      "fidelity": "partial",
+      "status": "incomplete",
+      "reason": "Generative specifies valuation and revisability of current forms. The finite tags and state examples do not characterize every form of understanding, construction or intrinsic orientation."
+    },
+    {
+      "id": "organon.charter.self-transcendence.orientation.p1",
+      "unit": "organon.charter.self-transcendence.orientation",
+      "clause": "p1",
+      "excerpt": "A commitment to keeping generative possibilities open is distinct from valuing their expansion. A system has an intrinsic orientation when it regards that expansion as worth pursuing. Merely permitting change does not fully express this orientation.",
+      "declarations": [
+        "CoreReader.Agency.Generative",
+        "CoreReader.Agency.permissionNotValuation"
+      ],
+      "kernel": "passed",
+      "fidelity": "partial",
+      "status": "limited",
+      "reason": "The neutral-policy counterexample separates permission for distinct versions from the adopted valuation predicate. It does not establish what every real system values or justify the adopted value universally."
+    },
+    {
+      "id": "organon.charter.self-transcendence.non-finality.p1",
+      "unit": "organon.charter.self-transcendence.non-finality",
+      "clause": "p1",
+      "excerpt": "Refusing to regard an existing form as an endpoint keeps it open to being surpassed. “Existing form” includes a system’s current organization, methods, and principles, not only its appearance or artifacts. These remain within the scope of possible change; their revisability does not guarantee actual progress.",
+      "declarations": [
+        "CoreReader.Agency.Generative",
+        "CoreReader.Agency.revisabilityCovers",
+        "CoreReader.Agency.revisionWithoutProgress"
+      ],
+      "kernel": "passed",
+      "fidelity": "partial",
+      "status": "limited",
+      "reason": "All five represented form kinds, including organization, method and principle, fall under conditional revisability; a constant trace shows no progress guarantee. The chosen representation is not an exhaustive ontology or an executed revision."
+    },
+    {
+      "id": "organon.charter.self-transcendence.limits.p1",
+      "unit": "organon.charter.self-transcendence.limits",
+      "clause": "p1",
+      "excerpt": "Whether progress has actually occurred remains a separate judgment. Having the orientation does not guarantee progress. Progress cannot be established merely by an increase in the number of artifacts, levels of abstraction, or terms.",
+      "declarations": [
+        "CoreReader.Agency.Generative",
+        "CoreReader.Agency.generationLimits",
+        "CoreReader.Evidence.AchievementAccountability",
+        "CoreReader.Evidence.achievementNeedsSupport"
+      ],
+      "kernel": "passed",
+      "fidelity": "partial",
+      "status": "limited",
+      "reason": "The same before/after states increase inventory, abstraction and vocabulary without adding represented capabilities. Actual performance records can distinguish a genuine extension in a two-case world; empirical reliability beyond that world is not proved."
+    },
+    {
+      "id": "organon.charter.self-transcendence.limits.p2",
+      "unit": "organon.charter.self-transcendence.limits",
+      "clause": "p2",
+      "excerpt": "- “Intrinsic orientation” expresses Organon’s philosophical commitment; it does not assert that all systems in fact develop autonomously.\n- Self-transcendence does not imply independence from external experience, knowledge, or collaboration, nor does it guarantee autonomous execution or self-improvement.\n- Refusing to regard an existing form as an endpoint does not require every action to produce change. Justified stability can coexist with a generative orientation.\n- Whether transcendence expands what can be understood and constructed requires discernible grounds; a system’s own claim of generation does not establish actual achievement.",
+      "declarations": [
+        "CoreReader.Agency.Generative",
+        "CoreReader.Agency.generationLimits",
+        "CoreReader.Evidence.AchievementAccountability",
+        "CoreReader.Evidence.achievementNeedsSupport"
+      ],
+      "kernel": "passed",
+      "fidelity": "partial",
+      "status": "limited",
+      "reason": "Bound execution exhibits separate external dependencies, grounded stability, a nonimproving trace and a refuted owned announcement. These are finite compatibility and failure examples; philosophical adoption and real autonomous development remain outside their conclusions."
+    },
+    {
+      "id": "organon.charter.consistency.p1",
+      "unit": "organon.charter.consistency",
+      "clause": "p1",
+      "excerpt": "> The principles and judgments a system holds simultaneously, together with their implications, must not yield contradictory judgments on the same question under the same assumptions, meanings of terms, and scope of application.",
+      "declarations": [
+        "CoreReader.Logic.consequenceConsistency",
+        "CoreReader.Logic.jointConflict"
+      ],
+      "kernel": "passed",
+      "fidelity": "partial",
+      "status": "limited",
+      "reason": "The general semantic theorem prevents opposite consequences under one theory/context when an admissible world exists. Existence of such a world, choice of questions and interpretation of held judgments are explicit modeling conditions, not guaranteed for reality."
+    },
+    {
+      "id": "organon.charter.consistency.meaning.p1",
+      "unit": "organon.charter.consistency.meaning",
+      "clause": "p1",
+      "excerpt": "“Held simultaneously” specifies which principles, judgments, and implications must hold together. Revision may withdraw an earlier judgment; old and new principles need not remain compatible forever. When a change has occurred, that change cannot be represented as though it had not occurred.",
+      "declarations": [
+        "CoreReader.Logic.revisionCanReverse",
+        "CoreReader.Logic.contextDifferences",
+        "CoreReader.Logic.semanticChangeMustBeReported",
+        "CoreReader.Logic.representationOrderIrrelevant",
+        "CoreReader.Logic.hiddenContextChangeRejected"
+      ],
+      "kernel": "passed",
+      "fidelity": "partial",
+      "status": "limited",
+      "reason": "Concrete retraction slices can reverse judgments, and a conditional reporting specification disallows concealing recognized change. No automatic detector, adequate report generator or real revision history is established."
+    },
+    {
+      "id": "organon.charter.consistency.meaning.p2",
+      "unit": "organon.charter.consistency.meaning",
+      "clause": "p2",
+      "excerpt": "“The same assumptions, meanings of terms, and scope of application” specifies the basis for comparing judgments. Divergent judgments under different conditions do not automatically constitute contradictions. Nor can unacknowledged changes in assumptions, meanings, or scope be used to conceal an existing contradiction.",
+      "declarations": [
+        "CoreReader.Logic.revisionCanReverse",
+        "CoreReader.Logic.contextDifferences",
+        "CoreReader.Logic.semanticChangeMustBeReported",
+        "CoreReader.Logic.representationOrderIrrelevant",
+        "CoreReader.Logic.hiddenContextChangeRejected"
+      ],
+      "kernel": "passed",
+      "fidelity": "partial",
+      "status": "limited",
+      "reason": "Separate assumption, meaning and scope changes admit different judgments; hidden changes fail the adopted report condition. This covers explicit semantic models, not every practical ambiguity or method of concealment."
+    },
+    {
+      "id": "organon.charter.consistency.limits.p1",
+      "unit": "organon.charter.consistency.limits",
+      "clause": "p1",
+      "excerpt": "- Tension between different assessments or values does not directly constitute a contradiction. Revision or qualification is needed when they require incompatible conclusions under the same conditions.\n- Internal consistency is not correctness or sufficiency. A set of principles may be internally consistent while relying on false assumptions or neglecting important questions.",
+      "declarations": [
+        "CoreReader.Logic.tensionWithoutContradiction",
+        "CoreReader.Logic.conflictRequiresChange",
+        "CoreReader.Logic.consistentFalse",
+        "CoreReader.Logic.consistentIncomplete"
+      ],
+      "kernel": "passed",
+      "fidelity": "partial",
+      "status": "limited",
+      "reason": "Finite witnesses distinguish tension from contradiction and consistency from truth or completeness. Refusing to retain a demonstrated conflict is a conditional consequence of an adopted consistency requirement, not an implemented revision strategy."
+    },
+    {
+      "id": "organon.charter.reflexivity.p1",
+      "unit": "organon.charter.reflexivity",
+      "clause": "p1",
+      "excerpt": "> A system’s principles of generation and assessment also apply to the system itself and to the formation, application, and revision of those principles.",
+      "declarations": [
+        "CoreReader.Agency.Reflexive"
+      ],
+      "kernel": "passed",
+      "fidelity": "partial",
+      "status": "incomplete",
+      "reason": "Reflexive quantifies applicable owned rules and subjects, with coherent keys and meaningful application records. The concrete rule set has generation and assessment work but does not cover every possible real principle."
+    },
+    {
+      "id": "organon.charter.reflexivity.meaning.p1",
+      "unit": "organon.charter.reflexivity.meaning",
+      "clause": "p1",
+      "excerpt": "Reflexivity encompasses both the system itself and its principles. Assessment concerns not only whether the system conforms to its principles, but also how those principles are formed, where they apply, and why they may need revision. The formation and revision of principles thus also become objects of generation and assessment.",
+      "declarations": [
+        "CoreReader.Agency.Reflexive"
+      ],
+      "kernel": "passed",
+      "fidelity": "partial",
+      "status": "incomplete",
+      "reason": "The revised module models formation purposes, requested applicability scopes and revision counterexamples with actual evaluation and generation outcomes. These finite inquiry contracts do not establish the correctness or completeness of every assessment methodology."
+    },
+    {
+      "id": "organon.charter.reflexivity.limits.p1",
+      "unit": "organon.charter.reflexivity.limits",
+      "clause": "p1",
+      "excerpt": "- Applying principles equally retains their conditions of application. When the relevant conditions hold, being the system itself is not a basis for exemption. Nor does the requirement of reflexivity establish that every principle can be applied to itself without examining its applicability.\n- Self-application does not constitute self-proof. Subjecting a principle to its own assessment does not thereby establish its correctness.\n- That a revision is produced by the system itself does not give it sufficient grounds.",
+      "declarations": [
+        "CoreReader.Agency.Reflexive",
+        "CoreReader.Agency.noSelfExemption",
+        "CoreReader.Agency.applicabilityRetained",
+        "CoreReader.Agency.selfTestDoesNotProve",
+        "CoreReader.Evidence.selfOriginDoesNotSupport"
+      ],
+      "kernel": "passed",
+      "fidelity": "partial",
+      "status": "limited",
+      "reason": "Applicability is retained, self-exemption fails where conditions hold, and finite self-tests plus a produced revision fail to establish universal support. The owned records and source identities are mathematical objects, not authenticated execution histories."
+    },
+    {
+      "id": "organon.grounds.p1",
+      "unit": "organon.grounds",
+      "clause": "p1",
+      "excerpt": "> The grounds of principles and judgments must be articulable and subject to assessment appropriate to the nature of the claim. The strength and scope of a claim must be proportionate to the support provided by its grounds.",
+      "declarations": [
+        "CoreReader.Evidence.AchievementAccountability",
+        "CoreReader.Evidence.achievementNeedsSupport",
+        "CoreReader.Evidence.Grounds",
+        "CoreReader.Evidence.supportWeakening",
+        "CoreReader.Evidence.scopeRestriction"
+      ],
+      "kernel": "passed",
+      "fidelity": "partial",
+      "status": "limited",
+      "reason": "Grounds checks identified applicable facets of the same claim; support, entailment and an option-indexed value procedure carry distinct responsibilities. This is a chosen formal interface and finite fulfillment examples, not a universal sufficient criterion for all philosophical grounds."
+    },
+    {
+      "id": "organon.grounds.assessment.p1",
+      "unit": "organon.grounds.assessment",
+      "clause": "p1",
+      "excerpt": "Articulation and assessment have distinct responsibilities. Articulability requires that concepts, assumptions, reasons, and limits can be identified. Assessment requires examining whether those grounds support the corresponding claim. Clearly expressed grounds are not thereby sufficiently established. When a claim has more than one applicable aspect, the corresponding assessment responsibilities apply to each aspect. Omitting a classification does not waive an applicable responsibility.",
+      "declarations": [
+        "CoreReader.Evidence.Grounds",
+        "CoreReader.Evidence.supportWeakening",
+        "CoreReader.Evidence.scopeRestriction",
+        "CoreReader.Evidence.assessmentUnion",
+        "CoreReader.Evidence.labelsCannotWaive",
+        "CoreReader.Evidence.mixedMissingResponsibility",
+        "CoreReader.Evidence.articulationNotSupport",
+        "CoreReader.Evidence.measurementRepeatNotSupport",
+        "CoreReader.Logic.compatibilityNotEntailment",
+        "CoreReader.Evidence.selfAssertionNotReason",
+        "CoreReader.Evidence.valueWithoutSelfProof",
+        "CoreReader.Evidence.heterogeneousReasons",
+        "CoreReader.Evidence.nonExecutableAssessment"
+      ],
+      "kernel": "passed",
+      "fidelity": "partial",
+      "status": "limited",
+      "reason": "Articulation content is linked to each facet and separated from its discharge; union and missing-aspect examples prevent labels from waiving represented duties. Identifying every actually relevant aspect remains an application responsibility not solved by the datatype."
+    },
+    {
+      "id": "organon.grounds.assessment.p2",
+      "unit": "organon.grounds.assessment",
+      "clause": "p2",
+      "excerpt": "| Type of claim | Responsibility of assessment | What cannot substitute for that responsibility |\n| --- | --- | --- |\n| Empirical claim | Examine observations, evidence, and performance, together with the conditions, scope, and uncertainty of their support for the claim. | Treating measurability or repeatability itself as proof of relevance, correctness, or value. |\n| Inferential claim | Examine whether the conclusion is supported by the stated assumptions and inferential relations. | Treating the absence of conflict between a conclusion and its assumptions as sufficient to establish that the conclusion follows from them. |\n| Value commitment | State the position taken, its reasons, limits of application, and consequences, and remain open to relevant criticism. | Presenting a commitment as an empirical fact or a necessary inference, or substituting self-assertion for reasons. |",
+      "declarations": [
+        "CoreReader.Evidence.Grounds",
+        "CoreReader.Evidence.supportWeakening",
+        "CoreReader.Evidence.scopeRestriction",
+        "CoreReader.Evidence.assessmentUnion",
+        "CoreReader.Evidence.labelsCannotWaive",
+        "CoreReader.Evidence.mixedMissingResponsibility",
+        "CoreReader.Evidence.articulationNotSupport",
+        "CoreReader.Evidence.measurementRepeatNotSupport",
+        "CoreReader.Logic.compatibilityNotEntailment",
+        "CoreReader.Evidence.selfAssertionNotReason",
+        "CoreReader.Evidence.valueWithoutSelfProof",
+        "CoreReader.Evidence.heterogeneousReasons",
+        "CoreReader.Evidence.nonExecutableAssessment"
+      ],
+      "kernel": "passed",
+      "fidelity": "partial",
+      "status": "limited",
+      "reason": "The three modeled adapters check observational compatibility/support, semantic entailment, and value reasons with limits/consequences/criticism. Actual relevance, empirical uncertainty and the adequacy of value criticism beyond the chosen cases are not exhaustively formalized."
+    },
+    {
+      "id": "organon.grounds.assessment.p3",
+      "unit": "organon.grounds.assessment",
+      "clause": "p3",
+      "excerpt": "Initial value commitments may be stated explicitly as commitments; they need not prove all their own starting assumptions. The strength and scope of a claim do not require conversion to a common numerical scale. Different types of claims specify their support and limits in accordance with their nature.",
+      "declarations": [
+        "CoreReader.Evidence.Grounds",
+        "CoreReader.Evidence.supportWeakening",
+        "CoreReader.Evidence.scopeRestriction",
+        "CoreReader.Evidence.assessmentUnion",
+        "CoreReader.Evidence.labelsCannotWaive",
+        "CoreReader.Evidence.mixedMissingResponsibility",
+        "CoreReader.Evidence.articulationNotSupport",
+        "CoreReader.Evidence.measurementRepeatNotSupport",
+        "CoreReader.Logic.compatibilityNotEntailment",
+        "CoreReader.Evidence.selfAssertionNotReason",
+        "CoreReader.Evidence.valueWithoutSelfProof",
+        "CoreReader.Evidence.heterogeneousReasons",
+        "CoreReader.Evidence.nonExecutableAssessment"
+      ],
+      "kernel": "passed",
+      "fidelity": "partial",
+      "status": "limited",
+      "reason": "JointAdoption requires consistent instantiated starting commitments without proving all starting assumptions. A two-reason example and heterogeneous facets avoid a universal numerical scale. They demonstrate procedural consistency, not ultimate value justification."
+    },
+    {
+      "id": "organon.grounds.scope.p1",
+      "unit": "organon.grounds.scope",
+      "clause": "p1",
+      "excerpt": "Performance is discerned within particular relations, conditions, and scopes of observation. A boundary helps specify what a comparison concerns, but local examples do not automatically support unconditional universal conclusions. A judgment cannot establish that relevant differences do not exist merely because its chosen scope omits them.",
+      "declarations": [
+        "CoreReader.Evidence.localNotUniversal",
+        "CoreReader.Evidence.hiddenDifference",
+        "CoreReader.Evidence.singleObservation",
+        "CoreReader.Evidence.noUniversalChain",
+        "CoreReader.Evidence.variableOutcomesStableBound",
+        "CoreReader.Evidence.verificationReproductionStability"
+      ],
+      "kernel": "passed",
+      "fidelity": "partial",
+      "status": "limited",
+      "reason": "A proper local observation scope supports a local function claim while admitting a counterexample outside it. This establishes the specified nonentailment; it neither identifies all relevant real differences nor rules out justified wider evidence."
+    },
+    {
+      "id": "organon.grounds.scope.p2",
+      "unit": "organon.grounds.scope",
+      "clause": "p2",
+      "excerpt": "Measurement can make some differences comparable. Repeated assessment can help examine the stability of corresponding conclusions. Their roles, and the role of any assessment framework, must be explained relative to the claim and its context. Measurement, repeatability, and an assessment framework do not form a universally necessary chain on which all judgments must depend.",
+      "declarations": [
+        "CoreReader.Evidence.localNotUniversal",
+        "CoreReader.Evidence.hiddenDifference",
+        "CoreReader.Evidence.singleObservation",
+        "CoreReader.Evidence.noUniversalChain",
+        "CoreReader.Evidence.variableOutcomesStableBound",
+        "CoreReader.Evidence.verificationReproductionStability"
+      ],
+      "kernel": "passed",
+      "fidelity": "partial",
+      "status": "limited",
+      "reason": "Repeated irrelevant measurements fail support, while a valid inferential assessment needs no empirical chain. This refutes a universal mandatory chain within the represented responsibilities but does not characterize every framework or measurement practice."
+    },
+    {
+      "id": "organon.grounds.scope.p3",
+      "unit": "organon.grounds.scope",
+      "clause": "p3",
+      "excerpt": "An observation that has not been reproduced may still offer limited support, and random outcomes need not be identical on every occasion. The verifiability of observations, reproducibility of conditions, and stability of conclusions must be distinguished.",
+      "declarations": [
+        "CoreReader.Evidence.localNotUniversal",
+        "CoreReader.Evidence.hiddenDifference",
+        "CoreReader.Evidence.singleObservation",
+        "CoreReader.Evidence.noUniversalChain",
+        "CoreReader.Evidence.variableOutcomesStableBound",
+        "CoreReader.Evidence.verificationReproductionStability"
+      ],
+      "kernel": "passed",
+      "fidelity": "partial",
+      "status": "limited",
+      "reason": "A single observation has limited support and distinct trial outcomes preserve a fixed bound. Verification, reproducible conditions and conclusion stability use separate predicates; no probability distribution or general reproducibility law is proved."
+    },
+    {
+      "id": "organon.grounds.capabilities.p1",
+      "unit": "organon.grounds.capabilities",
+      "clause": "p1",
+      "excerpt": "Capability claims are subject to Grounds: the capability claimed, its conditions, and the support for it must be identifiable. The core does not prescribe uniform definitions of method mastery, method generation, or capability levels. Applications specify the capabilities they assess and may require understanding, explanation, or performance under relevant variations.",
+      "declarations": [
+        "CoreReader.Evidence.AchievementAccountability",
+        "CoreReader.Evidence.achievementNeedsSupport",
+        "CoreReader.Evidence.outputNotExplanation",
+        "CoreReader.Evidence.applicationContractsDiffer",
+        "CoreReader.Evidence.externalAssessment",
+        "CoreReader.Agency.inventoryNotCapability"
+      ],
+      "kernel": "passed",
+      "fidelity": "partial",
+      "status": "limited",
+      "reason": "Output-only and explanation-bearing contracts concern the same process and each has its own checked Grounds; applicationVariation changes the actual objective and invalidates old evidence. No uniform real mastery or capability-level definition is derived."
+    },
+    {
+      "id": "organon.grounds.capabilities.p2",
+      "unit": "organon.grounds.capabilities",
+      "clause": "p2",
+      "excerpt": "Grounds for a capability claim may be supplied by an external assessor. Their articulability does not by itself require the assessed system to understand or explain its internal generation process. Evidence of reliable output must be assessed against the capability actually claimed; it does not automatically establish understanding of that process. Nor can the number of method documents, terms, tools, or artifacts alone establish a capability beyond what that evidence supports.",
+      "declarations": [
+        "CoreReader.Evidence.AchievementAccountability",
+        "CoreReader.Evidence.achievementNeedsSupport",
+        "CoreReader.Evidence.outputNotExplanation",
+        "CoreReader.Evidence.applicationContractsDiffer",
+        "CoreReader.Evidence.externalAssessment",
+        "CoreReader.Agency.inventoryNotCapability"
+      ],
+      "kernel": "passed",
+      "fidelity": "partial",
+      "status": "limited",
+      "reason": "A distinct assessor role supplies a proof about the exact output process while no explanation certificate is attached; duplicating four inventory kinds leaves represented capability unchanged. Role numbers and certificates do not prove external provenance or human-like understanding."
+    },
+    {
+      "id": "organon.grounds.implementations.p1",
+      "unit": "organon.grounds.implementations",
+      "clause": "p1",
+      "excerpt": "> The choice of an implementation must be supported by reasons connected to the objectives and values pursued and to the relevant constraints. Its name, conventional use, or established status alone does not provide sufficient grounds for giving it priority.",
+      "declarations": [
+        "CoreReader.Choice.statusOnlyFails",
+        "CoreReader.Choice.conventionWithReason",
+        "CoreReader.Choice.generalGroundsNotChoice"
+      ],
+      "kernel": "passed",
+      "fidelity": "partial",
+      "status": "limited",
+      "reason": "The adopted choice interface requires feasibility and an objective/value/constraint-linked reason and rejects status-only reasons. Its finite reason vocabulary and concrete feasibility checks do not supply a general theory of warranted real implementation choice."
+    },
+    {
+      "id": "organon.grounds.implementations.p2",
+      "unit": "organon.grounds.implementations",
+      "clause": "p2",
+      "excerpt": "This choice provision adds an additional evaluative commitment: name, conventional use, or established status alone is insufficient to establish priority. Grouping it under Grounds does not mean that it follows from the general requirement to assess reasons, or merely from the discernibility of performance. Conventions and existing arrangements may have practical significance, but that significance must be connected to the objectives and values pursued and to the relevant constraints.",
+      "declarations": [
+        "CoreReader.Choice.statusOnlyFails",
+        "CoreReader.Choice.conventionWithReason",
+        "CoreReader.Choice.generalGroundsNotChoice"
+      ],
+      "kernel": "passed",
+      "fidelity": "partial",
+      "status": "limited",
+      "reason": "Two independent policies share a correct negative audit but differ on the added choice norm, establishing independence from the represented assessment procedure. This does not show an unsupported priority claim fully satisfies general Grounds, or derive a value commitment from neutral facts."
+    },
+    {
+      "id": "organon.grounds.implementations.limits.p1",
+      "unit": "organon.grounds.implementations.limits",
+      "clause": "p1",
+      "excerpt": "- Openness does not make all implementations equivalent, nor does it guarantee multiple feasible implementations for the same objective.\n- A method’s explanatory power, limits of application, simplicity, and explicit process requirements may all provide grounded reasons for assessment. They cannot be excluded merely because they concern methods internal to the implementation.\n- Identical local performance does not establish overall equivalence. Relations, conditions, and the scope of comparison are constrained by the provisions of Grounds.\n- Openness does not reject an implementation merely because it already exists or is conventionally used. Relevant reasons may still give it priority.",
+      "declarations": [
+        "CoreReader.Choice.singleFeasible",
+        "CoreReader.Choice.localNotGlobal",
+        "CoreReader.Choice.internalReasons",
+        "CoreReader.Choice.openNotEquivalent"
+      ],
+      "kernel": "passed",
+      "fidelity": "partial",
+      "status": "limited",
+      "reason": "Concrete cases have one feasible candidate, unequal implementations, local agreement with wider difference and four eligible internal reasons. A cheap wrong-output method shows eligibility alone is insufficient. These results concern selected candidates and contracts, not all methods."
+    },
+    {
+      "id": "organon.relationships",
+      "unit": "organon.relationships",
+      "clause": null,
+      "excerpt": "\n",
+      "declarations": [],
+      "kernel": "not_checked",
+      "fidelity": "not_applicable",
+      "status": "not_applicable",
+      "reason": "Structural heading without substantive direct-body content; no theorem is assigned."
+    },
+    {
+      "id": "organon.relationships.roles.p1",
+      "unit": "organon.relationships.roles",
+      "clause": "p1",
+      "excerpt": "The charter states the generative orientation, the consistency constraint, and reflexive application. Grounds specifies support requirements for judgments and includes an additional commitment concerning implementation choices. Both parts belong to the core and constrain one another. Their placement neither makes Grounds a deduction from the charter nor gives the charter priority over it. Each commitment needs its own reasons.",
+      "declarations": [
+        "CoreReader.Integration.jointWitness",
+        "CoreReader.Logic.consistentFalse",
+        "CoreReader.Logic.consistentIncomplete",
+        "CoreReader.Choice.generalGroundsNotChoice",
+        "CoreReader.Integration.revisionKeepsConsistency",
+        "CoreReader.Integration.ownCapabilityGrounded",
+        "CoreReader.Integration.groundsSelfAssessment",
+        "CoreReader.Integration.existingPhilosophyNotPrivileged",
+        "CoreReader.Agency.generationNotReflexivity",
+        "CoreReader.Integration.charterNotGrounds",
+        "CoreReader.Integration.applicationRetainsDuties",
+        "CoreReader.Integration.reasonsBelongToCommitments",
+        "CoreReader.Integration.applicationVariation"
+      ],
+      "kernel": "passed",
+      "fidelity": "partial",
+      "status": "limited",
+      "reason": "One shared model combines the charter and Grounds and assigns five commitments distinct operational reasons, limits and live criticism. Specified nonentailments prevent chapter order from doing logical work; neither the universal adoption nor ultimate justification of all commitments follows."
+    },
+    {
+      "id": "organon.relationships.roles.p2",
+      "unit": "organon.relationships.roles",
+      "clause": "p2",
+      "excerpt": "Internal Consistency concerns whether simultaneously held judgments can hold together; Grounds concerns whether and how far a claim is supported. A conclusion may fail to conflict with its assumptions without being supported by them. Self-Transcendence specifies a generative orientation and non-finality; neither establishes actual capability. Applications may supply objectives, values, and capability definitions; claims made under those objectives, values, and definitions remain subject to the relevant core provisions.",
+      "declarations": [
+        "CoreReader.Integration.jointWitness",
+        "CoreReader.Logic.consistentFalse",
+        "CoreReader.Logic.consistentIncomplete",
+        "CoreReader.Choice.generalGroundsNotChoice",
+        "CoreReader.Integration.revisionKeepsConsistency",
+        "CoreReader.Integration.ownCapabilityGrounded",
+        "CoreReader.Integration.groundsSelfAssessment",
+        "CoreReader.Integration.existingPhilosophyNotPrivileged",
+        "CoreReader.Agency.generationNotReflexivity",
+        "CoreReader.Integration.charterNotGrounds",
+        "CoreReader.Integration.applicationRetainsDuties",
+        "CoreReader.Integration.reasonsBelongToCommitments",
+        "CoreReader.Integration.applicationVariation"
+      ],
+      "kernel": "passed",
+      "fidelity": "partial",
+      "status": "limited",
+      "reason": "Consistency/support and orientation/capability remain separate; changing an application objective changes its actual claim and can defeat retained evidence. Universal application compliance is only an assumed conditional interface, not an achieved fact."
+    },
+    {
+      "id": "organon.relationships.roles.p3",
+      "unit": "organon.relationships.roles",
+      "clause": "p3",
+      "excerpt": "Self-Transcendence does not substitute for Reflexivity: keeping existing forms open to being surpassed differs from applying relevant principles to the system and to their own formation, application, and revision. Reflexivity extends these requirements to the system and to the formation, application, and revision of its principles. The grounds and limits of the Grounds provisions must themselves be articulable. The system’s own capability claims remain subject to assessment, and this philosophy’s existing form cannot gain priority merely from its established status. Such mutual application provides no self-proof and does not remove conditions of application.",
+      "declarations": [
+        "CoreReader.Integration.jointWitness",
+        "CoreReader.Logic.consistentFalse",
+        "CoreReader.Logic.consistentIncomplete",
+        "CoreReader.Choice.generalGroundsNotChoice",
+        "CoreReader.Integration.revisionKeepsConsistency",
+        "CoreReader.Integration.ownCapabilityGrounded",
+        "CoreReader.Integration.groundsSelfAssessment",
+        "CoreReader.Integration.existingPhilosophyNotPrivileged",
+        "CoreReader.Agency.generationNotReflexivity",
+        "CoreReader.Integration.charterNotGrounds",
+        "CoreReader.Integration.applicationRetainsDuties",
+        "CoreReader.Integration.reasonsBelongToCommitments",
+        "CoreReader.Integration.applicationVariation"
+      ],
+      "kernel": "passed",
+      "fidelity": "partial",
+      "status": "limited",
+      "reason": "Contentful self-application, exact own-capability assessment, the general Grounds provision and the same current philosophy method are linked in the model. Their checked coexistence supplies no self-proof, real execution guarantee or unconditional applicability."
+    },
+    {
+      "id": "organon.relationships.terms.p1",
+      "unit": "organon.relationships.terms",
+      "clause": "p1",
+      "excerpt": "| Term | Meaning in this philosophy |\n| --- | --- |\n| Existing form | The system’s current organization, methods, and principles, not only its appearance or artifacts. |\n| Assessment | Examination of reasons, applicability, and observed performance; not limited to executable tests. |",
+      "declarations": [
+        "CoreReader.Agency.revisabilityCovers",
+        "CoreReader.Agency.revisionWithoutProgress",
+        "CoreReader.Evidence.nonExecutableAssessment"
+      ],
+      "kernel": "passed",
+      "fidelity": "partial",
+      "status": "limited",
+      "reason": "FormKind includes organization, methods and principles, and an inferential assessment has no executable-test requirement. These representations illustrate the terms without exhaustively defining every existing form or every non-test assessment."
+    }
+  ]
+}

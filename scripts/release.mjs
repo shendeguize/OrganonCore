@@ -1,0 +1,14 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import { spawnSync } from 'node:child_process';
+import { fileURLToPath } from 'node:url';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const workspace=process.env.ORGANON_WORKSPACE_ROOT || path.resolve(root,'..');
+const commands={content:['scripts/release/content.mjs','--repo',root], 'package-build':['scripts/package/build.mjs','--product','core'], 'package-check':['scripts/package/check.mjs'], github:['scripts/release/governance.mjs','check','--repository','shendeguize/OrganonCore'], manifest:['scripts/release/manifest.mjs','check']};
+const command=commands[process.argv[2]];
+if(!command) throw new Error('Unknown release gate');
+const script=path.join(workspace,command[0]);
+if(!fs.existsSync(script)) throw new Error('Release coordination requires the fixed three-repository workspace; set ORGANON_WORKSPACE_ROOT');
+const result=spawnSync(process.execPath,[script,...command.slice(1),...process.argv.slice(3)],{stdio:'inherit',cwd:workspace});
+if(result.error) throw result.error;
+process.exitCode=result.status??1;

@@ -1,0 +1,2731 @@
+[
+  {
+    "id": "T01",
+    "status": "accepted",
+    "reason": "权威、采纳性质、来源全文及章节角色边界保留；这是来源与解释边界合格，不是哲学正确性定理。",
+    "reason_en": "No theorem establishes textual authority or universal adoption. All source meanings and limits remain authoritative; chapter order supplies no proof priority.",
+    "reason_zh": "权威、采纳性质、来源全文及章节角色边界保留；这是来源与解释边界合格，不是哲学正确性定理。",
+    "classification": "N/E-V boundary",
+    "previous_status": "accepted",
+    "previous_reason": "来源、规范/事实及章节角色边界得到保留；本项通过仅表示边界和来源记录合格，不代表其余27项目全部实现。",
+    "source_refs": [
+      {
+        "unit": "organon.preamble",
+        "clause": "p1"
+      },
+      {
+        "unit": "organon.preamble",
+        "clause": "p2"
+      },
+      {
+        "unit": "organon.charter.overview",
+        "clause": "p1"
+      },
+      {
+        "unit": "organon.charter.overview",
+        "clause": "p2"
+      },
+      {
+        "unit": "organon.charter.overview",
+        "clause": "p3"
+      }
+    ],
+    "required_declarations": [],
+    "proof_and_scope": "No theorem establishes textual authority or universal adoption. All source meanings and limits remain authoritative; chapter order supplies no proof priority.",
+    "findings": [
+      {
+        "branch": "authority",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "原文SHA与冻结目标一致。数学类型不包含“所有现实系统都遵守”或哲学普遍正确性结论。",
+        "previous_minimal_fix": null,
+        "current_analysis": "权威、采纳性质、来源全文及章节角色边界保留；这是来源与解释边界合格，不是哲学正确性定理。 No theorem establishes textual authority or universal adoption. All source meanings and limits remain authoritative; chapter order supplies no proof priority.",
+        "current_code": [],
+        "minimal_fix": null
+      },
+      {
+        "branch": "meanings-and-limits-record",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "22单元含义、条件、表格和bullet均作为来源保留；具体语义实现缺口在相应T项判定，不能由本项通过抹去。",
+        "previous_minimal_fix": null,
+        "current_analysis": "权威、采纳性质、来源全文及章节角色边界保留；这是来源与解释边界合格，不是哲学正确性定理。 No theorem establishes textual authority or universal adoption. All source meanings and limits remain authoritative; chapter order supplies no proof priority.",
+        "current_code": [],
+        "minimal_fix": null
+      },
+      {
+        "branch": "roles-and-headings",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "Charter/Relationships标题未被制造为True定理；来源明确Rationale/Skills不增加核心义务，组合代码未赋章节顺序以演绎权威。",
+        "previous_minimal_fix": null,
+        "current_analysis": "权威、采纳性质、来源全文及章节角色边界保留；这是来源与解释边界合格，不是哲学正确性定理。 No theorem establishes textual authority or universal adoption. All source meanings and limits remain authoritative; chapter order supplies no proof priority.",
+        "current_code": [],
+        "minimal_fix": null
+      }
+    ]
+  },
+  {
+    "id": "T02",
+    "status": "accepted",
+    "reason": "同一个actualSystem/actual现在同时承载实质反身记录、实际能力与证据、可行选择和五项具有各自理由及限度的承诺。旧联合见证缺少的内容联系已经补齐。",
+    "reason_en": "jointWitness constructs a single system/world, not five unrelated existence claims. It uses computed identity output, actual observation support, coherent owned principle work, and each option-indexed commitment procedure. This is one finite satisfiability witness.",
+    "reason_zh": "同一个actualSystem/actual现在同时承载实质反身记录、实际能力与证据、可行选择和五项具有各自理由及限度的承诺。旧联合见证缺少的内容联系已经补齐。",
+    "classification": "W satisfiability plus N interpretation",
+    "previous_status": "rejected",
+    "previous_reason": "jointWitness确有非空数学见证，但其反身工作与各承诺理由未达到冻结的共享、内容对应模型；较弱接口的可满足性不能算所选Core规范已联合满足。",
+    "source_refs": [
+      {
+        "unit": "organon.preamble",
+        "clause": "p1"
+      },
+      {
+        "unit": "organon.preamble",
+        "clause": "p2"
+      },
+      {
+        "unit": "organon.charter.overview",
+        "clause": "p2"
+      },
+      {
+        "unit": "organon.charter.overview",
+        "clause": "p3"
+      },
+      {
+        "unit": "organon.relationships.roles",
+        "clause": "p1"
+      },
+      {
+        "unit": "organon.relationships.roles",
+        "clause": "p2"
+      },
+      {
+        "unit": "organon.relationships.roles",
+        "clause": "p3"
+      }
+    ],
+    "required_declarations": [
+      {
+        "name": "CoreReader.Integration.jointWitness",
+        "kind": "case",
+        "location": "CoreReader/Integration.lean:595",
+        "meaning": "Constructs one shared system/world satisfying actual judgments, full reflexivity, capability evidence, feasible choice and each interpreted commitment's Grounds; it is a bounded model, not universal philosophical correctness."
+      }
+    ],
+    "proof_and_scope": "jointWitness constructs a single system/world, not five unrelated existence claims. It uses computed identity output, actual observation support, coherent owned principle work, and each option-indexed commitment procedure. This is one finite satisfiability witness.",
+    "findings": [
+      {
+        "branch": "inhabited-world-and-judgments",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "actual提供真实模型；held有能力和预算命题，观察在两个候选内识别identity，非空且非全真记录占位。",
+        "previous_minimal_fix": null,
+        "current_analysis": "同一个actualSystem/actual现在同时承载实质反身记录、实际能力与证据、可行选择和五项具有各自理由及限度的承诺。旧联合见证缺少的内容联系已经补齐。 jointWitness constructs a single system/world, not five unrelated existence claims. It uses computed identity output, actual observation support, coherent owned principle work, and each option-indexed commitment procedure. This is one finite satisfiability witness.",
+        "current_code": [
+          "CoreReader/Integration.lean:595"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "shared-capability-and-choice",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "相同implementation用于capability、budget、observation和output choice；这一部分确有模块交互，观察推广限于封闭候选类。",
+        "previous_minimal_fix": null,
+        "current_analysis": "同一个actualSystem/actual现在同时承载实质反身记录、实际能力与证据、可行选择和五项具有各自理由及限度的承诺。旧联合见证缺少的内容联系已经补齐。 jointWitness constructs a single system/world, not five unrelated existence claims. It uses computed identity output, actual observation support, coherent owned principle work, and each option-indexed commitment procedure. This is one finite satisfiability witness.",
+        "current_code": [
+          "CoreReader/Integration.lean:595"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "principle-process-content",
+        "status": "accepted",
+        "previous_status": "rejected",
+        "previous_analysis": "五个对象/两种活动确非空，但Performed仅pair会员关系，原则形成理由、适用域考察和修订理由没有可表达内容；预填记录不足以完成冻结的内容性对象分支。",
+        "previous_minimal_fix": "补充与这些subject相连的实际评估问题/理由/范围/结果对象，并用非空记录验证相应义务；不要求现实系统已经运行。",
+        "current_analysis": "Reflexivity.lean:128、151、287、318、366要求并构造含问题、理由、限度和实际计算结果的ValidApplication；Integration.lean:124、129将同owner/rules/work接入Charter。",
+        "current_code": [
+          "CoreReader/Integration.lean:595"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "individual-commitment-reasons",
+        "status": "accepted",
+        "previous_status": "rejected",
+        "previous_analysis": "generation理由是两函数在0输出不同，仅推出存在不同输入；Grounds承诺字段可任意重贴而ValueProcedure不变。因此联合对象尚未提供每项承诺自身理由。",
+        "previous_minimal_fix": "建立每项承诺与其理由、限度及批评响应的可审查联系，保留价值承诺不必被证明为事实的边界。",
+        "current_analysis": "Integration.lean:282、356、364、377、389、423将各承诺的选项、后果、约束、理由及实际批评相连；反选项程序失败。",
+        "current_code": [
+          "CoreReader/Integration.lean:595"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "no-priority-from-conjunction",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "合取本身未推出章节优先级或普遍哲学正确性。",
+        "previous_minimal_fix": null,
+        "current_analysis": "同一个actualSystem/actual现在同时承载实质反身记录、实际能力与证据、可行选择和五项具有各自理由及限度的承诺。旧联合见证缺少的内容联系已经补齐。 jointWitness constructs a single system/world, not five unrelated existence claims. It uses computed identity output, actual observation support, coherent owned principle work, and each option-indexed commitment procedure. This is one finite satisfiability witness.",
+        "current_code": [
+          "CoreReader/Integration.lean:595"
+        ],
+        "minimal_fix": null
+      }
+    ]
+  },
+  {
+    "id": "T03",
+    "status": "accepted",
+    "reason": "Generative保留采纳的扩展价值与所有当前形式可修订性；不会从规范接口推出真实变化或进步。",
+    "reason_en": "Policy fields remain independent predicates. Generative requires the adopted aim and current-form revisability; it neither executes a transition nor guarantees Expanded.",
+    "reason_zh": "Generative保留采纳的扩展价值与所有当前形式可修订性；不会从规范接口推出真实变化或进步。",
+    "classification": "N specification",
+    "previous_status": "accepted",
+    "previous_reason": "Generative作为明确采纳的有限规范接口保留价值取向与当前形式可修订性，未内置必然变化或进步。",
+    "source_refs": [
+      {
+        "unit": "organon.charter.overview",
+        "clause": "p2"
+      },
+      {
+        "unit": "organon.charter.overview",
+        "clause": "p3"
+      },
+      {
+        "unit": "organon.charter.self-transcendence",
+        "clause": "p1"
+      },
+      {
+        "unit": "organon.charter.self-transcendence.orientation",
+        "clause": "p1"
+      },
+      {
+        "unit": "organon.charter.self-transcendence.non-finality",
+        "clause": "p1"
+      },
+      {
+        "unit": "organon.charter.self-transcendence.limits",
+        "clause": "p1"
+      },
+      {
+        "unit": "organon.charter.self-transcendence.limits",
+        "clause": "p2"
+      }
+    ],
+    "required_declarations": [
+      {
+        "name": "CoreReader.Agency.Generative",
+        "kind": "definition",
+        "location": "CoreReader/Agency.lean:33",
+        "meaning": "A policy satisfies this predicate when it values the designated expansion aim and declares every current form revisable. This states no actual progress condition."
+      }
+    ],
+    "proof_and_scope": "Policy fields remain independent predicates. Generative requires the adopted aim and current-form revisability; it neither executes a transition nor guarantees Expanded.",
+    "findings": [
+      {
+        "branch": "orientation",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "worthPursuing选择理解/构造扩展这一被采纳目标；与permitsVersion字段独立。",
+        "previous_minimal_fix": null,
+        "current_analysis": "Generative保留采纳的扩展价值与所有当前形式可修订性；不会从规范接口推出真实变化或进步。 Policy fields remain independent predicates. Generative requires the adopted aim and current-form revisability; it neither executes a transition nor guarantees Expanded.",
+        "current_code": [
+          "CoreReader/Agency.lean:33"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "nonfinal-current-forms",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "∀current form→revisable覆盖组织/方法/原则及外观/产物；没有预装严格改善序列。",
+        "previous_minimal_fix": null,
+        "current_analysis": "Generative保留采纳的扩展价值与所有当前形式可修订性；不会从规范接口推出真实变化或进步。 Policy fields remain independent predicates. Generative requires the adopted aim and current-form revisability; it neither executes a transition nor guarantees Expanded.",
+        "current_code": [
+          "CoreReader/Agency.lean:33"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "no-actual-success-guarantee",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "定义不含实际transition或Expanded证明；无进步trace提供边界。",
+        "previous_minimal_fix": null,
+        "current_analysis": "Generative保留采纳的扩展价值与所有当前形式可修订性；不会从规范接口推出真实变化或进步。 Policy fields remain independent predicates. Generative requires the adopted aim and current-form revisability; it neither executes a transition nor guarantees Expanded.",
+        "current_code": [
+          "CoreReader/Agency.lean:33"
+        ],
+        "minimal_fix": null
+      }
+    ]
+  },
+  {
+    "id": "T04",
+    "status": "accepted",
+    "reason": "neutralPolicy允许真正不同版本但不赋扩展价值，继续构成许可与价值取向的非蕴涵见证。",
+    "reason_en": "The version pair 0 and 1 is distinct and permitted, whereas the required valuation is false. Permission is not execution or actual improvement.",
+    "reason_zh": "neutralPolicy允许真正不同版本但不赋扩展价值，继续构成许可与价值取向的非蕴涵见证。",
+    "classification": "W nonentailment",
+    "previous_status": "accepted",
+    "previous_reason": "明确非空政策允许不同版本对，但完全不赋扩展价值，足以区分许可与价值取向。",
+    "source_refs": [
+      {
+        "unit": "organon.charter.self-transcendence.orientation",
+        "clause": "p1"
+      }
+    ],
+    "required_declarations": [
+      {
+        "name": "CoreReader.Agency.permissionNotValuation",
+        "kind": "case",
+        "location": "CoreReader/Agency.lean:49",
+        "meaning": "Shows permission for version 0 to 1 and distinct versions coexist with failure of the generation predicate."
+      }
+    ],
+    "proof_and_scope": "The version pair 0 and 1 is distinct and permitted, whereas the required valuation is false. Permission is not execution or actual improvement.",
+    "findings": [
+      {
+        "branch": "permissible-nontrivial-change",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "允许0→1且0≠1；证明许可，不声称此变化已执行。",
+        "previous_minimal_fix": null,
+        "current_analysis": "neutralPolicy允许真正不同版本但不赋扩展价值，继续构成许可与价值取向的非蕴涵见证。 The version pair 0 and 1 is distinct and permitted, whereas the required valuation is false. Permission is not execution or actual improvement.",
+        "current_code": [
+          "CoreReader/Agency.lean:49"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "valuation-independent",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "Generative因所需价值取向为False而失败；不是将两个概念写成同一布尔量。",
+        "previous_minimal_fix": null,
+        "current_analysis": "neutralPolicy允许真正不同版本但不赋扩展价值，继续构成许可与价值取向的非蕴涵见证。 The version pair 0 and 1 is distinct and permitted, whereas the required valuation is false. Permission is not execution or actual improvement.",
+        "current_code": [
+          "CoreReader/Agency.lean:49"
+        ],
+        "minimal_fix": null
+      }
+    ]
+  },
+  {
+    "id": "T05",
+    "status": "accepted",
+    "reason": "所有形式种类的条件覆盖及可修订而无进步的非空例子成立。",
+    "reason_en": "revisabilityCovers projects an explicitly assumed Generative policy. revisionWithoutProgress combines openPolicy with a constant base-state trace; possible revision is not promised progress.",
+    "reason_zh": "所有形式种类的条件覆盖及可修订而无进步的非空例子成立。",
+    "classification": "N/D projection and W witness",
+    "previous_status": "accepted",
+    "previous_reason": "通用kind/version覆盖和具体可修订却无扩展见证均成立；投影性质须如实标记。",
+    "source_refs": [
+      {
+        "unit": "organon.charter.self-transcendence.non-finality",
+        "clause": "p1"
+      },
+      {
+        "unit": "organon.relationships.terms",
+        "clause": "p1"
+      }
+    ],
+    "required_declarations": [
+      {
+        "name": "CoreReader.Agency.revisabilityCovers",
+        "kind": "theorem",
+        "location": "CoreReader/Agency.lean:58",
+        "meaning": "Extracts revisability of a specified current kind/version from an assumed generation predicate; it does not revise that form."
+      },
+      {
+        "name": "CoreReader.Agency.revisionWithoutProgress",
+        "kind": "case",
+        "location": "CoreReader/Agency.lean:123",
+        "meaning": "Exhibits a policy meeting the generation interface and universal revisability while its independently chosen constant trace never expands."
+      }
+    ],
+    "proof_and_scope": "revisabilityCovers projects an explicitly assumed Generative policy. revisionWithoutProgress combines openPolicy with a constant base-state trace; possible revision is not promised progress.",
+    "findings": [
+      {
+        "branch": "form-coverage",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "任意五种form kind均受∀current→revisable规范约束，包含全部必要种类。",
+        "previous_minimal_fix": null,
+        "current_analysis": "所有形式种类的条件覆盖及可修订而无进步的非空例子成立。 revisabilityCovers projects an explicitly assumed Generative policy. revisionWithoutProgress combines openPolicy with a constant base-state trace; possible revision is not promised progress.",
+        "current_code": [
+          "CoreReader/Agency.lean:58",
+          "CoreReader/Agency.lean:123"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "projection-boundary",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "只是将已采纳规范实例化，不是发明可修订性或执行修订；这正是冻结规范后果范围。",
+        "previous_minimal_fix": null,
+        "current_analysis": "所有形式种类的条件覆盖及可修订而无进步的非空例子成立。 revisabilityCovers projects an explicitly assumed Generative policy. revisionWithoutProgress combines openPolicy with a constant base-state trace; possible revision is not promised progress.",
+        "current_code": [
+          "CoreReader/Agency.lean:58",
+          "CoreReader/Agency.lean:123"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "revisable-without-progress",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "openPolicy可修订与常值baseState trace并存，每步Expanded均假。",
+        "previous_minimal_fix": null,
+        "current_analysis": "所有形式种类的条件覆盖及可修订而无进步的非空例子成立。 revisabilityCovers projects an explicitly assumed Generative policy. revisionWithoutProgress combines openPolicy with a constant base-state trace; possible revision is not promised progress.",
+        "current_code": [
+          "CoreReader/Agency.lean:58",
+          "CoreReader/Agency.lean:123"
+        ],
+        "minimal_fix": null
+      }
+    ]
+  },
+  {
+    "id": "T06",
+    "status": "accepted",
+    "reason": "11分支均有同对象内容：三类数量膨胀不扩能，同一生成系统执行分别依赖经验/知识/协作，无外援失败，稳定动作保持所需能力并满足预算，自述对同一次变化的内容被反驳。",
+    "reason_en": "GeneratingSystem binds policy, current state, execution, required operations and budget. The resource deletion calls all use its execute interface. Stable action retains current content within the stated budget. Announcement carries owner, before/after, operation, input and expected output; its claimed membership/output expansion fails for inflatedState. All are explicit finite examples, not empirical laws.",
+    "reason_zh": "11分支均有同对象内容：三类数量膨胀不扩能，同一生成系统执行分别依赖经验/知识/协作，无外援失败，稳定动作保持所需能力并满足预算，自述对同一次变化的内容被反驳。",
+    "classification": "W eleven branches",
+    "previous_status": "rejected",
+    "previous_reason": "数量与非进步分支有内容性见证；外部执行/稳定与同一系统状态的联系尚未建模，自称生成分支更只有构造器自等式，11分支未齐。",
+    "source_refs": [
+      {
+        "unit": "organon.charter.self-transcendence.limits",
+        "clause": "p1"
+      },
+      {
+        "unit": "organon.charter.self-transcendence.limits",
+        "clause": "p2"
+      }
+    ],
+    "required_declarations": [
+      {
+        "name": "CoreReader.Agency.generationLimits",
+        "kind": "case",
+        "location": "CoreReader/Agency.lean:222",
+        "meaning": "Checks all concrete branches on the bound system: unchanged capability despite list inflation, resource dependence, justified stable action and an untrue same-object achievement report."
+      }
+    ],
+    "proof_and_scope": "GeneratingSystem binds policy, current state, execution, required operations and budget. The resource deletion calls all use its execute interface. Stable action retains current content within the stated budget. Announcement carries owner, before/after, operation, input and expected output; its claimed membership/output expansion fails for inflatedState. All are explicit finite examples, not empirical laws.",
+    "findings": [
+      {
+        "branch": "a-orientation-without-progress",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "有价值/非终局政策且base与inflated之间无理解/构造成员增加。",
+        "previous_minimal_fix": null,
+        "current_analysis": "generatingSystem.policy为openPolicy；baseState到inflatedState不增加understood/constructed成员，Generative仍成立。",
+        "current_code": [
+          "CoreReader/Agency.lean:222"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "b-more-artifacts",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "同一before/after状态inventory复制，understood/constructed不变。",
+        "previous_minimal_fix": null,
+        "current_analysis": "inventory复制增长，而同一对状态的constructed/understood保持原内容。",
+        "current_code": [
+          "CoreReader/Agency.lean:222"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "c-more-abstraction-layers",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "层级列表增加而同一状态的能力成员不增加。",
+        "previous_minimal_fix": null,
+        "current_analysis": "同一inflatedState增加层级列表但不增加能力成员。",
+        "current_code": [
+          "CoreReader/Agency.lean:222"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "d-more-terms",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "词汇列表增加而理解/构造成员不变。",
+        "previous_minimal_fix": null,
+        "current_analysis": "同一inflatedState增加词汇列表但不增加能力成员。",
+        "current_code": [
+          "CoreReader/Agency.lean:222"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "e-external-experience",
+        "status": "accepted",
+        "previous_status": "rejected",
+        "previous_analysis": "Option计算确实读取experience，缺失即none；但没有标明该计算是这项Generative系统的执行，结果也不进入其状态。合取任意外部函数仅证明相容，未满足冻结同一内容系统要求。",
+        "previous_minimal_fix": "将政策、被执行算法、资源和before/after或执行结果纳入同一对象，再展示experience缺失的实际失败。",
+        "current_analysis": "GeneratingSystem.execute实际绑定assistedExecution；删去同一次调用的experience槽得到none。",
+        "current_code": [
+          "CoreReader/Agency.lean:222"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "f-external-knowledge",
+        "status": "accepted",
+        "previous_status": "rejected",
+        "previous_analysis": "knowledge依赖计算正确；同e，缺少同一系统执行绑定。",
+        "previous_minimal_fix": "复用同一绑定执行对象，分别删knowledge验证失败。",
+        "current_analysis": "同一生成系统的同一execute接口删去knowledge槽得到none。",
+        "current_code": [
+          "CoreReader/Agency.lean:222"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "g-collaboration",
+        "status": "accepted",
+        "previous_status": "rejected",
+        "previous_analysis": "collaborator缺失的Option失败正确；其同一主体/执行含义未建模。",
+        "previous_minimal_fix": "在上述共享执行对象中保留协作槽及单独缺失反例。",
+        "current_analysis": "同一生成系统execute删去collaborator槽得到none；不是独立无关函数的合取。",
+        "current_code": [
+          "CoreReader/Agency.lean:222"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "h-no-autonomous-execution",
+        "status": "accepted",
+        "previous_status": "rejected",
+        "previous_analysis": "⟨none,none,none⟩导致独立求和函数失败；没有该系统自主执行接口，不能把任意失败函数当其不能自主执行。",
+        "previous_minimal_fix": "明确这就是被评系统的执行接口，并把无外援调用关联其执行结果。",
+        "current_analysis": "该系统的execute在三个外援槽均none时失败；证明所示接口的依赖，不证明所有自主执行不可能。",
+        "current_code": [
+          "CoreReader/Agency.lean:222"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "i-no-self-improvement",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "常值trace每步无Expanded；可作为所选无自我改善轨迹，不是所有系统永远不改善。",
+        "previous_minimal_fix": null,
+        "current_analysis": "stableTrace在每一步保持baseState，Expanded逐步失败。",
+        "current_code": [
+          "CoreReader/Agency.lean:222"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "j-grounded-stability",
+        "status": "accepted",
+        "previous_status": "rejected",
+        "previous_analysis": "StableReason给出构造内容相等和inventory越过阈值1，但没有稳定动作或被追求的预算/价值条件；阈值本身尚未关联该系统稳定选择的理由。",
+        "previous_minimal_fix": "把1作为明示应用约束，并证明保留当前状态的动作满足它且不丢所需能力，同时政策仍Generative。",
+        "current_analysis": "GeneratingSystem.stableAction保持current；requirementsMet保留所需copy操作，budgetJustified满足明确budget=1，且policy仍Generative。",
+        "current_code": [
+          "CoreReader/Agency.lean:222"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "k-self-announcement-not-achievement",
+        "status": "accepted",
+        "previous_status": "rejected",
+        "previous_analysis": "expanded=expanded只是枚举构造器自等式，不是某系统对同一变化的announcement，也没有achievement-support的失败命题。",
+        "previous_minimal_fix": "定义带主体、before/after和claim的实际报告，构造报告生成而同一claim不成立/缺充分支持的反例。",
+        "current_analysis": "inflatedAnnouncement含相同owner/before/after/op/input/output；claimedOperation=successor未成为新增能力，其实质claim被inflatedAnnouncementRefuted反驳。",
+        "current_code": [
+          "CoreReader/Agency.lean:222"
+        ],
+        "minimal_fix": null
+      }
+    ]
+  },
+  {
+    "id": "T07",
+    "status": "accepted",
+    "reason": "保留任意支持关系的条件推论，并新增同一次扩展的基线、测试条件、记录、非空兼容世界和Grounds；同一报告在膨胀反世界也成立，故报告不支持成就。",
+    "reason_en": "ConcreteAchievementExample fixes transitionBefore/After and input. A performance record distinguishes extension from inflation in the two-case world. transitionReportDoesNotSupport supplies the compatible inflation countermodel. achievementNeedsSupport uses its generic premises and separately conjoins this checked instance; it does not discharge arbitrary real achievement claims.",
+    "reason_zh": "保留任意支持关系的条件推论，并新增同一次扩展的基线、测试条件、记录、非空兼容世界和Grounds；同一报告在膨胀反世界也成立，故报告不支持成就。",
+    "classification": "D conditional fragment with N accountability",
+    "previous_status": "rejected",
+    "previous_reason": "任意claim的support应用定理正确，但冻结要求的同一能力变化、基线和条件实例及取向/自述不提供其支持的反例没有完成。",
+    "source_refs": [
+      {
+        "unit": "organon.charter.self-transcendence.limits",
+        "clause": "p1"
+      },
+      {
+        "unit": "organon.charter.self-transcendence.limits",
+        "clause": "p2"
+      },
+      {
+        "unit": "organon.grounds",
+        "clause": "p1"
+      },
+      {
+        "unit": "organon.grounds.capabilities",
+        "clause": "p1"
+      },
+      {
+        "unit": "organon.grounds.capabilities",
+        "clause": "p2"
+      }
+    ],
+    "required_declarations": [
+      {
+        "name": "CoreReader.Evidence.AchievementAccountability",
+        "kind": "definition",
+        "location": "CoreReader/Evidence.lean:125",
+        "meaning": "Defines achievement accountability as exactly the same Grounds predicate, with no additional execution or achievement proof."
+      },
+      {
+        "name": "CoreReader.Evidence.achievementNeedsSupport",
+        "kind": "theorem",
+        "location": "CoreReader/Evidence.lean:217",
+        "meaning": "Applies supplied compatible-world support to the arbitrary actual claim and separately includes the checked concrete transition example."
+      }
+    ],
+    "proof_and_scope": "ConcreteAchievementExample fixes transitionBefore/After and input. A performance record distinguishes extension from inflation in the two-case world. transitionReportDoesNotSupport supplies the compatible inflation countermodel. achievementNeedsSupport uses its generic premises and separately conjoins this checked instance; it does not discharge arbitrary real achievement claims.",
+    "findings": [
+      {
+        "branch": "conditional-inference",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "对任意W及claim，支持加actual兼容性推出actual处claim；没有伪称实际可靠性已证明。",
+        "previous_minimal_fix": null,
+        "current_analysis": "achievementNeedsSupport:217仍按Compatible与Supports前提实例化actual，另合取已检查的具体实例；泛型结论没有隐藏自动支持。",
+        "current_code": [
+          "CoreReader/Evidence.lean:125",
+          "CoreReader/Evidence.lean:217"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "same-change-baseline-scope",
+        "status": "accepted",
+        "previous_status": "rejected",
+        "previous_analysis": "未把achievement实例化为同一before/after的Expanded；没有对应基线、记录内容、条件或非空支持见证。",
+        "previous_minimal_fix": "给变化世界/记录及明确Expanded类claim，证明非空兼容性、支持和actual结论；保留通用定理。",
+        "current_analysis": "ConcreteAchievementExample:193要求同一transitionBefore/After、input=0、实际Expanded、性能记录兼容与支持和Grounds；concreteAchievementExample:204构造extension。",
+        "current_code": [
+          "CoreReader/Evidence.lean:125",
+          "CoreReader/Evidence.lean:217"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "orientation-and-report-insufficiency",
+        "status": "accepted",
+        "previous_status": "rejected",
+        "previous_analysis": "generationLimits只给无Expanded和标签自等式，未建立对上述achievement的support失败。",
+        "previous_minimal_fix": "复用同一变化世界，构造有取向/报告但兼容反世界使支持失败。",
+        "current_analysis": "transitionReportDoesNotSupport:186复用同一报告和inflate兼容反世界，反驳transitionAchievement的Supports。",
+        "current_code": [
+          "CoreReader/Evidence.lean:125",
+          "CoreReader/Evidence.lean:217"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "accountability-interface",
+        "status": "accepted",
+        "previous_status": "rejected",
+        "previous_analysis": "别名能存对应claim但value分支允许理由/commitment脱离，不能作为完整成就规范接口的完成证据；也没有achievement实例履行。",
+        "previous_minimal_fix": "将实际成就的适用经验/推论面与同一claim绑定，检查匹配的Grounds；不要由规范接口宣称真实成就已获证。",
+        "current_analysis": "transitionAccountable:172按同一achievement的实际经验方面构造Grounds；ValueProcedure的修复另由T15审查。",
+        "current_code": [
+          "CoreReader/Evidence.lean:125",
+          "CoreReader/Evidence.lean:217"
+        ],
+        "minimal_fix": null
+      }
+    ]
+  },
+  {
+    "id": "T08",
+    "status": "accepted",
+    "reason": "显式可满足前提支持同题同条件的一致性；三项各自可满足但联合冲突的实际见证保留。",
+    "reason_en": "Consequence quantifies admissible worlds under one theory/context; a supplied admissible witness refutes simultaneous positive and negative consequences. Empty question types remain a vacuous boundary, not evidence of substantive completeness.",
+    "reason_zh": "显式可满足前提支持同题同条件的一致性；三项各自可满足但联合冲突的实际见证保留。",
+    "classification": "D theorem and W countermodel",
+    "previous_status": "accepted",
+    "previous_reason": "通用语义与非空见证阻止同题正反结论；实际三前提冲突显示不能仅逐项检查。",
+    "source_refs": [
+      {
+        "unit": "organon.charter.consistency",
+        "clause": "p1"
+      }
+    ],
+    "required_declarations": [
+      {
+        "name": "CoreReader.Logic.consequenceConsistency",
+        "kind": "theorem",
+        "location": "CoreReader/Logic.lean:31",
+        "meaning": "Given an admissible witness, proves that no question can have both signed consequences. The witness is an explicit premise."
+      },
+      {
+        "name": "CoreReader.Logic.jointConflict",
+        "kind": "case",
+        "location": "CoreReader/Logic.lean:59",
+        "meaning": "Exhibits individual models of each of three claims, then proves their conjunction has no model."
+      }
+    ],
+    "proof_and_scope": "Consequence quantifies admissible worlds under one theory/context; a supplied admissible witness refutes simultaneous positive and negative consequences. Empty question types remain a vacuous boundary, not evidence of substantive completeness.",
+    "findings": [
+      {
+        "branch": "simultaneous-and-implications",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "Theory含全部选择命题，Entails/Consequence量化所有模型，包括实际蕴涵而非仅扫描字符串列表。",
+        "previous_minimal_fix": null,
+        "current_analysis": "显式可满足前提支持同题同条件的一致性；三项各自可满足但联合冲突的实际见证保留。 Consequence quantifies admissible worlds under one theory/context; a supplied admissible witness refutes simultaneous positive and negative consequences. Empty question types remain a vacuous boundary, not evidence of substantive completeness.",
+        "current_code": [
+          "CoreReader/Logic.lean:31",
+          "CoreReader/Logic.lean:59"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "same-context-noncontradiction",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "同一admissible witness使正反结论矛盾；不存在证明现实理论必有model的隐藏步骤。",
+        "previous_minimal_fix": null,
+        "current_analysis": "显式可满足前提支持同题同条件的一致性；三项各自可满足但联合冲突的实际见证保留。 Consequence quantifies admissible worlds under one theory/context; a supplied admissible witness refutes simultaneous positive and negative consequences. Empty question types remain a vacuous boundary, not evidence of substantive completeness.",
+        "current_code": [
+          "CoreReader/Logic.lean:31",
+          "CoreReader/Logic.lean:59"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "joint-conflict",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "三个单项分别有Bool-pair模型，联合P、P→Q、¬Q无法满足；关键反例内容真实。",
+        "previous_minimal_fix": null,
+        "current_analysis": "显式可满足前提支持同题同条件的一致性；三项各自可满足但联合冲突的实际见证保留。 Consequence quantifies admissible worlds under one theory/context; a supplied admissible witness refutes simultaneous positive and negative consequences. Empty question types remain a vacuous boundary, not evidence of substantive completeness.",
+        "current_code": [
+          "CoreReader/Logic.lean:31",
+          "CoreReader/Logic.lean:59"
+        ],
+        "minimal_fix": null
+      }
+    ]
+  },
+  {
+    "id": "T09",
+    "status": "accepted",
+    "reason": "撤回后反转、假设变化、术语含义变化和适用范围变化各自有非空实例，不要求跨条件永久兼容。",
+    "reason_en": "Each revised slice has a concrete model; their union conflicts. The three context examples vary assumptions, meaning and scope separately. Slice satisfiability supplies the witness needed for the general consistency theorem.",
+    "reason_zh": "撤回后反转、假设变化、术语含义变化和适用范围变化各自有非空实例，不要求跨条件永久兼容。",
+    "classification": "W retraction and context models",
+    "previous_status": "accepted",
+    "previous_reason": "时间切片撤回旧命题后保留相反命题的可满足性及联合冲突明确；三种上下文变化分别有非空见证。",
+    "source_refs": [
+      {
+        "unit": "organon.charter.consistency.meaning",
+        "clause": "p1"
+      },
+      {
+        "unit": "organon.charter.consistency.meaning",
+        "clause": "p2"
+      }
+    ],
+    "required_declarations": [
+      {
+        "name": "CoreReader.Logic.revisionCanReverse",
+        "kind": "case",
+        "location": "CoreReader/Logic.lean:78",
+        "meaning": "Exhibits satisfiable time-zero and time-one slices whose union is unsatisfiable. No temporal update mechanism is implemented."
+      },
+      {
+        "name": "CoreReader.Logic.contextDifferences",
+        "kind": "case",
+        "location": "CoreReader/Logic.lean:102",
+        "meaning": "Proves that changing any one of assumptions, meaning, or scope can reverse polarity, with explicit admissible witnesses in all displayed contexts."
+      }
+    ],
+    "proof_and_scope": "Each revised slice has a concrete model; their union conflicts. The three context examples vary assumptions, meaning and scope separately. Slice satisfiability supplies the witness needed for the general consistency theorem.",
+    "findings": [
+      {
+        "branch": "retraction-and-opposite",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "旧/新slice分别有true/false模型，联合无模型，编码的是撤回后的状态而非永久兼容要求。",
+        "previous_minimal_fix": null,
+        "current_analysis": "撤回后反转、假设变化、术语含义变化和适用范围变化各自有非空实例，不要求跨条件永久兼容。 Each revised slice has a concrete model; their union conflicts. The three context examples vary assumptions, meaning and scope separately. Slice satisfiability supplies the witness needed for the general consistency theorem.",
+        "current_code": [
+          "CoreReader/Logic.lean:78",
+          "CoreReader/Logic.lean:102"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "slice-consistency",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "slice显式给Satisfiable而非直接Consistent；在空附加假设/全scope的自然问题上下文中，可由同一非空model一般定理得到一致性，未引入实质源外前提。",
+        "previous_minimal_fix": null,
+        "current_analysis": "撤回后反转、假设变化、术语含义变化和适用范围变化各自有非空实例，不要求跨条件永久兼容。 Each revised slice has a concrete model; their union conflicts. The three context examples vary assumptions, meaning and scope separately. Slice satisfiability supplies the witness needed for the general consistency theorem.",
+        "current_code": [
+          "CoreReader/Logic.lean:78",
+          "CoreReader/Logic.lean:102"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "assumption-change",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "固定问题含义，仅世界假设true/false变化，正反后果各有admissible witness。",
+        "previous_minimal_fix": null,
+        "current_analysis": "撤回后反转、假设变化、术语含义变化和适用范围变化各自有非空实例，不要求跨条件永久兼容。 Each revised slice has a concrete model; their union conflicts. The three context examples vary assumptions, meaning and scope separately. Slice satisfiability supplies the witness needed for the general consistency theorem.",
+        "current_code": [
+          "CoreReader/Logic.lean:78",
+          "CoreReader/Logic.lean:102"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "meaning-change",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "假设固定true，meaning改为等于true/false，反转判断而各context非空。",
+        "previous_minimal_fix": null,
+        "current_analysis": "撤回后反转、假设变化、术语含义变化和适用范围变化各自有非空实例，不要求跨条件永久兼容。 Each revised slice has a concrete model; their union conflicts. The three context examples vary assumptions, meaning and scope separately. Slice satisfiability supplies the witness needed for the general consistency theorem.",
+        "current_code": [
+          "CoreReader/Logic.lean:78",
+          "CoreReader/Logic.lean:102"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "scope-change",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "假设为空、meaning固定，scope改选true/false；不要求跨context一致。",
+        "previous_minimal_fix": null,
+        "current_analysis": "撤回后反转、假设变化、术语含义变化和适用范围变化各自有非空实例，不要求跨条件永久兼容。 Each revised slice has a concrete model; their union conflicts. The three context examples vary assumptions, meaning and scope separately. Slice satisfiability supplies the witness needed for the general consistency theorem.",
+        "current_code": [
+          "CoreReader/Logic.lean:78",
+          "CoreReader/Logic.lean:102"
+        ],
+        "minimal_fix": null
+      }
+    ]
+  },
+  {
+    "id": "T10",
+    "status": "accepted",
+    "reason": "语义变化必须报告的条件规范、表示顺序不变、独立revisionIdentity变化和隐藏条件变化反例均保留。",
+    "reason_en": "TruthfulReport is an assumed one-way obligation. SameContent compares semantic content and the separate revision identity is also checked. The result is not an automatic change detector and report=true does not establish adequate reporting.",
+    "reason_zh": "语义变化必须报告的条件规范、表示顺序不变、独立revisionIdentity变化和隐藏条件变化反例均保留。",
+    "classification": "N/D specification consequences plus W examples",
+    "previous_status": "accepted",
+    "previous_reason": "单向报告规范、语义变化反例、表示顺序不变以及独立revisionIdentity触发均达到冻结的规范接口范围；并未实现自动检测。",
+    "source_refs": [
+      {
+        "unit": "organon.charter.consistency.meaning",
+        "clause": "p1"
+      },
+      {
+        "unit": "organon.charter.consistency.meaning",
+        "clause": "p2"
+      }
+    ],
+    "required_declarations": [
+      {
+        "name": "CoreReader.Logic.semanticChangeMustBeReported",
+        "kind": "theorem",
+        "location": "CoreReader/Logic.lean:142",
+        "meaning": "Instantiates the reporting interface with a supplied change proof; it cannot discover changes on its own."
+      },
+      {
+        "name": "CoreReader.Logic.representationOrderIrrelevant",
+        "kind": "theorem",
+        "location": "CoreReader/Logic.lean:150",
+        "meaning": "Proves swapping the order of two singleton components leaves theory membership unchanged."
+      },
+      {
+        "name": "CoreReader.Logic.hiddenContextChangeRejected",
+        "kind": "case",
+        "location": "CoreReader/Logic.lean:160",
+        "meaning": "Rejects false reports for three concrete context changes and a revision-only change; also shows reporting true does not make an incompatible assumption hold."
+      }
+    ],
+    "proof_and_scope": "TruthfulReport is an assumed one-way obligation. SameContent compares semantic content and the separate revision identity is also checked. The result is not an automatic change detector and report=true does not establish adequate reporting.",
+    "findings": [
+      {
+        "branch": "semantic-change-report",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "held/context语义成员、meaning、scope差异均触发报告责任；报告真不反推变化，无不报告变化的许可。",
+        "previous_minimal_fix": null,
+        "current_analysis": "语义变化必须报告的条件规范、表示顺序不变、独立revisionIdentity变化和隐藏条件变化反例均保留。 TruthfulReport is an assumed one-way obligation. SameContent compares semantic content and the separate revision identity is also checked. The result is not an automatic change detector and report=true does not establish adequate reporting.",
+        "current_code": [
+          "CoreReader/Logic.lean:142",
+          "CoreReader/Logic.lean:150",
+          "CoreReader/Logic.lean:160"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "representation-order",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "union两个singleton的顺序变化不改变命题集合；仅覆盖这种表示变化。",
+        "previous_minimal_fix": null,
+        "current_analysis": "语义变化必须报告的条件规范、表示顺序不变、独立revisionIdentity变化和隐藏条件变化反例均保留。 TruthfulReport is an assumed one-way obligation. SameContent compares semantic content and the separate revision identity is also checked. The result is not an automatic change detector and report=true does not establish adequate reporting.",
+        "current_code": [
+          "CoreReader/Logic.lean:142",
+          "CoreReader/Logic.lean:150",
+          "CoreReader/Logic.lean:160"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "hidden-context-changes",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "分别对assumption/meaning/scope构造¬SameContent，使false报告违反规范。",
+        "previous_minimal_fix": null,
+        "current_analysis": "语义变化必须报告的条件规范、表示顺序不变、独立revisionIdentity变化和隐藏条件变化反例均保留。 TruthfulReport is an assumed one-way obligation. SameContent compares semantic content and the separate revision identity is also checked. The result is not an automatic change detector and report=true does not establish adequate reporting.",
+        "current_code": [
+          "CoreReader/Logic.lean:142",
+          "CoreReader/Logic.lean:150",
+          "CoreReader/Logic.lean:160"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "independent-revision",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "同content但revisionIdentity从0到1也禁止false报告；外部已识别文字/形式修订必须由调用方赋正确identity，不宣称代码检测了全部变化。",
+        "previous_minimal_fix": null,
+        "current_analysis": "语义变化必须报告的条件规范、表示顺序不变、独立revisionIdentity变化和隐藏条件变化反例均保留。 TruthfulReport is an assumed one-way obligation. SameContent compares semantic content and the separate revision identity is also checked. The result is not an automatic change detector and report=true does not establish adequate reporting.",
+        "current_code": [
+          "CoreReader/Logic.lean:142",
+          "CoreReader/Logic.lean:150",
+          "CoreReader/Logic.lean:160"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "report-not-adequacy",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "true报告仍与新assumption在true实际world不成立并存，不为修订内容背书。",
+        "previous_minimal_fix": null,
+        "current_analysis": "语义变化必须报告的条件规范、表示顺序不变、独立revisionIdentity变化和隐藏条件变化反例均保留。 TruthfulReport is an assumed one-way obligation. SameContent compares semantic content and the separate revision identity is also checked. The result is not an automatic change detector and report=true does not establish adequate reporting.",
+        "current_code": [
+          "CoreReader/Logic.lean:142",
+          "CoreReader/Logic.lean:150",
+          "CoreReader/Logic.lean:160"
+        ],
+        "minimal_fix": null
+      }
+    ]
+  },
+  {
+    "id": "T11",
+    "status": "accepted",
+    "reason": "具有共同可行解的张力与同条件不相容后果已区别；不保留冲突是已采纳一致性约束的后果。",
+    "reason_en": "The tension example shares a feasible value without equating the value predicates. conflictRequiresChange assumes a consistent retained theory and uses conflicting consequences to refute retaining all incompatible content; it does not construct a revision algorithm.",
+    "reason_zh": "具有共同可行解的张力与同条件不相容后果已区别；不保留冲突是已采纳一致性约束的后果。",
+    "classification": "W witness plus D norm consequence",
+    "previous_status": "accepted",
+    "previous_reason": "两约束有共同可行值但非同一谓词；同条件正反后果明确违反一致性。修订责任是采纳规范的条件后果，未声称已实现修订算法。",
+    "source_refs": [
+      {
+        "unit": "organon.charter.consistency.limits",
+        "clause": "p1"
+      }
+    ],
+    "required_declarations": [
+      {
+        "name": "CoreReader.Logic.tensionWithoutContradiction",
+        "kind": "case",
+        "location": "CoreReader/Logic.lean:186",
+        "meaning": "Exhibits overlapping lower/upper budget bounds while proving that the two predicates differ. This is a concrete compatible-constraints example."
+      },
+      {
+        "name": "CoreReader.Logic.conflictRequiresChange",
+        "kind": "theorem",
+        "location": "CoreReader/Logic.lean:195",
+        "meaning": "Given both signed consequences for one question, proves inconsistency as defined. It does not construct a repair or establish which premise should change."
+      }
+    ],
+    "proof_and_scope": "The tension example shares a feasible value without equating the value predicates. conflictRequiresChange assumes a consistent retained theory and uses conflicting consequences to refute retaining all incompatible content; it does not construct a revision algorithm.",
+    "findings": [
+      {
+        "branch": "tension-without-conflict",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "预算5同时满足不同上下界，0证明两谓词不等；有限模型展示不同目标不等于不可同时满足。",
+        "previous_minimal_fix": null,
+        "current_analysis": "具有共同可行解的张力与同条件不相容后果已区别；不保留冲突是已采纳一致性约束的后果。 The tension example shares a feasible value without equating the value predicates. conflictRequiresChange assumes a consistent retained theory and uses conflicting consequences to refute retaining all incompatible content; it does not construct a revision algorithm.",
+        "current_code": [
+          "CoreReader/Logic.lean:186",
+          "CoreReader/Logic.lean:195"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "conflict-requires-nonretention",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "同题同context正反后果使Consistent失败；在采纳一致性规范下不能原样保留该状态。未提供哪一项应改的价值判断或算法。",
+        "previous_minimal_fix": null,
+        "current_analysis": "具有共同可行解的张力与同条件不相容后果已区别；不保留冲突是已采纳一致性约束的后果。 The tension example shares a feasible value without equating the value predicates. conflictRequiresChange assumes a consistent retained theory and uses conflicting consequences to refute retaining all incompatible content; it does not construct a revision algorithm.",
+        "current_code": [
+          "CoreReader/Logic.lean:186",
+          "CoreReader/Logic.lean:195"
+        ],
+        "minimal_fix": null
+      }
+    ]
+  },
+  {
+    "id": "T12",
+    "status": "accepted",
+    "reason": "模型可满足与指定实际世界为真不同；一个明确问题的正反结论均不蕴涵，故一致性不保证真或充分。",
+    "reason_en": "Bool witnesses separate model existence from truth at the selected actual world. The incomplete case has admissible worlds on both sides of its question; philosophical importance of that question is supplied by interpretation.",
+    "reason_zh": "模型可满足与指定实际世界为真不同；一个明确问题的正反结论均不蕴涵，故一致性不保证真或充分。",
+    "classification": "W truth and coverage separation",
+    "previous_status": "accepted",
+    "previous_reason": "Bool模型具体区分可满足性与指定实际world真值，并给指定问题的双向非蕴涵；其现实重要性不由数学裁定。",
+    "source_refs": [
+      {
+        "unit": "organon.charter.consistency.limits",
+        "clause": "p1"
+      },
+      {
+        "unit": "organon.relationships.roles",
+        "clause": "p1"
+      },
+      {
+        "unit": "organon.relationships.roles",
+        "clause": "p2"
+      },
+      {
+        "unit": "organon.relationships.roles",
+        "clause": "p3"
+      }
+    ],
+    "required_declarations": [
+      {
+        "name": "CoreReader.Logic.consistentFalse",
+        "kind": "case",
+        "location": "CoreReader/Logic.lean:205",
+        "meaning": "Exhibits a satisfiable Boolean singleton theory that fails at the separately chosen world false; satisfiability is not truth at every world."
+      },
+      {
+        "name": "CoreReader.Logic.consistentIncomplete",
+        "kind": "case",
+        "location": "CoreReader/Logic.lean:216",
+        "meaning": "Shows the empty Boolean theory is satisfiable while entailing neither the true-world claim nor its negation."
+      }
+    ],
+    "proof_and_scope": "Bool witnesses separate model existence from truth at the selected actual world. The incomplete case has admissible worlds on both sides of its question; philosophical importance of that question is supplied by interpretation.",
+    "findings": [
+      {
+        "branch": "false-assumption",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "singleton w=true可满足但在指定false world不成立，足以展示一致理论不自动为实际真。",
+        "previous_minimal_fix": null,
+        "current_analysis": "模型可满足与指定实际世界为真不同；一个明确问题的正反结论均不蕴涵，故一致性不保证真或充分。 Bool witnesses separate model existence from truth at the selected actual world. The incomplete case has admissible worlds on both sides of its question; philosophical importance of that question is supplied by interpretation.",
+        "current_code": [
+          "CoreReader/Logic.lean:205",
+          "CoreReader/Logic.lean:216"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "undecided-relevant-question",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "明确检验w=true这一选择问题，两个Bool模型使正反均不被emptyTheory蕴涵。问题被指定为关注对象；未证明任何现实问题的重要性。",
+        "previous_minimal_fix": null,
+        "current_analysis": "模型可满足与指定实际世界为真不同；一个明确问题的正反结论均不蕴涵，故一致性不保证真或充分。 Bool witnesses separate model existence from truth at the selected actual world. The incomplete case has admissible worlds on both sides of its question; philosophical importance of that question is supplied by interpretation.",
+        "current_code": [
+          "CoreReader/Logic.lean:205",
+          "CoreReader/Logic.lean:216"
+        ],
+        "minimal_fix": null
+      }
+    ]
+  },
+  {
+    "id": "T13",
+    "status": "accepted",
+    "reason": "Reflexive现在要求一致的原则登记、同所有者对象、实际问题/理由/范围/结果及方法契约；形成、应用、修订内容已由有限评估与生成函数实际计算。",
+    "reason_en": "ValidApplication checks owner/key resolution, inquiry and method identity, nonempty target-linked reasons, limits and the registered meaning. ownContentEvaluates proves separate stated outcomes match the evaluator. All nine subjects receive assessment; generation excludes application-phase subjects by explicit applicability. Insufficient results are valid assessments, not correctness proofs.",
+    "reason_zh": "Reflexive现在要求一致的原则登记、同所有者对象、实际问题/理由/范围/结果及方法契约；形成、应用、修订内容已由有限评估与生成函数实际计算。",
+    "classification": "N specification; projections are not executions",
+    "previous_status": "rejected",
+    "previous_reason": "系统/原则/三阶段和两类活动的条件覆盖已表达，但原则形成理由、适用域审查及修订理由仍只由活动标签代替，未完成冻结的完整规范对象。",
+    "source_refs": [
+      {
+        "unit": "organon.charter.reflexivity",
+        "clause": "p1"
+      },
+      {
+        "unit": "organon.charter.reflexivity.meaning",
+        "clause": "p1"
+      },
+      {
+        "unit": "organon.charter.reflexivity.limits",
+        "clause": "p1"
+      }
+    ],
+    "required_declarations": [
+      {
+        "name": "CoreReader.Agency.Reflexive",
+        "kind": "definition",
+        "location": "CoreReader/Reflexivity.lean:151",
+        "meaning": "Requires a coherent registry and a valid recorded application for every applicable same-owner subject and registered rule; this remains a model compliance condition."
+      }
+    ],
+    "proof_and_scope": "ValidApplication checks owner/key resolution, inquiry and method identity, nonempty target-linked reasons, limits and the registered meaning. ownContentEvaluates proves separate stated outcomes match the evaluator. All nine subjects receive assessment; generation excludes application-phase subjects by explicit applicability. Insufficient results are valid assessments, not correctness proofs.",
+    "findings": [
+      {
+        "branch": "objects-and-activities",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "系统、原则、formation/application/revision过程均有独立constructor/phase；generation和assessment两个活动均在非空ownRules中。",
+        "previous_minimal_fix": null,
+        "current_analysis": "Subject包含system、principle、principleProcess三阶段；ownSubjects:226含9个对象，generatingRule与assessingRule分别生成/评估。",
+        "current_code": [
+          "CoreReader/Reflexivity.lean:151"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "applicability-conditions",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "owner和rule.applicable是独立条件；自我身份不取消已适用规则的记录义务。",
+        "previous_minimal_fix": null,
+        "current_analysis": "Reflexive:151先检查登记一致，再量化已登记、同owner且applicable的rule/subject；生成不适用于application阶段是明确条件而非自我豁免。",
+        "current_code": [
+          "CoreReader/Reflexivity.lean:151"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "formation-reasons-scope-revision-reasons",
+        "status": "accepted",
+        "previous_status": "rejected",
+        "previous_analysis": "没有任何subject关联的形成理由、适用域考察或修订理由字段/问题/评估内容；十个预填活动pair无法区分“仅合规自查”与来源要求的多问题审查。",
+        "previous_minimal_fix": "增加最小的assessment-question/content接口并关联原则及对应phase；明确三个问题均在责任范围，以非空解释性记录/实例证明覆盖。无需证明现实评估已发生。",
+        "current_analysis": "inquiryFor:172、sourceReasonContents:180、assessInquiry:191分别编码形成目的/范围、适用范围问题和onlyAtZero在1失败的修订反例；ownContentEvaluates:287检查预定结果确等于算法结果。",
+        "current_code": [
+          "CoreReader/Reflexivity.lean:151"
+        ],
+        "minimal_fix": null
+      }
+    ]
+  },
+  {
+    "id": "T14",
+    "status": "accepted",
+    "reason": "无自我豁免和适用条件保留；有限自测仍不证明普遍正确；自产修订现在与同一owner、before和after相连且有局部变化但全局失败。",
+    "reason_en": "noSelfExemption projects applicable owned obligations, not unconditional applicability. applicationWork is a nonempty restricted example. OwnedRevisionExample ties a producing process to prior and output functions; evaluation at zero changes, while the compatible counterworld fails at one. Origin supplies no global support.",
+    "reason_zh": "无自我豁免和适用条件保留；有限自测仍不证明普遍正确；自产修订现在与同一owner、before和after相连且有局部变化但全局失败。",
+    "classification": "D conditional projection and W boundary cases",
+    "previous_status": "rejected",
+    "previous_reason": "适用性与有限检验反例通过；自产修订分支没有与同一主体/旧新对象关联的自我产生事实，仅演示任意局部生成函数的观察不足。",
+    "source_refs": [
+      {
+        "unit": "organon.charter.reflexivity.limits",
+        "clause": "p1"
+      }
+    ],
+    "required_declarations": [
+      {
+        "name": "CoreReader.Agency.noSelfExemption",
+        "kind": "theorem",
+        "location": "CoreReader/Reflexivity.lean:165",
+        "meaning": "Instantiates full reflexivity at a registered applicable same-owner subject, then extracts its performance record."
+      },
+      {
+        "name": "CoreReader.Agency.applicabilityRetained",
+        "kind": "theorem",
+        "location": "CoreReader/Reflexivity.lean:407",
+        "meaning": "Derives record scope from full reflexivity, proves its classical conditional/disjunctive equivalence, and gives a valid restricted example with no system assessment."
+      },
+      {
+        "name": "CoreReader.Agency.selfTestDoesNotProve",
+        "kind": "case",
+        "location": "CoreReader/Agency.lean:275",
+        "meaning": "Computes success on sample 1 and failure at 0, refuting universal success. This concerns the particular arithmetic predicate, not a universal impossibility theorem about all self-tests."
+      },
+      {
+        "name": "CoreReader.Evidence.selfOriginDoesNotSupport",
+        "kind": "case",
+        "location": "CoreReader/Evidence.lean:616",
+        "meaning": "Retains the local observation countermodel and adds an actual owned before/after revision with the same unsupported global claim."
+      }
+    ],
+    "proof_and_scope": "noSelfExemption projects applicable owned obligations, not unconditional applicability. applicationWork is a nonempty restricted example. OwnedRevisionExample ties a producing process to prior and output functions; evaluation at zero changes, while the compatible counterworld fails at one. Origin supplies no global support.",
+    "findings": [
+      {
+        "branch": "no-self-exemption",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "对同owner且适用的rule直接得到要求的record；不把identity与applicability等同。",
+        "previous_minimal_fix": null,
+        "current_analysis": "无自我豁免和适用条件保留；有限自测仍不证明普遍正确；自产修订现在与同一owner、before和after相连且有局部变化但全局失败。 noSelfExemption projects applicable owned obligations, not unconditional applicability. applicationWork is a nonempty restricted example. OwnedRevisionExample ties a producing process to prior and output functions; evaluation at zero changes, while the compatible counterworld fails at one. Origin supplies no global support.",
+        "current_code": [
+          "CoreReader/Reflexivity.lean:165",
+          "CoreReader/Reflexivity.lean:407",
+          "CoreReader/Agency.lean:275",
+          "CoreReader/Evidence.lean:616"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "nonapplicable-boundary",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "application-only规则可被履行而system assessment缺失；说明不能忽略条件要求所有自应用。",
+        "previous_minimal_fix": null,
+        "current_analysis": "无自我豁免和适用条件保留；有限自测仍不证明普遍正确；自产修订现在与同一owner、before和after相连且有局部变化但全局失败。 noSelfExemption projects applicable owned obligations, not unconditional applicability. applicationWork is a nonempty restricted example. OwnedRevisionExample ties a producing process to prior and output functions; evaluation at zero changes, while the compatible counterworld fails at one. Origin supplies no global support.",
+        "current_code": [
+          "CoreReader/Reflexivity.lean:165",
+          "CoreReader/Reflexivity.lean:407",
+          "CoreReader/Agency.lean:275",
+          "CoreReader/Evidence.lean:616"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "finite-self-test-not-universal",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "实际all运算在[1]通过，0使n+1=2n失败；有限内部测试不提供普遍正确性。",
+        "previous_minimal_fix": null,
+        "current_analysis": "无自我豁免和适用条件保留；有限自测仍不证明普遍正确；自产修订现在与同一owner、before和after相连且有局部变化但全局失败。 noSelfExemption projects applicable owned obligations, not unconditional applicability. applicationWork is a nonempty restricted example. OwnedRevisionExample ties a producing process to prior and output functions; evaluation at zero changes, while the compatible counterworld fails at one. Origin supplies no global support.",
+        "current_code": [
+          "CoreReader/Reflexivity.lean:165",
+          "CoreReader/Reflexivity.lean:407",
+          "CoreReader/Agency.lean:275",
+          "CoreReader/Evidence.lean:616"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "self-origin-of-revision",
+        "status": "accepted",
+        "previous_status": "rejected",
+        "previous_analysis": "证明生成函数f只在0为true且zero observation不支持allTrue，但未表示它是某系统自身生成的修订，也无修订前对象。作为局部观察反例有效，作为冻结自产修订分支欠对象联系。",
+        "previous_minimal_fix": "增加最小producer/owner及before/proposed关系或共享系统构造，让其自身生成该candidate，并保留当前内容性support反模型。",
+        "current_analysis": "Evidence.lean:581–616将GeneratingProcess.owner、prior和outputRevision绑定ProducedRevision；OwnedRevisionExample同时有实际0处改变和1处失败的支持反例。",
+        "current_code": [
+          "CoreReader/Reflexivity.lean:165",
+          "CoreReader/Reflexivity.lean:407",
+          "CoreReader/Agency.lean:275",
+          "CoreReader/Evidence.lean:616"
+        ],
+        "minimal_fix": null
+      }
+    ]
+  },
+  {
+    "id": "T15",
+    "status": "accepted",
+    "reason": "Grounds逐方面要求同一主张、对应表述与履责；价值接口改为选项/结果/目标/约束/理由，并要求联合可采纳世界，消除了任意重贴commitment及不一致起点通过的问题。",
+    "reason_en": "ValuePosition derives commitment from selected=adopted and specializes reasons to the adopted option. ValueProcedure requires nonempty reasons, JointAdoption, scoped consequence under all stated reasons and an actual criticism response. It is a chosen procedural adapter, not a complete universal theory of good reasons or fulfillment by every application. Weakening and scope restriction remain explicit conditional theorems.",
+    "reason_zh": "Grounds逐方面要求同一主张、对应表述与履责；价值接口改为选项/结果/目标/约束/理由，并要求联合可采纳世界，消除了任意重贴commitment及不一致起点通过的问题。",
+    "classification": "D semantic support fragment plus N Grounds",
+    "previous_status": "rejected",
+    "previous_reason": "结论弱化与范围缩窄定理成立；完整Grounds规范中的价值理由对应当前claim仍无检查，不能以该较弱接口代表全部来源责任已保留。",
+    "source_refs": [
+      {
+        "unit": "organon.grounds",
+        "clause": "p1"
+      },
+      {
+        "unit": "organon.grounds.assessment",
+        "clause": "p1"
+      },
+      {
+        "unit": "organon.grounds.assessment",
+        "clause": "p2"
+      },
+      {
+        "unit": "organon.grounds.assessment",
+        "clause": "p3"
+      }
+    ],
+    "required_declarations": [
+      {
+        "name": "CoreReader.Evidence.Grounds",
+        "kind": "definition",
+        "location": "CoreReader/Evidence.lean:112",
+        "meaning": "Grounds packages a nonempty facet list, coverage of a supplied applicability predicate, common claim identity, articulation presence/alignment, and every listed facet's discharge. It is not uniformly a truth certificate for the claim."
+      },
+      {
+        "name": "CoreReader.Evidence.supportWeakening",
+        "kind": "theorem",
+        "location": "CoreReader/Evidence.lean:228",
+        "meaning": "Preserves support when a supported claim implies a weaker claim at every world; it does not weaken the record set."
+      },
+      {
+        "name": "CoreReader.Evidence.scopeRestriction",
+        "kind": "theorem",
+        "location": "CoreReader/Evidence.lean:245",
+        "meaning": "Restricts a universally supported property from a wider input domain to an included narrower domain, for arbitrary world and input types."
+      }
+    ],
+    "proof_and_scope": "ValuePosition derives commitment from selected=adopted and specializes reasons to the adopted option. ValueProcedure requires nonempty reasons, JointAdoption, scoped consequence under all stated reasons and an actual criticism response. It is a chosen procedural adapter, not a complete universal theory of good reasons or fulfillment by every application. Weakening and scope restriction remain explicit conditional theorems.",
+    "findings": [
+      {
+        "branch": "same-claim-support",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "记录含实际test/result，经验/推论facet的claim与target必须相等；不是无解释support布尔字段。",
+        "previous_minimal_fix": null,
+        "current_analysis": "Grounds逐方面要求同一主张、对应表述与履责；价值接口改为选项/结果/目标/约束/理由，并要求联合可采纳世界，消除了任意重贴commitment及不一致起点通过的问题。 ValuePosition derives commitment from selected=adopted and specializes reasons to the adopted option. ValueProcedure requires nonempty reasons, JointAdoption, scoped consequence under all stated reasons and an actual criticism response. It is a chosen procedural adapter, not a complete universal theory of good reasons or fulfillment by every application. Weakening and scope restriction remain explicit conditional theorems.",
+        "current_code": [
+          "CoreReader/Evidence.lean:112",
+          "CoreReader/Evidence.lean:228",
+          "CoreReader/Evidence.lean:245"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "conclusion-weakening",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "假设同记录支持p及p→q，推出支持q；另有删记录会失支持反例，不混淆证据弱化。",
+        "previous_minimal_fix": null,
+        "current_analysis": "Grounds逐方面要求同一主张、对应表述与履责；价值接口改为选项/结果/目标/约束/理由，并要求联合可采纳世界，消除了任意重贴commitment及不一致起点通过的问题。 ValuePosition derives commitment from selected=adopted and specializes reasons to the adopted option. ValueProcedure requires nonempty reasons, JointAdoption, scoped consequence under all stated reasons and an actual criticism response. It is a chosen procedural adapter, not a complete universal theory of good reasons or fulfillment by every application. Weakening and scope restriction remain explicit conditional theorems.",
+        "current_code": [
+          "CoreReader/Evidence.lean:112",
+          "CoreReader/Evidence.lean:228",
+          "CoreReader/Evidence.lean:245"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "scope-restriction",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "将结论的量词域从wide缩为included narrow；不扩张观察域，也不补造现实可靠性。",
+        "previous_minimal_fix": null,
+        "current_analysis": "Grounds逐方面要求同一主张、对应表述与履责；价值接口改为选项/结果/目标/约束/理由，并要求联合可采纳世界，消除了任意重贴commitment及不一致起点通过的问题。 ValuePosition derives commitment from selected=adopted and specializes reasons to the adopted option. ValueProcedure requires nonempty reasons, JointAdoption, scoped consequence under all stated reasons and an actual criticism response. It is a chosen procedural adapter, not a complete universal theory of good reasons or fulfillment by every application. Weakening and scope restriction remain explicit conditional theorems.",
+        "current_code": [
+          "CoreReader/Evidence.lean:112",
+          "CoreReader/Evidence.lean:228",
+          "CoreReader/Evidence.lean:245"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "articulation-and-aspects",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "概念/假设/理由/限度可储存，facet对齐并要求所有声明适用面，经验加非空in-scope world排除矛盾观察空真。",
+        "previous_minimal_fix": null,
+        "current_analysis": "Grounds逐方面要求同一主张、对应表述与履责；价值接口改为选项/结果/目标/约束/理由，并要求联合可采纳世界，消除了任意重贴commitment及不一致起点通过的问题。 ValuePosition derives commitment from selected=adopted and specializes reasons to the adopted option. ValueProcedure requires nonempty reasons, JointAdoption, scoped consequence under all stated reasons and an actual criticism response. It is a chosen procedural adapter, not a complete universal theory of good reasons or fulfillment by every application. Weakening and scope restriction remain explicit conditional theorems.",
+        "current_code": [
+          "CoreReader/Evidence.lean:112",
+          "CoreReader/Evidence.lean:228",
+          "CoreReader/Evidence.lean:245"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "value-reason-correspondence",
+        "status": "accepted",
+        "previous_status": "rejected",
+        "previous_analysis": "ValueProcedure不读取commitment或starting；替换任意不相关commitment不改变通过性。理由只需推出另一个任意consequence，不能确保陈述的是此立场的理由。False-commitment探针不是要求价值立场证明为真，而是揭示对应关系缺失。",
+        "previous_minimal_fix": "给可审查的立场/理由相关性与后果关系接口及非空实例，允许未证明的价值起点，拒绝不相关重贴和纯自断言；不必强制reason逻辑推出commitment。",
+        "current_analysis": "Evidence.lean:28–59中commitment由selected/adopted导出，reasons依选项变化；JointAdoption排除无可满足起点。switchPosition实际后果匹配选项，并拒绝反选项与不可能起点。",
+        "current_code": [
+          "CoreReader/Evidence.lean:112",
+          "CoreReader/Evidence.lean:228",
+          "CoreReader/Evidence.lean:245"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "full-compliance-versus-interface",
+        "status": "accepted",
+        "previous_status": "rejected",
+        "previous_analysis": "当前接口还允许空limits和恒定非空字符串使关键责任空真；原文保留适用性，但此代码不能由字段存在声称已经开放于相关批评。",
+        "previous_minimal_fix": "为作为完成见证的实例给实际适用世界和内容相关批评/响应，不把整个通用域强行设非空，也不将接口当现实履行证明。",
+        "current_analysis": "Grounds是采纳接口；每个已列facet都须同claim、匹配表述并履责。有限实例表明部分实际履行，不能把定义或空适用列表读作所有现实责任已经履行。",
+        "current_code": [
+          "CoreReader/Evidence.lean:112",
+          "CoreReader/Evidence.lean:228",
+          "CoreReader/Evidence.lean:245"
+        ],
+        "minimal_fix": null
+      }
+    ]
+  },
+  {
+    "id": "T16",
+    "status": "accepted",
+    "reason": "义务并集、标签不能豁免以及同一switch主张的经验加价值缺责反例成立；canonical表述按方面实际内容构造。",
+    "reason_en": "Grounds quantifies applicable facets independently of labels and checks every listed facet. The mixed example omits a truly applicable value facet of the same claim, so empirical discharge alone fails. The three facet constructors model responsibilities, not mutually exclusive exhaustive philosophical kinds.",
+    "reason_zh": "义务并集、标签不能豁免以及同一switch主张的经验加价值缺责反例成立；canonical表述按方面实际内容构造。",
+    "classification": "D union theorem and W mixed case",
+    "previous_status": "accepted",
+    "previous_reason": "面向义务的并集/标签不变和同一switch claim的经验＋价值缺责反例完整；规范接口局限另见T15。",
+    "source_refs": [
+      {
+        "unit": "organon.grounds.assessment",
+        "clause": "p1"
+      },
+      {
+        "unit": "organon.grounds.assessment",
+        "clause": "p2"
+      },
+      {
+        "unit": "organon.grounds.assessment",
+        "clause": "p3"
+      }
+    ],
+    "required_declarations": [
+      {
+        "name": "CoreReader.Evidence.assessmentUnion",
+        "kind": "theorem",
+        "location": "CoreReader/Evidence.lean:261",
+        "meaning": "Proves that discharging the union of two applicability predicates is equivalent to discharging each separately."
+      },
+      {
+        "name": "CoreReader.Evidence.labelsCannotWaive",
+        "kind": "theorem",
+        "location": "CoreReader/Evidence.lean:272",
+        "meaning": "Proves changing labels cannot change duties because labels were ignored by definition; no external classification mechanism is analyzed."
+      },
+      {
+        "name": "CoreReader.Evidence.mixedMissingResponsibility",
+        "kind": "case",
+        "location": "CoreReader/Evidence.lean:362",
+        "meaning": "Shows a discharged empirical facet does not discharge a union of applicable facets when an included value facet has no reasons."
+      }
+    ],
+    "proof_and_scope": "Grounds quantifies applicable facets independently of labels and checks every listed facet. The mixed example omits a truly applicable value facet of the same claim, so empirical discharge alone fails. The three facet constructors model responsibilities, not mutually exclusive exhaustive philosophical kinds.",
+    "findings": [
+      {
+        "branch": "union-not-exclusive",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "Facet是单面向枚举，但适用关系可同时选多个facet，union定理合并义务而非强制单选。",
+        "previous_minimal_fix": null,
+        "current_analysis": "义务并集、标签不能豁免以及同一switch主张的经验加价值缺责反例成立；canonical表述按方面实际内容构造。 Grounds quantifies applicable facets independently of labels and checks every listed facet. The mixed example omits a truly applicable value facet of the same claim, so empirical discharge alone fails. The three facet constructors model responsibilities, not mutually exclusive exhaustive philosophical kinds.",
+        "current_code": [
+          "CoreReader/Evidence.lean:261",
+          "CoreReader/Evidence.lean:272",
+          "CoreReader/Evidence.lean:362"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "unlabeled-duty",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "空标签不改变applicable责任；这是显式规范设计的定义后果，非实证分类器。",
+        "previous_minimal_fix": null,
+        "current_analysis": "义务并集、标签不能豁免以及同一switch主张的经验加价值缺责反例成立；canonical表述按方面实际内容构造。 Grounds quantifies applicable facets independently of labels and checks every listed facet. The mixed example omits a truly applicable value facet of the same claim, so empirical discharge alone fails. The three facet constructors model responsibilities, not mutually exclusive exhaustive philosophical kinds.",
+        "current_code": [
+          "CoreReader/Evidence.lean:261",
+          "CoreReader/Evidence.lean:272",
+          "CoreReader/Evidence.lean:362"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "actual-mixed-claim",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "switchEmpirical与unsupportedPosition同为w=true的主张；经验面实际discharged，价值面reasons=[]使义务失败，非两个无关claim标签。",
+        "previous_minimal_fix": null,
+        "current_analysis": "义务并集、标签不能豁免以及同一switch主张的经验加价值缺责反例成立；canonical表述按方面实际内容构造。 Grounds quantifies applicable facets independently of labels and checks every listed facet. The mixed example omits a truly applicable value facet of the same claim, so empirical discharge alone fails. The three facet constructors model responsibilities, not mutually exclusive exhaustive philosophical kinds.",
+        "current_code": [
+          "CoreReader/Evidence.lean:261",
+          "CoreReader/Evidence.lean:272",
+          "CoreReader/Evidence.lean:362"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "three-facet-and-articulation-elements",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "四类表达要素和三种责任接口独立存在；本项通过不认可ValueProcedure是完整价值正当性判定器。",
+        "previous_minimal_fix": null,
+        "current_analysis": "义务并集、标签不能豁免以及同一switch主张的经验加价值缺责反例成立；canonical表述按方面实际内容构造。 Grounds quantifies applicable facets independently of labels and checks every listed facet. The mixed example omits a truly applicable value facet of the same claim, so empirical discharge alone fails. The three facet constructors model responsibilities, not mutually exclusive exhaustive philosophical kinds.",
+        "current_code": [
+          "CoreReader/Evidence.lean:261",
+          "CoreReader/Evidence.lean:272",
+          "CoreReader/Evidence.lean:362"
+        ],
+        "minimal_fix": null
+      }
+    ]
+  },
+  {
+    "id": "T17",
+    "status": "accepted",
+    "reason": "表述清楚、测量/重复、相容与自述均有实际不足反模型；价值反例针对对应选项的预算后果，不能冒充价值命题恒假。",
+    "reason_en": "Counterworlds invalidate support or entailment while preserving the stated observations or compatibility. unrelatedArticulationRejected ties articulation content to the facet. Self-assertion has empty reasons or fails the option-specific consequence, rather than being rejected merely for its label.",
+    "reason_zh": "表述清楚、测量/重复、相容与自述均有实际不足反模型；价值反例针对对应选项的预算后果，不能冒充价值命题恒假。",
+    "classification": "W countermodels",
+    "previous_status": "accepted",
+    "previous_reason": "所列不充分替代物有实际内容反模型；非蕴涵未被说成结论恒假。价值反例只证明所示理由/预算责任失败，不是价值真理。",
+    "source_refs": [
+      {
+        "unit": "organon.grounds.assessment",
+        "clause": "p1"
+      },
+      {
+        "unit": "organon.grounds.assessment",
+        "clause": "p2"
+      },
+      {
+        "unit": "organon.grounds.assessment",
+        "clause": "p3"
+      }
+    ],
+    "required_declarations": [
+      {
+        "name": "CoreReader.Evidence.articulationNotSupport",
+        "kind": "case",
+        "location": "CoreReader/Evidence.lean:377",
+        "meaning": "Proves this articulation passes the nonemptiness check while its assumptions do not entail that the world is true."
+      },
+      {
+        "name": "CoreReader.Evidence.measurementRepeatNotSupport",
+        "kind": "case",
+        "location": "CoreReader/Evidence.lean:451",
+        "meaning": "Combines explicit countermodels showing that repeated measurement of one coordinate does not support an unmeasured coordinate or a budget consequence, and does not fix the announcement value procedure."
+      },
+      {
+        "name": "CoreReader.Logic.compatibilityNotEntailment",
+        "kind": "case",
+        "location": "CoreReader/Logic.lean:229",
+        "meaning": "Shows that adding a claim can remain satisfiable even though the original empty theory did not entail that claim."
+      },
+      {
+        "name": "CoreReader.Evidence.selfAssertionNotReason",
+        "kind": "case",
+        "location": "CoreReader/Evidence.lean:478",
+        "meaning": "Combines empty-reason and nonempty-but-budget-irrelevant self-assertion failures, with a joint adoption witness for the latter."
+      }
+    ],
+    "proof_and_scope": "Counterworlds invalidate support or entailment while preserving the stated observations or compatibility. unrelatedArticulationRejected ties articulation content to the facet. Self-assertion has empty reasons or fails the option-specific consequence, rather than being rejected merely for its label.",
+    "findings": [
+      {
+        "branch": "articulated-not-established",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "非空concept/reasons但emptyTheory不支持w=true；另有不相关articulation与facet对齐失败。",
+        "previous_minimal_fix": null,
+        "current_analysis": "表述清楚、测量/重复、相容与自述均有实际不足反模型；价值反例针对对应选项的预算后果，不能冒充价值命题恒假。 Counterworlds invalidate support or entailment while preserving the stated observations or compatibility. unrelatedArticulationRejected ties articulation content to the facet. Self-assertion has empty reasons or fails the option-specific consequence, rather than being rejected merely for its label.",
+        "current_code": [
+          "CoreReader/Evidence.lean:377",
+          "CoreReader/Evidence.lean:451",
+          "CoreReader/Logic.lean:229",
+          "CoreReader/Evidence.lean:478"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "measurable-not-relevant-or-correct",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "第一coordinate可测且重复结果稳定，第二coordinate可true/false；单次和重复均不支持未测结论。",
+        "previous_minimal_fix": null,
+        "current_analysis": "表述清楚、测量/重复、相容与自述均有实际不足反模型；价值反例针对对应选项的预算后果，不能冒充价值命题恒假。 Counterworlds invalidate support or entailment while preserving the stated observations or compatibility. unrelatedArticulationRejected ties articulation content to the facet. Self-assertion has empty reasons or fails the option-specific consequence, rather than being rejected merely for its label.",
+        "current_code": [
+          "CoreReader/Evidence.lean:377",
+          "CoreReader/Evidence.lean:451",
+          "CoreReader/Logic.lean:229",
+          "CoreReader/Evidence.lean:478"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "repeat-not-value-reasons",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "action=true记录与budget0和3都兼容，无法支持budget consequence；非空announcement自述仍未履行价值reason→consequence检查。",
+        "previous_minimal_fix": null,
+        "current_analysis": "表述清楚、测量/重复、相容与自述均有实际不足反模型；价值反例针对对应选项的预算后果，不能冒充价值命题恒假。 Counterworlds invalidate support or entailment while preserving the stated observations or compatibility. unrelatedArticulationRejected ties articulation content to the facet. Self-assertion has empty reasons or fails the option-specific consequence, rather than being rejected merely for its label.",
+        "current_code": [
+          "CoreReader/Evidence.lean:377",
+          "CoreReader/Evidence.lean:451",
+          "CoreReader/Logic.lean:229",
+          "CoreReader/Evidence.lean:478"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "compatibility-not-entailment",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "加入w=true与emptyTheory相容，但emptyTheory并不蕴涵它；有true/false反世界。",
+        "previous_minimal_fix": null,
+        "current_analysis": "表述清楚、测量/重复、相容与自述均有实际不足反模型；价值反例针对对应选项的预算后果，不能冒充价值命题恒假。 Counterworlds invalidate support or entailment while preserving the stated observations or compatibility. unrelatedArticulationRejected ties articulation content to the facet. Self-assertion has empty reasons or fails the option-specific consequence, rather than being rejected merely for its label.",
+        "current_code": [
+          "CoreReader/Evidence.lean:377",
+          "CoreReader/Evidence.lean:451",
+          "CoreReader/Logic.lean:229",
+          "CoreReader/Evidence.lean:478"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "self-assertion-not-reason",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "既有空reason反例，也有非空真自述在budget0不能推出所声称后果的内容性反例。",
+        "previous_minimal_fix": null,
+        "current_analysis": "表述清楚、测量/重复、相容与自述均有实际不足反模型；价值反例针对对应选项的预算后果，不能冒充价值命题恒假。 Counterworlds invalidate support or entailment while preserving the stated observations or compatibility. unrelatedArticulationRejected ties articulation content to the facet. Self-assertion has empty reasons or fails the option-specific consequence, rather than being rejected merely for its label.",
+        "current_code": [
+          "CoreReader/Evidence.lean:377",
+          "CoreReader/Evidence.lean:451",
+          "CoreReader/Logic.lean:229",
+          "CoreReader/Evidence.lean:478"
+        ],
+        "minimal_fix": null
+      }
+    ]
+  },
+  {
+    "id": "T18",
+    "status": "accepted",
+    "reason": "有限价值立场有可满足但无需自证的起点、选项相关理由、限度、后果和批评响应；两理由联合充分而各自不足，异类方面无需统一尺度。",
+    "reason_en": "switchPosition has a checked admissible joint adoption and rejects the opposite option and impossible starts. jointReasonPosition combines benefit/cost premises with counterworlds showing neither alone supports the consequence. No theorem proves the ultimate worth of the adopted value or every starting assumption.",
+    "reason_zh": "有限价值立场有可满足但无需自证的起点、选项相关理由、限度、后果和批评响应；两理由联合充分而各自不足，异类方面无需统一尺度。",
+    "classification": "W/N procedural satisfiability",
+    "previous_status": "accepted",
+    "previous_reason": "具体switch价值立场有成本/收益理由、限度、非空批评响应及可满足起点，并未从空理论推出承诺；异类支持不用统一数值尺度。",
+    "source_refs": [
+      {
+        "unit": "organon.grounds.assessment",
+        "clause": "p1"
+      },
+      {
+        "unit": "organon.grounds.assessment",
+        "clause": "p2"
+      },
+      {
+        "unit": "organon.grounds.assessment",
+        "clause": "p3"
+      }
+    ],
+    "required_declarations": [
+      {
+        "name": "CoreReader.Evidence.valueWithoutSelfProof",
+        "kind": "case",
+        "location": "CoreReader/Evidence.lean:493",
+        "meaning": "Exhibits a coherent reasoned position not derivable from empty assumptions, and rejects opposite-option, inconsistent-start and impossible-adoption variants."
+      },
+      {
+        "name": "CoreReader.Evidence.heterogeneousReasons",
+        "kind": "case",
+        "location": "CoreReader/Evidence.lean:564",
+        "meaning": "Combines empirical, inferential and value examples with a genuine two-reason combination that neither reason alone establishes."
+      }
+    ],
+    "proof_and_scope": "switchPosition has a checked admissible joint adoption and rejects the opposite option and impossible starts. jointReasonPosition combines benefit/cost premises with counterworlds showing neither alone supports the consequence. No theorem proves the ultimate worth of the adopted value or every starting assumption.",
+    "findings": [
+      {
+        "branch": "reasons-limits-consequence-openness",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "成本/收益理由与所选择true选项有具体关系，推出cost<benefit；world=false批评有非空回应。只证明接口条件，不证明回应终极充分。",
+        "previous_minimal_fix": null,
+        "current_analysis": "有限价值立场有可满足但无需自证的起点、选项相关理由、限度、后果和批评响应；两理由联合充分而各自不足，异类方面无需统一尺度。 switchPosition has a checked admissible joint adoption and rejects the opposite option and impossible starts. jointReasonPosition combines benefit/cost premises with counterworlds showing neither alone supports the consequence. No theorem proves the ultimate worth of the adopted value or every starting assumption.",
+        "current_code": [
+          "CoreReader/Evidence.lean:493",
+          "CoreReader/Evidence.lean:564"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "starting-not-self-proved",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "starting明示Satisfiable，emptyTheory不能推出commitment；符合不必自证全部起点而不以不一致起点作弊。",
+        "previous_minimal_fix": null,
+        "current_analysis": "有限价值立场有可满足但无需自证的起点、选项相关理由、限度、后果和批评响应；两理由联合充分而各自不足，异类方面无需统一尺度。 switchPosition has a checked admissible joint adoption and rejects the opposite option and impossible starts. jointReasonPosition combines benefit/cost premises with counterworlds showing neither alone supports the consequence. No theorem proves the ultimate worth of the adopted value or every starting assumption.",
+        "current_code": [
+          "CoreReader/Evidence.lean:493",
+          "CoreReader/Evidence.lean:564"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "heterogeneous-no-common-scale",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "同一Bool claim有经验、条件推论和价值程序三种检查；虽成本数值化，所有支持不被统一为一个分数。推论例P⊢P是展示类型，不冒充实质新结论。",
+        "previous_minimal_fix": null,
+        "current_analysis": "有限价值立场有可满足但无需自证的起点、选项相关理由、限度、后果和批评响应；两理由联合充分而各自不足，异类方面无需统一尺度。 switchPosition has a checked admissible joint adoption and rejects the opposite option and impossible starts. jointReasonPosition combines benefit/cost premises with counterworlds showing neither alone supports the consequence. No theorem proves the ultimate worth of the adopted value or every starting assumption.",
+        "current_code": [
+          "CoreReader/Evidence.lean:493",
+          "CoreReader/Evidence.lean:564"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "generic-interface-limit",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "通用接口仍能接受无关/不一致位置（T15拒绝），但本项指定见证起点可满足且成本收益与选项相连；不据通用反例否定这个有限存在见证。",
+        "previous_minimal_fix": null,
+        "current_analysis": "有限价值立场有可满足但无需自证的起点、选项相关理由、限度、后果和批评响应；两理由联合充分而各自不足，异类方面无需统一尺度。 switchPosition has a checked admissible joint adoption and rejects the opposite option and impossible starts. jointReasonPosition combines benefit/cost premises with counterworlds showing neither alone supports the consequence. No theorem proves the ultimate worth of the adopted value or every starting assumption.",
+        "current_code": [
+          "CoreReader/Evidence.lean:493",
+          "CoreReader/Evidence.lean:564"
+        ],
+        "minimal_fix": null
+      }
+    ]
+  },
+  {
+    "id": "T19",
+    "status": "accepted",
+    "reason": "真实观测域{0}内一致而在1不同的函数构成局部支持与普遍非支持；省略差异不能消除差异。",
+    "reason_en": "The same observation admits a function false at one. Local scope is proper and its excluded point carries the counterexample. No inference about arbitrary actual-world systems follows from this function model.",
+    "reason_zh": "真实观测域{0}内一致而在1不同的函数构成局部支持与普遍非支持；省略差异不能消除差异。",
+    "classification": "W local/global countermodel",
+    "previous_status": "accepted",
+    "previous_reason": "实际观测域{0}是真子域，兼容函数在1表现不同，支持与非支持结论均由计算/反模型成立。",
+    "source_refs": [
+      {
+        "unit": "organon.grounds.scope",
+        "clause": "p1"
+      },
+      {
+        "unit": "organon.grounds.scope",
+        "clause": "p2"
+      },
+      {
+        "unit": "organon.grounds.scope",
+        "clause": "p3"
+      }
+    ],
+    "required_declarations": [
+      {
+        "name": "CoreReader.Evidence.localNotUniversal",
+        "kind": "case",
+        "location": "CoreReader/Evidence.lean:630",
+        "meaning": "Exhibits both a universally true function and a zero-only true function compatible with the same observation, with an explicit outside input; therefore the observation does not support universal truth."
+      },
+      {
+        "name": "CoreReader.Evidence.hiddenDifference",
+        "kind": "case",
+        "location": "CoreReader/Evidence.lean:645",
+        "meaning": "Shows the two functions agree on the domain restricted to zero and disagree at one; local agreement does not establish global equality."
+      }
+    ],
+    "proof_and_scope": "The same observation admits a function false at one. Local scope is proper and its excluded point carries the counterexample. No inference about arbitrary actual-world systems follows from this function model.",
+    "findings": [
+      {
+        "branch": "proper-observation-scope",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "明确outside=1≠0，两个函数均在0为true而仅一个allTrue。",
+        "previous_minimal_fix": null,
+        "current_analysis": "真实观测域{0}内一致而在1不同的函数构成局部支持与普遍非支持；省略差异不能消除差异。 The same observation admits a function false at one. Local scope is proper and its excluded point carries the counterexample. No inference about arbitrary actual-world systems follows from this function model.",
+        "current_code": [
+          "CoreReader/Evidence.lean:630",
+          "CoreReader/Evidence.lean:645"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "universal-not-supported",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "seed0函数是兼容但不满足allTrue的反世界，支持失败非空真。",
+        "previous_minimal_fix": null,
+        "current_analysis": "真实观测域{0}内一致而在1不同的函数构成局部支持与普遍非支持；省略差异不能消除差异。 The same observation admits a function false at one. Local scope is proper and its excluded point carries the counterexample. No inference about arbitrary actual-world systems follows from this function model.",
+        "current_code": [
+          "CoreReader/Evidence.lean:630",
+          "CoreReader/Evidence.lean:645"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "hidden-difference",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "域内等同和域外1不等同并存，不能凭排除1的比较范围否认差异。",
+        "previous_minimal_fix": null,
+        "current_analysis": "真实观测域{0}内一致而在1不同的函数构成局部支持与普遍非支持；省略差异不能消除差异。 The same observation admits a function false at one. Local scope is proper and its excluded point carries the counterexample. No inference about arbitrary actual-world systems follows from this function model.",
+        "current_code": [
+          "CoreReader/Evidence.lean:630",
+          "CoreReader/Evidence.lean:645"
+        ],
+        "minimal_fix": null
+      }
+    ]
+  },
+  {
+    "id": "T20",
+    "status": "accepted",
+    "reason": "单次观察有限支持、无必需统一链的推论、不同结果保持指定界，以及核验/条件复现/结论稳定的分离均成立。",
+    "reason_en": "Trial examples use distinct interpreted predicates and actual outcomes. The stable bound is a property of a finite outcome class, not a probability or reproducibility theorem. An inferential facet can discharge without empirical records, while empirical facets retain their own responsibilities.",
+    "reason_zh": "单次观察有限支持、无必需统一链的推论、不同结果保持指定界，以及核验/条件复现/结论稳定的分离均成立。",
+    "classification": "W/N finite models",
+    "previous_status": "accepted",
+    "previous_reason": "单次观察的有限支持、非经验推论及不同结果同范围结论、三概念分离都有实际有限实例；不声称概率或非计算性定理。",
+    "source_refs": [
+      {
+        "unit": "organon.grounds.scope",
+        "clause": "p1"
+      },
+      {
+        "unit": "organon.grounds.scope",
+        "clause": "p2"
+      },
+      {
+        "unit": "organon.grounds.scope",
+        "clause": "p3"
+      }
+    ],
+    "required_declarations": [
+      {
+        "name": "CoreReader.Evidence.singleObservation",
+        "kind": "case",
+        "location": "CoreReader/Evidence.lean:656",
+        "meaning": "A single zero-input observation is nonvacuously compatible and supports its local result but does not support the all-input claim."
+      },
+      {
+        "name": "CoreReader.Evidence.noUniversalChain",
+        "kind": "case",
+        "location": "CoreReader/Evidence.lean:673",
+        "meaning": "Discharges the arithmetic implication with a model n=2 while its observation tag is false. This is an example of nonempirical discharge, not a universal account of knowledge."
+      },
+      {
+        "name": "CoreReader.Evidence.variableOutcomesStableBound",
+        "kind": "case",
+        "location": "CoreReader/Evidence.lean:694",
+        "meaning": "Exhibits matching settings with different actual outcomes that both satisfy the fixed upper bound."
+      },
+      {
+        "name": "CoreReader.Evidence.verificationReproductionStability",
+        "kind": "case",
+        "location": "CoreReader/Evidence.lean:705",
+        "meaning": "Uses explicit numeric trials to separate recorded/actual agreement, equal settings, and the fixed outcome bound."
+      }
+    ],
+    "proof_and_scope": "Trial examples use distinct interpreted predicates and actual outcomes. The stable bound is a property of a finite outcome class, not a probability or reproducibility theorem. An inferential facet can discharge without empirical records, while empirical facets retain their own responsibilities.",
+    "findings": [
+      {
+        "branch": "unrepeated-limited-support",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "记录数1、兼容函数存在、f0=true获得支持、全称allTrue不获支持；没有宣称所有单次观察可靠。",
+        "previous_minimal_fix": null,
+        "current_analysis": "单次观察有限支持、无必需统一链的推论、不同结果保持指定界，以及核验/条件复现/结论稳定的分离均成立。 Trial examples use distinct interpreted predicates and actual outcomes. The stable bound is a property of a finite outcome class, not a probability or reproducibility theorem. An inferential facet can discharge without empirical records, while empirical facets retain their own responsibilities.",
+        "current_code": [
+          "CoreReader/Evidence.lean:656",
+          "CoreReader/Evidence.lean:673",
+          "CoreReader/Evidence.lean:694",
+          "CoreReader/Evidence.lean:705"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "no-mandatory-chain",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "n=2非空假设模型支持n+1=3，facet非经验且不需任何重复记录；足以否定所有判断都须完整测量链，不是否定测量帮助。",
+        "previous_minimal_fix": null,
+        "current_analysis": "单次观察有限支持、无必需统一链的推论、不同结果保持指定界，以及核验/条件复现/结论稳定的分离均成立。 Trial examples use distinct interpreted predicates and actual outcomes. The stable bound is a property of a finite outcome class, not a probability or reproducibility theorem. An inferential facet can discharge without empirical records, while empirical facets retain their own responsibilities.",
+        "current_code": [
+          "CoreReader/Evidence.lean:656",
+          "CoreReader/Evidence.lean:673",
+          "CoreReader/Evidence.lean:694",
+          "CoreReader/Evidence.lean:705"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "variable-outcomes-stable-conclusion",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "same setting结果1和2不同，但actual≤2保持；是可能结果/范围结论实例，不是随机分布统计定理。",
+        "previous_minimal_fix": null,
+        "current_analysis": "单次观察有限支持、无必需统一链的推论、不同结果保持指定界，以及核验/条件复现/结论稳定的分离均成立。 Trial examples use distinct interpreted predicates and actual outcomes. The stable bound is a property of a finite outcome class, not a probability or reproducibility theorem. An inferential facet can discharge without empirical records, while empirical facets retain their own responsibilities.",
+        "current_code": [
+          "CoreReader/Evidence.lean:656",
+          "CoreReader/Evidence.lean:673",
+          "CoreReader/Evidence.lean:694",
+          "CoreReader/Evidence.lean:705"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "verification-reproduction-stability",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "分别用记录=actual、setting相等、actual≤2定义并给三组反例，未用一个标志替代三者。",
+        "previous_minimal_fix": null,
+        "current_analysis": "单次观察有限支持、无必需统一链的推论、不同结果保持指定界，以及核验/条件复现/结论稳定的分离均成立。 Trial examples use distinct interpreted predicates and actual outcomes. The stable bound is a property of a finite outcome class, not a probability or reproducibility theorem. An inferential facet can discharge without empirical records, while empirical facets retain their own responsibilities.",
+        "current_code": [
+          "CoreReader/Evidence.lean:656",
+          "CoreReader/Evidence.lean:673",
+          "CoreReader/Evidence.lean:694",
+          "CoreReader/Evidence.lean:705"
+        ],
+        "minimal_fix": null
+      }
+    ]
+  },
+  {
+    "id": "T21",
+    "status": "accepted",
+    "reason": "同一process的输出与附加解释要求分开，两种应用都有对应Grounds；外部证书携带不同评估者/被评者标识及该process实际输出证明；四类库存复制不扩展所表示能力。",
+    "reason_en": "ProcessGrounds targets an exact singleton process scope. FullProcessContract includes output and an attached program explanation; output-only evidence has a compatible process without that certificate. ExternalCertificate supplies a proof for the same process with distinct role identifiers; those identifiers do not authenticate real external authorship or establish psychological understanding.",
+    "reason_zh": "同一process的输出与附加解释要求分开，两种应用都有对应Grounds；外部证书携带不同评估者/被评者标识及该process实际输出证明；四类库存复制不扩展所表示能力。",
+    "classification": "W capability-contract cases plus D inventory theorem",
+    "previous_status": "rejected",
+    "previous_reason": "输出/附加解释合同的分离与四类库存复制正确；但冻结的两个应用均受Grounds、外部评估者供应可表达根据的同对象见证尚未构造。",
+    "source_refs": [
+      {
+        "unit": "organon.grounds.capabilities",
+        "clause": "p1"
+      },
+      {
+        "unit": "organon.grounds.capabilities",
+        "clause": "p2"
+      }
+    ],
+    "required_declarations": [
+      {
+        "name": "CoreReader.Evidence.outputNotExplanation",
+        "kind": "case",
+        "location": "CoreReader/Evidence.lean:793",
+        "meaning": "Proves output correctness with no attached explanation and includes the corresponding same-object Grounds/countermodel evidence."
+      },
+      {
+        "name": "CoreReader.Evidence.applicationContractsDiffer",
+        "kind": "case",
+        "location": "CoreReader/Evidence.lean:801",
+        "meaning": "Shows output-only evidence fails the stronger contract, while the explained process satisfies both; both applications carry their own Grounds."
+      },
+      {
+        "name": "CoreReader.Evidence.externalAssessment",
+        "kind": "case",
+        "location": "CoreReader/Evidence.lean:821",
+        "meaning": "Uses a distinct-participant certificate to supply matching output Grounds while the assessed process still returns no explanation."
+      },
+      {
+        "name": "CoreReader.Agency.inventoryNotCapability",
+        "kind": "theorem",
+        "location": "CoreReader/Agency.lean:85",
+        "meaning": "Proves that duplicating a uniformly tagged list of operations does not change which operations are available."
+      }
+    ],
+    "proof_and_scope": "ProcessGrounds targets an exact singleton process scope. FullProcessContract includes output and an attached program explanation; output-only evidence has a compatible process without that certificate. ExternalCertificate supplies a proof for the same process with distinct role identifiers; those identifiers do not authenticate real external authorship or establish psychological understanding.",
+    "findings": [
+      {
+        "branch": "output-without-attached-explanation",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "同一process输出n+n但explanation=none，输出合同成立而附加程序合同失败；不能进一步声称系统心理上无法理解过程。",
+        "previous_minimal_fix": null,
+        "current_analysis": "同一process的输出与附加解释要求分开，两种应用都有对应Grounds；外部证书携带不同评估者/被评者标识及该process实际输出证明；四类库存复制不扩展所表示能力。 ProcessGrounds targets an exact singleton process scope. FullProcessContract includes output and an attached program explanation; output-only evidence has a compatible process without that certificate. ExternalCertificate supplies a proof for the same process with distinct role identifiers; those identifiers do not authenticate real external authorship or establish psychological understanding.",
+        "current_code": [
+          "CoreReader/Evidence.lean:793",
+          "CoreReader/Evidence.lean:801",
+          "CoreReader/Evidence.lean:821",
+          "CoreReader/Agency.lean:85"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "different-application-contracts",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "同一输出函数下，output-only与output∧explanation要求有实际不同满足结果，解释程序在同一process上比较output。",
+        "previous_minimal_fix": null,
+        "current_analysis": "同一process的输出与附加解释要求分开，两种应用都有对应Grounds；外部证书携带不同评估者/被评者标识及该process实际输出证明；四类库存复制不扩展所表示能力。 ProcessGrounds targets an exact singleton process scope. FullProcessContract includes output and an attached program explanation; output-only evidence has a compatible process without that certificate. ExternalCertificate supplies a proof for the same process with distinct role identifiers; those identifiers do not authenticate real external authorship or establish psychological understanding.",
+        "current_code": [
+          "CoreReader/Evidence.lean:793",
+          "CoreReader/Evidence.lean:801",
+          "CoreReader/Evidence.lean:821",
+          "CoreReader/Agency.lean:85"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "grounds-for-both-applications",
+        "status": "accepted",
+        "previous_status": "rejected",
+        "previous_analysis": "两合同直接证明，但未构造它们各自的Grounds/匹配articulation与scope；Integration的另一Candidate能力实例并非这些Process对象。",
+        "previous_minimal_fix": "为两个实际合同提供同对象Grounds/明确证据和表达、条件，并证明output-only evidence不足以满足强合同。",
+        "current_analysis": "processGrounds:751由processContractDischarged把同一process合同的实际证明变为singleton scope的Grounds；scopedApplicationEvidence:783分别实例化输出与附加解释合同。",
+        "current_code": [
+          "CoreReader/Evidence.lean:793",
+          "CoreReader/Evidence.lean:801",
+          "CoreReader/Evidence.lean:821",
+          "CoreReader/Agency.lean:85"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "external-assessor-articulable-evidence",
+        "status": "accepted",
+        "previous_status": "rejected",
+        "previous_analysis": "所谓externalAssessment只构造一个含outputCorrect的proof record；没有外部评估者与被评system的区分，也没有证明该证书的根据可表达。类型名不能代替外部来源/职责联系。",
+        "previous_minimal_fix": "增加最小assessor/assessed关系或明确外部供应接口，返回与该Process合同相连的证书和articulation；保留被评process缺解释字段。",
+        "current_analysis": "ExternalCertificate:808含assessorId=42、assessedId=7及不等证明，并携带同一outputOnlyProcess的输出合同证明；externalAssessment:821将此用于对应Grounds。角色编号不认证现实来源。",
+        "current_code": [
+          "CoreReader/Evidence.lean:793",
+          "CoreReader/Evidence.lean:801",
+          "CoreReader/Evidence.lean:821",
+          "CoreReader/Agency.lean:85"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "four-inventory-kinds",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "通用kind覆盖document/term/tool/artifact，复制相同operation列表不增Available；可实例化非空[copy]，不是数量本身支持新能力。",
+        "previous_minimal_fix": null,
+        "current_analysis": "同一process的输出与附加解释要求分开，两种应用都有对应Grounds；外部证书携带不同评估者/被评者标识及该process实际输出证明；四类库存复制不扩展所表示能力。 ProcessGrounds targets an exact singleton process scope. FullProcessContract includes output and an attached program explanation; output-only evidence has a compatible process without that certificate. ExternalCertificate supplies a proof for the same process with distinct role identifiers; those identifiers do not authenticate real external authorship or establish psychological understanding.",
+        "current_code": [
+          "CoreReader/Evidence.lean:793",
+          "CoreReader/Evidence.lean:801",
+          "CoreReader/Evidence.lean:821",
+          "CoreReader/Agency.lean:85"
+        ],
+        "minimal_fix": null
+      }
+    ]
+  },
+  {
+    "id": "T22",
+    "status": "accepted",
+    "reason": "在额外采纳的选择规范下三类纯身份理由均失败；既有惯用实现仍凭实际输出理由和可行性获接受。",
+    "reason_en": "JustifiedChoice now requires Feasible in addition to a Relevant reason. statusOnlyFails follows because status reasons never meet the adopted relevance rule; conventionWithReason computes correct output. This is a consequence of the chosen norm, not a value-neutral justification of it.",
+    "reason_zh": "在额外采纳的选择规范下三类纯身份理由均失败；既有惯用实现仍凭实际输出理由和可行性获接受。",
+    "classification": "N/D specification consequence plus W witness",
+    "previous_status": "accepted",
+    "previous_reason": "在单独采纳的选择规范下，三类纯身份理由统一被排除；既有惯用identity仍以真实输出理由被接受。",
+    "source_refs": [
+      {
+        "unit": "organon.grounds.implementations",
+        "clause": "p1"
+      },
+      {
+        "unit": "organon.grounds.implementations",
+        "clause": "p2"
+      }
+    ],
+    "required_declarations": [
+      {
+        "name": "CoreReader.Choice.statusOnlyFails",
+        "kind": "theorem",
+        "location": "CoreReader/Choice.lean:58",
+        "meaning": "For any requirements and implementation, a singleton status reason cannot justify choice because its relevance is defined as false."
+      },
+      {
+        "name": "CoreReader.Choice.conventionWithReason",
+        "kind": "case",
+        "location": "CoreReader/Choice.lean:116",
+        "meaning": "Shows conventional and established metadata can coexist with justified choice when the list also contains a valid output reason; status does not provide the witness."
+      }
+    ],
+    "proof_and_scope": "JustifiedChoice now requires Feasible in addition to a Relevant reason. statusOnlyFails follows because status reasons never meet the adopted relevance rule; conventionWithReason computes correct output. This is a consequence of the chosen norm, not a value-neutral justification of it.",
+    "findings": [
+      {
+        "branch": "name-convention-standing-only",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "∀StatusKind统一证明status-only无JustifiedChoice，含name/convention/standing全部三种。",
+        "previous_minimal_fix": null,
+        "current_analysis": "在额外采纳的选择规范下三类纯身份理由均失败；既有惯用实现仍凭实际输出理由和可行性获接受。 JustifiedChoice now requires Feasible in addition to a Relevant reason. statusOnlyFails follows because status reasons never meet the adopted relevance rule; conventionWithReason computes correct output. This is a consequence of the chosen norm, not a value-neutral justification of it.",
+        "current_code": [
+          "CoreReader/Choice.lean:58",
+          "CoreReader/Choice.lean:116"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "existing-conventional-relevant-reason",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "identity flags为true且同实现满足实际identity输出要求，存在method.output理由；不因旧/惯用而拒绝。",
+        "previous_minimal_fix": null,
+        "current_analysis": "在额外采纳的选择规范下三类纯身份理由均失败；既有惯用实现仍凭实际输出理由和可行性获接受。 JustifiedChoice now requires Feasible in addition to a Relevant reason. statusOnlyFails follows because status reasons never meet the adopted relevance rule; conventionWithReason computes correct output. This is a consequence of the chosen norm, not a value-neutral justification of it.",
+        "current_code": [
+          "CoreReader/Choice.lean:58",
+          "CoreReader/Choice.lean:116"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "not-neutral-value-proof",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "排除纯status是定义采纳，不伪装成经验必然或所有惯例无用。",
+        "previous_minimal_fix": null,
+        "current_analysis": "在额外采纳的选择规范下三类纯身份理由均失败；既有惯用实现仍凭实际输出理由和可行性获接受。 JustifiedChoice now requires Feasible in addition to a Relevant reason. statusOnlyFails follows because status reasons never meet the adopted relevance rule; conventionWithReason computes correct output. This is a consequence of the chosen norm, not a value-neutral justification of it.",
+        "current_code": [
+          "CoreReader/Choice.lean:58",
+          "CoreReader/Choice.lean:116"
+        ],
+        "minimal_fix": null
+      }
+    ]
+  },
+  {
+    "id": "T23",
+    "status": "accepted",
+    "reason": "新政策对象在相同且准确的否定审查后独立采用不同优先理由，完成所表示的一般理由审查而额外选择规范一成一败；通过严格限于冻结清单所称represented assessment obligations。",
+    "reason_en": "PolicyIndependenceExample holds facts, selected implementation and the actual negative audit fixed while varying priorityReasons. GeneralAssessmentFulfilled is articulation plus identity and accuracy of that audit. It does not assert that the unsupported priority judgment itself has full Grounds support; if that stronger reading were claimed, this example would not prove it. The prior missing independent policy is now present; the earlier factual nonentailment is only a conjunct.",
+    "reason_zh": "新政策对象在相同且准确的否定审查后独立采用不同优先理由，完成所表示的一般理由审查而额外选择规范一成一败；通过严格限于冻结清单所称represented assessment obligations。",
+    "classification": "W independence of normative obligation",
+    "previous_status": "rejected",
+    "previous_reason": "现有定理证明status facts不蕴涵“选择identity”这一对象命题，而没有证明一般评估义务不蕴涵额外的反status优先规范；两种独立性目标不能混同。",
+    "source_refs": [
+      {
+        "unit": "organon.grounds.implementations",
+        "clause": "p1"
+      },
+      {
+        "unit": "organon.grounds.implementations",
+        "clause": "p2"
+      },
+      {
+        "unit": "organon.relationships.roles",
+        "clause": "p1"
+      },
+      {
+        "unit": "organon.relationships.roles",
+        "clause": "p2"
+      },
+      {
+        "unit": "organon.relationships.roles",
+        "clause": "p3"
+      }
+    ],
+    "required_declarations": [
+      {
+        "name": "CoreReader.Choice.generalGroundsNotChoice",
+        "kind": "case",
+        "location": "CoreReader/Choice.lean:284",
+        "meaning": "Combines the factual non-entailment case with a separate policy-level countermodel to deriving the added choice norm from represented general assessment duties."
+      }
+    ],
+    "proof_and_scope": "PolicyIndependenceExample holds facts, selected implementation and the actual negative audit fixed while varying priorityReasons. GeneralAssessmentFulfilled is articulation plus identity and accuracy of that audit. It does not assert that the unsupported priority judgment itself has full Grounds support; if that stronger reading were claimed, this example would not prove it. The prior missing independent policy is now present; the earlier factual nonentailment is only a conjunct.",
+    "findings": [
+      {
+        "branch": "status-facts-not-priority",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "两metadata fact对所有selected都真，successor反驳priorityClaim；有限事实非蕴涵证明有效。",
+        "previous_minimal_fix": null,
+        "current_analysis": "Choice.lean:188–212保留两个candidate解释的实际statusFacts和priorityClaim；successor满足facts却使priorityClaim假。",
+        "current_code": [
+          "CoreReader/Choice.lean:284"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "accurate-assessment",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "报告false正确表达该非蕴涵；非空articulation与实际评估结果有内容。",
+        "previous_minimal_fix": null,
+        "current_analysis": "PriorityAssessment:224同时保存premises/question/report，statusPriorityAuditAccurate:249验证实际report=false与非蕴涵等价。",
+        "current_code": [
+          "CoreReader/Choice.lean:284"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "added-obligation-independent",
+        "status": "accepted",
+        "previous_status": "rejected",
+        "previous_analysis": "被否定的是对象选择结论priorityClaim，不是“纯status不应给priority”的新增规范。又用已内含status=False的JustifiedChoice证明失败，没有一个未预含该额外规范的一般评估模型仍采取status-priority规则。",
+        "previous_minimal_fix": "定义不含选择禁令的一般评估责任和独立可变choice policy，构造其一般责任履行但额外status-only禁令失败；保留已有事实非蕴涵作辅助而非替代。",
+        "current_analysis": "ChoicePolicy:234使priorityReasons独立于assessment；PolicyIndependenceExample:254–265在相同selected和同一准确审查下，对statusPriorityPolicy与outputPriorityPolicy证明额外规范一败一成。该有限审查职责并不是支持无条件priority主张的完整Grounds；冻结represented assessment目标允许前者，不能宣称后者。",
+        "current_code": [
+          "CoreReader/Choice.lean:284"
+        ],
+        "minimal_fix": null
+      }
+    ]
+  },
+  {
+    "id": "T24",
+    "status": "accepted",
+    "reason": "单一可行实现、不等价、局部相同全局不同及四种内部理由均有实例；新增廉价错误输出反例说明相关理由不是自动充分。",
+    "reason_en": "Within the two-candidate universe exactly identity is feasible. Method-content checks give output, scope, simplicity and process reasons on suitable implementations. cheapSuccessor has a relevant simplicity reason but fails Feasible and therefore JustifiedChoice. This does not enumerate all possible implementations.",
+    "reason_zh": "单一可行实现、不等价、局部相同全局不同及四种内部理由均有实例；新增廉价错误输出反例说明相关理由不是自动充分。",
+    "classification": "W finite examples and possible-reason eligibility",
+    "previous_status": "accepted",
+    "previous_reason": "冻结所需有限开放性例子均存在；选择接口的一般充分性仍很弱，不能从这些存在例子推导所有相关内部理由足以满足全部目标。",
+    "source_refs": [
+      {
+        "unit": "organon.grounds.implementations.limits",
+        "clause": "p1"
+      }
+    ],
+    "required_declarations": [
+      {
+        "name": "CoreReader.Choice.singleFeasible",
+        "kind": "case",
+        "location": "CoreReader/Choice.lean:132",
+        "meaning": "Proves identity is the sole feasible member of the two-constructor candidate type under identity requirements, and separately supplies its output justification."
+      },
+      {
+        "name": "CoreReader.Choice.localNotGlobal",
+        "kind": "case",
+        "location": "CoreReader/Choice.lean:146",
+        "meaning": "Shows identity and the piecewise implementation agree when input is zero but disagree at input one; this refutes inference from local agreement to global equality."
+      },
+      {
+        "name": "CoreReader.Choice.internalReasons",
+        "kind": "case",
+        "location": "CoreReader/Choice.lean:168",
+        "meaning": "Provides four valid internal reasons for identity and a cost-relevant successor counterexample to automatic sufficiency."
+      },
+      {
+        "name": "CoreReader.Choice.openNotEquivalent",
+        "kind": "case",
+        "location": "CoreReader/Choice.lean:182",
+        "meaning": "Combines identity's justification with differing identity/successor outputs at zero. It proves behavioral distinction between these examples, not a general openness property."
+      }
+    ],
+    "proof_and_scope": "Within the two-candidate universe exactly identity is feasible. Method-content checks give output, scope, simplicity and process reasons on suitable implementations. cheapSuccessor has a relevant simplicity reason but fails Feasible and therefore JustifiedChoice. This does not enumerate all possible implementations.",
+    "findings": [
+      {
+        "branch": "exactly-one-feasible",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "两candidate实际存在，identity唯一满足输出和预算，且有正向理由；未用零可行域捷径。",
+        "previous_minimal_fix": null,
+        "current_analysis": "单一可行实现、不等价、局部相同全局不同及四种内部理由均有实例；新增廉价错误输出反例说明相关理由不是自动充分。 Within the two-candidate universe exactly identity is feasible. Method-content checks give output, scope, simplicity and process reasons on suitable implementations. cheapSuccessor has a relevant simplicity reason but fails Feasible and therefore JustifiedChoice. This does not enumerate all possible implementations.",
+        "current_code": [
+          "CoreReader/Choice.lean:132",
+          "CoreReader/Choice.lean:146",
+          "CoreReader/Choice.lean:168",
+          "CoreReader/Choice.lean:182"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "not-all-equivalent",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "identity与successor在0输出不同，开放不抹去区别。",
+        "previous_minimal_fix": null,
+        "current_analysis": "单一可行实现、不等价、局部相同全局不同及四种内部理由均有实例；新增廉价错误输出反例说明相关理由不是自动充分。 Within the two-candidate universe exactly identity is feasible. Method-content checks give output, scope, simplicity and process reasons on suitable implementations. cheapSuccessor has a relevant simplicity reason but fails Feasible and therefore JustifiedChoice. This does not enumerate all possible implementations.",
+        "current_code": [
+          "CoreReader/Choice.lean:132",
+          "CoreReader/Choice.lean:146",
+          "CoreReader/Choice.lean:168",
+          "CoreReader/Choice.lean:182"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "local-not-global",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "piecewise实现0相同、1不同，不由局部相同推全体等价。",
+        "previous_minimal_fix": null,
+        "current_analysis": "单一可行实现、不等价、局部相同全局不同及四种内部理由均有实例；新增廉价错误输出反例说明相关理由不是自动充分。 Within the two-candidate universe exactly identity is feasible. Method-content checks give output, scope, simplicity and process reasons on suitable implementations. cheapSuccessor has a relevant simplicity reason but fails Feasible and therefore JustifiedChoice. This does not enumerate all possible implementations.",
+        "current_code": [
+          "CoreReader/Choice.lean:132",
+          "CoreReader/Choice.lean:146",
+          "CoreReader/Choice.lean:168",
+          "CoreReader/Choice.lean:182"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "existing-reasoned-choice",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "复用同一既有惯用identity和output reason，不重新计成独立证明。",
+        "previous_minimal_fix": null,
+        "current_analysis": "单一可行实现、不等价、局部相同全局不同及四种内部理由均有实例；新增廉价错误输出反例说明相关理由不是自动充分。 Within the two-candidate universe exactly identity is feasible. Method-content checks give output, scope, simplicity and process reasons on suitable implementations. cheapSuccessor has a relevant simplicity reason but fails Feasible and therefore JustifiedChoice. This does not enumerate all possible implementations.",
+        "current_code": [
+          "CoreReader/Choice.lean:132",
+          "CoreReader/Choice.lean:146",
+          "CoreReader/Choice.lean:168",
+          "CoreReader/Choice.lean:182"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "internal-reason-eligibility",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "解释输出等同、域覆盖、成本、末trace要求均有实际identity见证，需values及内容检查，非单凭内部标签无条件有效。代理定义仅是这些应用合同，不是完整解释力/过程正确性模型。",
+        "previous_minimal_fix": null,
+        "current_analysis": "单一可行实现、不等价、局部相同全局不同及四种内部理由均有实例；新增廉价错误输出反例说明相关理由不是自动充分。 Within the two-candidate universe exactly identity is feasible. Method-content checks give output, scope, simplicity and process reasons on suitable implementations. cheapSuccessor has a relevant simplicity reason but fails Feasible and therefore JustifiedChoice. This does not enumerate all possible implementations.",
+        "current_code": [
+          "CoreReader/Choice.lean:132",
+          "CoreReader/Choice.lean:146",
+          "CoreReader/Choice.lean:168",
+          "CoreReader/Choice.lean:182"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "general-sufficiency-limit",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "JustifiedChoice只要一个相关理由；cost-only可接受失败输出的另一个requirement实例。此事实不否定本项所要求且全部合同满足的存在例子，但禁止将其表述为通用全目标选择正确性。",
+        "previous_minimal_fix": null,
+        "current_analysis": "单一可行实现、不等价、局部相同全局不同及四种内部理由均有实例；新增廉价错误输出反例说明相关理由不是自动充分。 Within the two-candidate universe exactly identity is feasible. Method-content checks give output, scope, simplicity and process reasons on suitable implementations. cheapSuccessor has a relevant simplicity reason but fails Feasible and therefore JustifiedChoice. This does not enumerate all possible implementations.",
+        "current_code": [
+          "CoreReader/Choice.lean:132",
+          "CoreReader/Choice.lean:146",
+          "CoreReader/Choice.lean:168",
+          "CoreReader/Choice.lean:182"
+        ],
+        "minimal_fix": null
+      }
+    ]
+  },
+  {
+    "id": "T25",
+    "status": "accepted",
+    "reason": "Grounds承诺已扩展对应一般GroundsProvision而非一条能力义务；实际哲学方法绑定同系统原则形式和政策，并对两个提案计算选择，旧对象错配已消除。",
+    "reason_en": "groundsCommitmentIsProvision proves extensional equality with the universally quantified package rule. groundsSelfAssessment supplies reasons, actual in-scope criticism and rejection of waiver. The current philosophy method accepts correct identity and rejects cheap wrong output, so its grounded choice concerns that actual method. Revision consistency, own-capability evidence and full reflexive work share actualSystem. Classical decisions here are mathematical functions, not deployed decision procedures.",
+    "reason_zh": "Grounds承诺已扩展对应一般GroundsProvision而非一条能力义务；实际哲学方法绑定同系统原则形式和政策，并对两个提案计算选择，旧对象错配已消除。",
+    "classification": "D/W shared-model applications",
+    "previous_status": "rejected",
+    "previous_reason": "有真实模块交互的能力与一致性部分通过；Grounds条款自身、现有哲学同对象及原则过程的对应仍不足，不能以实例义务替代规范自身。",
+    "source_refs": [
+      {
+        "unit": "organon.relationships.roles",
+        "clause": "p1"
+      },
+      {
+        "unit": "organon.relationships.roles",
+        "clause": "p2"
+      },
+      {
+        "unit": "organon.relationships.roles",
+        "clause": "p3"
+      }
+    ],
+    "required_declarations": [
+      {
+        "name": "CoreReader.Integration.revisionKeepsConsistency",
+        "kind": "theorem",
+        "location": "CoreReader/Integration.lean:144",
+        "meaning": "Keeps the same charter and an admissible model after the added fact, then accepts true and rejects false revision reporting."
+      },
+      {
+        "name": "CoreReader.Integration.ownCapabilityGrounded",
+        "kind": "theorem",
+        "location": "CoreReader/Integration.lean:165",
+        "meaning": "Combines the actual content-validated self-assessment record with observation-supported capability Grounds and capability truth."
+      },
+      {
+        "name": "CoreReader.Integration.groundsSelfAssessment",
+        "kind": "theorem",
+        "location": "CoreReader/Integration.lean:443",
+        "meaning": "Applies value Grounds to the general Grounds provision itself, retaining actual scope/criticism and a rejected waiver variant."
+      },
+      {
+        "name": "CoreReader.Integration.existingPhilosophyNotPrivileged",
+        "kind": "theorem",
+        "location": "CoreReader/Integration.lean:497",
+        "meaning": "Binds the implementation to the current principle/governance object, rejects status-only priority and justifies it by its two actual proposal decisions."
+      }
+    ],
+    "proof_and_scope": "groundsCommitmentIsProvision proves extensional equality with the universally quantified package rule. groundsSelfAssessment supplies reasons, actual in-scope criticism and rejection of waiver. The current philosophy method accepts correct identity and rejects cheap wrong output, so its grounded choice concerns that actual method. Revision consistency, own-capability evidence and full reflexive work share actualSystem. Classical decisions here are mathematical functions, not deployed decision procedures.",
+    "findings": [
+      {
+        "branch": "a-revision-consistency",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "新增run0=0后由同一actual witness保持Consistent，revisionIdentity变化需报告；不为任意修订正确性背书。",
+        "previous_minimal_fix": null,
+        "current_analysis": "Grounds承诺已扩展对应一般GroundsProvision而非一条能力义务；实际哲学方法绑定同系统原则形式和政策，并对两个提案计算选择，旧对象错配已消除。 groundsCommitmentIsProvision proves extensional equality with the universally quantified package rule. groundsSelfAssessment supplies reasons, actual in-scope criticism and rejection of waiver. The current philosophy method accepts correct identity and rejects cheap wrong output, so its grounded choice concerns that actual method. Revision consistency, own-capability evidence and full reflexive work share actualSystem. Classical decisions here are mathematical functions, not deployed decision procedures.",
+        "current_code": [
+          "CoreReader/Integration.lean:144",
+          "CoreReader/Integration.lean:165",
+          "CoreReader/Integration.lean:443",
+          "CoreReader/Integration.lean:497"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "b-achievement-still-needs-grounds",
+        "status": "accepted",
+        "previous_status": "rejected",
+        "previous_analysis": "证明固定identity能力的Grounds，不是同一理解/构造扩展的claim及其基线/条件；T07缺口仍在。",
+        "previous_minimal_fix": "完成T07同一变化claim实例，并连接该系统自称/评估。",
+        "current_analysis": "Grounds承诺已扩展对应一般GroundsProvision而非一条能力义务；实际哲学方法绑定同系统原则形式和政策，并对两个提案计算选择，旧对象错配已消除。 groundsCommitmentIsProvision proves extensional equality with the universally quantified package rule. groundsSelfAssessment supplies reasons, actual in-scope criticism and rejection of waiver. The current philosophy method accepts correct identity and rejects cheap wrong output, so its grounded choice concerns that actual method. Revision consistency, own-capability evidence and full reflexive work share actualSystem. Classical decisions here are mathematical functions, not deployed decision procedures.",
+        "current_code": [
+          "CoreReader/Integration.lean:144",
+          "CoreReader/Integration.lean:165",
+          "CoreReader/Integration.lean:443",
+          "CoreReader/Integration.lean:497"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "c-own-capability-assessment",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "同一system0 assessment record与同一capability empirical facet匹配；capability来自实际两个候选推理而非仅self record。记录只证明模型会员关系。",
+        "previous_minimal_fix": null,
+        "current_analysis": "Grounds承诺已扩展对应一般GroundsProvision而非一条能力义务；实际哲学方法绑定同系统原则形式和政策，并对两个提案计算选择，旧对象错配已消除。 groundsCommitmentIsProvision proves extensional equality with the universally quantified package rule. groundsSelfAssessment supplies reasons, actual in-scope criticism and rejection of waiver. The current philosophy method accepts correct identity and rejects cheap wrong output, so its grounded choice concerns that actual method. Revision consistency, own-capability evidence and full reflexive work share actualSystem. Classical decisions here are mathematical functions, not deployed decision procedures.",
+        "current_code": [
+          "CoreReader/Integration.lean:144",
+          "CoreReader/Integration.lean:165",
+          "CoreReader/Integration.lean:443",
+          "CoreReader/Integration.lean:497"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "d-Grounds-provision-itself",
+        "status": "accepted",
+        "previous_status": "rejected",
+        "previous_analysis": "grounds-tag commitment是“这一次OwnCapabilityDuty满足”，并非Grounds条款的采纳/适用要求；其reason observation兼容仅说明本例能力，不能充当规范自身理由。",
+        "previous_minimal_fix": "建立表示Grounds规范采纳/适用的对象，与该规范自身的理由和限度相连；无需证明该价值规范终极正确。",
+        "current_analysis": "GroundsProvision:207量化任意claim/articulations/applicable/facets；groundsCommitmentIsProvision:433证明被评承诺确是此规则，groundsSelfAssessment:443具有实际域内批评和反选项失败。",
+        "current_code": [
+          "CoreReader/Integration.lean:144",
+          "CoreReader/Integration.lean:165",
+          "CoreReader/Integration.lean:443",
+          "CoreReader/Integration.lean:497"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "e-existing-philosophy-object",
+        "status": "accepted",
+        "previous_status": "rejected",
+        "previous_analysis": "existingPhilosophy只是identityImpl的显示名更新，与Policy/Charter/本例adopted commitments没有语义联系；对名为哲学的任意函数排status未完成“本哲学既有形式”反身实例。",
+        "previous_minimal_fix": "将被选implementation明确关联本模型采纳的philosophy/policy形式，再实例化同一选择规范。",
+        "current_analysis": "currentPhilosophy:460绑定s.principleForm及s.governance w；其implementation实际调用同政策的review，existingPhilosophyNotPrivileged:497验证两个提案及该实现的status失败/output理由成功。",
+        "current_code": [
+          "CoreReader/Integration.lean:144",
+          "CoreReader/Integration.lean:165",
+          "CoreReader/Integration.lean:443",
+          "CoreReader/Integration.lean:497"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "f-applicability-and-no-selfproof",
+        "status": "accepted",
+        "previous_status": "rejected",
+        "previous_analysis": "保留world=actual限制和已有self-test反例，但Grounds自身对象缺失；预算批评在actual限制下不发生，恒定回答又绕过内容关联，不能作为完整自我评估实例。",
+        "previous_minimal_fix": "在正确规范对象上给内容相关且非空的适用批评/回应与限制说明；复用非自证边界，不增加“价值必须证明真”的义务。",
+        "current_analysis": "完整Reflexive接入同actualSystem；位置限度和批评均在actual成立。positionConsequence的成功是选定应用内的操作性后果，不证明哲学普遍正确。",
+        "current_code": [
+          "CoreReader/Integration.lean:144",
+          "CoreReader/Integration.lean:165",
+          "CoreReader/Integration.lean:443",
+          "CoreReader/Integration.lean:497"
+        ],
+        "minimal_fix": null
+      }
+    ]
+  },
+  {
+    "id": "T26",
+    "status": "accepted",
+    "reason": "取向不保证反身履行、Charter不提供某个能力证据包的支持，以及共享全接口正见证均成立；仅证明这些指定方向。",
+    "reason_en": "generationNotReflexivity uses an applicable owned assessment with no work. charterNotGrounds keeps the same charter-compliant system while cost-only evidence admits an output-failing candidate. jointWitness supplies the repaired positive combination. The counterexample concerns the specified evidence package, not impossibility of every Grounds package.",
+    "reason_zh": "取向不保证反身履行、Charter不提供某个能力证据包的支持，以及共享全接口正见证均成立；仅证明这些指定方向。",
+    "classification": "W directional countermodels and positive combination",
+    "previous_status": "rejected",
+    "previous_reason": "两个指定非替代方向有有效有限反例；完整联合正见证依赖T02仍缺失的对应关系，家族不能全部通过。",
+    "source_refs": [
+      {
+        "unit": "organon.relationships.roles",
+        "clause": "p1"
+      },
+      {
+        "unit": "organon.relationships.roles",
+        "clause": "p2"
+      },
+      {
+        "unit": "organon.relationships.roles",
+        "clause": "p3"
+      }
+    ],
+    "required_declarations": [
+      {
+        "name": "CoreReader.Agency.generationNotReflexivity",
+        "kind": "case",
+        "location": "CoreReader/Agency.lean:257",
+        "meaning": "Exhibits a policy meeting generation while empty records fail the nonempty concrete reflexivity requirements."
+      },
+      {
+        "name": "CoreReader.Integration.charterNotGrounds",
+        "kind": "case",
+        "location": "CoreReader/Integration.lean:577",
+        "meaning": "Exhibits this actual charter-compliant system with compatible cost evidence whose specified capability facet is unsupported; other valid grounds can still exist."
+      },
+      {
+        "name": "CoreReader.Integration.jointWitness",
+        "kind": "case",
+        "location": "CoreReader/Integration.lean:595",
+        "meaning": "Constructs one shared system/world satisfying actual judgments, full reflexivity, capability evidence, feasible choice and each interpreted commitment's Grounds; it is a bounded model, not universal philosophical correctness."
+      }
+    ],
+    "proof_and_scope": "generationNotReflexivity uses an applicable owned assessment with no work. charterNotGrounds keeps the same charter-compliant system while cost-only evidence admits an output-failing candidate. jointWitness supplies the repaired positive combination. The counterexample concerns the specified evidence package, not impossibility of every Grounds package.",
+    "findings": [
+      {
+        "branch": "generation-not-reflexivity",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "真Generative和nonempty ownRules下empty records违反system assessment；不是把无规则空真当反例。",
+        "previous_minimal_fix": null,
+        "current_analysis": "取向不保证反身履行、Charter不提供某个能力证据包的支持，以及共享全接口正见证均成立；仅证明这些指定方向。 generationNotReflexivity uses an applicable owned assessment with no work. charterNotGrounds keeps the same charter-compliant system while cost-only evidence admits an output-failing candidate. jointWitness supplies the repaired positive combination. The counterexample concerns the specified evidence package, not impossibility of every Grounds package.",
+        "current_code": [
+          "CoreReader/Agency.lean:257",
+          "CoreReader/Integration.lean:577",
+          "CoreReader/Integration.lean:595"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "consistent-not-supported",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "兼容不蕴涵已证明；两cost-compatible候选中successor反驳capability，尽管指定actual及held可满足。",
+        "previous_minimal_fix": null,
+        "current_analysis": "取向不保证反身履行、Charter不提供某个能力证据包的支持，以及共享全接口正见证均成立；仅证明这些指定方向。 generationNotReflexivity uses an applicable owned assessment with no work. charterNotGrounds keeps the same charter-compliant system while cost-only evidence admits an output-failing candidate. jointWitness supplies the repaired positive combination. The counterexample concerns the specified evidence package, not impossibility of every Grounds package.",
+        "current_code": [
+          "CoreReader/Agency.lean:257",
+          "CoreReader/Integration.lean:577",
+          "CoreReader/Integration.lean:595"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "charter-not-specified-ground-bundle",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "Charter真而给定cost-based适用facet不discharged。只证明Charter不能保证任意指定证据包合格，不证明该claim不存在其他Grounds；实际上另有良好capabilityFacet。",
+        "previous_minimal_fix": null,
+        "current_analysis": "取向不保证反身履行、Charter不提供某个能力证据包的支持，以及共享全接口正见证均成立；仅证明这些指定方向。 generationNotReflexivity uses an applicable owned assessment with no work. charterNotGrounds keeps the same charter-compliant system while cost-only evidence admits an output-failing candidate. jointWitness supplies the repaired positive combination. The counterexample concerns the specified evidence package, not impossibility of every Grounds package.",
+        "current_code": [
+          "CoreReader/Agency.lean:257",
+          "CoreReader/Integration.lean:577",
+          "CoreReader/Integration.lean:595"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "positive-full-shared-model",
+        "status": "accepted",
+        "previous_status": "rejected",
+        "previous_analysis": "数学jointWitness成立，但T02指出完整反身问题和各承诺理由未匹配，不能计作冻结Core组合完全实现。",
+        "previous_minimal_fix": "先修复T02/T13/T25/T27受影响对象，再重证联合见证；负向结果可按原对象保留。",
+        "current_analysis": "Integration.jointWitness:595共享同actualSystem/actual，依赖含内容Reflexive、已检查实际能力证据、可行选择与五项分别对应的价值程序；T02旧缺口已补。",
+        "current_code": [
+          "CoreReader/Agency.lean:257",
+          "CoreReader/Integration.lean:577",
+          "CoreReader/Integration.lean:595"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "no-unclaimed-reverse-independence",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "不宣称Grounds不蕴涵Charter的相反方向，亦不将所述方向升级为普遍章节独立性。",
+        "previous_minimal_fix": null,
+        "current_analysis": "取向不保证反身履行、Charter不提供某个能力证据包的支持，以及共享全接口正见证均成立；仅证明这些指定方向。 generationNotReflexivity uses an applicable owned assessment with no work. charterNotGrounds keeps the same charter-compliant system while cost-only evidence admits an output-failing candidate. jointWitness supplies the repaired positive combination. The counterexample concerns the specified evidence package, not impossibility of every Grounds package.",
+        "current_code": [
+          "CoreReader/Agency.lean:257",
+          "CoreReader/Integration.lean:577",
+          "CoreReader/Integration.lean:595"
+        ],
+        "minimal_fix": null
+      }
+    ]
+  },
+  {
+    "id": "T27",
+    "status": "accepted",
+    "reason": "任意应用要求和合同的条件义务接口已参数化；补充applicationVariation对同一系统改变真实期望输出并证明旧证据失败；五项承诺由各自选项后果、理由和限度区分。",
+    "reason_en": "applicationRetainsDuties honestly projects assumed ApplicationDuties; it does not prove arbitrary applications fulfill them. The separately registered applicationVariation supplies the missing nonempty identity application and successor-objective failure. reasonsBelongToCommitments checks joint adoption, actual relevant criticism and failure of the opposite policy for all five commitments; common adoption predicates acquire distinct operational interpretations.",
+    "reason_zh": "任意应用要求和合同的条件义务接口已参数化；补充applicationVariation对同一系统改变真实期望输出并证明旧证据失败；五项承诺由各自选项后果、理由和限度区分。",
+    "classification": "N/D application and individual reasons",
+    "previous_status": "rejected",
+    "previous_reason": "labels不豁免固定例子的义务已证明；可变应用目标/能力及每项承诺自身理由的冻结范围尚未实现，字段等式不等于理由对应。",
+    "source_refs": [
+      {
+        "unit": "organon.relationships.roles",
+        "clause": "p1"
+      },
+      {
+        "unit": "organon.relationships.roles",
+        "clause": "p2"
+      },
+      {
+        "unit": "organon.relationships.roles",
+        "clause": "p3"
+      }
+    ],
+    "required_declarations": [
+      {
+        "name": "CoreReader.Integration.applicationRetainsDuties",
+        "kind": "theorem",
+        "location": "CoreReader/Integration.lean:529",
+        "meaning": "Projects an explicitly assumed application-compliance interface into reflexivity, applicability coverage and matching discharged facets; it does not invent compliance."
+      },
+      {
+        "name": "CoreReader.Integration.reasonsBelongToCommitments",
+        "kind": "theorem",
+        "location": "CoreReader/Integration.lean:423",
+        "meaning": "Provides per-commitment Grounds, a real joint adoption, actual relevant criticism and rejection of the opposite policy under the same interpreted objective."
+      }
+    ],
+    "proof_and_scope": "applicationRetainsDuties honestly projects assumed ApplicationDuties; it does not prove arbitrary applications fulfill them. The separately registered applicationVariation supplies the missing nonempty identity application and successor-objective failure. reasonsBelongToCommitments checks joint adoption, actual relevant criticism and failure of the opposite policy for all five commitments; common adoption predicates acquire distinct operational interpretations.",
+    "findings": [
+      {
+        "branch": "labels-and-owned-scope",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "固定能力实例在任意labels下仍需facet discharge，owner0且ownSubjects适用者有assessment；条件未删除。",
+        "previous_minimal_fix": null,
+        "current_analysis": "applicationRetainsDuties:529从明确ApplicationDuties前提投影同s.owner的完整Reflexive以及全部applicable facet；不是借labels推论自动合规。",
+        "current_code": [
+          "CoreReader/Integration.lean:529",
+          "CoreReader/Integration.lean:423"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "application-defined-objectives-contracts",
+        "status": "accepted",
+        "previous_status": "rejected",
+        "previous_analysis": "定理参数不含objective/value/capability contract，未展示改变它们仍受对应责任约束；已有Process两个合同又未与这里Grounds共享对象。",
+        "previous_minimal_fix": "参数化应用合同/主张与适用facet或给两个实质不同但同框架受约束的应用实例，保留自我对象条件。",
+        "current_analysis": "applicationClaim:512参数化Requirements与合同；applicationVariation:556在同actualSystem下由identity改期望successor，旧观察仍相同却不足以Ground新主张。该补充声明已纳入63项正式审计。",
+        "current_code": [
+          "CoreReader/Integration.lean:529",
+          "CoreReader/Integration.lean:423"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "individual-reasons-correspond",
+        "status": "accepted",
+        "previous_status": "rejected",
+        "previous_analysis": "字段分别保存不同reason不等于其为该commitment的理由；generation输出差异与worthPursuing/revisability脱离，reflexivity只给一项record，Grounds理由仍是能力实例。",
+        "previous_minimal_fix": "给每个承诺与特定理由/适用限度的可审查语义关系及正/负实例，允许理由非演绎、保留已采纳价值起点，不把结论或同义项伪装为推论前提。",
+        "current_analysis": "reasonsBelongToCommitments:423证明每项的Grounds、JointAdoption、域内实际批评及反选项失败；五项实际后果不同，非仅字段名称或恒真共享支持标记。",
+        "current_code": [
+          "CoreReader/Integration.lean:529",
+          "CoreReader/Integration.lean:423"
+        ],
+        "minimal_fix": null
+      }
+    ]
+  },
+  {
+    "id": "T28",
+    "status": "accepted",
+    "reason": "结构化推论评估给出真实n=2到n+1=3的根据且不要求经验测试；经验方面仍保留观察责任。",
+    "reason_en": "nonExecutableAssessment constructs an articulated inferential facet and checks the actual implication. No executable-test requirement is present in that assessment interface. Lean checking this proof is not evidence of noncomputability or a prohibition on tests.",
+    "reason_zh": "结构化推论评估给出真实n=2到n+1=3的根据且不要求经验测试；经验方面仍保留观察责任。",
+    "classification": "W/N nonempirical assessment example",
+    "previous_status": "accepted",
+    "previous_reason": "有实际n=2⇒n+1=3的结构化推论Grounds且无需经验测试，同时保留经验facet的观测责任。非经验不是不可计算。",
+    "source_refs": [
+      {
+        "unit": "organon.relationships.terms",
+        "clause": "p1"
+      },
+      {
+        "unit": "organon.grounds.assessment",
+        "clause": "p1"
+      },
+      {
+        "unit": "organon.grounds.assessment",
+        "clause": "p2"
+      },
+      {
+        "unit": "organon.grounds.assessment",
+        "clause": "p3"
+      }
+    ],
+    "required_declarations": [
+      {
+        "name": "CoreReader.Evidence.nonExecutableAssessment",
+        "kind": "case",
+        "location": "CoreReader/Evidence.lean:840",
+        "meaning": "Constructs Grounds for the arithmetic conditional facet and distinguishes its nonempirical tag from a discharged empirical switch facet. The tag does not establish noncomputability."
+      }
+    ],
+    "proof_and_scope": "nonExecutableAssessment constructs an articulated inferential facet and checks the actual implication. No executable-test requirement is present in that assessment interface. Lean checking this proof is not evidence of noncomputability or a prohibition on tests.",
+    "findings": [
+      {
+        "branch": "valid-inference-and-articulation",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "假设与结论不同、n=2非空model真实；canonical reasons=Models assumptions，完成同一facet的对齐和discharge。",
+        "previous_minimal_fix": null,
+        "current_analysis": "结构化推论评估给出真实n=2到n+1=3的根据且不要求经验测试；经验方面仍保留观察责任。 nonExecutableAssessment constructs an articulated inferential facet and checks the actual implication. No executable-test requirement is present in that assessment interface. Lean checking this proof is not evidence of noncomputability or a prohibition on tests.",
+        "current_code": [
+          "CoreReader/Evidence.lean:840"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "no-executable-test-requirement",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "推论facet无Record/执行测试先决条件；Lean验证这段数学模型不等于被评对象必须跑脚本。",
+        "previous_minimal_fix": null,
+        "current_analysis": "结构化推论评估给出真实n=2到n+1=3的根据且不要求经验测试；经验方面仍保留观察责任。 nonExecutableAssessment constructs an articulated inferential facet and checks the actual implication. No executable-test requirement is present in that assessment interface. Lean checking this proof is not evidence of noncomputability or a prohibition on tests.",
+        "current_code": [
+          "CoreReader/Evidence.lean:840"
+        ],
+        "minimal_fix": null
+      },
+      {
+        "branch": "retain-empirical-responsibility",
+        "status": "accepted",
+        "previous_status": "accepted",
+        "previous_analysis": "同定理保留switchEmpirical的实际observation/discharge，而非取消经验claim的责任。",
+        "previous_minimal_fix": null,
+        "current_analysis": "结构化推论评估给出真实n=2到n+1=3的根据且不要求经验测试；经验方面仍保留观察责任。 nonExecutableAssessment constructs an articulated inferential facet and checks the actual implication. No executable-test requirement is present in that assessment interface. Lean checking this proof is not evidence of noncomputability or a prohibition on tests.",
+        "current_code": [
+          "CoreReader/Evidence.lean:840"
+        ],
+        "minimal_fix": null
+      }
+    ]
+  }
+]

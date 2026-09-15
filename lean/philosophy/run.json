@@ -1,0 +1,1926 @@
+{
+  "schema_version": 1,
+  "source": {
+    "kind": "organon",
+    "path": "../../PHILOSOPHY.md",
+    "snapshot": "snapshots/PHILOSOPHY.md",
+    "sha256": "226fa3522943955d5a0f1f0b88e883c97b3505b3bcfd285329e432757912543f",
+    "metadata": {
+      "format_version": "0.1.0",
+      "philosophy_version": "0.1.4",
+      "core_version": "0.1.4",
+      "derived_from": null
+    }
+  },
+  "project": {
+    "path": "leanified",
+    "root_module": "CoreReader"
+  },
+  "preregistration": {
+    "path": "PREREGISTERED.md",
+    "sha256": "242feb5156c4dd9b7d47dcf712a8c196131a2907ea331d06d4aab8ea8fe3a079"
+  },
+  "proof_targets": {
+    "path": "targets.json",
+    "sha256": "2400383120ab2d98454597a73cdcaaadf45b8e47b18a646118708dc5d81da2a4"
+  },
+  "units": [
+    {
+      "id": "organon.preamble",
+      "hash": "2ff45595af647eddc9fc095b3f3854f284bf3740ae7af1bacdb98773ffa44097",
+      "status": "partial",
+      "reason": "Reviewed model fragments and normative interfaces are separated from real-world evidence and value adequacy.",
+      "clauses": [
+        {
+          "id": "p1",
+          "claim": "This is the authoritative statement of Organon’s philosophy. It expresses adopted commitments, not factual assertions about every system or a proof of universal correctness.",
+          "declarations": [
+            "CoreReader.Integration.jointWitness"
+          ]
+        },
+        {
+          "id": "p2",
+          "claim": "The quoted provisions, their meanings, and their conditions of application form the core. The charter and Grounds constrain one another; their grouping establishes neither a deductive hierarchy nor an order of priority. [Rationale](rationale/README.md) supplies arguments and cases without adding obligations to this core. Skills are revisable applications under the repository’s stated objectives and constraints, not part of the philosophical commitments themselves.",
+          "declarations": [
+            "CoreReader.Integration.jointWitness"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organon.charter",
+      "hash": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "status": "structural",
+      "reason": "Heading with no substantive direct body.",
+      "clauses": []
+    },
+    {
+      "id": "organon.charter.overview",
+      "hash": "75d7d941d3c07ea748c4a9261d36a75fbd5664ff9c817c4034a9a36a3a12664c",
+      "status": "partial",
+      "reason": "Reviewed model fragments and normative interfaces are separated from real-world evidence and value adequacy.",
+      "clauses": [
+        {
+          "id": "p1",
+          "claim": "**Self-Transcendence · Internal Consistency · Reflexivity**",
+          "declarations": [],
+          "status": "nonformal",
+          "reason": "Documentary or normative boundary; no theorem of universal philosophical correctness is assigned."
+        },
+        {
+          "id": "p2",
+          "claim": "> A system is intrinsically oriented toward expanding what it can understand and construct. It brings itself and its principles within the scope of generation and assessment, with internal consistency constraining this process.",
+          "declarations": [
+            "CoreReader.Integration.jointWitness",
+            "CoreReader.Agency.Generative"
+          ]
+        },
+        {
+          "id": "p3",
+          "claim": "The overview connects three distinct requirements: self-transcendence establishes a generative orientation and refuses to treat existing forms as final, internal consistency constrains judgments held simultaneously, and reflexivity brings the system and its principles within the scope of their own generation and assessment. The provisions below specify the conditions for each.",
+          "declarations": [
+            "CoreReader.Integration.jointWitness",
+            "CoreReader.Agency.Generative"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organon.charter.self-transcendence",
+      "hash": "f4ca590e2ae15e3882f70c7b2bc46a8911c97cee547c8b137b5493fbf862c8c0",
+      "status": "partial",
+      "reason": "Reviewed model fragments and normative interfaces are separated from real-world evidence and value adequacy.",
+      "clauses": [
+        {
+          "id": "p1",
+          "claim": "> A system is intrinsically oriented toward expanding what it can understand and construct. It does not regard any existing form as the endpoint of generation.",
+          "declarations": [
+            "CoreReader.Agency.Generative"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organon.charter.self-transcendence.orientation",
+      "hash": "7f9b85c0816b3d69e417cf3cbe17b7b59931388f84d799ce6730c998037358bf",
+      "status": "partial",
+      "reason": "Reviewed model fragments and normative interfaces are separated from real-world evidence and value adequacy.",
+      "clauses": [
+        {
+          "id": "p1",
+          "claim": "A commitment to keeping generative possibilities open is distinct from valuing their expansion. A system has an intrinsic orientation when it regards that expansion as worth pursuing. Merely permitting change does not fully express this orientation.",
+          "declarations": [
+            "CoreReader.Agency.Generative",
+            "CoreReader.Agency.permissionNotValuation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organon.charter.self-transcendence.non-finality",
+      "hash": "4ae4497523e79e0606ab3849c47b6ea16f8888a952e063e6966eb36b750f3df8",
+      "status": "partial",
+      "reason": "Reviewed model fragments and normative interfaces are separated from real-world evidence and value adequacy.",
+      "clauses": [
+        {
+          "id": "p1",
+          "claim": "Refusing to regard an existing form as an endpoint keeps it open to being surpassed. “Existing form” includes a system’s current organization, methods, and principles, not only its appearance or artifacts. These remain within the scope of possible change; their revisability does not guarantee actual progress.",
+          "declarations": [
+            "CoreReader.Agency.Generative",
+            "CoreReader.Agency.revisabilityCovers",
+            "CoreReader.Agency.revisionWithoutProgress"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organon.charter.self-transcendence.limits",
+      "hash": "6dade83f0b7fcc004bdb37b6726c15b31b06a377de4e86d506c9d2e67847029d",
+      "status": "partial",
+      "reason": "Reviewed model fragments and normative interfaces are separated from real-world evidence and value adequacy.",
+      "clauses": [
+        {
+          "id": "p1",
+          "claim": "Whether progress has actually occurred remains a separate judgment. Having the orientation does not guarantee progress. Progress cannot be established merely by an increase in the number of artifacts, levels of abstraction, or terms.",
+          "declarations": [
+            "CoreReader.Agency.Generative",
+            "CoreReader.Agency.generationLimits",
+            "CoreReader.Evidence.AchievementAccountability",
+            "CoreReader.Evidence.achievementNeedsSupport"
+          ]
+        },
+        {
+          "id": "p2",
+          "claim": "- “Intrinsic orientation” expresses Organon’s philosophical commitment; it does not assert that all systems in fact develop autonomously.\n- Self-transcendence does not imply independence from external experience, knowledge, or collaboration, nor does it guarantee autonomous execution or self-improvement.\n- Refusing to regard an existing form as an endpoint does not require every action to produce change. Justified stability can coexist with a generative orientation.\n- Whether transcendence expands what can be understood and constructed requires discernible grounds; a system’s own claim of generation does not establish actual achievement.",
+          "declarations": [
+            "CoreReader.Agency.Generative",
+            "CoreReader.Agency.generationLimits",
+            "CoreReader.Evidence.AchievementAccountability",
+            "CoreReader.Evidence.achievementNeedsSupport"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organon.charter.consistency",
+      "hash": "c6960c590c096d33250599cf418e3c6a1dc26bfc7d7800c82b8efde656950f42",
+      "status": "partial",
+      "reason": "Reviewed model fragments and normative interfaces are separated from real-world evidence and value adequacy.",
+      "clauses": [
+        {
+          "id": "p1",
+          "claim": "> The principles and judgments a system holds simultaneously, together with their implications, must not yield contradictory judgments on the same question under the same assumptions, meanings of terms, and scope of application.",
+          "declarations": [
+            "CoreReader.Logic.consequenceConsistency",
+            "CoreReader.Logic.jointConflict"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organon.charter.consistency.meaning",
+      "hash": "81c09e38a3349499f95401d1c08f6069666c13547a43bc4e4395330743055faa",
+      "status": "partial",
+      "reason": "Reviewed model fragments and normative interfaces are separated from real-world evidence and value adequacy.",
+      "clauses": [
+        {
+          "id": "p1",
+          "claim": "“Held simultaneously” specifies which principles, judgments, and implications must hold together. Revision may withdraw an earlier judgment; old and new principles need not remain compatible forever. When a change has occurred, that change cannot be represented as though it had not occurred.",
+          "declarations": [
+            "CoreReader.Logic.revisionCanReverse",
+            "CoreReader.Logic.contextDifferences",
+            "CoreReader.Logic.semanticChangeMustBeReported",
+            "CoreReader.Logic.representationOrderIrrelevant",
+            "CoreReader.Logic.hiddenContextChangeRejected"
+          ]
+        },
+        {
+          "id": "p2",
+          "claim": "“The same assumptions, meanings of terms, and scope of application” specifies the basis for comparing judgments. Divergent judgments under different conditions do not automatically constitute contradictions. Nor can unacknowledged changes in assumptions, meanings, or scope be used to conceal an existing contradiction.",
+          "declarations": [
+            "CoreReader.Logic.revisionCanReverse",
+            "CoreReader.Logic.contextDifferences",
+            "CoreReader.Logic.semanticChangeMustBeReported",
+            "CoreReader.Logic.representationOrderIrrelevant",
+            "CoreReader.Logic.hiddenContextChangeRejected"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organon.charter.consistency.limits",
+      "hash": "4fa1c29bf95ad6ef04c6d27671a832c0af8ba31b9c0d8018a8d09c4f33c38e75",
+      "status": "partial",
+      "reason": "Reviewed model fragments and normative interfaces are separated from real-world evidence and value adequacy.",
+      "clauses": [
+        {
+          "id": "p1",
+          "claim": "- Tension between different assessments or values does not directly constitute a contradiction. Revision or qualification is needed when they require incompatible conclusions under the same conditions.\n- Internal consistency is not correctness or sufficiency. A set of principles may be internally consistent while relying on false assumptions or neglecting important questions.",
+          "declarations": [
+            "CoreReader.Logic.tensionWithoutContradiction",
+            "CoreReader.Logic.conflictRequiresChange",
+            "CoreReader.Logic.consistentFalse",
+            "CoreReader.Logic.consistentIncomplete"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organon.charter.reflexivity",
+      "hash": "13293b45c2fa89068c68ae7ef3c5df38f0efadb3ef3873d78a5ba67d9691a757",
+      "status": "partial",
+      "reason": "Reviewed model fragments and normative interfaces are separated from real-world evidence and value adequacy.",
+      "clauses": [
+        {
+          "id": "p1",
+          "claim": "> A system’s principles of generation and assessment also apply to the system itself and to the formation, application, and revision of those principles.",
+          "declarations": [
+            "CoreReader.Agency.Reflexive"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organon.charter.reflexivity.meaning",
+      "hash": "8a2caede01a43d8b6c60b54c78ac089c51868e9956f316948077ccee2e45c9cc",
+      "status": "partial",
+      "reason": "Reviewed model fragments and normative interfaces are separated from real-world evidence and value adequacy.",
+      "clauses": [
+        {
+          "id": "p1",
+          "claim": "Reflexivity encompasses both the system itself and its principles. Assessment concerns not only whether the system conforms to its principles, but also how those principles are formed, where they apply, and why they may need revision. The formation and revision of principles thus also become objects of generation and assessment.",
+          "declarations": [
+            "CoreReader.Agency.Reflexive"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organon.charter.reflexivity.limits",
+      "hash": "ac0baae0d86e69f84c1ca4dee837de2759e2d29c295ffc257d988962158d4bbc",
+      "status": "partial",
+      "reason": "Reviewed model fragments and normative interfaces are separated from real-world evidence and value adequacy.",
+      "clauses": [
+        {
+          "id": "p1",
+          "claim": "- Applying principles equally retains their conditions of application. When the relevant conditions hold, being the system itself is not a basis for exemption. Nor does the requirement of reflexivity establish that every principle can be applied to itself without examining its applicability.\n- Self-application does not constitute self-proof. Subjecting a principle to its own assessment does not thereby establish its correctness.\n- That a revision is produced by the system itself does not give it sufficient grounds.",
+          "declarations": [
+            "CoreReader.Agency.Reflexive",
+            "CoreReader.Agency.noSelfExemption",
+            "CoreReader.Agency.applicabilityRetained",
+            "CoreReader.Agency.selfTestDoesNotProve",
+            "CoreReader.Evidence.selfOriginDoesNotSupport"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organon.grounds",
+      "hash": "4ee74dc8617388ee75d63b507176ecb73b8527758b648f7c588d3ae7f3445ec6",
+      "status": "partial",
+      "reason": "Reviewed model fragments and normative interfaces are separated from real-world evidence and value adequacy.",
+      "clauses": [
+        {
+          "id": "p1",
+          "claim": "> The grounds of principles and judgments must be articulable and subject to assessment appropriate to the nature of the claim. The strength and scope of a claim must be proportionate to the support provided by its grounds.",
+          "declarations": [
+            "CoreReader.Evidence.AchievementAccountability",
+            "CoreReader.Evidence.achievementNeedsSupport",
+            "CoreReader.Evidence.Grounds",
+            "CoreReader.Evidence.supportWeakening",
+            "CoreReader.Evidence.scopeRestriction"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organon.grounds.assessment",
+      "hash": "2e7cbca320eec1f25a6e82391c6d44d29bfafd4a27f2fe8241db0453381d0fe2",
+      "status": "partial",
+      "reason": "Reviewed model fragments and normative interfaces are separated from real-world evidence and value adequacy.",
+      "clauses": [
+        {
+          "id": "p1",
+          "claim": "Articulation and assessment have distinct responsibilities. Articulability requires that concepts, assumptions, reasons, and limits can be identified. Assessment requires examining whether those grounds support the corresponding claim. Clearly expressed grounds are not thereby sufficiently established. When a claim has more than one applicable aspect, the corresponding assessment responsibilities apply to each aspect. Omitting a classification does not waive an applicable responsibility.",
+          "declarations": [
+            "CoreReader.Evidence.Grounds",
+            "CoreReader.Evidence.supportWeakening",
+            "CoreReader.Evidence.scopeRestriction",
+            "CoreReader.Evidence.assessmentUnion",
+            "CoreReader.Evidence.labelsCannotWaive",
+            "CoreReader.Evidence.mixedMissingResponsibility",
+            "CoreReader.Evidence.articulationNotSupport",
+            "CoreReader.Evidence.measurementRepeatNotSupport",
+            "CoreReader.Logic.compatibilityNotEntailment",
+            "CoreReader.Evidence.selfAssertionNotReason",
+            "CoreReader.Evidence.valueWithoutSelfProof",
+            "CoreReader.Evidence.heterogeneousReasons",
+            "CoreReader.Evidence.nonExecutableAssessment"
+          ]
+        },
+        {
+          "id": "p2",
+          "claim": "| Type of claim | Responsibility of assessment | What cannot substitute for that responsibility |\n| --- | --- | --- |\n| Empirical claim | Examine observations, evidence, and performance, together with the conditions, scope, and uncertainty of their support for the claim. | Treating measurability or repeatability itself as proof of relevance, correctness, or value. |\n| Inferential claim | Examine whether the conclusion is supported by the stated assumptions and inferential relations. | Treating the absence of conflict between a conclusion and its assumptions as sufficient to establish that the conclusion follows from them. |\n| Value commitment | State the position taken, its reasons, limits of application, and consequences, and remain open to relevant criticism. | Presenting a commitment as an empirical fact or a necessary inference, or substituting self-assertion for reasons. |",
+          "declarations": [
+            "CoreReader.Evidence.Grounds",
+            "CoreReader.Evidence.supportWeakening",
+            "CoreReader.Evidence.scopeRestriction",
+            "CoreReader.Evidence.assessmentUnion",
+            "CoreReader.Evidence.labelsCannotWaive",
+            "CoreReader.Evidence.mixedMissingResponsibility",
+            "CoreReader.Evidence.articulationNotSupport",
+            "CoreReader.Evidence.measurementRepeatNotSupport",
+            "CoreReader.Logic.compatibilityNotEntailment",
+            "CoreReader.Evidence.selfAssertionNotReason",
+            "CoreReader.Evidence.valueWithoutSelfProof",
+            "CoreReader.Evidence.heterogeneousReasons",
+            "CoreReader.Evidence.nonExecutableAssessment"
+          ]
+        },
+        {
+          "id": "p3",
+          "claim": "Initial value commitments may be stated explicitly as commitments; they need not prove all their own starting assumptions. The strength and scope of a claim do not require conversion to a common numerical scale. Different types of claims specify their support and limits in accordance with their nature.",
+          "declarations": [
+            "CoreReader.Evidence.Grounds",
+            "CoreReader.Evidence.supportWeakening",
+            "CoreReader.Evidence.scopeRestriction",
+            "CoreReader.Evidence.assessmentUnion",
+            "CoreReader.Evidence.labelsCannotWaive",
+            "CoreReader.Evidence.mixedMissingResponsibility",
+            "CoreReader.Evidence.articulationNotSupport",
+            "CoreReader.Evidence.measurementRepeatNotSupport",
+            "CoreReader.Logic.compatibilityNotEntailment",
+            "CoreReader.Evidence.selfAssertionNotReason",
+            "CoreReader.Evidence.valueWithoutSelfProof",
+            "CoreReader.Evidence.heterogeneousReasons",
+            "CoreReader.Evidence.nonExecutableAssessment"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organon.grounds.scope",
+      "hash": "4a0e93c7834e4ef62f129ee4621cf7bf1c93b64d86f9f145d1592adcf9fb6693",
+      "status": "partial",
+      "reason": "Reviewed model fragments and normative interfaces are separated from real-world evidence and value adequacy.",
+      "clauses": [
+        {
+          "id": "p1",
+          "claim": "Performance is discerned within particular relations, conditions, and scopes of observation. A boundary helps specify what a comparison concerns, but local examples do not automatically support unconditional universal conclusions. A judgment cannot establish that relevant differences do not exist merely because its chosen scope omits them.",
+          "declarations": [
+            "CoreReader.Evidence.localNotUniversal",
+            "CoreReader.Evidence.hiddenDifference",
+            "CoreReader.Evidence.singleObservation",
+            "CoreReader.Evidence.noUniversalChain",
+            "CoreReader.Evidence.variableOutcomesStableBound",
+            "CoreReader.Evidence.verificationReproductionStability"
+          ]
+        },
+        {
+          "id": "p2",
+          "claim": "Measurement can make some differences comparable. Repeated assessment can help examine the stability of corresponding conclusions. Their roles, and the role of any assessment framework, must be explained relative to the claim and its context. Measurement, repeatability, and an assessment framework do not form a universally necessary chain on which all judgments must depend.",
+          "declarations": [
+            "CoreReader.Evidence.localNotUniversal",
+            "CoreReader.Evidence.hiddenDifference",
+            "CoreReader.Evidence.singleObservation",
+            "CoreReader.Evidence.noUniversalChain",
+            "CoreReader.Evidence.variableOutcomesStableBound",
+            "CoreReader.Evidence.verificationReproductionStability"
+          ]
+        },
+        {
+          "id": "p3",
+          "claim": "An observation that has not been reproduced may still offer limited support, and random outcomes need not be identical on every occasion. The verifiability of observations, reproducibility of conditions, and stability of conclusions must be distinguished.",
+          "declarations": [
+            "CoreReader.Evidence.localNotUniversal",
+            "CoreReader.Evidence.hiddenDifference",
+            "CoreReader.Evidence.singleObservation",
+            "CoreReader.Evidence.noUniversalChain",
+            "CoreReader.Evidence.variableOutcomesStableBound",
+            "CoreReader.Evidence.verificationReproductionStability"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organon.grounds.capabilities",
+      "hash": "7249f6f2ef327baaa72349cae53b9245f23a34436356dd05f3c6005cab35e8f0",
+      "status": "partial",
+      "reason": "Reviewed model fragments and normative interfaces are separated from real-world evidence and value adequacy.",
+      "clauses": [
+        {
+          "id": "p1",
+          "claim": "Capability claims are subject to Grounds: the capability claimed, its conditions, and the support for it must be identifiable. The core does not prescribe uniform definitions of method mastery, method generation, or capability levels. Applications specify the capabilities they assess and may require understanding, explanation, or performance under relevant variations.",
+          "declarations": [
+            "CoreReader.Evidence.AchievementAccountability",
+            "CoreReader.Evidence.achievementNeedsSupport",
+            "CoreReader.Evidence.outputNotExplanation",
+            "CoreReader.Evidence.applicationContractsDiffer",
+            "CoreReader.Evidence.externalAssessment",
+            "CoreReader.Agency.inventoryNotCapability"
+          ]
+        },
+        {
+          "id": "p2",
+          "claim": "Grounds for a capability claim may be supplied by an external assessor. Their articulability does not by itself require the assessed system to understand or explain its internal generation process. Evidence of reliable output must be assessed against the capability actually claimed; it does not automatically establish understanding of that process. Nor can the number of method documents, terms, tools, or artifacts alone establish a capability beyond what that evidence supports.",
+          "declarations": [
+            "CoreReader.Evidence.AchievementAccountability",
+            "CoreReader.Evidence.achievementNeedsSupport",
+            "CoreReader.Evidence.outputNotExplanation",
+            "CoreReader.Evidence.applicationContractsDiffer",
+            "CoreReader.Evidence.externalAssessment",
+            "CoreReader.Agency.inventoryNotCapability"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organon.grounds.implementations",
+      "hash": "bb2a822a304d4a20f513218f356ddbeeca8ee139e3ed802213591e9ff6c5095c",
+      "status": "partial",
+      "reason": "Reviewed model fragments and normative interfaces are separated from real-world evidence and value adequacy.",
+      "clauses": [
+        {
+          "id": "p1",
+          "claim": "> The choice of an implementation must be supported by reasons connected to the objectives and values pursued and to the relevant constraints. Its name, conventional use, or established status alone does not provide sufficient grounds for giving it priority.",
+          "declarations": [
+            "CoreReader.Choice.statusOnlyFails",
+            "CoreReader.Choice.conventionWithReason",
+            "CoreReader.Choice.generalGroundsNotChoice"
+          ]
+        },
+        {
+          "id": "p2",
+          "claim": "This choice provision adds an additional evaluative commitment: name, conventional use, or established status alone is insufficient to establish priority. Grouping it under Grounds does not mean that it follows from the general requirement to assess reasons, or merely from the discernibility of performance. Conventions and existing arrangements may have practical significance, but that significance must be connected to the objectives and values pursued and to the relevant constraints.",
+          "declarations": [
+            "CoreReader.Choice.statusOnlyFails",
+            "CoreReader.Choice.conventionWithReason",
+            "CoreReader.Choice.generalGroundsNotChoice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organon.grounds.implementations.limits",
+      "hash": "db9b5f1803baab0e1b05a3a9e068948667412afa7d692e1da3869ca54be4b870",
+      "status": "partial",
+      "reason": "Reviewed model fragments and normative interfaces are separated from real-world evidence and value adequacy.",
+      "clauses": [
+        {
+          "id": "p1",
+          "claim": "- Openness does not make all implementations equivalent, nor does it guarantee multiple feasible implementations for the same objective.\n- A method’s explanatory power, limits of application, simplicity, and explicit process requirements may all provide grounded reasons for assessment. They cannot be excluded merely because they concern methods internal to the implementation.\n- Identical local performance does not establish overall equivalence. Relations, conditions, and the scope of comparison are constrained by the provisions of Grounds.\n- Openness does not reject an implementation merely because it already exists or is conventionally used. Relevant reasons may still give it priority.",
+          "declarations": [
+            "CoreReader.Choice.singleFeasible",
+            "CoreReader.Choice.localNotGlobal",
+            "CoreReader.Choice.internalReasons",
+            "CoreReader.Choice.openNotEquivalent"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organon.relationships",
+      "hash": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "status": "structural",
+      "reason": "Heading with no substantive direct body.",
+      "clauses": []
+    },
+    {
+      "id": "organon.relationships.roles",
+      "hash": "24b533c77fe93d0570da65ee361893f2c445842f48ee6f315f99f8abc06a0e5e",
+      "status": "partial",
+      "reason": "Reviewed model fragments and normative interfaces are separated from real-world evidence and value adequacy.",
+      "clauses": [
+        {
+          "id": "p1",
+          "claim": "The charter states the generative orientation, the consistency constraint, and reflexive application. Grounds specifies support requirements for judgments and includes an additional commitment concerning implementation choices. Both parts belong to the core and constrain one another. Their placement neither makes Grounds a deduction from the charter nor gives the charter priority over it. Each commitment needs its own reasons.",
+          "declarations": [
+            "CoreReader.Integration.jointWitness",
+            "CoreReader.Logic.consistentFalse",
+            "CoreReader.Logic.consistentIncomplete",
+            "CoreReader.Choice.generalGroundsNotChoice",
+            "CoreReader.Integration.revisionKeepsConsistency",
+            "CoreReader.Integration.ownCapabilityGrounded",
+            "CoreReader.Integration.groundsSelfAssessment",
+            "CoreReader.Integration.existingPhilosophyNotPrivileged",
+            "CoreReader.Agency.generationNotReflexivity",
+            "CoreReader.Integration.charterNotGrounds",
+            "CoreReader.Integration.applicationRetainsDuties",
+            "CoreReader.Integration.reasonsBelongToCommitments",
+            "CoreReader.Integration.applicationVariation"
+          ]
+        },
+        {
+          "id": "p2",
+          "claim": "Internal Consistency concerns whether simultaneously held judgments can hold together; Grounds concerns whether and how far a claim is supported. A conclusion may fail to conflict with its assumptions without being supported by them. Self-Transcendence specifies a generative orientation and non-finality; neither establishes actual capability. Applications may supply objectives, values, and capability definitions; claims made under those objectives, values, and definitions remain subject to the relevant core provisions.",
+          "declarations": [
+            "CoreReader.Integration.jointWitness",
+            "CoreReader.Logic.consistentFalse",
+            "CoreReader.Logic.consistentIncomplete",
+            "CoreReader.Choice.generalGroundsNotChoice",
+            "CoreReader.Integration.revisionKeepsConsistency",
+            "CoreReader.Integration.ownCapabilityGrounded",
+            "CoreReader.Integration.groundsSelfAssessment",
+            "CoreReader.Integration.existingPhilosophyNotPrivileged",
+            "CoreReader.Agency.generationNotReflexivity",
+            "CoreReader.Integration.charterNotGrounds",
+            "CoreReader.Integration.applicationRetainsDuties",
+            "CoreReader.Integration.reasonsBelongToCommitments",
+            "CoreReader.Integration.applicationVariation"
+          ]
+        },
+        {
+          "id": "p3",
+          "claim": "Self-Transcendence does not substitute for Reflexivity: keeping existing forms open to being surpassed differs from applying relevant principles to the system and to their own formation, application, and revision. Reflexivity extends these requirements to the system and to the formation, application, and revision of its principles. The grounds and limits of the Grounds provisions must themselves be articulable. The system’s own capability claims remain subject to assessment, and this philosophy’s existing form cannot gain priority merely from its established status. Such mutual application provides no self-proof and does not remove conditions of application.",
+          "declarations": [
+            "CoreReader.Integration.jointWitness",
+            "CoreReader.Logic.consistentFalse",
+            "CoreReader.Logic.consistentIncomplete",
+            "CoreReader.Choice.generalGroundsNotChoice",
+            "CoreReader.Integration.revisionKeepsConsistency",
+            "CoreReader.Integration.ownCapabilityGrounded",
+            "CoreReader.Integration.groundsSelfAssessment",
+            "CoreReader.Integration.existingPhilosophyNotPrivileged",
+            "CoreReader.Agency.generationNotReflexivity",
+            "CoreReader.Integration.charterNotGrounds",
+            "CoreReader.Integration.applicationRetainsDuties",
+            "CoreReader.Integration.reasonsBelongToCommitments",
+            "CoreReader.Integration.applicationVariation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organon.relationships.terms",
+      "hash": "0d22f818e4466a5ab4272607ac0ab26997270cf05c64ce9ac547e866068907d1",
+      "status": "partial",
+      "reason": "Reviewed model fragments and normative interfaces are separated from real-world evidence and value adequacy.",
+      "clauses": [
+        {
+          "id": "p1",
+          "claim": "| Term | Meaning in this philosophy |\n| --- | --- |\n| Existing form | The system’s current organization, methods, and principles, not only its appearance or artifacts. |\n| Assessment | Examination of reasons, applicability, and observed performance; not limited to executable tests. |",
+          "declarations": [
+            "CoreReader.Agency.revisabilityCovers",
+            "CoreReader.Agency.revisionWithoutProgress",
+            "CoreReader.Evidence.nonExecutableAssessment"
+          ]
+        }
+      ]
+    }
+  ],
+  "declarations": [
+    {
+      "name": "CoreReader.Integration.jointWitness",
+      "kind": "case",
+      "file": "CoreReader/Integration.lean",
+      "sources": [
+        {
+          "unit": "organon.preamble",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.preamble",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.charter.overview",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.charter.overview",
+          "clause": "p3"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p3"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Agency.Generative",
+      "kind": "definition",
+      "file": "CoreReader/Agency.lean",
+      "sources": [
+        {
+          "unit": "organon.charter.overview",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.charter.overview",
+          "clause": "p3"
+        },
+        {
+          "unit": "organon.charter.self-transcendence",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.self-transcendence.orientation",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.self-transcendence.non-finality",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.self-transcendence.limits",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.self-transcendence.limits",
+          "clause": "p2"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Agency.permissionNotValuation",
+      "kind": "case",
+      "file": "CoreReader/Agency.lean",
+      "sources": [
+        {
+          "unit": "organon.charter.self-transcendence.orientation",
+          "clause": "p1"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Agency.revisabilityCovers",
+      "kind": "theorem",
+      "file": "CoreReader/Agency.lean",
+      "sources": [
+        {
+          "unit": "organon.charter.self-transcendence.non-finality",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.relationships.terms",
+          "clause": "p1"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Agency.revisionWithoutProgress",
+      "kind": "case",
+      "file": "CoreReader/Agency.lean",
+      "sources": [
+        {
+          "unit": "organon.charter.self-transcendence.non-finality",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.relationships.terms",
+          "clause": "p1"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Agency.generationLimits",
+      "kind": "case",
+      "file": "CoreReader/Agency.lean",
+      "sources": [
+        {
+          "unit": "organon.charter.self-transcendence.limits",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.self-transcendence.limits",
+          "clause": "p2"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Evidence.AchievementAccountability",
+      "kind": "definition",
+      "file": "CoreReader/Evidence.lean",
+      "sources": [
+        {
+          "unit": "organon.charter.self-transcendence.limits",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.self-transcendence.limits",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.capabilities",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.capabilities",
+          "clause": "p2"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Evidence.achievementNeedsSupport",
+      "kind": "theorem",
+      "file": "CoreReader/Evidence.lean",
+      "sources": [
+        {
+          "unit": "organon.charter.self-transcendence.limits",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.self-transcendence.limits",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.capabilities",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.capabilities",
+          "clause": "p2"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Logic.consequenceConsistency",
+      "kind": "theorem",
+      "file": "CoreReader/Logic.lean",
+      "sources": [
+        {
+          "unit": "organon.charter.consistency",
+          "clause": "p1"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Logic.jointConflict",
+      "kind": "case",
+      "file": "CoreReader/Logic.lean",
+      "sources": [
+        {
+          "unit": "organon.charter.consistency",
+          "clause": "p1"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Logic.revisionCanReverse",
+      "kind": "case",
+      "file": "CoreReader/Logic.lean",
+      "sources": [
+        {
+          "unit": "organon.charter.consistency.meaning",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.consistency.meaning",
+          "clause": "p2"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Logic.contextDifferences",
+      "kind": "case",
+      "file": "CoreReader/Logic.lean",
+      "sources": [
+        {
+          "unit": "organon.charter.consistency.meaning",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.consistency.meaning",
+          "clause": "p2"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Logic.semanticChangeMustBeReported",
+      "kind": "theorem",
+      "file": "CoreReader/Logic.lean",
+      "sources": [
+        {
+          "unit": "organon.charter.consistency.meaning",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.consistency.meaning",
+          "clause": "p2"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Logic.representationOrderIrrelevant",
+      "kind": "theorem",
+      "file": "CoreReader/Logic.lean",
+      "sources": [
+        {
+          "unit": "organon.charter.consistency.meaning",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.consistency.meaning",
+          "clause": "p2"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Logic.hiddenContextChangeRejected",
+      "kind": "case",
+      "file": "CoreReader/Logic.lean",
+      "sources": [
+        {
+          "unit": "organon.charter.consistency.meaning",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.consistency.meaning",
+          "clause": "p2"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Logic.tensionWithoutContradiction",
+      "kind": "case",
+      "file": "CoreReader/Logic.lean",
+      "sources": [
+        {
+          "unit": "organon.charter.consistency.limits",
+          "clause": "p1"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Logic.conflictRequiresChange",
+      "kind": "theorem",
+      "file": "CoreReader/Logic.lean",
+      "sources": [
+        {
+          "unit": "organon.charter.consistency.limits",
+          "clause": "p1"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Logic.consistentFalse",
+      "kind": "case",
+      "file": "CoreReader/Logic.lean",
+      "sources": [
+        {
+          "unit": "organon.charter.consistency.limits",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p3"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Logic.consistentIncomplete",
+      "kind": "case",
+      "file": "CoreReader/Logic.lean",
+      "sources": [
+        {
+          "unit": "organon.charter.consistency.limits",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p3"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Agency.Reflexive",
+      "kind": "definition",
+      "file": "CoreReader/Reflexivity.lean",
+      "sources": [
+        {
+          "unit": "organon.charter.reflexivity",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.reflexivity.meaning",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.reflexivity.limits",
+          "clause": "p1"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Agency.noSelfExemption",
+      "kind": "theorem",
+      "file": "CoreReader/Reflexivity.lean",
+      "sources": [
+        {
+          "unit": "organon.charter.reflexivity.limits",
+          "clause": "p1"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Agency.applicabilityRetained",
+      "kind": "theorem",
+      "file": "CoreReader/Reflexivity.lean",
+      "sources": [
+        {
+          "unit": "organon.charter.reflexivity.limits",
+          "clause": "p1"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Agency.selfTestDoesNotProve",
+      "kind": "case",
+      "file": "CoreReader/Agency.lean",
+      "sources": [
+        {
+          "unit": "organon.charter.reflexivity.limits",
+          "clause": "p1"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Evidence.selfOriginDoesNotSupport",
+      "kind": "case",
+      "file": "CoreReader/Evidence.lean",
+      "sources": [
+        {
+          "unit": "organon.charter.reflexivity.limits",
+          "clause": "p1"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Evidence.Grounds",
+      "kind": "definition",
+      "file": "CoreReader/Evidence.lean",
+      "sources": [
+        {
+          "unit": "organon.grounds",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p3"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Evidence.supportWeakening",
+      "kind": "theorem",
+      "file": "CoreReader/Evidence.lean",
+      "sources": [
+        {
+          "unit": "organon.grounds",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p3"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Evidence.scopeRestriction",
+      "kind": "theorem",
+      "file": "CoreReader/Evidence.lean",
+      "sources": [
+        {
+          "unit": "organon.grounds",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p3"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Evidence.assessmentUnion",
+      "kind": "theorem",
+      "file": "CoreReader/Evidence.lean",
+      "sources": [
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p3"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Evidence.labelsCannotWaive",
+      "kind": "theorem",
+      "file": "CoreReader/Evidence.lean",
+      "sources": [
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p3"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Evidence.mixedMissingResponsibility",
+      "kind": "case",
+      "file": "CoreReader/Evidence.lean",
+      "sources": [
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p3"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Evidence.articulationNotSupport",
+      "kind": "case",
+      "file": "CoreReader/Evidence.lean",
+      "sources": [
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p3"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Evidence.measurementRepeatNotSupport",
+      "kind": "case",
+      "file": "CoreReader/Evidence.lean",
+      "sources": [
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p3"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Logic.compatibilityNotEntailment",
+      "kind": "case",
+      "file": "CoreReader/Logic.lean",
+      "sources": [
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p3"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Evidence.selfAssertionNotReason",
+      "kind": "case",
+      "file": "CoreReader/Evidence.lean",
+      "sources": [
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p3"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Evidence.valueWithoutSelfProof",
+      "kind": "case",
+      "file": "CoreReader/Evidence.lean",
+      "sources": [
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p3"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Evidence.heterogeneousReasons",
+      "kind": "case",
+      "file": "CoreReader/Evidence.lean",
+      "sources": [
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p3"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Evidence.localNotUniversal",
+      "kind": "case",
+      "file": "CoreReader/Evidence.lean",
+      "sources": [
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "p3"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Evidence.hiddenDifference",
+      "kind": "case",
+      "file": "CoreReader/Evidence.lean",
+      "sources": [
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "p3"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Evidence.singleObservation",
+      "kind": "case",
+      "file": "CoreReader/Evidence.lean",
+      "sources": [
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "p3"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Evidence.noUniversalChain",
+      "kind": "case",
+      "file": "CoreReader/Evidence.lean",
+      "sources": [
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "p3"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Evidence.variableOutcomesStableBound",
+      "kind": "case",
+      "file": "CoreReader/Evidence.lean",
+      "sources": [
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "p3"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Evidence.verificationReproductionStability",
+      "kind": "case",
+      "file": "CoreReader/Evidence.lean",
+      "sources": [
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "p3"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Evidence.outputNotExplanation",
+      "kind": "case",
+      "file": "CoreReader/Evidence.lean",
+      "sources": [
+        {
+          "unit": "organon.grounds.capabilities",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.capabilities",
+          "clause": "p2"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Evidence.applicationContractsDiffer",
+      "kind": "case",
+      "file": "CoreReader/Evidence.lean",
+      "sources": [
+        {
+          "unit": "organon.grounds.capabilities",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.capabilities",
+          "clause": "p2"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Evidence.externalAssessment",
+      "kind": "case",
+      "file": "CoreReader/Evidence.lean",
+      "sources": [
+        {
+          "unit": "organon.grounds.capabilities",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.capabilities",
+          "clause": "p2"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Agency.inventoryNotCapability",
+      "kind": "theorem",
+      "file": "CoreReader/Agency.lean",
+      "sources": [
+        {
+          "unit": "organon.grounds.capabilities",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.capabilities",
+          "clause": "p2"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Choice.statusOnlyFails",
+      "kind": "theorem",
+      "file": "CoreReader/Choice.lean",
+      "sources": [
+        {
+          "unit": "organon.grounds.implementations",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.implementations",
+          "clause": "p2"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Choice.conventionWithReason",
+      "kind": "case",
+      "file": "CoreReader/Choice.lean",
+      "sources": [
+        {
+          "unit": "organon.grounds.implementations",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.implementations",
+          "clause": "p2"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Choice.generalGroundsNotChoice",
+      "kind": "case",
+      "file": "CoreReader/Choice.lean",
+      "sources": [
+        {
+          "unit": "organon.grounds.implementations",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.implementations",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p3"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Choice.singleFeasible",
+      "kind": "case",
+      "file": "CoreReader/Choice.lean",
+      "sources": [
+        {
+          "unit": "organon.grounds.implementations.limits",
+          "clause": "p1"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Choice.localNotGlobal",
+      "kind": "case",
+      "file": "CoreReader/Choice.lean",
+      "sources": [
+        {
+          "unit": "organon.grounds.implementations.limits",
+          "clause": "p1"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Choice.internalReasons",
+      "kind": "case",
+      "file": "CoreReader/Choice.lean",
+      "sources": [
+        {
+          "unit": "organon.grounds.implementations.limits",
+          "clause": "p1"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Choice.openNotEquivalent",
+      "kind": "case",
+      "file": "CoreReader/Choice.lean",
+      "sources": [
+        {
+          "unit": "organon.grounds.implementations.limits",
+          "clause": "p1"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Integration.revisionKeepsConsistency",
+      "kind": "theorem",
+      "file": "CoreReader/Integration.lean",
+      "sources": [
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p3"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Integration.ownCapabilityGrounded",
+      "kind": "theorem",
+      "file": "CoreReader/Integration.lean",
+      "sources": [
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p3"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Integration.groundsSelfAssessment",
+      "kind": "theorem",
+      "file": "CoreReader/Integration.lean",
+      "sources": [
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p3"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Integration.existingPhilosophyNotPrivileged",
+      "kind": "theorem",
+      "file": "CoreReader/Integration.lean",
+      "sources": [
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p3"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Agency.generationNotReflexivity",
+      "kind": "case",
+      "file": "CoreReader/Agency.lean",
+      "sources": [
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p3"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Integration.charterNotGrounds",
+      "kind": "case",
+      "file": "CoreReader/Integration.lean",
+      "sources": [
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p3"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Integration.applicationRetainsDuties",
+      "kind": "theorem",
+      "file": "CoreReader/Integration.lean",
+      "sources": [
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p3"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Integration.reasonsBelongToCommitments",
+      "kind": "theorem",
+      "file": "CoreReader/Integration.lean",
+      "sources": [
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p3"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Evidence.nonExecutableAssessment",
+      "kind": "case",
+      "file": "CoreReader/Evidence.lean",
+      "sources": [
+        {
+          "unit": "organon.relationships.terms",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p3"
+        }
+      ]
+    },
+    {
+      "name": "CoreReader.Integration.applicationVariation",
+      "kind": "case",
+      "file": "CoreReader/Integration.lean",
+      "sources": [
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p3"
+        }
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "id": "CoreReader-Integration-jointWitness",
+      "declaration": "CoreReader.Integration.jointWitness",
+      "kind": "registered_model_case",
+      "expectation": "Construct a single inhabited, content-bearing shared model of the chosen Core specification: actual held judgments, own principle-process subjects, claims with evidence and goal-related implementation reasons jointly satisfy their model conditions; no priority follows from the conjunction. Construct orientation/nonfinality without reflexive compliance and Charter-model compliance without the modeled general Grounds condition; reuse the shared nonempty joint witness as the positive combination. Establish only these stated directions, not a universal independence or chapter hierarchy theorem."
+    },
+    {
+      "id": "CoreReader-Agency-permissionNotValuation",
+      "declaration": "CoreReader.Agency.permissionNotValuation",
+      "kind": "registered_model_case",
+      "expectation": "Give an inhabited policy permitting an actual change without endorsing expansion as worth pursuing; permission and intrinsic valuation are separate semantic components, not synonyms."
+    },
+    {
+      "id": "CoreReader-Agency-revisionWithoutProgress",
+      "declaration": "CoreReader.Agency.revisionWithoutProgress",
+      "kind": "registered_model_case",
+      "expectation": "Show the revisability specification covers organization, methods and principles (also appearances/artifacts); construct a revisable system whose trace exhibits no capability expansion."
+    },
+    {
+      "id": "CoreReader-Agency-generationLimits",
+      "declaration": "CoreReader.Agency.generationLimits",
+      "kind": "registered_model_case",
+      "expectation": "Check all eleven source-first T06 branches: orientation without progress; duplicated artifacts, abstraction layers and terms without capability gain; dependence on external experience, knowledge and collaboration; no autonomous execution/self-improvement; grounded stable action with orientation; self-announced generation without achievement support. Shared witnesses must expose actual transitions, inventories, capacity content and dependency behavior."
+    },
+    {
+      "id": "CoreReader-Logic-jointConflict",
+      "declaration": "CoreReader.Logic.jointConflict",
+      "kind": "registered_model_case",
+      "expectation": "For arbitrary semantic theories and explicit question/assumption/meaning/scope indices, prove a nonempty model prevents a positive and negative consequence of the whole simultaneous theory at the same context; demonstrate a joint conflict that single-premise checks miss."
+    },
+    {
+      "id": "CoreReader-Logic-revisionCanReverse",
+      "declaration": "CoreReader.Logic.revisionCanReverse",
+      "kind": "registered_model_case",
+      "expectation": "Check an explicit retraction followed by an opposite judgment, with each time slice consistent while their simultaneous union conflicts. Demonstrate contextual differences separately for assumptions, meanings and scope without requiring global agreement."
+    },
+    {
+      "id": "CoreReader-Logic-contextDifferences",
+      "declaration": "CoreReader.Logic.contextDifferences",
+      "kind": "registered_model_case",
+      "expectation": "Check an explicit retraction followed by an opposite judgment, with each time slice consistent while their simultaneous union conflicts. Demonstrate contextual differences separately for assumptions, meanings and scope without requiring global agreement."
+    },
+    {
+      "id": "CoreReader-Logic-hiddenContextChangeRejected",
+      "declaration": "CoreReader.Logic.hiddenContextChangeRejected",
+      "kind": "registered_model_case",
+      "expectation": "Tie actual semantic changes of held judgments or context to truthful change reports; extensional reordering does not count as a new judgment; a hidden assumption/meaning/scope change fails the report condition. Declaring change does not prove the revised theory adequate. Extensional equivalence covers only the represented semantic content. Independently identifiable revisions of wording, adopted forms or conditions must still be reportable; this equivalence cannot erase those changes."
+    },
+    {
+      "id": "CoreReader-Logic-tensionWithoutContradiction",
+      "declaration": "CoreReader.Logic.tensionWithoutContradiction",
+      "kind": "registered_model_case",
+      "expectation": "Exhibit distinct value objectives with a common feasible interpretation, and show actually incompatible same-context conclusions violate consistency and cannot be retained unchanged under the consistency requirement."
+    },
+    {
+      "id": "CoreReader-Logic-consistentFalse",
+      "declaration": "CoreReader.Logic.consistentFalse",
+      "kind": "registered_model_case",
+      "expectation": "Provide consistent theories with a false assumption at a specified actual world and with an explicitly relevant undecided question. These distinguish model consistency from actual truth and coverage."
+    },
+    {
+      "id": "CoreReader-Logic-consistentIncomplete",
+      "declaration": "CoreReader.Logic.consistentIncomplete",
+      "kind": "registered_model_case",
+      "expectation": "Provide consistent theories with a false assumption at a specified actual world and with an explicitly relevant undecided question. These distinguish model consistency from actual truth and coverage."
+    },
+    {
+      "id": "CoreReader-Agency-selfTestDoesNotProve",
+      "declaration": "CoreReader.Agency.selfTestDoesNotProve",
+      "kind": "registered_model_case",
+      "expectation": "Prove applicability is retained for self-owned objects without self exemption; show a nonapplicable self-application is not required, an actual finite self-test can pass with failure outside its sample, and self-origin of revision does not establish semantic support."
+    },
+    {
+      "id": "CoreReader-Evidence-selfOriginDoesNotSupport",
+      "declaration": "CoreReader.Evidence.selfOriginDoesNotSupport",
+      "kind": "registered_model_case",
+      "expectation": "Prove applicability is retained for self-owned objects without self exemption; show a nonapplicable self-application is not required, an actual finite self-test can pass with failure outside its sample, and self-origin of revision does not establish semantic support."
+    },
+    {
+      "id": "CoreReader-Evidence-mixedMissingResponsibility",
+      "declaration": "CoreReader.Evidence.mixedMissingResponsibility",
+      "kind": "registered_model_case",
+      "expectation": "Combine actual aspect responsibilities without exclusive classification, preserve duties when labels are omitted, and check a mixed empirical/value claim with an actual missing value-reason obligation. Represent articulation elements and the three assessed facets without claiming their field presence proves real adequacy."
+    },
+    {
+      "id": "CoreReader-Evidence-articulationNotSupport",
+      "declaration": "CoreReader.Evidence.articulationNotSupport",
+      "kind": "registered_model_case",
+      "expectation": "Provide content-based countermodels: articulated argument not entailing conclusion; measurable/repeated observations that do not establish relevance, correctness or value; compatible but non-entailed conclusion; self-assertion missing substantive value reasons. Do not treat non-entailment as falsity."
+    },
+    {
+      "id": "CoreReader-Evidence-measurementRepeatNotSupport",
+      "declaration": "CoreReader.Evidence.measurementRepeatNotSupport",
+      "kind": "registered_model_case",
+      "expectation": "Provide content-based countermodels: articulated argument not entailing conclusion; measurable/repeated observations that do not establish relevance, correctness or value; compatible but non-entailed conclusion; self-assertion missing substantive value reasons. Do not treat non-entailment as falsity."
+    },
+    {
+      "id": "CoreReader-Logic-compatibilityNotEntailment",
+      "declaration": "CoreReader.Logic.compatibilityNotEntailment",
+      "kind": "registered_model_case",
+      "expectation": "Provide content-based countermodels: articulated argument not entailing conclusion; measurable/repeated observations that do not establish relevance, correctness or value; compatible but non-entailed conclusion; self-assertion missing substantive value reasons. Do not treat non-entailment as falsity."
+    },
+    {
+      "id": "CoreReader-Evidence-selfAssertionNotReason",
+      "declaration": "CoreReader.Evidence.selfAssertionNotReason",
+      "kind": "registered_model_case",
+      "expectation": "Provide content-based countermodels: articulated argument not entailing conclusion; measurable/repeated observations that do not establish relevance, correctness or value; compatible but non-entailed conclusion; self-assertion missing substantive value reasons. Do not treat non-entailment as falsity."
+    },
+    {
+      "id": "CoreReader-Evidence-valueWithoutSelfProof",
+      "declaration": "CoreReader.Evidence.valueWithoutSelfProof",
+      "kind": "registered_model_case",
+      "expectation": "Construct an explicit adopted value position with reasons, limits, consequences and openness while not deriving all starting commitments from facts; combine heterogeneous facet evidence without a common numerical scale. This proves procedural specification consistency, not ultimate value justification. Starting commitments may lack a derivation; this does not permit assuming an inconsistent starting theory."
+    },
+    {
+      "id": "CoreReader-Evidence-heterogeneousReasons",
+      "declaration": "CoreReader.Evidence.heterogeneousReasons",
+      "kind": "registered_model_case",
+      "expectation": "Construct an explicit adopted value position with reasons, limits, consequences and openness while not deriving all starting commitments from facts; combine heterogeneous facet evidence without a common numerical scale. This proves procedural specification consistency, not ultimate value justification. Starting commitments may lack a derivation; this does not permit assuming an inconsistent starting theory."
+    },
+    {
+      "id": "CoreReader-Evidence-localNotUniversal",
+      "declaration": "CoreReader.Evidence.localNotUniversal",
+      "kind": "registered_model_case",
+      "expectation": "Use actual observation contents and compatible counterworlds to refute unrestricted generalization from a proper local scope; construct implementations equal on observed inputs and different on a relevant unobserved input."
+    },
+    {
+      "id": "CoreReader-Evidence-hiddenDifference",
+      "declaration": "CoreReader.Evidence.hiddenDifference",
+      "kind": "registered_model_case",
+      "expectation": "Use actual observation contents and compatible counterworlds to refute unrestricted generalization from a proper local scope; construct implementations equal on observed inputs and different on a relevant unobserved input."
+    },
+    {
+      "id": "CoreReader-Evidence-singleObservation",
+      "declaration": "CoreReader.Evidence.singleObservation",
+      "kind": "registered_model_case",
+      "expectation": "Exhibit bounded support from one unrepeated observation and suitable inferential assessment without a mandatory measurement/repetition/framework chain; differing possible outcomes retaining a specified stable bound, without claiming a probability theorem; distinguish recorded-observation verification, reproducible conditions and stability of the chosen conclusion by interpreted trial examples."
+    },
+    {
+      "id": "CoreReader-Evidence-noUniversalChain",
+      "declaration": "CoreReader.Evidence.noUniversalChain",
+      "kind": "registered_model_case",
+      "expectation": "Exhibit bounded support from one unrepeated observation and suitable inferential assessment without a mandatory measurement/repetition/framework chain; differing possible outcomes retaining a specified stable bound, without claiming a probability theorem; distinguish recorded-observation verification, reproducible conditions and stability of the chosen conclusion by interpreted trial examples."
+    },
+    {
+      "id": "CoreReader-Evidence-variableOutcomesStableBound",
+      "declaration": "CoreReader.Evidence.variableOutcomesStableBound",
+      "kind": "registered_model_case",
+      "expectation": "Exhibit bounded support from one unrepeated observation and suitable inferential assessment without a mandatory measurement/repetition/framework chain; differing possible outcomes retaining a specified stable bound, without claiming a probability theorem; distinguish recorded-observation verification, reproducible conditions and stability of the chosen conclusion by interpreted trial examples."
+    },
+    {
+      "id": "CoreReader-Evidence-verificationReproductionStability",
+      "declaration": "CoreReader.Evidence.verificationReproductionStability",
+      "kind": "registered_model_case",
+      "expectation": "Exhibit bounded support from one unrepeated observation and suitable inferential assessment without a mandatory measurement/repetition/framework chain; differing possible outcomes retaining a specified stable bound, without claiming a probability theorem; distinguish recorded-observation verification, reproducible conditions and stability of the chosen conclusion by interpreted trial examples."
+    },
+    {
+      "id": "CoreReader-Evidence-outputNotExplanation",
+      "declaration": "CoreReader.Evidence.outputNotExplanation",
+      "kind": "registered_model_case",
+      "expectation": "Compare output-only and explanation-requiring contracts, with real functions/certificates showing output reliability need not establish process explanation; external assessment can supply output evidence. Prove duplicating documents, terms, tools or artifacts leaves represented capability content unchanged. Output and explanation contracts must concern the same generating process, not unrelated functions."
+    },
+    {
+      "id": "CoreReader-Evidence-applicationContractsDiffer",
+      "declaration": "CoreReader.Evidence.applicationContractsDiffer",
+      "kind": "registered_model_case",
+      "expectation": "Compare output-only and explanation-requiring contracts, with real functions/certificates showing output reliability need not establish process explanation; external assessment can supply output evidence. Prove duplicating documents, terms, tools or artifacts leaves represented capability content unchanged. Output and explanation contracts must concern the same generating process, not unrelated functions."
+    },
+    {
+      "id": "CoreReader-Evidence-externalAssessment",
+      "declaration": "CoreReader.Evidence.externalAssessment",
+      "kind": "registered_model_case",
+      "expectation": "Compare output-only and explanation-requiring contracts, with real functions/certificates showing output reliability need not establish process explanation; external assessment can supply output evidence. Prove duplicating documents, terms, tools or artifacts leaves represented capability content unchanged. Output and explanation contracts must concern the same generating process, not unrelated functions."
+    },
+    {
+      "id": "CoreReader-Choice-conventionWithReason",
+      "declaration": "CoreReader.Choice.conventionWithReason",
+      "kind": "registered_model_case",
+      "expectation": "Under the separately adopted choice specification, name-only, convention-only and status-only records provide no objective/value/constraint-linked reason; show an existing conventional implementation with an actual relevant reason remains eligible."
+    },
+    {
+      "id": "CoreReader-Choice-generalGroundsNotChoice",
+      "declaration": "CoreReader.Choice.generalGroundsNotChoice",
+      "kind": "registered_model_case",
+      "expectation": "Exhibit the independence of the added choice obligation from the represented general assessment obligations, without placing it in those premises; qualify the model scope rather than claim neutral facts establish a value commitment."
+    },
+    {
+      "id": "CoreReader-Choice-singleFeasible",
+      "declaration": "CoreReader.Choice.singleFeasible",
+      "kind": "registered_model_case",
+      "expectation": "Provide exactly one feasible implementation under an open justified-choice policy; two unequal implementations; local equality but global difference; existing/conventional choices with relevant reasons; internal explanatory power, scope limits, simplicity and procedure reasons remain eligible when linked to actual requirements, not automatically sufficient."
+    },
+    {
+      "id": "CoreReader-Choice-localNotGlobal",
+      "declaration": "CoreReader.Choice.localNotGlobal",
+      "kind": "registered_model_case",
+      "expectation": "Provide exactly one feasible implementation under an open justified-choice policy; two unequal implementations; local equality but global difference; existing/conventional choices with relevant reasons; internal explanatory power, scope limits, simplicity and procedure reasons remain eligible when linked to actual requirements, not automatically sufficient."
+    },
+    {
+      "id": "CoreReader-Choice-internalReasons",
+      "declaration": "CoreReader.Choice.internalReasons",
+      "kind": "registered_model_case",
+      "expectation": "Provide exactly one feasible implementation under an open justified-choice policy; two unequal implementations; local equality but global difference; existing/conventional choices with relevant reasons; internal explanatory power, scope limits, simplicity and procedure reasons remain eligible when linked to actual requirements, not automatically sufficient."
+    },
+    {
+      "id": "CoreReader-Choice-openNotEquivalent",
+      "declaration": "CoreReader.Choice.openNotEquivalent",
+      "kind": "registered_model_case",
+      "expectation": "Provide exactly one feasible implementation under an open justified-choice policy; two unequal implementations; local equality but global difference; existing/conventional choices with relevant reasons; internal explanatory power, scope limits, simplicity and procedure reasons remain eligible when linked to actual requirements, not automatically sufficient."
+    },
+    {
+      "id": "CoreReader-Agency-generationNotReflexivity",
+      "declaration": "CoreReader.Agency.generationNotReflexivity",
+      "kind": "registered_model_case",
+      "expectation": "Construct orientation/nonfinality without reflexive compliance and Charter-model compliance without the modeled general Grounds condition; reuse the shared nonempty joint witness as the positive combination. Establish only these stated directions, not a universal independence or chapter hierarchy theorem."
+    },
+    {
+      "id": "CoreReader-Integration-charterNotGrounds",
+      "declaration": "CoreReader.Integration.charterNotGrounds",
+      "kind": "registered_model_case",
+      "expectation": "Construct orientation/nonfinality without reflexive compliance and Charter-model compliance without the modeled general Grounds condition; reuse the shared nonempty joint witness as the positive combination. Establish only these stated directions, not a universal independence or chapter hierarchy theorem."
+    },
+    {
+      "id": "CoreReader-Evidence-nonExecutableAssessment",
+      "declaration": "CoreReader.Evidence.nonExecutableAssessment",
+      "kind": "registered_model_case",
+      "expectation": "Give a structured assessment of inferential reasons/applicability with actual valid inference and no executable-test requirement; retain empirical observations where their aspect applies. The model distinguishes an assessment method from the Lean tool used to check the model."
+    },
+    {
+      "id": "CoreReader-Integration-applicationVariation",
+      "declaration": "CoreReader.Integration.applicationVariation",
+      "kind": "registered_model_case",
+      "expectation": "Changing the output objective for the same assessed method invalidates the former capability support."
+    }
+  ]
+}
