@@ -1,0 +1,17 @@
+{
+  "name": "@shendeguize/organon-site-tools",
+  "version": "1.0.0-rc.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "devDependencies": {
+    "vitepress": "1.6.4",
+    "markdown-it": "14.3.2",
+    "@playwright/test": "1.55.1"
+  },
+  "overrides": {
+    "vite": "6.4.3"
+  }
+}

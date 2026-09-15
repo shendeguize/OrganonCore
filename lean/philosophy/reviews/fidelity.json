@@ -1,0 +1,651 @@
+{
+  "schema_version": 1,
+  "run_sha256": "773ef6bd7c459a65cc678d26d7561c04453c50f0afb92b77bcbf72da6171c8b2",
+  "source_sha256": "226fa3522943955d5a0f1f0b88e883c97b3505b3bcfd285329e432757912543f",
+  "code_sha256": {
+    "leanified/CoreReader/Agency.lean": "b0dca4187a88a0a0f33c3dd6a11bb383907603ef514e80e9e3f09f95ce9633e2",
+    "leanified/CoreReader/Choice.lean": "07cf17f73802bdd34ae00ecba317ddc0283321cce00f15a84b69df421c3fe25f",
+    "leanified/CoreReader/Evidence.lean": "18beb2b94450fdab36229b645e2df129348f3e67306104e842e0dce6e72443e8",
+    "leanified/CoreReader/Integration.lean": "b5ba8617e06f03963c4284344fbe3c662188f1b88542c55cc15beb1cd5f99c03",
+    "leanified/CoreReader/Logic.lean": "6b70be8964763b6447a2603bde665ff58106678f2e1d421bebd8c6b29ae46e04",
+    "leanified/CoreReader/Reflexivity.lean": "25292faa71c5585a8f50cb07d72c2f44fa12dcfb125b2b92094f9306fecb4fd0",
+    "leanified/CoreReader.lean": "80eee78ec3453fefdb26d3dbce97f0447d4b9ffeb4683604dad0c03902a1bfdd"
+  },
+  "proof_targets_sha256": "2400383120ab2d98454597a73cdcaaadf45b8e47b18a646118708dc5d81da2a4",
+  "initial_records": [
+    {
+      "role": "source_initial",
+      "path": "reviews/source-initial.md",
+      "sha256": "552939f44c9433e945c424b2b2103497d0f83037bd06376a62f3820d668484f1"
+    },
+    {
+      "role": "code_blind",
+      "path": "reviews/code-blind-initial.md",
+      "sha256": "13df9c04d0a614edfbca8398d3032f22e347ff468fbf56e0ba4824e39c30909b"
+    },
+    {
+      "role": "source_comparison_initial",
+      "path": "reviews/source-comparison-initial.md",
+      "sha256": "77f83be6539efff7ece2acc90350e2ce2c8fe80d8a16319d90fe35775c0a68c9"
+    },
+    {
+      "role": "source_target_initial",
+      "path": "reviews/source-targets-initial.json",
+      "sha256": "f03995e63a2f80d6a239c1c61b9ad11bd9a6e78264fe6a869a8d9ed2e75b3d41"
+    },
+    {
+      "role": "blind_source_comparison_initial",
+      "path": "reviews/blind-source-comparison-initial.md",
+      "sha256": "b4b59385c4f0b2c9d030225e563c39d87e70e6d07590f875ba319e08b9bf3219"
+    },
+    {
+      "role": "blind_target_initial",
+      "path": "reviews/blind-targets-initial.json",
+      "sha256": "e29e5e008c4b84268c8be97c82687c00edb6d83993e4cef05a330c1e4e43ecb9"
+    },
+    {
+      "role": "scope_design_before_code",
+      "path": "reviews/choice-scope-design-before-code.md",
+      "sha256": "58486132f6c712c9db3c2a2dc0f159f2a02fd98de5c825d899effbe8d5cd35c4"
+    },
+    {
+      "role": "scope_reconciliation",
+      "path": "reviews/choice-scope-reconciliation.md",
+      "sha256": "e5faa35d911bddd1100fb16a9b2d651adf4c6fd34ddc8262ae7a38b5428c59c8"
+    },
+    {
+      "role": "code_comparison_final",
+      "path": "reviews/code-comparison-final.md",
+      "sha256": "89dc9de754e64441e8723e4783a3a55d6c5e0031e50128e8bd8f244b8c2ad4e7"
+    },
+    {
+      "role": "code_target_final",
+      "path": "reviews/code-targets-final.json",
+      "sha256": "bc7832edfe322293783a91b0583edbeff1435e4ff8c62d182a6a7ad7a32c0a77"
+    },
+    {
+      "role": "code_source_final",
+      "path": "reviews/code-source-entries-final.json",
+      "sha256": "5e5dd7f82844deb10f246bb83f427a77720a0a39e95a4d64a394b9b7219411df"
+    },
+    {
+      "role": "code_review_identity",
+      "path": "reviews/code-review-identity.json",
+      "sha256": "d00636251f0559ee9bb58c9589d380847539952235029dc64077bf905b1b31e9"
+    },
+    {
+      "role": "source_comparison_final",
+      "path": "reviews/source-comparison-final.md",
+      "sha256": "5fb12334672d4cf8fdf5615c81a437824c969c679073f0b95445e7eb43874fca"
+    },
+    {
+      "role": "source_target_final",
+      "path": "reviews/source-targets-final.json",
+      "sha256": "a582019a464813de49ae542b2ce2c2ec7882328427754eec3f36ce43cab661ba"
+    },
+    {
+      "role": "source_migration_comparison",
+      "path": "reviews/source-migration-2026-09-15.md",
+      "sha256": "8e5afb6e8451e2b28fef9b410d26c9556347e5d0be534f54ce3ede2fefe4585d"
+    },
+    {
+      "role": "source_migration_provenance_comparison",
+      "path": "reviews/source-migration-provenance-2026-09-15.md",
+      "sha256": "85d949b6f2c0fe50a97ef2cbad6155ed1fda2019e476f0e4808be2682d4b5f2c"
+    }
+  ],
+  "entries": [
+    {
+      "id": "organon.preamble.p1",
+      "fidelity": "not_applicable",
+      "reason": "This declares textual authority and adopted-commitment scope, not a mathematical proposition about all systems. The review retains this boundary without manufacturing a Lean theorem of authority.",
+      "context_only": true
+    },
+    {
+      "id": "organon.preamble.p2",
+      "fidelity": "partial",
+      "reason": "The shared model exhibits compatible constraints without a chapter-priority inference. Authority of meanings and limits, the role of Rationale and revisability of actual skills remain textual commitments outside this finite witness."
+    },
+    {
+      "id": "organon.charter.overview.p2",
+      "fidelity": "partial",
+      "reason": "jointWitness combines valued expansion, revisability, contextual consistency and contentful owned principle work in one inhabited system. It proves model satisfiability, not actual compliance by arbitrary systems."
+    },
+    {
+      "id": "organon.charter.overview.p3",
+      "fidelity": "partial",
+      "reason": "The three requirements remain distinct predicates with a shared example and specific nonentailments. Their interpretation as philosophical obligations and their full conditions in arbitrary applications are not derived from the example."
+    },
+    {
+      "id": "organon.charter.self-transcendence.p1",
+      "fidelity": "partial",
+      "reason": "Generative specifies valuation and revisability of current forms. The finite tags and state examples do not characterize every form of understanding, construction or intrinsic orientation."
+    },
+    {
+      "id": "organon.charter.self-transcendence.orientation.p1",
+      "fidelity": "partial",
+      "reason": "The neutral-policy counterexample separates permission for distinct versions from the adopted valuation predicate. It does not establish what every real system values or justify the adopted value universally."
+    },
+    {
+      "id": "organon.charter.self-transcendence.non-finality.p1",
+      "fidelity": "partial",
+      "reason": "All five represented form kinds, including organization, method and principle, fall under conditional revisability; a constant trace shows no progress guarantee. The chosen representation is not an exhaustive ontology or an executed revision."
+    },
+    {
+      "id": "organon.charter.self-transcendence.limits.p1",
+      "fidelity": "partial",
+      "reason": "The same before/after states increase inventory, abstraction and vocabulary without adding represented capabilities. Actual performance records can distinguish a genuine extension in a two-case world; empirical reliability beyond that world is not proved."
+    },
+    {
+      "id": "organon.charter.self-transcendence.limits.p2",
+      "fidelity": "partial",
+      "reason": "Bound execution exhibits separate external dependencies, grounded stability, a nonimproving trace and a refuted owned announcement. These are finite compatibility and failure examples; philosophical adoption and real autonomous development remain outside their conclusions."
+    },
+    {
+      "id": "organon.charter.consistency.p1",
+      "fidelity": "partial",
+      "reason": "The general semantic theorem prevents opposite consequences under one theory/context when an admissible world exists. Existence of such a world, choice of questions and interpretation of held judgments are explicit modeling conditions, not guaranteed for reality."
+    },
+    {
+      "id": "organon.charter.consistency.meaning.p1",
+      "fidelity": "partial",
+      "reason": "Concrete retraction slices can reverse judgments, and a conditional reporting specification disallows concealing recognized change. No automatic detector, adequate report generator or real revision history is established."
+    },
+    {
+      "id": "organon.charter.consistency.meaning.p2",
+      "fidelity": "partial",
+      "reason": "Separate assumption, meaning and scope changes admit different judgments; hidden changes fail the adopted report condition. This covers explicit semantic models, not every practical ambiguity or method of concealment."
+    },
+    {
+      "id": "organon.charter.consistency.limits.p1",
+      "fidelity": "partial",
+      "reason": "Finite witnesses distinguish tension from contradiction and consistency from truth or completeness. Refusing to retain a demonstrated conflict is a conditional consequence of an adopted consistency requirement, not an implemented revision strategy."
+    },
+    {
+      "id": "organon.charter.reflexivity.p1",
+      "fidelity": "partial",
+      "reason": "Reflexive quantifies applicable owned rules and subjects, with coherent keys and meaningful application records. The concrete rule set has generation and assessment work but does not cover every possible real principle."
+    },
+    {
+      "id": "organon.charter.reflexivity.meaning.p1",
+      "fidelity": "partial",
+      "reason": "The revised module models formation purposes, requested applicability scopes and revision counterexamples with actual evaluation and generation outcomes. These finite inquiry contracts do not establish the correctness or completeness of every assessment methodology."
+    },
+    {
+      "id": "organon.charter.reflexivity.limits.p1",
+      "fidelity": "partial",
+      "reason": "Applicability is retained, self-exemption fails where conditions hold, and finite self-tests plus a produced revision fail to establish universal support. The owned records and source identities are mathematical objects, not authenticated execution histories."
+    },
+    {
+      "id": "organon.grounds.p1",
+      "fidelity": "partial",
+      "reason": "Grounds checks identified applicable facets of the same claim; support, entailment and an option-indexed value procedure carry distinct responsibilities. This is a chosen formal interface and finite fulfillment examples, not a universal sufficient criterion for all philosophical grounds."
+    },
+    {
+      "id": "organon.grounds.assessment.p1",
+      "fidelity": "partial",
+      "reason": "Articulation content is linked to each facet and separated from its discharge; union and missing-aspect examples prevent labels from waiving represented duties. Identifying every actually relevant aspect remains an application responsibility not solved by the datatype."
+    },
+    {
+      "id": "organon.grounds.assessment.p2",
+      "fidelity": "partial",
+      "reason": "The three modeled adapters check observational compatibility/support, semantic entailment, and value reasons with limits/consequences/criticism. Actual relevance, empirical uncertainty and the adequacy of value criticism beyond the chosen cases are not exhaustively formalized."
+    },
+    {
+      "id": "organon.grounds.assessment.p3",
+      "fidelity": "partial",
+      "reason": "JointAdoption requires consistent instantiated starting commitments without proving all starting assumptions. A two-reason example and heterogeneous facets avoid a universal numerical scale. They demonstrate procedural consistency, not ultimate value justification."
+    },
+    {
+      "id": "organon.grounds.scope.p1",
+      "fidelity": "partial",
+      "reason": "A proper local observation scope supports a local function claim while admitting a counterexample outside it. This establishes the specified nonentailment; it neither identifies all relevant real differences nor rules out justified wider evidence."
+    },
+    {
+      "id": "organon.grounds.scope.p2",
+      "fidelity": "partial",
+      "reason": "Repeated irrelevant measurements fail support, while a valid inferential assessment needs no empirical chain. This refutes a universal mandatory chain within the represented responsibilities but does not characterize every framework or measurement practice."
+    },
+    {
+      "id": "organon.grounds.scope.p3",
+      "fidelity": "partial",
+      "reason": "A single observation has limited support and distinct trial outcomes preserve a fixed bound. Verification, reproducible conditions and conclusion stability use separate predicates; no probability distribution or general reproducibility law is proved."
+    },
+    {
+      "id": "organon.grounds.capabilities.p1",
+      "fidelity": "partial",
+      "reason": "Output-only and explanation-bearing contracts concern the same process and each has its own checked Grounds; applicationVariation changes the actual objective and invalidates old evidence. No uniform real mastery or capability-level definition is derived."
+    },
+    {
+      "id": "organon.grounds.capabilities.p2",
+      "fidelity": "partial",
+      "reason": "A distinct assessor role supplies a proof about the exact output process while no explanation certificate is attached; duplicating four inventory kinds leaves represented capability unchanged. Role numbers and certificates do not prove external provenance or human-like understanding."
+    },
+    {
+      "id": "organon.grounds.implementations.p1",
+      "fidelity": "partial",
+      "reason": "The adopted choice interface requires feasibility and an objective/value/constraint-linked reason and rejects status-only reasons. Its finite reason vocabulary and concrete feasibility checks do not supply a general theory of warranted real implementation choice."
+    },
+    {
+      "id": "organon.grounds.implementations.p2",
+      "fidelity": "partial",
+      "reason": "Two independent policies share a correct negative audit but differ on the added choice norm, establishing independence from the represented assessment procedure. This does not show an unsupported priority claim fully satisfies general Grounds, or derive a value commitment from neutral facts."
+    },
+    {
+      "id": "organon.grounds.implementations.limits.p1",
+      "fidelity": "partial",
+      "reason": "Concrete cases have one feasible candidate, unequal implementations, local agreement with wider difference and four eligible internal reasons. A cheap wrong-output method shows eligibility alone is insufficient. These results concern selected candidates and contracts, not all methods."
+    },
+    {
+      "id": "organon.relationships.roles.p1",
+      "fidelity": "partial",
+      "reason": "One shared model combines the charter and Grounds and assigns five commitments distinct operational reasons, limits and live criticism. Specified nonentailments prevent chapter order from doing logical work; neither the universal adoption nor ultimate justification of all commitments follows."
+    },
+    {
+      "id": "organon.relationships.roles.p2",
+      "fidelity": "partial",
+      "reason": "Consistency/support and orientation/capability remain separate; changing an application objective changes its actual claim and can defeat retained evidence. Universal application compliance is only an assumed conditional interface, not an achieved fact."
+    },
+    {
+      "id": "organon.relationships.roles.p3",
+      "fidelity": "partial",
+      "reason": "Contentful self-application, exact own-capability assessment, the general Grounds provision and the same current philosophy method are linked in the model. Their checked coexistence supplies no self-proof, real execution guarantee or unconditional applicability."
+    },
+    {
+      "id": "organon.relationships.terms.p1",
+      "fidelity": "partial",
+      "reason": "FormKind includes organization, methods and principles, and an inferential assessment has no executable-test requirement. These representations illustrate the terms without exhaustively defining every existing form or every non-test assessment."
+    }
+  ],
+  "target_entries": [
+    {
+      "id": "T01",
+      "status": "accepted",
+      "reason": "No theorem establishes textual authority or universal adoption. All source meanings and limits remain authoritative; chapter order supplies no proof priority.",
+      "declarations": [],
+      "type_hashes": {}
+    },
+    {
+      "id": "T02",
+      "status": "accepted",
+      "reason": "jointWitness constructs a single system/world, not five unrelated existence claims. It uses computed identity output, actual observation support, coherent owned principle work, and each option-indexed commitment procedure. This is one finite satisfiability witness.",
+      "declarations": [
+        "CoreReader.Integration.jointWitness"
+      ],
+      "type_hashes": {
+        "CoreReader.Integration.jointWitness": "dad931194e28b783758526be24d06dac429ccbeb57a5a3f5c80e0cad222cfac6"
+      }
+    },
+    {
+      "id": "T03",
+      "status": "accepted",
+      "reason": "Policy fields remain independent predicates. Generative requires the adopted aim and current-form revisability; it neither executes a transition nor guarantees Expanded.",
+      "declarations": [
+        "CoreReader.Agency.Generative"
+      ],
+      "type_hashes": {
+        "CoreReader.Agency.Generative": "5abf5b02f1317efd145abf9c7e2250c40fe0338597fbde695b19704a7358b2d9"
+      }
+    },
+    {
+      "id": "T04",
+      "status": "accepted",
+      "reason": "The version pair 0 and 1 is distinct and permitted, whereas the required valuation is false. Permission is not execution or actual improvement.",
+      "declarations": [
+        "CoreReader.Agency.permissionNotValuation"
+      ],
+      "type_hashes": {
+        "CoreReader.Agency.permissionNotValuation": "48d5f6ad7b8a2cad12991978a9c6e1935da61fd5e29a47bad8be1944ec9d583a"
+      }
+    },
+    {
+      "id": "T05",
+      "status": "accepted",
+      "reason": "revisabilityCovers projects an explicitly assumed Generative policy. revisionWithoutProgress combines openPolicy with a constant base-state trace; possible revision is not promised progress.",
+      "declarations": [
+        "CoreReader.Agency.revisabilityCovers",
+        "CoreReader.Agency.revisionWithoutProgress"
+      ],
+      "type_hashes": {
+        "CoreReader.Agency.revisabilityCovers": "f85088f4ea31cbc58e54317eb4757866d4ee7462b1df7211e3502845e2ceadc2",
+        "CoreReader.Agency.revisionWithoutProgress": "0837fbe429c46c0de4ae2dca13e61a8816da6d729be2aa9c82806c1c6fff9927"
+      }
+    },
+    {
+      "id": "T06",
+      "status": "accepted",
+      "reason": "GeneratingSystem binds policy, current state, execution, required operations and budget. The resource deletion calls all use its execute interface. Stable action retains current content within the stated budget. Announcement carries owner, before/after, operation, input and expected output; its claimed membership/output expansion fails for inflatedState. All are explicit finite examples, not empirical laws.",
+      "declarations": [
+        "CoreReader.Agency.generationLimits"
+      ],
+      "type_hashes": {
+        "CoreReader.Agency.generationLimits": "a66f85d3ecf6568b98ad56fc37ae5f4b09430a9d378970b52f3b1894b32c7905"
+      }
+    },
+    {
+      "id": "T07",
+      "status": "accepted",
+      "reason": "ConcreteAchievementExample fixes transitionBefore/After and input. A performance record distinguishes extension from inflation in the two-case world. transitionReportDoesNotSupport supplies the compatible inflation countermodel. achievementNeedsSupport uses its generic premises and separately conjoins this checked instance; it does not discharge arbitrary real achievement claims.",
+      "declarations": [
+        "CoreReader.Evidence.AchievementAccountability",
+        "CoreReader.Evidence.achievementNeedsSupport"
+      ],
+      "type_hashes": {
+        "CoreReader.Evidence.AchievementAccountability": "e8b9e0ab7116417e1e72a14b1ccdf5099f40dfddff581d7422247d809bc965eb",
+        "CoreReader.Evidence.achievementNeedsSupport": "822b2cd2c70c2493443582652d19cda0749358f1ae5fe32b0fc2455c2f661082"
+      }
+    },
+    {
+      "id": "T08",
+      "status": "accepted",
+      "reason": "Consequence quantifies admissible worlds under one theory/context; a supplied admissible witness refutes simultaneous positive and negative consequences. Empty question types remain a vacuous boundary, not evidence of substantive completeness.",
+      "declarations": [
+        "CoreReader.Logic.consequenceConsistency",
+        "CoreReader.Logic.jointConflict"
+      ],
+      "type_hashes": {
+        "CoreReader.Logic.consequenceConsistency": "191b2285b41211251808018ed56af50bc998cb2f059f48b01623fed7eeb33511",
+        "CoreReader.Logic.jointConflict": "ce600ce368828d06484c984614aec2b600ec72861b52e37df3c9d127e1869630"
+      }
+    },
+    {
+      "id": "T09",
+      "status": "accepted",
+      "reason": "Each revised slice has a concrete model; their union conflicts. The three context examples vary assumptions, meaning and scope separately. Slice satisfiability supplies the witness needed for the general consistency theorem.",
+      "declarations": [
+        "CoreReader.Logic.revisionCanReverse",
+        "CoreReader.Logic.contextDifferences"
+      ],
+      "type_hashes": {
+        "CoreReader.Logic.revisionCanReverse": "904fee6061e034e3e5a694e9f138baa29300091ad3f835696fa0c2f1b8dfbb75",
+        "CoreReader.Logic.contextDifferences": "9b30750eff84685cb7297ce22b6084325b978050dd8dec01126589d972d9dda5"
+      }
+    },
+    {
+      "id": "T10",
+      "status": "accepted",
+      "reason": "TruthfulReport is an assumed one-way obligation. SameContent compares semantic content and the separate revision identity is also checked. The result is not an automatic change detector and report=true does not establish adequate reporting.",
+      "declarations": [
+        "CoreReader.Logic.semanticChangeMustBeReported",
+        "CoreReader.Logic.representationOrderIrrelevant",
+        "CoreReader.Logic.hiddenContextChangeRejected"
+      ],
+      "type_hashes": {
+        "CoreReader.Logic.semanticChangeMustBeReported": "efc916aa358c8aa833410fd4ded0335d1abee82277a97caa895c86c0956981d7",
+        "CoreReader.Logic.representationOrderIrrelevant": "ce06e20cbe631d314f7bdbadaa1997a5e3e337987ff75a6a1d2c1d9ee48867fe",
+        "CoreReader.Logic.hiddenContextChangeRejected": "58cca7210751f90e96b303a8c40928a3d735b0ec64e6ce80d5debf837a2ee8d6"
+      }
+    },
+    {
+      "id": "T11",
+      "status": "accepted",
+      "reason": "The tension example shares a feasible value without equating the value predicates. conflictRequiresChange assumes a consistent retained theory and uses conflicting consequences to refute retaining all incompatible content; it does not construct a revision algorithm.",
+      "declarations": [
+        "CoreReader.Logic.tensionWithoutContradiction",
+        "CoreReader.Logic.conflictRequiresChange"
+      ],
+      "type_hashes": {
+        "CoreReader.Logic.tensionWithoutContradiction": "c9dfa385d1b60a11fa792962c10a8b8541b2eb7d20879a306e758de9c40f4bfa",
+        "CoreReader.Logic.conflictRequiresChange": "4b3231ac25a534c2699cd8f548a59a7d8beb1cb3923456f10c95081a3b6b5be3"
+      }
+    },
+    {
+      "id": "T12",
+      "status": "accepted",
+      "reason": "Bool witnesses separate model existence from truth at the selected actual world. The incomplete case has admissible worlds on both sides of its question; philosophical importance of that question is supplied by interpretation.",
+      "declarations": [
+        "CoreReader.Logic.consistentFalse",
+        "CoreReader.Logic.consistentIncomplete"
+      ],
+      "type_hashes": {
+        "CoreReader.Logic.consistentFalse": "617a316a7963ffe373dd9f48edb8ade6c82b6a1018f83c0d7832917977c953e8",
+        "CoreReader.Logic.consistentIncomplete": "4a043245371faf22b23e9eef01ba9b03c92d959166ff9e68e427b560343dbe8f"
+      }
+    },
+    {
+      "id": "T13",
+      "status": "accepted",
+      "reason": "ValidApplication checks owner/key resolution, inquiry and method identity, nonempty target-linked reasons, limits and the registered meaning. ownContentEvaluates proves separate stated outcomes match the evaluator. All nine subjects receive assessment; generation excludes application-phase subjects by explicit applicability. Insufficient results are valid assessments, not correctness proofs.",
+      "declarations": [
+        "CoreReader.Agency.Reflexive"
+      ],
+      "type_hashes": {
+        "CoreReader.Agency.Reflexive": "edd8696ffc9dbc88b13d4e0a1d24912d33ece35258a72c2714303ec2b75d0247"
+      }
+    },
+    {
+      "id": "T14",
+      "status": "accepted",
+      "reason": "noSelfExemption projects applicable owned obligations, not unconditional applicability. applicationWork is a nonempty restricted example. OwnedRevisionExample ties a producing process to prior and output functions; evaluation at zero changes, while the compatible counterworld fails at one. Origin supplies no global support.",
+      "declarations": [
+        "CoreReader.Agency.noSelfExemption",
+        "CoreReader.Agency.applicabilityRetained",
+        "CoreReader.Agency.selfTestDoesNotProve",
+        "CoreReader.Evidence.selfOriginDoesNotSupport"
+      ],
+      "type_hashes": {
+        "CoreReader.Agency.noSelfExemption": "af1ee7c715a8432d4c92816c109aee67732d8307aeaab1d6a8d66ef14f4f9e80",
+        "CoreReader.Agency.applicabilityRetained": "bc78545b62c505f56ce296e85615d7fa73b1a61c223696c87dc8bb532f6e9316",
+        "CoreReader.Agency.selfTestDoesNotProve": "bbc48f4b905f196e6c939615e1e8deb2b82ba924ea85d87214b3a9db96bcc67d",
+        "CoreReader.Evidence.selfOriginDoesNotSupport": "3a32d7d0b5d238eb04c1ff3c4040363e9eba221e1304bb0160579141572bd88e"
+      }
+    },
+    {
+      "id": "T15",
+      "status": "accepted",
+      "reason": "ValuePosition derives commitment from selected=adopted and specializes reasons to the adopted option. ValueProcedure requires nonempty reasons, JointAdoption, scoped consequence under all stated reasons and an actual criticism response. It is a chosen procedural adapter, not a complete universal theory of good reasons or fulfillment by every application. Weakening and scope restriction remain explicit conditional theorems.",
+      "declarations": [
+        "CoreReader.Evidence.Grounds",
+        "CoreReader.Evidence.supportWeakening",
+        "CoreReader.Evidence.scopeRestriction"
+      ],
+      "type_hashes": {
+        "CoreReader.Evidence.Grounds": "4517c2eaf39a10fcd99876dc5a244ff06747ca6c130c8c03c7da6860e7bd2e12",
+        "CoreReader.Evidence.supportWeakening": "c687c4deee04291784db05208dfae9b0d299ee0512dcdf74786cea5919b7a9ef",
+        "CoreReader.Evidence.scopeRestriction": "d20c49b2b30fa2639dcb643d5e085dc69f604e8fcd6b63523a0f635d157a33ce"
+      }
+    },
+    {
+      "id": "T16",
+      "status": "accepted",
+      "reason": "Grounds quantifies applicable facets independently of labels and checks every listed facet. The mixed example omits a truly applicable value facet of the same claim, so empirical discharge alone fails. The three facet constructors model responsibilities, not mutually exclusive exhaustive philosophical kinds.",
+      "declarations": [
+        "CoreReader.Evidence.assessmentUnion",
+        "CoreReader.Evidence.labelsCannotWaive",
+        "CoreReader.Evidence.mixedMissingResponsibility"
+      ],
+      "type_hashes": {
+        "CoreReader.Evidence.assessmentUnion": "b4e682692e878b15864ca7fbab372218fd46ce2faacd91e88991bc49ce1b4764",
+        "CoreReader.Evidence.labelsCannotWaive": "4aa38f6f1cacfad2600cd191577020eebf845efd0f76b6e546aceb92f46a17ad",
+        "CoreReader.Evidence.mixedMissingResponsibility": "a3b8b9d25b7920c39ba44034d45faba23a579fac6b9bce01044a6ef8270a80c4"
+      }
+    },
+    {
+      "id": "T17",
+      "status": "accepted",
+      "reason": "Counterworlds invalidate support or entailment while preserving the stated observations or compatibility. unrelatedArticulationRejected ties articulation content to the facet. Self-assertion has empty reasons or fails the option-specific consequence, rather than being rejected merely for its label.",
+      "declarations": [
+        "CoreReader.Evidence.articulationNotSupport",
+        "CoreReader.Evidence.measurementRepeatNotSupport",
+        "CoreReader.Logic.compatibilityNotEntailment",
+        "CoreReader.Evidence.selfAssertionNotReason"
+      ],
+      "type_hashes": {
+        "CoreReader.Evidence.articulationNotSupport": "85f13987f0b8fce1cae5bbb59711d18a0c887a38e73b8bd00e1fd6b1c34fbfac",
+        "CoreReader.Evidence.measurementRepeatNotSupport": "a1ca8f88b3e278adc56e4943aeea5513afbc3a4b45fc6aab79322bb788553da8",
+        "CoreReader.Logic.compatibilityNotEntailment": "244a4c828b24802472a24f81b01a70de6e709e44128ed21a8515578c2498843a",
+        "CoreReader.Evidence.selfAssertionNotReason": "8a3f43790ce0efbba6a4f2be8e1eebe1ea1ff6f0df1051bad2eeda3a73329895"
+      }
+    },
+    {
+      "id": "T18",
+      "status": "accepted",
+      "reason": "switchPosition has a checked admissible joint adoption and rejects the opposite option and impossible starts. jointReasonPosition combines benefit/cost premises with counterworlds showing neither alone supports the consequence. No theorem proves the ultimate worth of the adopted value or every starting assumption.",
+      "declarations": [
+        "CoreReader.Evidence.valueWithoutSelfProof",
+        "CoreReader.Evidence.heterogeneousReasons"
+      ],
+      "type_hashes": {
+        "CoreReader.Evidence.valueWithoutSelfProof": "568b8ffce3fb2209e2c6e258286982e02357a12f7df5daf2df0013af31ace2a5",
+        "CoreReader.Evidence.heterogeneousReasons": "c224d6fd8d50802cf08feb6f03c519161f4161cbcc1ccb85aca1d428bab6507e"
+      }
+    },
+    {
+      "id": "T19",
+      "status": "accepted",
+      "reason": "The same observation admits a function false at one. Local scope is proper and its excluded point carries the counterexample. No inference about arbitrary actual-world systems follows from this function model.",
+      "declarations": [
+        "CoreReader.Evidence.localNotUniversal",
+        "CoreReader.Evidence.hiddenDifference"
+      ],
+      "type_hashes": {
+        "CoreReader.Evidence.localNotUniversal": "c551de35323f24746aadf22a6611ebacdb1cb94e8b4395566041cea3514158ab",
+        "CoreReader.Evidence.hiddenDifference": "9d56436068f437ca82a13d660b482c2c010378472a97d87202c93c58cc14f534"
+      }
+    },
+    {
+      "id": "T20",
+      "status": "accepted",
+      "reason": "Trial examples use distinct interpreted predicates and actual outcomes. The stable bound is a property of a finite outcome class, not a probability or reproducibility theorem. An inferential facet can discharge without empirical records, while empirical facets retain their own responsibilities.",
+      "declarations": [
+        "CoreReader.Evidence.singleObservation",
+        "CoreReader.Evidence.noUniversalChain",
+        "CoreReader.Evidence.variableOutcomesStableBound",
+        "CoreReader.Evidence.verificationReproductionStability"
+      ],
+      "type_hashes": {
+        "CoreReader.Evidence.singleObservation": "7e3fa4592c2b19d90c2f858f7168ded7b64f30e40cf7c0232ac87752ced3204c",
+        "CoreReader.Evidence.noUniversalChain": "f0ef7c27557eaa39351f56c8807f56428d4b3bf3e7adfcd888ebd0ecd2ec64a4",
+        "CoreReader.Evidence.variableOutcomesStableBound": "a0bb99242c31620ee4c5b6e988883f3aa22b64126ffee1e765f5520bda35f61f",
+        "CoreReader.Evidence.verificationReproductionStability": "a92288aebed02e0acbf848f44ff85a32e40821fecafc92bb8ce7dcb89a31c74e"
+      }
+    },
+    {
+      "id": "T21",
+      "status": "accepted",
+      "reason": "ProcessGrounds targets an exact singleton process scope. FullProcessContract includes output and an attached program explanation; output-only evidence has a compatible process without that certificate. ExternalCertificate supplies a proof for the same process with distinct role identifiers; those identifiers do not authenticate real external authorship or establish psychological understanding.",
+      "declarations": [
+        "CoreReader.Evidence.outputNotExplanation",
+        "CoreReader.Evidence.applicationContractsDiffer",
+        "CoreReader.Evidence.externalAssessment",
+        "CoreReader.Agency.inventoryNotCapability"
+      ],
+      "type_hashes": {
+        "CoreReader.Evidence.outputNotExplanation": "43406d330c84bc09d691acee59de1fc29de6234aeb88fe44733b301b919f3fd7",
+        "CoreReader.Evidence.applicationContractsDiffer": "a527a2020908a813787d377f4918c57975e27b6bd8d6449e15be34c05c40489e",
+        "CoreReader.Evidence.externalAssessment": "fe5654cff59f9fdd8d2c45b06fb9c074424a4dc98b3f9131c1fbce46b08f9cee",
+        "CoreReader.Agency.inventoryNotCapability": "c42372dbdafd2e978ce5040103e18e2e8a26326e3f9eae43e2c902e076ab5d23"
+      }
+    },
+    {
+      "id": "T22",
+      "status": "accepted",
+      "reason": "JustifiedChoice now requires Feasible in addition to a Relevant reason. statusOnlyFails follows because status reasons never meet the adopted relevance rule; conventionWithReason computes correct output. This is a consequence of the chosen norm, not a value-neutral justification of it.",
+      "declarations": [
+        "CoreReader.Choice.statusOnlyFails",
+        "CoreReader.Choice.conventionWithReason"
+      ],
+      "type_hashes": {
+        "CoreReader.Choice.statusOnlyFails": "5e18307d2fd827fe08aa1e168caa706d5bcd1aa43c40eec1b7c6ff91b81e66f0",
+        "CoreReader.Choice.conventionWithReason": "ac0033fbed40e31d070cb960495ad45eb8726534475c7329dca05c8da8f6a1e5"
+      }
+    },
+    {
+      "id": "T23",
+      "status": "accepted",
+      "reason": "PolicyIndependenceExample holds facts, selected implementation and the actual negative audit fixed while varying priorityReasons. GeneralAssessmentFulfilled is articulation plus identity and accuracy of that audit. It does not assert that the unsupported priority judgment itself has full Grounds support; if that stronger reading were claimed, this example would not prove it. The prior missing independent policy is now present; the earlier factual nonentailment is only a conjunct.",
+      "declarations": [
+        "CoreReader.Choice.generalGroundsNotChoice"
+      ],
+      "type_hashes": {
+        "CoreReader.Choice.generalGroundsNotChoice": "eee90ae5540da7b23ad95176b6a736267b8b4ef0e9413bed8e5045fb71acaddc"
+      }
+    },
+    {
+      "id": "T24",
+      "status": "accepted",
+      "reason": "Within the two-candidate universe exactly identity is feasible. Method-content checks give output, scope, simplicity and process reasons on suitable implementations. cheapSuccessor has a relevant simplicity reason but fails Feasible and therefore JustifiedChoice. This does not enumerate all possible implementations.",
+      "declarations": [
+        "CoreReader.Choice.singleFeasible",
+        "CoreReader.Choice.localNotGlobal",
+        "CoreReader.Choice.internalReasons",
+        "CoreReader.Choice.openNotEquivalent"
+      ],
+      "type_hashes": {
+        "CoreReader.Choice.singleFeasible": "f3437f4015fdbcf92e04b7da7b29f047b90d4189c21e558d82314ff75051b319",
+        "CoreReader.Choice.localNotGlobal": "e536339546398c5b31cb38c3a821354d883487b067c95607379060c352460ccd",
+        "CoreReader.Choice.internalReasons": "1ec7968d246d20d2b1493c1e285053ff3d37fd3fc2c90aa7ce1af6fd73464926",
+        "CoreReader.Choice.openNotEquivalent": "50e8d5c0a1072c29f5281a230d2329b8e7c22f8abc90a8222f7689c81806b65d"
+      }
+    },
+    {
+      "id": "T25",
+      "status": "accepted",
+      "reason": "groundsCommitmentIsProvision proves extensional equality with the universally quantified package rule. groundsSelfAssessment supplies reasons, actual in-scope criticism and rejection of waiver. The current philosophy method accepts correct identity and rejects cheap wrong output, so its grounded choice concerns that actual method. Revision consistency, own-capability evidence and full reflexive work share actualSystem. Classical decisions here are mathematical functions, not deployed decision procedures.",
+      "declarations": [
+        "CoreReader.Integration.revisionKeepsConsistency",
+        "CoreReader.Integration.ownCapabilityGrounded",
+        "CoreReader.Integration.groundsSelfAssessment",
+        "CoreReader.Integration.existingPhilosophyNotPrivileged"
+      ],
+      "type_hashes": {
+        "CoreReader.Integration.revisionKeepsConsistency": "3aab586ee7ffced9c73f73f9eef729d01d47a6bbb0df57d834248a6b2a439e0f",
+        "CoreReader.Integration.ownCapabilityGrounded": "42bfb4a096464e6d78e2b2fab189eab062eccc80015fff1c83d501d91b7f5a0b",
+        "CoreReader.Integration.groundsSelfAssessment": "84129ee9e21d37bed63d1ba724e180ef0d35eaa8a3301454c50137e2e2ba682d",
+        "CoreReader.Integration.existingPhilosophyNotPrivileged": "1ec61cc64f16f1a54396b2b73da6f7aa90251e6563d882b8f92b3af2d8128151"
+      }
+    },
+    {
+      "id": "T26",
+      "status": "accepted",
+      "reason": "generationNotReflexivity uses an applicable owned assessment with no work. charterNotGrounds keeps the same charter-compliant system while cost-only evidence admits an output-failing candidate. jointWitness supplies the repaired positive combination. The counterexample concerns the specified evidence package, not impossibility of every Grounds package.",
+      "declarations": [
+        "CoreReader.Agency.generationNotReflexivity",
+        "CoreReader.Integration.charterNotGrounds",
+        "CoreReader.Integration.jointWitness"
+      ],
+      "type_hashes": {
+        "CoreReader.Agency.generationNotReflexivity": "c6ba911bc5b6a702eeddb7e1c345e58c099b2032b097a36768b315f016ea31a6",
+        "CoreReader.Integration.charterNotGrounds": "27e83eb0e659bf4c081cd29c507d09939dc4a07b00996d95f03220f991771f25",
+        "CoreReader.Integration.jointWitness": "dad931194e28b783758526be24d06dac429ccbeb57a5a3f5c80e0cad222cfac6"
+      }
+    },
+    {
+      "id": "T27",
+      "status": "accepted",
+      "reason": "applicationRetainsDuties honestly projects assumed ApplicationDuties; it does not prove arbitrary applications fulfill them. The separately registered applicationVariation supplies the missing nonempty identity application and successor-objective failure. reasonsBelongToCommitments checks joint adoption, actual relevant criticism and failure of the opposite policy for all five commitments; common adoption predicates acquire distinct operational interpretations.",
+      "declarations": [
+        "CoreReader.Integration.applicationRetainsDuties",
+        "CoreReader.Integration.reasonsBelongToCommitments"
+      ],
+      "type_hashes": {
+        "CoreReader.Integration.applicationRetainsDuties": "651f3b9c399a82d84279c623426939d6383c20da613db99958f86c454866fef3",
+        "CoreReader.Integration.reasonsBelongToCommitments": "6323d4f56fb47c305d52b3f61a3fd8086550b60929520138401ced1e161120f8"
+      }
+    },
+    {
+      "id": "T28",
+      "status": "accepted",
+      "reason": "nonExecutableAssessment constructs an articulated inferential facet and checks the actual implication. No executable-test requirement is present in that assessment interface. Lean checking this proof is not evidence of noncomputability or a prohibition on tests.",
+      "declarations": [
+        "CoreReader.Evidence.nonExecutableAssessment"
+      ],
+      "type_hashes": {
+        "CoreReader.Evidence.nonExecutableAssessment": "6909f108bbe2e4fd72181deb801b653071f204ab688a8a4cc7e99c4ede0d2728"
+      }
+    }
+  ],
+  "review_context": {
+    "current_semantic_review": "Independent fresh reviewer accepted 28 targets within their explicitly represented scope; later source comparison is informed, not a repeated blind review.",
+    "source_reviewer_authorship": "Source-first reviewer implemented the F3 repair and retained T13 author-selfcheck as pending independent approval; the separate fresh final review supplies that independent judgment.",
+    "T23_scope": "Finite assessment duties A only. Strong full non-Choice Grounds G independence is not established. The source-first inventory had a wider ambiguity; both final records preserve its correction.",
+    "context_only": "Preamble p1 retains the fresh reviewer’s not_applicable background judgment. The explicit context_only field expresses that documented role without claiming a proof of authority.",
+    "line_authorship": "Final Agency/Reflexivity/Integration/root explanations are informed reviewer translations; Logic/Evidence/Choice explanations are informed author translations using the reviewer’s symbol draft. Initial blind text remains unchanged locally and is separately presented.",
+    "source_migration": {
+      "prior_fidelity_sha256": "f61e4421672b02418ebd869360c7836dd6587d5460fc20a5edfbed46d1b69ea1",
+      "review": "reviews/source-migration-2026-09-15.md",
+      "scope": "New source metadata and rationale location only. Existing code, target bodies and bounded judgments reused under the separate migration comparison; historical initial records are not new approvals.",
+      "provenance_correction": "Integration.lean has exactly two updated preamble unit-hash comments; executable Lean text and all target bodies remain unchanged. The separately preserved provenance comparison supersedes the earlier byte-identity statement for this file."
+    }
+  }
+}

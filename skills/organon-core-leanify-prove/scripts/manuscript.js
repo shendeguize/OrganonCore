@@ -3,6 +3,7 @@ import path from 'node:path';
 import { isDeepStrictEqual } from 'node:util';
 import { hash, parseDocument } from '../../../scripts/lib/sections.js';
 import { normalize, HASH } from '../../../scripts/lib/frontmatter.js';
+import { loadProofTargets, checkTargetReview, reconcileTargetSources, PROOF_KINDS } from './targets.js';
 
 const assert = (condition, message) => { if (!condition) throw new Error(message); };
 const text = value => typeof value === 'string' && value.trim().length > 0;
@@ -43,6 +44,9 @@ export function checkManuscript(runDirectory, manifestName, kernel) {
     };
     const rawRun = fs.readFileSync(file('run.json'));
     const r = JSON.parse(rawRun);
+    assert(isDeepStrictEqual(m.proof_targets, r.proof_targets), 'Manuscript proof target binding mismatch');
+    const targets = loadProofTargets(run, r);
+    if (targets) bound(m.proof_targets);
     // Public evidence must be portable even though legacy run.json accepts absolute source/baseline paths.
     for (const ref of [r.source?.path, r.source?.snapshot, r.baseline?.path, r.preregistration?.path, r.project?.path].filter(x => x !== undefined)) {
       assert(text(ref) && !path.isAbsolute(ref), 'Public run paths must be relative');
@@ -95,6 +99,7 @@ export function checkManuscript(runDirectory, manifestName, kernel) {
       assert(Array.isArray(review.initial_records), 'Missing review initial records');
       for (const initial of review.initial_records) bound(initial);
     }
+    if (targets) result.proof_targets = checkTargetReview(targets, r.proof_targets, review, kernel);
     const keys = ['overview_en', 'details_en', 'overview_zh', 'details_zh'];
     const views = Object.fromEntries(keys.map(key => [key, bound(m.views?.[key])]));
     assert(new Set(keys.map(key => m.views[key].path)).size === 4, 'Four manuscript views require separate files');
@@ -116,17 +121,24 @@ export function checkManuscript(runDirectory, manifestName, kernel) {
       assert(['passed', 'limited', 'failed', 'incomplete', 'not_applicable', 'stale'].includes(entry.status), 'Invalid aggregate status');
       const reported = review?.entries.find(x => x.id === entry.id);
       if (reported) assert(reported.fidelity === entry.fidelity && text(reported.reason), `Review judgment mismatch: ${entry.id}`);
+      assert(entry.context_only === undefined || entry.context_only === true, `Invalid context-only marker: ${entry.id}`);
+      assert(Boolean(reported?.context_only) === Boolean(entry.context_only), `Context-only review mismatch: ${entry.id}`);
+      if (entry.context_only) {
+        assert(targets && reported?.context_only === true && text(reported.reason), `Context-only citation requires target-aware review: ${entry.id}`);
+        assert(entry.fidelity === 'not_applicable' && entry.status === 'not_applicable' && entry.countermodel == null, `Context-only citation cannot claim proof: ${entry.id}`);
+      }
       if (['full', 'partial', 'rejected'].includes(entry.fidelity)) assert(reported, `Missing reported fidelity review: ${entry.id}`);
       if (entry.kernel === 'passed') assert(kernel.passed && entry.declarations.length > 0 && entry.declarations.every(name => kernel.checked.includes(name)), `Kernel cannot support passed entry: ${entry.id}`);
       if (entry.kernel === 'failed') assert(!kernel.passed && entry.declarations.length > 0, `No failed kernel run for entry: ${entry.id}`);
       if (['passed', 'limited'].includes(entry.status)) {
+        if (targets) assert(targets.targets.some(target => PROOF_KINDS.includes(target.kind) && target.sources.some(source => `${source.unit}#${source.clause}` === key)), `Source proof status requires a proof target, not specification or boundary: ${entry.id}`);
         assert(entry.declarations.some(name => r.declarations.some(d => d.name === name && ['theorem', 'case'].includes(d.kind))), `Approval needs a proved declaration, not only definitions: ${entry.id}`);
         assert(entry.kernel === 'passed' && reported && ['full', 'partial'].includes(entry.fidelity), `Approval lacks kernel or review: ${entry.id}`);
         assert(review.initial_records.some(x => x.role === 'source_initial') && review.initial_records.some(x => x.role === 'code_blind'), `Approval lacks initial source review or code blind record: ${entry.id}`);
         assert(entry.status !== 'passed' || (entry.fidelity === 'full' && clause !== null), `Full approval exceeds the named clause coverage: ${entry.id}`);
       }
       if (entry.status === 'failed') assert(entry.kernel === 'failed' || entry.fidelity === 'rejected' || (entry.countermodel?.target === 'refuted' && entry.countermodel?.source_relation === 'refutes_source'), `Failure needs a recorded cause: ${entry.id}`);
-      if (entry.status === 'not_applicable') assert(entry.fidelity === 'not_applicable' && entry.declarations.length === 0, `Inapplicable entry contains a formal claim: ${entry.id}`);
+      if (entry.status === 'not_applicable') assert(entry.fidelity === 'not_applicable' && (entry.declarations.length === 0 || entry.context_only === true), `Inapplicable entry contains a formal claim: ${entry.id}`);
       if (entry.countermodel != null) {
         assert(entry.declarations.includes(entry.countermodel.declaration) && entry.countermodel.verification === 'passed' && entry.kernel === 'passed' && entry.countermodel.target === 'refuted' && text(entry.countermodel.reason), `Countermodel must separate verified example and refuted target: ${entry.id}`);
         assert(['supports_nonentailment', 'refutes_source'].includes(entry.countermodel.source_relation), `Countermodel needs its relation to the source claim: ${entry.id}`);
@@ -140,11 +152,13 @@ export function checkManuscript(runDirectory, manifestName, kernel) {
         assert(b >= a, `Reversed manuscript section: ${entry.id}`);
         const section = content.slice(a, b);
         assert(section.split('<!-- lean-status ').length === 2 && section.includes(`<!-- lean-status ${entry.status}; kernel ${entry.kernel}; fidelity ${entry.fidelity} -->`), `Manuscript status mismatch in ${name}: ${entry.id}`);
+        assert(section.split('<!-- lean-context-only -->').length === (entry.context_only ? 2 : 1), `Context-only view mismatch in ${name}: ${entry.id}`);
         assert(section.includes(entry.excerpt), `Manuscript source quotation mismatch in ${name}: ${entry.id}`);
       }
-      result.entries.push({ id: entry.id, kernel: entry.kernel, reported_fidelity: entry.fidelity, reported_status: entry.status, effective_status: stale ? 'stale' : entry.status });
+      result.entries.push({ id: entry.id, kernel: entry.kernel, reported_fidelity: entry.fidelity, reported_status: entry.status, effective_status: stale ? 'stale' : entry.status, ...(entry.context_only ? { context_only: true } : {}) });
     }
     if (review) assert(review.entries.every(x => ids.has(x.id)), 'Review contains unknown manuscript entries');
+    if (targets) result.proof_targets = reconcileTargetSources(targets, result.proof_targets, m.entries, kernel);
     for (const key of keys) {
       const actual = [...views[key].matchAll(/<!-- lean-entry ([A-Za-z0-9_.-]+) -->/g)].map(x => x[1]);
       assert(sameSet(actual, [...ids]), `Unknown or missing manuscript entries in ${key}`);
@@ -164,5 +178,6 @@ export function checkManuscript(runDirectory, manifestName, kernel) {
     if (stale) result.errors.push('Current source or adopted baseline drift: historical kernel evidence remains separate; current manuscript is stale');
     result.passed = result.errors.length === 0;
   } catch (error) { result.errors.push(error.message); }
+  if (result.proof_targets && !result.passed) result.proof_targets.complete = false;
   return result;
 }

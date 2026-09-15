@@ -93,6 +93,12 @@ test('real Lean accepts frozen plain text; outputs and input config are retained
   assert.equal(fs.existsSync(path.join(f.directory, 'lean/.lake')), false);
   assert.match(fs.readFileSync(path.join(result.evidence, 'lean-audit.log'), 'utf8'), /Fixture.identity/);
   assert.ok(JSON.parse(fs.readFileSync(path.join(result.evidence, 'lake-build.json'))).started_at);
+  const identity = JSON.parse(fs.readFileSync(path.join(result.evidence, 'execution-identity.json')));
+  assert.deepEqual(identity.node, { status: 'observed', version: process.version });
+  assert.deepEqual(identity.lean, { status: 'observed', version: '4.33.1' });
+  const lakeOutput = JSON.parse(fs.readFileSync(path.join(result.evidence, 'lake-version.json')));
+  assert.equal(lakeOutput.status, 0);
+  assert.deepEqual(identity.lake, { status: 'observed', version: /Lake version ([A-Za-z0-9][A-Za-z0-9.+_-]*)/.exec(lakeOutput.stdout)[1] });
 });
 
 test('real Lean accepts Organon versions and full parent direct-body coverage without pilot constants', realLean, t => {

@@ -8,6 +8,7 @@ import { isDeepStrictEqual } from 'node:util';
 import { hash, parseDocument } from '../../../scripts/lib/sections.js';
 import { HASH, normalize } from '../../../scripts/lib/frontmatter.js';
 import { checkManuscript } from './manuscript.js';
+import { loadProofTargets } from './targets.js';
 
 export const TOOLCHAIN = 'leanprover/lean4:v4.33.1';
 const NAME = /^[A-Za-z_][A-Za-z0-9_']*(?:\.[A-Za-z_][A-Za-z0-9_']*)*$/;
@@ -17,6 +18,13 @@ const FORBIDDEN = /\b(?:sorry|admit|axiom|unsafe|native_decide)\b/g;
 const assert = (condition, message) => { if (!condition) throw new Error(message); };
 const nonempty = value => typeof value === 'string' && value.trim().length > 0;
 const escape = text => text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+const executionSources = Object.fromEntries([
+  ['skills/organon-core-leanify-prove/scripts/check.js', './check.js'],
+  ['skills/organon-core-leanify-prove/scripts/manuscript.js', './manuscript.js'],
+  ['skills/organon-core-leanify-prove/scripts/targets.js', './targets.js'],
+  ['scripts/lib/sections.js', '../../../scripts/lib/sections.js'],
+  ['scripts/lib/frontmatter.js', '../../../scripts/lib/frontmatter.js'],
+].map(([name, relative]) => [name, hash(fs.readFileSync(new URL(relative, import.meta.url)))]));
 
 function localFile(base, relative) {
   assert(nonempty(relative) && !path.isAbsolute(relative), 'Expected a relative run/project path');
@@ -174,6 +182,14 @@ export function check(runDirectory, options = {}) {
   fs.mkdirSync(evidence, { recursive: true });
   const result = { passed: false, semantic_status: 'not_evaluated', evidence, errors: [], checked: [], dependencies: {}, reported_reviews: [] };
   const record = (name, value) => fs.writeFileSync(path.join(evidence, name), `${JSON.stringify(value, null, 2)}\n`);
+  const identity = {
+    schema_version: 1,
+    assessment: 'self_reported_not_approval',
+    sources_at_module_load: executionSources,
+    node: { status: 'observed', version: process.version },
+    lean: { status: 'not_observed' },
+    lake: { status: 'not_observed' },
+  };
   const execute = (label, binary, args, cwd, env, input) => {
     const started_at = new Date().toISOString();
     const command = spawnSync(binary, args, { cwd, env, input, encoding: 'utf8', timeout: 240000, maxBuffer: 16 * 1024 * 1024 });
@@ -183,6 +199,7 @@ export function check(runDirectory, options = {}) {
     return execution;
   };
   try {
+    record('execution-identity.json', identity);
     assert(Number(process.versions.node.split('.')[0]) >= 22, 'Node 22 or newer is required');
     const manifestPath = localFile(run, 'run.json');
     const rawManifest = fs.readFileSync(manifestPath);
@@ -196,9 +213,16 @@ export function check(runDirectory, options = {}) {
     }
     const actual = sourceUnits(run, manifest.source);
     const { units, declarations } = inventory(manifest, actual);
+    const targets = loadProofTargets(run, manifest);
+    if (targets) {
+      result.proof_targets = { sha256: manifest.proof_targets.sha256, complete: false, semantic_status: 'not_evaluated' };
+      result.declaration_types = {};
+      record('proof-targets.json', targets);
+    }
     const project = localFile(run, manifest.project?.path);
     const { config, files } = projectFiles(project, manifest.project.root_module);
     const inputs = { 'run.json': hash(rawManifest), [manifest.preregistration.path]: manifest.preregistration.sha256, [manifest.source.snapshot]: manifest.source.sha256, [`${manifest.project.path}/lakefile.toml`]: hash(config) };
+    if (targets) inputs[manifest.proof_targets.path] = manifest.proof_targets.sha256;
     const docCommentStartsByFile = new Map();
     for (const [file, raw] of files) {
       inputs[`${manifest.project.path}/${file}`] = hash(raw);
@@ -231,7 +255,12 @@ export function check(runDirectory, options = {}) {
     const env = { ...process.env, PATH: `${bin}${path.delimiter}${process.env.PATH ?? ''}`, ELAN_TOOLCHAIN: TOOLCHAIN };
     for (const key of ['LEAN_PATH', 'LEAN_SRC_PATH', 'LEAN_SYSROOT', 'LAKE_HOME']) delete env[key];
     const version = execute('lean-version', lean, ['--version'], run, env);
+    const leanVersion = /Lean \(version ([A-Za-z0-9][A-Za-z0-9.+_-]*)/.exec(version.stdout)?.[1];
+    identity.lean = version.status === 0 && leanVersion ? { status: 'observed', version: leanVersion } : { status: 'not_observed' };
     assert(version.status === 0 && /Lean \(version 4\.33\.1(?:[ ,)])/.test(version.stdout), 'Installed Lean version does not match 4.33.1');
+    const lakeVersion = execute('lake-version', lake, ['--version'], run, env);
+    const reportedLakeVersion = /Lake version ([A-Za-z0-9][A-Za-z0-9.+_-]*)/.exec(lakeVersion.stdout)?.[1];
+    identity.lake = lakeVersion.status === 0 && reportedLakeVersion ? { status: 'observed', version: reportedLakeVersion } : { status: 'not_observed' };
     const working = path.join(evidence, 'project');
     fs.mkdirSync(working);
     fs.writeFileSync(path.join(working, 'lakefile.toml'), config);
@@ -244,7 +273,7 @@ export function check(runDirectory, options = {}) {
     const build = execute('lake-build', lake, ['build', manifest.project.root_module.split('.')[0]], working, env);
     result.build_returncode = build.status;
     if (build.status !== 0) result.errors.push('Build: lake build failed');
-    const program = `import ${manifest.project.root_module}\n${[...declarations.keys()].map(name => `#check ${name}\n#print axioms ${name}`).join('\n')}\n`;
+    const program = `${targets ? 'import Lean\n' : ''}import ${manifest.project.root_module}\n${[...declarations.keys()].map(name => `#check ${name}\n#print axioms ${name}${targets ? `\nrun_cmd do\n  let info ← Lean.getConstInfo \`${name}\n  Lean.logInfo ("ORGANON_TYPE ${name} " ++ (Lean.Json.str (reprStr info.type)).compress)` : ''}`).join('\n')}\n`;
     fs.writeFileSync(path.join(evidence, 'audit.lean'), program);
     const audit = execute('lean-audit', lake, ['env', 'lean', '--stdin'], working, env, program);
     result.audit_returncode = audit.status;
@@ -259,6 +288,17 @@ export function check(runDirectory, options = {}) {
       const forbidden = axioms.filter(axiom => !ALLOWED_AXIOMS.has(axiom));
       if (forbidden.length) result.errors.push(`Audit: forbidden dependencies for ${name}: ${forbidden.join(', ')}`);
     }
+    if (targets) {
+      for (const name of declarations.keys()) {
+        const prefix = `ORGANON_TYPE ${name} `;
+        const matches = audit.stdout.split('\n').filter(line => line.startsWith(prefix));
+        assert(matches.length === 1, `Audit: expected one actual type for ${name}`);
+        const type = JSON.parse(matches[0].slice(prefix.length));
+        assert(nonempty(type), `Audit: missing actual type for ${name}`);
+        result.declaration_types[name] = { type, sha256: hash(type) };
+      }
+      record('declaration-types.json', result.declaration_types);
+    }
     result.passed = result.errors.length === 0;
   } catch (error) {
     result.errors.push(error.message);
@@ -268,8 +308,10 @@ export function check(runDirectory, options = {}) {
     result.manuscript = checkManuscript(run, options.manuscript, result);
     result.kernel_passed = kernelPassed;
     result.passed = kernelPassed && result.manuscript.passed;
+    if (result.manuscript.proof_targets) result.proof_targets = { ...result.manuscript.proof_targets, complete: result.passed && result.manuscript.proof_targets.complete };
     record('manuscript.json', result.manuscript);
   }
+  record('execution-identity.json', identity);
   record('summary.json', result);
   return result;
 }
@@ -282,6 +324,6 @@ export function runCli(usage = 'Usage: node skills/organon-core-leanify-prove/sc
   }
 }
 
-if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+if (process.argv[1] && fs.existsSync(process.argv[1]) && fs.realpathSync(process.argv[1]) === fs.realpathSync(fileURLToPath(import.meta.url))) {
   runCli();
 }

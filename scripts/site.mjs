@@ -1,0 +1,13 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import { spawnSync } from 'node:child_process';
+import { fileURLToPath } from 'node:url';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const core=process.env.ORGANON_CORE_ROOT || root;
+const mode=process.argv[2];
+if (!['build','check'].includes(mode)) throw new Error('Expected build or check');
+const script=path.join(core,'tools/site',`${mode}.mjs`);
+if (!fs.existsSync(script)) throw new Error('Missing fixed Core tooling; set ORGANON_CORE_ROOT');
+const result=spawnSync(process.execPath,[script,'--repo',root,...process.argv.slice(3)],{stdio:'inherit'});
+if(result.error) throw result.error;
+process.exitCode=result.status??1;

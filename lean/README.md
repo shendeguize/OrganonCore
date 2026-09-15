@@ -1,34 +1,36 @@
 # Lean implementations and reader editions
 
-Core owns the Lean projects, evidence, checkers and two skills. This repository can be copied or cloned on its own; an outer AgentOrganon checkout is not required. The English [philosophy](../PHILOSOPHY.md) remains authoritative. Implementations and skills are revisable support for its study, not additional philosophical commitments.
+Core owns its Lean project, checkers and two skills and works without AgentOrganon. The English [philosophy](../PHILOSOPHY.md) is authoritative. Formal definitions, conditional results, finite examples and reader explanations add no philosophical commitments.
 
-## Read and inspect
+## Current object
 
-| Source | English | Chinese | Current run and exact Lean code |
+| Source | English | Chinese | Run and code |
 | --- | --- | --- | --- |
-| Philosophy 0.1.3, all 22 units | [Overview](core-overview.md), [line explanations](core-details.md) | [Overview](../zh/lean/core-overview.md), [line explanations](../zh/lean/core-details.md) | [Run](core-v0.1.3/philosophy/run.json), [CoreReader.lean](core-v0.1.3/philosophy/leanified/CoreReader.lean) |
-| Rationale with the Core-tooling design explanation | [Overview](rationale-overview.md), [line explanations](rationale-details.md) | [Overview](../zh/lean/rationale-overview.md), [line explanations](../zh/lean/rationale-details.md) | [Run](core-v0.1.3/rationale-core-tools/run.json), [RationaleReader.lean](core-v0.1.3/rationale-core-tools/leanified/RationaleReader.lean) |
+| Philosophy 0.1.4 | [Overview](philosophy/overview.md), [details](philosophy/details.md) | [速览](../zh/lean/philosophy/overview.md), [详解](../zh/lean/philosophy/details.md) | [Manifest](philosophy/manuscript.json), [CoreReader.lean](philosophy/leanified/CoreReader.lean) |
 
-The current 495 navigation entries report 14 limited correspondences, 2 rejected correspondences, 371 incomplete entries and 108 structural or inapplicable entries. Zero complete source claims are reported passed. These counts are not a philosophical quality score. The revised rationale row adds one inventory clause; no proof or fidelity grade was upgraded. All 228 nonblank Lean lines retain English and Chinese explanations.
+The [frozen catalog](philosophy/targets.json) retains 28 targets, 62 prescribed declarations and all 33 source paragraphs. One supplementary application-variation case brings the checked inventory to 63 declarations. The two empty headings remain structural entries. Targets distinguish specifications, conditional theorems, satisfiability, non-entailment and nonformal boundaries. Completing this catalog does not mean that all source paragraphs are unconditionally true or completely formalized.
+
+The overview follows complete claims and their conditions. The details contain the exact complete Lean sources and explanations of every nonblank line in both languages. [Review records](philosophy/reviews/README.md) distinguish the preserved source-first and code-blind initial assessments from later informed comparisons and explain changed judgments. [Validation](VALIDATION.md) provides actual check evidence and its limits.
+
+The stable `philosophy/` path identifies the current object, not immutable evidence. Source, run, code, actual declaration types, review and manuscript hashes identify the objects checked. [Source context](philosophy/SOURCE-CONTEXT.md) explains the frozen source's original relative links.
 
 ## Standalone use
 
-Use [organon-core-leanify-prove](../skills/organon-core-leanify-prove/SKILL.md) and [organon-core-lean-natural-language](../skills/organon-core-lean-natural-language/SKILL.md) by their entrypoints. They accept ordinary input as well as Organon text. Preserve the caller's explicit adopted baseline; direct Core invocation uses the existing [selection contract](../skills/references/philosophy-resolution.md). Code-only explanation does not require a philosophical baseline. Language and `--explain-lines` are skill inputs, not a translation executable.
+Use [organon-core-leanify-prove](../skills/organon-core-leanify-prove/SKILL.md) for formalization and [organon-core-lean-natural-language](../skills/organon-core-lean-natural-language/SKILL.md) for code explanation and manuscripts. These are agent entrypoints, not installed executables. Preserve a caller-selected baseline under the [selection contract](../skills/references/philosophy-resolution.md); code-only explanation requires no philosophy. Language and `--explain-lines` are skill inputs.
 
-With Node >=22, RTK, and the already installed `leanprover/lean4:v4.33.1` toolchain, run from the Core root:
+With Node >=22, RTK and installed Lean `v4.33.1`, run from Core:
 
 ```sh
-rtk proxy node skills/organon-core-leanify-prove/scripts/check.js lean/core-v0.1.3/philosophy --manuscript manuscript.json
-rtk proxy node skills/organon-core-leanify-prove/scripts/check.js lean/core-v0.1.3/rationale-core-tools --manuscript manuscript.json
-rtk proxy node --test
+rtk proxy node skills/organon-core-leanify-prove/scripts/check.js lean/philosophy --manuscript manuscript.json
+rtk proxy node --test tests/*.test.js
 ```
 
-Omit `--manuscript manuscript.json` to check only a run's frozen sources, build, declarations, cases and dependencies. The manuscript option also binds current source/baseline, both languages and both granularities, exact excerpts and reported review objects. It does not certify source fidelity, reviewer independence or translation accuracy. No third-party Node packages or Mathlib are required; the checker does not install or silently change the toolchain.
+Omitting `--manuscript manuscript.json` checks the frozen source, build, declarations, cases and dependencies. Manuscript checking additionally verifies current-source bindings, exact excerpts, the frozen target catalog, actual type hashes and reported review/status constraints across both languages and granularities. It does not certify semantic fidelity, translation accuracy, reviewer independence or philosophical correctness. No Mathlib, third-party Node dependency or automatic toolchain installation is used.
 
-## Maintenance and history
+New checks write receipts beneath ignored `evidence/checks/`. They identify loaded checker/parser bytes and observed Node/Lean/Lake versions; this does not authenticate or approve an implementation. Historical records without receipts remain records without known execution identity.
 
-Follow [Lean evidence maintenance](../AGENTS.md#lean-evidence-maintenance) when actual source, code, assumption or method/tool dependencies change. Current checks and bilingual synchronization are completion conditions; successful proof of every philosophical claim is not. Hash changes matter without a philosophy-version change. Philosophy 0.1.3 is unchanged; the revised rationale has a new source hash and a separate run.
+## History and maintenance
 
-The [preceding rationale run](core-v0.1.3/rationale/run.json) and its [English historical reader](core-v0.1.3/rationale/readers/en/rationale-overview.md) / [Chinese historical reader](core-v0.1.3/rationale/readers/zh/rationale-overview.md) remain available. Its frozen kernel evidence can be replayed with the base command. Its manuscript check deliberately fails as stale against the current rationale. Original source/code/review objects are retained; relocation changes paths and reader hashes, not what historical proofs established. Earlier check results prefixed `before-migration-` are historical, not certification of the new layout.
+Formal delivery contains the current philosophy object and its necessary evidence. The preceding philosophy and rationale runs and reader views are archived under ignored `.local/lean-history/` on the maintaining machine. Rationale remains explanatory source text, without a separate current proof assignment. Clones, ordinary copies and current tests do not depend on local archives.
 
-Current run reviews distinguish initial source assessment, unchanged code backtranslation reused by exact hash, and informed migration comparison. The two rejected support/grounds mappings remain rejected. [Migration validation](VALIDATION.md) reports actual standalone and compatibility results; [preceding validation](history/reader-validation-before-migration.md) retains the earlier task's results. Private iteration records and caches are not part of the portable delivery. No global installation, release workflow or remote publication is implied.
+Before replacing a current object, preserve the preceding source/run/code/review/view closure and verify historical replay from a separate copy. Follow [dependency-driven maintenance](../AGENTS.md#lean-evidence-maintenance): review affected objects, disclose reuse and prior exposure, and synchronize both languages. A stable path or unchanged version number does not keep old approval current. Ordinary philosophical assessment does not require Lean.

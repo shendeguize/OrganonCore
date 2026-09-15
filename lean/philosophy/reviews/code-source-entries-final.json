@@ -1,0 +1,353 @@
+[
+  {
+    "id": "organon.preamble#p1",
+    "fidelity": "not_applicable",
+    "reason": "This declares textual authority and adopted-commitment scope, not a mathematical proposition about all systems. The review retains this boundary without manufacturing a Lean theorem of authority.",
+    "reason_zh": "本段声明文本权威与采纳承诺的范围，并非关于所有系统的数学命题。审查保留该边界，不制造证明文本权威的Lean定理。",
+    "targets": [
+      "T01",
+      "T02"
+    ],
+    "mapping_role": "authority-and-adoption-boundary; linked declarations illustrate compliance with this reading, not a proof of the boundary"
+  },
+  {
+    "id": "organon.preamble#p2",
+    "fidelity": "partial",
+    "reason": "The shared model exhibits compatible constraints without a chapter-priority inference. Authority of meanings and limits, the role of Rationale and revisability of actual skills remain textual commitments outside this finite witness.",
+    "reason_zh": "共享模型展示约束可以共同成立，未从章节位置推出优先性。含义与限度的权威、Rationale的角色及实际技能可修订性仍是有限见证之外的文本承诺。",
+    "targets": [
+      "T01",
+      "T02"
+    ]
+  },
+  {
+    "id": "organon.charter.overview#p1",
+    "fidelity": "not_applicable",
+    "reason": "This is a structural list of three headings. It organizes substantive provisions and requires no fabricated theorem.",
+    "reason_zh": "本段是列出三项标题的结构性文本，用于组织实质条款，无需虚构定理。",
+    "targets": [
+      "T01"
+    ],
+    "mapping_role": "structural-heading"
+  },
+  {
+    "id": "organon.charter.overview#p2",
+    "fidelity": "partial",
+    "reason": "jointWitness combines valued expansion, revisability, contextual consistency and contentful owned principle work in one inhabited system. It proves model satisfiability, not actual compliance by arbitrary systems.",
+    "reason_zh": "jointWitness在同一非空系统中组合扩展价值、可修订性、情境一致性和具有内容的自有原则工作；它证明模型可满足，不证明任意现实系统履行这些要求。",
+    "targets": [
+      "T01",
+      "T02",
+      "T03"
+    ]
+  },
+  {
+    "id": "organon.charter.overview#p3",
+    "fidelity": "partial",
+    "reason": "The three requirements remain distinct predicates with a shared example and specific nonentailments. Their interpretation as philosophical obligations and their full conditions in arbitrary applications are not derived from the example.",
+    "reason_zh": "三项要求保留为不同谓词，并有共享实例和特定非蕴涵结果。其作为哲学义务的解释及任意应用中的完整条件，不能由实例推出。",
+    "targets": [
+      "T01",
+      "T02",
+      "T03"
+    ]
+  },
+  {
+    "id": "organon.charter.self-transcendence#p1",
+    "fidelity": "partial",
+    "reason": "Generative specifies valuation and revisability of current forms. The finite tags and state examples do not characterize every form of understanding, construction or intrinsic orientation.",
+    "reason_zh": "Generative规定对扩展的赋值及当前形式的可修订性。有限标签和状态实例没有刻画理解、构造或内在取向的全部形式。",
+    "targets": [
+      "T03"
+    ]
+  },
+  {
+    "id": "organon.charter.self-transcendence.orientation#p1",
+    "fidelity": "partial",
+    "reason": "The neutral-policy counterexample separates permission for distinct versions from the adopted valuation predicate. It does not establish what every real system values or justify the adopted value universally.",
+    "reason_zh": "中性政策反例把不同版本的变更许可与采纳的价值谓词分开；它不确立每个现实系统重视什么，也不普遍证成所采纳的价值。",
+    "targets": [
+      "T03",
+      "T04"
+    ]
+  },
+  {
+    "id": "organon.charter.self-transcendence.non-finality#p1",
+    "fidelity": "partial",
+    "reason": "All five represented form kinds, including organization, method and principle, fall under conditional revisability; a constant trace shows no progress guarantee. The chosen representation is not an exhaustive ontology or an executed revision.",
+    "reason_zh": "五类已表示的形式包括组织、方法和原则，均受条件性可修订要求约束；常值轨迹说明不保证进步。该表示不是穷尽性本体分类，也不是已经执行的修订。",
+    "targets": [
+      "T03",
+      "T05"
+    ]
+  },
+  {
+    "id": "organon.charter.self-transcendence.limits#p1",
+    "fidelity": "partial",
+    "reason": "The same before/after states increase inventory, abstraction and vocabulary without adding represented capabilities. Actual performance records can distinguish a genuine extension in a two-case world; empirical reliability beyond that world is not proved.",
+    "reason_zh": "同一前后状态增加库存、抽象层级和词汇，却未增加已表示的能力。实际表现记录能在两类世界中区分真正扩展，但没有证明该世界之外的经验可靠性。",
+    "targets": [
+      "T03",
+      "T06",
+      "T07"
+    ]
+  },
+  {
+    "id": "organon.charter.self-transcendence.limits#p2",
+    "fidelity": "partial",
+    "reason": "Bound execution exhibits separate external dependencies, grounded stability, a nonimproving trace and a refuted owned announcement. These are finite compatibility and failure examples; philosophical adoption and real autonomous development remain outside their conclusions.",
+    "reason_zh": "绑定的执行接口分别展示外部依赖、有根据的稳定、无改善轨迹及被反驳的自有报告。这些是有限相容性与失败实例，哲学采纳和现实自主发展不在其结论范围内。",
+    "targets": [
+      "T03",
+      "T06",
+      "T07"
+    ]
+  },
+  {
+    "id": "organon.charter.consistency#p1",
+    "fidelity": "partial",
+    "reason": "The general semantic theorem prevents opposite consequences under one theory/context when an admissible world exists. Existence of such a world, choice of questions and interpretation of held judgments are explicit modeling conditions, not guaranteed for reality.",
+    "reason_zh": "一般语义定理在存在可容许世界时，排除同一理论和情境中的正反后果。该世界存在、问题选择及所持判断的解释都是明确建模条件，不是现实保证。",
+    "targets": [
+      "T08"
+    ]
+  },
+  {
+    "id": "organon.charter.consistency.meaning#p1",
+    "fidelity": "partial",
+    "reason": "Concrete retraction slices can reverse judgments, and a conditional reporting specification disallows concealing recognized change. No automatic detector, adequate report generator or real revision history is established.",
+    "reason_zh": "具体撤回切片允许判断反转，条件性报告规范排除隐瞒已识别变化；没有确立自动检测器、充分报告生成器或现实修订历史。",
+    "targets": [
+      "T09",
+      "T10"
+    ]
+  },
+  {
+    "id": "organon.charter.consistency.meaning#p2",
+    "fidelity": "partial",
+    "reason": "Separate assumption, meaning and scope changes admit different judgments; hidden changes fail the adopted report condition. This covers explicit semantic models, not every practical ambiguity or method of concealment.",
+    "reason_zh": "假设、含义和范围的分别变化允许不同判断；隐藏变化违反采纳的报告条件。结果覆盖明确语义模型，不覆盖全部实际歧义或隐瞒方式。",
+    "targets": [
+      "T09",
+      "T10"
+    ]
+  },
+  {
+    "id": "organon.charter.consistency.limits#p1",
+    "fidelity": "partial",
+    "reason": "Finite witnesses distinguish tension from contradiction and consistency from truth or completeness. Refusing to retain a demonstrated conflict is a conditional consequence of an adopted consistency requirement, not an implemented revision strategy.",
+    "reason_zh": "有限见证区分张力与矛盾、一致性与真或完整性。不保留已示冲突是采纳一致性要求后的条件后果，不是已经实现的修订策略。",
+    "targets": [
+      "T11",
+      "T12"
+    ]
+  },
+  {
+    "id": "organon.charter.reflexivity#p1",
+    "fidelity": "partial",
+    "reason": "Reflexive quantifies applicable owned rules and subjects, with coherent keys and meaningful application records. The concrete rule set has generation and assessment work but does not cover every possible real principle.",
+    "reason_zh": "Reflexive量化适用的自有规则和对象，并要求一致的标识与有意义的适用记录。具体规则集包含生成和评估工作，但不覆盖所有可能的现实原则。",
+    "targets": [
+      "T13"
+    ]
+  },
+  {
+    "id": "organon.charter.reflexivity.meaning#p1",
+    "fidelity": "partial",
+    "reason": "The revised module models formation purposes, requested applicability scopes and revision counterexamples with actual evaluation and generation outcomes. These finite inquiry contracts do not establish the correctness or completeness of every assessment methodology.",
+    "reason_zh": "修订模块通过实际评估和生成结果表示形成目的、待考察适用范围和修订反例。这些有限问题契约不确立所有评估方法的正确性或完整性。",
+    "targets": [
+      "T13"
+    ]
+  },
+  {
+    "id": "organon.charter.reflexivity.limits#p1",
+    "fidelity": "partial",
+    "reason": "Applicability is retained, self-exemption fails where conditions hold, and finite self-tests plus a produced revision fail to establish universal support. The owned records and source identities are mathematical objects, not authenticated execution histories.",
+    "reason_zh": "适用性得到保留，条件成立时不能自我豁免；有限自测和自产修订不能确立普遍支持。自有记录和来源标识是数学对象，不是经过认证的执行历史。",
+    "targets": [
+      "T13",
+      "T14"
+    ]
+  },
+  {
+    "id": "organon.grounds#p1",
+    "fidelity": "partial",
+    "reason": "Grounds checks identified applicable facets of the same claim; support, entailment and an option-indexed value procedure carry distinct responsibilities. This is a chosen formal interface and finite fulfillment examples, not a universal sufficient criterion for all philosophical grounds.",
+    "reason_zh": "Grounds检查同一主张的已识别适用方面；支持、蕴涵及选项相关价值程序承担不同责任。它是选定的形式接口与有限履责实例，不是所有哲学根据的普遍充分标准。",
+    "targets": [
+      "T07",
+      "T15"
+    ]
+  },
+  {
+    "id": "organon.grounds.assessment#p1",
+    "fidelity": "partial",
+    "reason": "Articulation content is linked to each facet and separated from its discharge; union and missing-aspect examples prevent labels from waiving represented duties. Identifying every actually relevant aspect remains an application responsibility not solved by the datatype.",
+    "reason_zh": "表述内容与每个方面相连，并与该方面的履责分开；并集和缺失方面实例防止标签豁免已表示义务。识别所有实际相关方面仍是应用责任，不能由数据类型解决。",
+    "targets": [
+      "T15",
+      "T16",
+      "T17",
+      "T18",
+      "T28"
+    ]
+  },
+  {
+    "id": "organon.grounds.assessment#p2",
+    "fidelity": "partial",
+    "reason": "The three modeled adapters check observational compatibility/support, semantic entailment, and value reasons with limits/consequences/criticism. Actual relevance, empirical uncertainty and the adequacy of value criticism beyond the chosen cases are not exhaustively formalized.",
+    "reason_zh": "三个已建模适配接口分别检查观察相容性与支持、语义蕴涵，以及带限度、后果和批评的价值理由。所选案例之外的实际相关性、经验不确定性和价值批评充分性没有被穷尽形式化。",
+    "targets": [
+      "T15",
+      "T16",
+      "T17",
+      "T18",
+      "T28"
+    ]
+  },
+  {
+    "id": "organon.grounds.assessment#p3",
+    "fidelity": "partial",
+    "reason": "JointAdoption requires consistent instantiated starting commitments without proving all starting assumptions. A two-reason example and heterogeneous facets avoid a universal numerical scale. They demonstrate procedural consistency, not ultimate value justification.",
+    "reason_zh": "JointAdoption要求起始承诺有一致的实例，而不证明所有起始假设。双理由实例和异类方面避免使用统一数值尺度；它们展示程序一致性，不提供终极价值证成。",
+    "targets": [
+      "T15",
+      "T16",
+      "T17",
+      "T18",
+      "T28"
+    ]
+  },
+  {
+    "id": "organon.grounds.scope#p1",
+    "fidelity": "partial",
+    "reason": "A proper local observation scope supports a local function claim while admitting a counterexample outside it. This establishes the specified nonentailment; it neither identifies all relevant real differences nor rules out justified wider evidence.",
+    "reason_zh": "真子域内的局部观察支持局部函数主张，同时容许域外反例。结果确立指定的非蕴涵，不识别所有现实相关差异，也不排除有根据的更广证据。",
+    "targets": [
+      "T19",
+      "T20"
+    ]
+  },
+  {
+    "id": "organon.grounds.scope#p2",
+    "fidelity": "partial",
+    "reason": "Repeated irrelevant measurements fail support, while a valid inferential assessment needs no empirical chain. This refutes a universal mandatory chain within the represented responsibilities but does not characterize every framework or measurement practice.",
+    "reason_zh": "重复无关测量不能提供支持，而有效推论评估无需经验链条。这在已表示责任中反驳统一必需链条，但不刻画所有框架或测量实践。",
+    "targets": [
+      "T19",
+      "T20"
+    ]
+  },
+  {
+    "id": "organon.grounds.scope#p3",
+    "fidelity": "partial",
+    "reason": "A single observation has limited support and distinct trial outcomes preserve a fixed bound. Verification, reproducible conditions and conclusion stability use separate predicates; no probability distribution or general reproducibility law is proved.",
+    "reason_zh": "单次观察具有有限支持，不同试验结果保持固定界。核验、可复现条件和结论稳定使用不同谓词；没有证明概率分布或一般复现规律。",
+    "targets": [
+      "T19",
+      "T20"
+    ]
+  },
+  {
+    "id": "organon.grounds.capabilities#p1",
+    "fidelity": "partial",
+    "reason": "Output-only and explanation-bearing contracts concern the same process and each has its own checked Grounds; applicationVariation changes the actual objective and invalidates old evidence. No uniform real mastery or capability-level definition is derived.",
+    "reason_zh": "仅输出合同和附加解释合同针对同一过程，各有经过检查的Grounds；applicationVariation改变实际目标并使旧证据失效。没有推导现实中统一的方法掌握或能力等级定义。",
+    "targets": [
+      "T07",
+      "T21"
+    ]
+  },
+  {
+    "id": "organon.grounds.capabilities#p2",
+    "fidelity": "partial",
+    "reason": "A distinct assessor role supplies a proof about the exact output process while no explanation certificate is attached; duplicating four inventory kinds leaves represented capability unchanged. Role numbers and certificates do not prove external provenance or human-like understanding.",
+    "reason_zh": "不同评估者角色为确切输出过程提供证明，而该过程没有附带解释证书；复制四类库存不改变已表示能力。角色编号和证书不证明外部来源或类似人的理解。",
+    "targets": [
+      "T07",
+      "T21"
+    ]
+  },
+  {
+    "id": "organon.grounds.implementations#p1",
+    "fidelity": "partial",
+    "reason": "The adopted choice interface requires feasibility and an objective/value/constraint-linked reason and rejects status-only reasons. Its finite reason vocabulary and concrete feasibility checks do not supply a general theory of warranted real implementation choice.",
+    "reason_zh": "采纳的选择接口要求可行性及与目标、价值、约束相连的理由，并拒绝纯地位理由。有限理由词汇和具体可行性检查不构成现实实现选择的一般证成理论。",
+    "targets": [
+      "T22",
+      "T23"
+    ]
+  },
+  {
+    "id": "organon.grounds.implementations#p2",
+    "fidelity": "partial",
+    "reason": "Two independent policies share a correct negative audit but differ on the added choice norm, establishing independence from the represented assessment procedure. This does not show an unsupported priority claim fully satisfies general Grounds, or derive a value commitment from neutral facts.",
+    "reason_zh": "两个独立政策共享正确的否定审查，却对额外选择规范一成一败，确立相对于已表示评估程序的独立性。这不表明无支持的优先主张完全满足一般Grounds，也不从中性事实推出价值承诺。",
+    "targets": [
+      "T22",
+      "T23"
+    ]
+  },
+  {
+    "id": "organon.grounds.implementations.limits#p1",
+    "fidelity": "partial",
+    "reason": "Concrete cases have one feasible candidate, unequal implementations, local agreement with wider difference and four eligible internal reasons. A cheap wrong-output method shows eligibility alone is insufficient. These results concern selected candidates and contracts, not all methods.",
+    "reason_zh": "具体案例展示唯一可行候选、不等价实现、局部相同而更广范围不同，以及四种合格内部理由。廉价但输出错误的方法说明理由合格并不足够。结果针对所选候选和合同，不覆盖所有方法。",
+    "targets": [
+      "T24"
+    ]
+  },
+  {
+    "id": "organon.relationships.roles#p1",
+    "fidelity": "partial",
+    "reason": "One shared model combines the charter and Grounds and assigns five commitments distinct operational reasons, limits and live criticism. Specified nonentailments prevent chapter order from doing logical work; neither the universal adoption nor ultimate justification of all commitments follows.",
+    "reason_zh": "一个共享模型组合章程与Grounds，并为五项承诺赋予不同的操作性理由、限度和实际批评。指定非蕴涵防止章节顺序承担推理作用；所有承诺的普遍采纳或终极证成并不随之成立。",
+    "targets": [
+      "T02",
+      "T12",
+      "T23",
+      "T25",
+      "T26",
+      "T27"
+    ]
+  },
+  {
+    "id": "organon.relationships.roles#p2",
+    "fidelity": "partial",
+    "reason": "Consistency/support and orientation/capability remain separate; changing an application objective changes its actual claim and can defeat retained evidence. Universal application compliance is only an assumed conditional interface, not an achieved fact.",
+    "reason_zh": "一致性与支持、取向与能力保持分离；改变应用目标会改变实际主张，并可能使保留证据失败。普遍应用履责仅由有前提的条件接口表达，不是已经实现的事实。",
+    "targets": [
+      "T02",
+      "T12",
+      "T23",
+      "T25",
+      "T26",
+      "T27"
+    ]
+  },
+  {
+    "id": "organon.relationships.roles#p3",
+    "fidelity": "partial",
+    "reason": "Contentful self-application, exact own-capability assessment, the general Grounds provision and the same current philosophy method are linked in the model. Their checked coexistence supplies no self-proof, real execution guarantee or unconditional applicability.",
+    "reason_zh": "模型连接具有内容的自我适用、确切自有能力评估、一般Grounds条款与同一个当前哲学方法。经过检查的共同成立不提供自证、现实执行保证或无条件适用性。",
+    "targets": [
+      "T02",
+      "T12",
+      "T23",
+      "T25",
+      "T26",
+      "T27"
+    ]
+  },
+  {
+    "id": "organon.relationships.terms#p1",
+    "fidelity": "partial",
+    "reason": "FormKind includes organization, methods and principles, and an inferential assessment has no executable-test requirement. These representations illustrate the terms without exhaustively defining every existing form or every non-test assessment.",
+    "reason_zh": "FormKind包含组织、方法和原则，推论评估没有可执行测试要求。这些表示说明术语，但未穷尽定义所有既有形式或所有非测试评估。",
+    "targets": [
+      "T05",
+      "T28"
+    ]
+  }
+]

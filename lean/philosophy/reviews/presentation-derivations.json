@@ -1,0 +1,114 @@
+[
+  {
+    "role": "source_initial",
+    "file": "source-initial.md",
+    "original_sha256": "9d6db04489a10a5aab217601ad69f006d4fd1ee1183aec9a7314764b4c3d8afd",
+    "presentation_sha256": "552939f44c9433e945c424b2b2103497d0f83037bd06376a62f3820d668484f1",
+    "changed": true,
+    "transformation": "Host directory prefixes are replaced by descriptive labels; findings, code, judgments and original hashes are retained. Originals remain unchanged locally."
+  },
+  {
+    "role": "code_blind",
+    "file": "code-blind-initial.md",
+    "original_sha256": "2575d7f5963e22b2729ac837d30d54e302f63085588030bb25f5ea1961173484",
+    "presentation_sha256": "13df9c04d0a614edfbca8398d3032f22e347ff468fbf56e0ba4824e39c30909b",
+    "changed": true,
+    "transformation": "Host directory prefixes are replaced by descriptive labels; findings, code, judgments and original hashes are retained. Originals remain unchanged locally."
+  },
+  {
+    "role": "source_comparison_initial",
+    "file": "source-comparison-initial.md",
+    "original_sha256": "93a9db01fdcfc24f026f16d8b3d8e2e8149c5042ddcff48dca3216313c5acad9",
+    "presentation_sha256": "77f83be6539efff7ece2acc90350e2ce2c8fe80d8a16319d90fe35775c0a68c9",
+    "changed": true,
+    "transformation": "Host directory prefixes are replaced by descriptive labels; findings, code, judgments and original hashes are retained. Originals remain unchanged locally."
+  },
+  {
+    "role": "source_target_initial",
+    "file": "source-targets-initial.json",
+    "original_sha256": "f03995e63a2f80d6a239c1c61b9ad11bd9a6e78264fe6a869a8d9ed2e75b3d41",
+    "presentation_sha256": "f03995e63a2f80d6a239c1c61b9ad11bd9a6e78264fe6a869a8d9ed2e75b3d41",
+    "changed": false,
+    "transformation": "Host directory prefixes are replaced by descriptive labels; findings, code, judgments and original hashes are retained. Originals remain unchanged locally."
+  },
+  {
+    "role": "blind_source_comparison_initial",
+    "file": "blind-source-comparison-initial.md",
+    "original_sha256": "7f43edcb8eeefb62f102fde11c239c5f7e286e26c5413dbb59d07bc965d4c273",
+    "presentation_sha256": "b4b59385c4f0b2c9d030225e563c39d87e70e6d07590f875ba319e08b9bf3219",
+    "changed": true,
+    "transformation": "Host directory prefixes are replaced by descriptive labels; findings, code, judgments and original hashes are retained. Originals remain unchanged locally."
+  },
+  {
+    "role": "blind_target_initial",
+    "file": "blind-targets-initial.json",
+    "original_sha256": "e29e5e008c4b84268c8be97c82687c00edb6d83993e4cef05a330c1e4e43ecb9",
+    "presentation_sha256": "e29e5e008c4b84268c8be97c82687c00edb6d83993e4cef05a330c1e4e43ecb9",
+    "changed": false,
+    "transformation": "Host directory prefixes are replaced by descriptive labels; findings, code, judgments and original hashes are retained. Originals remain unchanged locally."
+  },
+  {
+    "role": "scope_design_before_code",
+    "file": "choice-scope-design-before-code.md",
+    "original_sha256": "58486132f6c712c9db3c2a2dc0f159f2a02fd98de5c825d899effbe8d5cd35c4",
+    "presentation_sha256": "58486132f6c712c9db3c2a2dc0f159f2a02fd98de5c825d899effbe8d5cd35c4",
+    "changed": false,
+    "transformation": "Host directory prefixes are replaced by descriptive labels; findings, code, judgments and original hashes are retained. Originals remain unchanged locally."
+  },
+  {
+    "role": "scope_reconciliation",
+    "file": "choice-scope-reconciliation.md",
+    "original_sha256": "e5faa35d911bddd1100fb16a9b2d651adf4c6fd34ddc8262ae7a38b5428c59c8",
+    "presentation_sha256": "e5faa35d911bddd1100fb16a9b2d651adf4c6fd34ddc8262ae7a38b5428c59c8",
+    "changed": false,
+    "transformation": "Host directory prefixes are replaced by descriptive labels; findings, code, judgments and original hashes are retained. Originals remain unchanged locally."
+  },
+  {
+    "role": "code_comparison_final",
+    "file": "code-comparison-final.md",
+    "original_sha256": "8676b4e3f63cb3868bdec79e49ed4bd0ead2006ae6fde659dde64159a5bacaa2",
+    "presentation_sha256": "89dc9de754e64441e8723e4783a3a55d6c5e0031e50128e8bd8f244b8c2ad4e7",
+    "changed": true,
+    "transformation": "Host directory prefixes are replaced by descriptive labels; findings, code, judgments and original hashes are retained. Originals remain unchanged locally."
+  },
+  {
+    "role": "code_target_final",
+    "file": "code-targets-final.json",
+    "original_sha256": "bc7832edfe322293783a91b0583edbeff1435e4ff8c62d182a6a7ad7a32c0a77",
+    "presentation_sha256": "bc7832edfe322293783a91b0583edbeff1435e4ff8c62d182a6a7ad7a32c0a77",
+    "changed": false,
+    "transformation": "Host directory prefixes are replaced by descriptive labels; findings, code, judgments and original hashes are retained. Originals remain unchanged locally."
+  },
+  {
+    "role": "code_source_final",
+    "file": "code-source-entries-final.json",
+    "original_sha256": "5e5dd7f82844deb10f246bb83f427a77720a0a39e95a4d64a394b9b7219411df",
+    "presentation_sha256": "5e5dd7f82844deb10f246bb83f427a77720a0a39e95a4d64a394b9b7219411df",
+    "changed": false,
+    "transformation": "Host directory prefixes are replaced by descriptive labels; findings, code, judgments and original hashes are retained. Originals remain unchanged locally."
+  },
+  {
+    "role": "code_review_identity",
+    "file": "code-review-identity.json",
+    "original_sha256": "ab1d1aa27abe983e010a5131a106d81747f0c75bdbbb6d3f5efbba06ebf2e49d",
+    "presentation_sha256": "d00636251f0559ee9bb58c9589d380847539952235029dc64077bf905b1b31e9",
+    "changed": true,
+    "transformation": "Host directory prefixes are replaced by descriptive labels; findings, code, judgments and original hashes are retained. Originals remain unchanged locally."
+  },
+  {
+    "role": "source_comparison_final",
+    "file": "source-comparison-final.md",
+    "original_sha256": "5fb12334672d4cf8fdf5615c81a437824c969c679073f0b95445e7eb43874fca",
+    "presentation_sha256": "5fb12334672d4cf8fdf5615c81a437824c969c679073f0b95445e7eb43874fca",
+    "changed": false,
+    "transformation": "Host directory prefixes are replaced by descriptive labels; findings, code, judgments and original hashes are retained. Originals remain unchanged locally."
+  },
+  {
+    "role": "source_target_final",
+    "file": "source-targets-final.json",
+    "original_sha256": "a582019a464813de49ae542b2ce2c2ec7882328427754eec3f36ce43cab661ba",
+    "presentation_sha256": "a582019a464813de49ae542b2ce2c2ec7882328427754eec3f36ce43cab661ba",
+    "changed": false,
+    "transformation": "Host directory prefixes are replaced by descriptive labels; findings, code, judgments and original hashes are retained. Originals remain unchanged locally."
+  }
+]

@@ -1,6 +1,6 @@
 # Validation cases
 
-These cases examine the assessment, absorption, principled-review, and wording-review skills under their stated objectives and the applicable [philosophy](../../PHILOSOPHY.md). They are assessment material, not additional philosophical obligations or a requirement to run every case on every input. The retained philosophical cases and cross-system arguments are in [rationale](../../docs/rationale.md).
+These cases examine the assessment, absorption, principled-review, and wording-review skills under their stated objectives and the applicable [philosophy](../../PHILOSOPHY.md). They are assessment material, not additional philosophical obligations or a requirement to run every case on every input. The retained philosophical cases and cross-system arguments are in [rationale](../../rationale/README.md).
 
 Define the relevant cases before changing a skill. Give a test agent only the raw request, necessary context, and skill; withhold the expected boundaries below until it has recorded its response. Preserve the response before comparing it with expectations. Check the reasoning and material choices rather than exact wording. Record actual failures, narrow corrections, and reruns using [iteration](iteration.md).
 
