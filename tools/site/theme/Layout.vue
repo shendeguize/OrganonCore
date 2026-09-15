@@ -6,9 +6,11 @@ const { site, lang } = useData();
 const route = useRoute();
 const router = useRouter();
 const chinese = computed(() => lang.value.startsWith('zh'));
-const edition = computed(() => /-rc\./.test(site.value.themeConfig.releaseVersion)
-  ? (chinese.value ? '候选发行版 · 等待审核' : 'Release candidate · awaiting review')
-  : (chinese.value ? '正式发行版' : 'Stable release'));
+const edition = computed(() => site.value.themeConfig.preview
+  ? (chinese.value ? '源码预览 · 非发行版' : 'Source preview · not a release')
+  : /-rc\./.test(site.value.themeConfig.releaseVersion)
+    ? (chinese.value ? '候选发行版 · 等待审核' : 'Release candidate · awaiting review')
+    : (chinese.value ? '正式发行版' : 'Stable release'));
 const peer = computed(() => {
   const base = site.value.base;
   const path = route.path.slice(base.length).replace(/^zh\//, '');

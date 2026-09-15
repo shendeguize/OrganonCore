@@ -1,6 +1,6 @@
 # Pages and observed GitHub stars
 
-This repository publishes its site from the independent `site-data` branch. `main` CI produces development artifacts. It does not deploy them.
+Verified releases use the independent `site-data` branch. `main` CI produces development artifacts. **Preview Pages** (`preview-pages.yml`) may be dispatched manually from `main` to build, check and deploy the current source without a release receipt. A preview is not a verified release, does not update `site-data` or star history, and may be replaced by a later preview or verified release. Deploying it replaces the site currently served at the public Pages URL until another deployment succeeds.
 
 ## Publish a released site
 

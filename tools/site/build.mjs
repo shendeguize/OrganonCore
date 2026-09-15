@@ -68,7 +68,7 @@ export function prepare(repo) {
     cleanUrls: true, outDir: path.join(repo, 'dist/site'), cacheDir: path.join(repo, 'dist/site-cache'),
     appearance: true, lastUpdated: false,
     locales: { root: { label: 'English', lang: 'en', themeConfig: { nav: nav('') } }, zh: { label: '简体中文', lang: 'zh-Hans', themeConfig: { nav: nav('zh/'), outlineTitle: '本页内容', returnToTopLabel: '返回顶部', sidebarMenuLabel: '目录', darkModeSwitchLabel: '外观' } } },
-    themeConfig: { releaseVersion: config.version, outline: [2, 3], socialLinks: [{ icon: 'github', link: `https://github.com/shendeguize/${role}` }], footer: { message: 'Philosophy · methods · grounds / 哲学 · 方法 · 根据', copyright: 'MIT · Organon' } },
+    themeConfig: { releaseVersion: config.version, preview: process.env.ORGANON_SITE_PREVIEW === 'true', outline: [2, 3], socialLinks: [{ icon: 'github', link: `https://github.com/shendeguize/${role}` }], footer: { message: 'Philosophy · methods · grounds / 哲学 · 方法 · 根据', copyright: 'MIT · Organon' } },
     vite: { resolve: { preserveSymlinks: true } }
   };
   write(path.join(source, '.vitepress/config.mjs'), `export default ${JSON.stringify(vp, null, 2)};\n`);
