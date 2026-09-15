@@ -34,13 +34,18 @@ jobs:
           ref: ${{ steps.tooling.outputs.workspace }}
           path: tools
           persist-credentials: false
-      - uses: leanprover/lean-action@50fcf42d2e460296f1a34b402e990d1b24f8b596
-        with:
-          auto-config: 'false'
-          lake-package-directory: product/lean/philosophy/leanified
-          build: 'true'
-          test: 'false'
-          lint: 'false'
+      - name: Install pinned Lean toolchain in temporary runner storage
+        env:
+          ELAN_HOME: ${{ runner.temp }}/organon-elan
+        run: |
+          mkdir -p "$RUNNER_TEMP/organon-elan-bootstrap"
+          curl --proto '=https' --tlsv1.2 --fail --location https://github.com/leanprover/elan/releases/download/v4.2.4/elan-x86_64-unknown-linux-gnu.tar.gz --output "$RUNNER_TEMP/organon-elan-bootstrap/elan.tar.gz"
+          echo "42b94d4244e8353142c456ec0e4ca6528fd898a6c604d4059f494e706e431f63  $RUNNER_TEMP/organon-elan-bootstrap/elan.tar.gz" | sha256sum --check --strict
+          tar -xzf "$RUNNER_TEMP/organon-elan-bootstrap/elan.tar.gz" -C "$RUNNER_TEMP/organon-elan-bootstrap"
+          "$RUNNER_TEMP/organon-elan-bootstrap/elan-init" -y --no-modify-path --default-toolchain leanprover/lean4:v4.33.1
+          "$ELAN_HOME/bin/elan" toolchain install leanprover/lean4:v4.33.1
+          echo "ELAN_HOME=$ELAN_HOME" >> "$GITHUB_ENV"
+          echo "$ELAN_HOME/bin" >> "$GITHUB_PATH"
       - name: Source tests and human-document links
         working-directory: product
         env:
