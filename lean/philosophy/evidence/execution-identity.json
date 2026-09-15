@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "assessment": "self_reported_not_approval",
+  "sources_at_module_load": {
+    "skills/organon-core-leanify-prove/scripts/check.js": "74194794f7b058740255aa0ad8099b2c27bc8b4cf82cbf0f1336fc03f5348240",
+    "skills/organon-core-leanify-prove/scripts/manuscript.js": "e1aed330b703c2a5901e0cbca4b47b4d75602375646a462ced2e268f1aba4dcc",
+    "skills/organon-core-leanify-prove/scripts/targets.js": "cab6a7a55b852a2f29ca00ef9f03331a30549b2ba16d32d69138f488fdbc8888",
+    "scripts/lib/sections.js": "35c8cc81ea851e79af7ef9996e800112efa97c71005abecd59287a52ba8da180",
+    "scripts/lib/frontmatter.js": "42773238b4a39f6d5d374a814b5e23821340d55aea3e1972e5cac5a6820c354e"
+  },
+  "node": {
+    "status": "observed",
+    "version": "v22.23.2"
+  },
+  "lean": {
+    "status": "observed",
+    "version": "4.33.1"
+  },
+  "lake": {
+    "status": "observed",
+    "version": "5.0.0-src+819816b"
+  }
+}

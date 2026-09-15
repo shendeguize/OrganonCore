@@ -1,0 +1,521 @@
+{
+  "passed": true,
+  "semantic_status": "not_evaluated",
+  "current_source": "current",
+  "current_baseline": "not_selected",
+  "errors": [],
+  "entries": [
+    {
+      "id": "organon.preamble.p1",
+      "kernel": "passed",
+      "reported_fidelity": "not_applicable",
+      "reported_status": "not_applicable",
+      "effective_status": "not_applicable",
+      "context_only": true
+    },
+    {
+      "id": "organon.preamble.p2",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.charter",
+      "kernel": "not_checked",
+      "reported_fidelity": "not_applicable",
+      "reported_status": "not_applicable",
+      "effective_status": "not_applicable"
+    },
+    {
+      "id": "organon.charter.overview.p1",
+      "kernel": "not_checked",
+      "reported_fidelity": "not_applicable",
+      "reported_status": "not_applicable",
+      "effective_status": "not_applicable"
+    },
+    {
+      "id": "organon.charter.overview.p2",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.charter.overview.p3",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.charter.self-transcendence.p1",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "incomplete",
+      "effective_status": "incomplete"
+    },
+    {
+      "id": "organon.charter.self-transcendence.orientation.p1",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.charter.self-transcendence.non-finality.p1",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.charter.self-transcendence.limits.p1",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.charter.self-transcendence.limits.p2",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.charter.consistency.p1",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.charter.consistency.meaning.p1",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.charter.consistency.meaning.p2",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.charter.consistency.limits.p1",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.charter.reflexivity.p1",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "incomplete",
+      "effective_status": "incomplete"
+    },
+    {
+      "id": "organon.charter.reflexivity.meaning.p1",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "incomplete",
+      "effective_status": "incomplete"
+    },
+    {
+      "id": "organon.charter.reflexivity.limits.p1",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.grounds.p1",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.grounds.assessment.p1",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.grounds.assessment.p2",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.grounds.assessment.p3",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.grounds.scope.p1",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.grounds.scope.p2",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.grounds.scope.p3",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.grounds.capabilities.p1",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.grounds.capabilities.p2",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.grounds.implementations.p1",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.grounds.implementations.p2",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.grounds.implementations.limits.p1",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.relationships",
+      "kernel": "not_checked",
+      "reported_fidelity": "not_applicable",
+      "reported_status": "not_applicable",
+      "effective_status": "not_applicable"
+    },
+    {
+      "id": "organon.relationships.roles.p1",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.relationships.roles.p2",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.relationships.roles.p3",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.relationships.terms.p1",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    }
+  ],
+  "manifest_sha256": "fbadb527c043cd26fd81b06b6ea76c16731ec56ca6b91b5bcc3329cfcf1d73ce",
+  "proof_targets": {
+    "sha256": "2400383120ab2d98454597a73cdcaaadf45b8e47b18a646118708dc5d81da2a4",
+    "complete": true,
+    "semantic_status": "not_evaluated",
+    "entries": [
+      {
+        "id": "T01",
+        "kind": "boundary",
+        "reported_status": "accepted",
+        "declarations": []
+      },
+      {
+        "id": "T02",
+        "kind": "satisfiability",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Integration.jointWitness"
+        ]
+      },
+      {
+        "id": "T03",
+        "kind": "specification",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Agency.Generative"
+        ]
+      },
+      {
+        "id": "T04",
+        "kind": "nonentailment",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Agency.permissionNotValuation"
+        ]
+      },
+      {
+        "id": "T05",
+        "kind": "theorem",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Agency.revisabilityCovers",
+          "CoreReader.Agency.revisionWithoutProgress"
+        ]
+      },
+      {
+        "id": "T06",
+        "kind": "nonentailment",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Agency.generationLimits"
+        ]
+      },
+      {
+        "id": "T07",
+        "kind": "theorem",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Evidence.AchievementAccountability",
+          "CoreReader.Evidence.achievementNeedsSupport"
+        ]
+      },
+      {
+        "id": "T08",
+        "kind": "theorem",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Logic.consequenceConsistency",
+          "CoreReader.Logic.jointConflict"
+        ]
+      },
+      {
+        "id": "T09",
+        "kind": "nonentailment",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Logic.revisionCanReverse",
+          "CoreReader.Logic.contextDifferences"
+        ]
+      },
+      {
+        "id": "T10",
+        "kind": "theorem",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Logic.semanticChangeMustBeReported",
+          "CoreReader.Logic.representationOrderIrrelevant",
+          "CoreReader.Logic.hiddenContextChangeRejected"
+        ]
+      },
+      {
+        "id": "T11",
+        "kind": "nonentailment",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Logic.tensionWithoutContradiction",
+          "CoreReader.Logic.conflictRequiresChange"
+        ]
+      },
+      {
+        "id": "T12",
+        "kind": "nonentailment",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Logic.consistentFalse",
+          "CoreReader.Logic.consistentIncomplete"
+        ]
+      },
+      {
+        "id": "T13",
+        "kind": "specification",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Agency.Reflexive"
+        ]
+      },
+      {
+        "id": "T14",
+        "kind": "nonentailment",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Agency.noSelfExemption",
+          "CoreReader.Agency.applicabilityRetained",
+          "CoreReader.Agency.selfTestDoesNotProve",
+          "CoreReader.Evidence.selfOriginDoesNotSupport"
+        ]
+      },
+      {
+        "id": "T15",
+        "kind": "theorem",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Evidence.Grounds",
+          "CoreReader.Evidence.supportWeakening",
+          "CoreReader.Evidence.scopeRestriction"
+        ]
+      },
+      {
+        "id": "T16",
+        "kind": "theorem",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Evidence.assessmentUnion",
+          "CoreReader.Evidence.labelsCannotWaive",
+          "CoreReader.Evidence.mixedMissingResponsibility"
+        ]
+      },
+      {
+        "id": "T17",
+        "kind": "nonentailment",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Evidence.articulationNotSupport",
+          "CoreReader.Evidence.measurementRepeatNotSupport",
+          "CoreReader.Logic.compatibilityNotEntailment",
+          "CoreReader.Evidence.selfAssertionNotReason"
+        ]
+      },
+      {
+        "id": "T18",
+        "kind": "satisfiability",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Evidence.valueWithoutSelfProof",
+          "CoreReader.Evidence.heterogeneousReasons"
+        ]
+      },
+      {
+        "id": "T19",
+        "kind": "nonentailment",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Evidence.localNotUniversal",
+          "CoreReader.Evidence.hiddenDifference"
+        ]
+      },
+      {
+        "id": "T20",
+        "kind": "satisfiability",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Evidence.singleObservation",
+          "CoreReader.Evidence.noUniversalChain",
+          "CoreReader.Evidence.variableOutcomesStableBound",
+          "CoreReader.Evidence.verificationReproductionStability"
+        ]
+      },
+      {
+        "id": "T21",
+        "kind": "nonentailment",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Evidence.outputNotExplanation",
+          "CoreReader.Evidence.applicationContractsDiffer",
+          "CoreReader.Evidence.externalAssessment",
+          "CoreReader.Agency.inventoryNotCapability"
+        ]
+      },
+      {
+        "id": "T22",
+        "kind": "theorem",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Choice.statusOnlyFails",
+          "CoreReader.Choice.conventionWithReason"
+        ]
+      },
+      {
+        "id": "T23",
+        "kind": "nonentailment",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Choice.generalGroundsNotChoice"
+        ]
+      },
+      {
+        "id": "T24",
+        "kind": "nonentailment",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Choice.singleFeasible",
+          "CoreReader.Choice.localNotGlobal",
+          "CoreReader.Choice.internalReasons",
+          "CoreReader.Choice.openNotEquivalent"
+        ]
+      },
+      {
+        "id": "T25",
+        "kind": "theorem",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Integration.revisionKeepsConsistency",
+          "CoreReader.Integration.ownCapabilityGrounded",
+          "CoreReader.Integration.groundsSelfAssessment",
+          "CoreReader.Integration.existingPhilosophyNotPrivileged"
+        ]
+      },
+      {
+        "id": "T26",
+        "kind": "nonentailment",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Agency.generationNotReflexivity",
+          "CoreReader.Integration.charterNotGrounds",
+          "CoreReader.Integration.jointWitness"
+        ]
+      },
+      {
+        "id": "T27",
+        "kind": "theorem",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Integration.applicationRetainsDuties",
+          "CoreReader.Integration.reasonsBelongToCommitments"
+        ]
+      },
+      {
+        "id": "T28",
+        "kind": "satisfiability",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Evidence.nonExecutableAssessment"
+        ]
+      }
+    ]
+  }
+}

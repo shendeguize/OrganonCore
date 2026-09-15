@@ -1,0 +1,10 @@
+✔ [2/9] Built CoreReader.Logic (216ms)
+✔ [3/9] Built CoreReader.Reflexivity (559ms)
+✔ [4/9] Built CoreReader.Agency (402ms)
+✔ [5/9] Built CoreReader.Evidence (424ms)
+✔ [6/9] Built CoreReader.Choice (306ms)
+✔ [7/9] Built CoreReader.Integration (457ms)
+✔ [8/9] Built CoreReader (202ms)
+Build completed successfully (9 jobs).
+info: core_reproof: no previous manifest, creating one from scratch
+info: toolchain not updated; already up-to-date

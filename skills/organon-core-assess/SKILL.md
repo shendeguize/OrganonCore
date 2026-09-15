@@ -1,0 +1,34 @@
+---
+name: organon-core-assess
+description: Assess a given claim, design, method, or artifact against the selected adopted philosophy, explaining applicability, grounds, conflicts, and minimal correction directions. Use for philosophical assessment, including assessment of Organon itself; philosophical absorption is a separate decision.
+---
+
+# Organon Core Assess
+
+Read the adopted philosophy using [philosophy resolution](../references/philosophy-resolution.md), including its meanings and limits, and the [shared iteration and dependency rules](../references/iteration.md). Write in the user's language. This skill is a revisable Core method, not a further philosophical principle of the selected text.
+
+## Assess the input
+
+Identify the actual object and requested judgment. Fix the selected philosophical baseline and distinguish the input's claims, assumptions, objectives, and scope. Treat the selected text as the adopted basis for this assessment, not as a universally proven truth or evidence that the input's author has adopted it. Distinguish conflict with this external assessment basis from contradiction within the input's own commitments. An input that challenges it can expose a question for revision without changing the current baseline. Pass that same baseline to any delegated skill; do not replace it with bundled Core text.
+
+Determine which provisions apply and why. Distinguish empirical claims, inferences, and value commitments. Trace material judgments to the relevant provision and additional premises; make the support and its limits articulable. A report or artifact need not individually exhibit every commitment of a system. Mark a materially relevant unknown as unknown, not as compliance, conflict, or inapplicability.
+
+Examine whether judgments under the same assumptions, meanings, and scope can hold together; whether their grounds support their strength and scope; and, where relevant, whether implementation choices meet the choice provision under Grounds. For capability claims, identify the capability actually claimed, its application-specific definition, and the evidence supporting it. Do not impose a uniform mastery or generation standard. Distinguish external grounds for a capability claim from the assessed system's ability to explain its own process; require the latter when the application calls for it. Keep orientation distinct from achievement, reliable output from understanding its production, local agreement from overall equivalence, and self-application from self-proof. These are Core method checks; when the selected philosophy differs, identify which checks follow from that baseline and which remain additional method standards. A method standard alone does not establish conflict with the selected philosophy.
+
+For formal evidence, distinguish the source claim, its encoding, additional assumptions, and the checked conclusion. Inspect the actual definitions and full statement, including local premises; a dependency audit alone cannot reveal that a conclusion was assumed as a parameter. Establish correspondence of force, conditions, objects and support before using a proof or countermodel as evidence about the source. Identify which claims were examined and which remain unmodeled; successful checking or reviewer agreement does not certify whole-text fidelity. A modeling failure does not by itself establish a defect in the philosophy.
+
+Trace grounds to the corresponding claim and its conditions, rather than accepting unrelated records or an uninterpreted relation's name as sufficient support. Completing an assessment can establish that support is insufficient without establishing that the conclusion is false. For mixed claims, examine every applicable aspect; a missing classification leaves applicability to be examined, not automatically waived. These checks apply when relevant and do not require formalizing ordinary assessments.
+
+Use [organon-core-principled-review](../organon-core-principled-review/SKILL.md) when its full-analysis trigger conditions apply. Reuse its findings in the judgment below; do not duplicate its definitions or rerun unchanged checks. This skill owns the current philosophical compatibility judgment: connect each claimed baseline conflict to an applicable provision of the selected philosophy and its grounds. Keep additional method findings or preferences distinct; they do not automatically constitute philosophical violations. Routine narrow assessment keeps the targeted checks above.
+
+Obtain discoverable facts before invoking external grilling when explicitly requested or needed for decision-critical unknowns. Follow its questions through the relevant decisions; do not add a ritual interview when the supplied grounds suffice. Missing dependencies and unanswered material choices remain explicit under the shared rules.
+
+## Return a bounded judgment
+
+Explain what is compatible, in conflict, insufficiently supported, or unresolved, with the conditions on each judgment. These can coexist within one input; do not collapse them into a universal pass/fail verdict or confidence score. Offer the smallest correction direction that addresses the diagnosed issue. Do not rewrite the input or modify the selected philosophy or repository unless that work is authorized.
+
+Assess your own conclusion and method under the same relevant principles: look for omitted conditions, unsupported inferences, self-exemptions, and a counterexample that could change the judgment. Reporting no conflict does not establish correctness or sufficient support.
+
+If the input gives reasons to question the philosophy, identify the affected commitment without changing the baseline. Use [organon-core-absorb](../organon-core-absorb/SKILL.md) only when the task calls for a philosophical absorption decision. A compatibility judgment is not an adoption decision: compatibility alone does not warrant addition, and conflict alone does not defeat reasons for revision. Independent skill or documentation changes belong to the shared maintenance workflow. Ordinary assessment can end without absorption. For a cross-validation assignment, follow the shared independent-first review protocol and return findings to the initiating agent; do not recursively commission a reviewer.
+
+Use the concise six-part record when useful; repository iterations retain it locally. The [validation cases](../references/validation.md) guide skill development and subsequent comparison with recorded test responses, not predetermined answers to arbitrary inputs.

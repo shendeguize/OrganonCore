@@ -1,0 +1,1077 @@
+{
+  "schema_version": 1,
+  "source_sha256": "226fa3522943955d5a0f1f0b88e883c97b3505b3bcfd285329e432757912543f",
+  "targets": [
+    {
+      "id": "T01",
+      "kind": "boundary",
+      "sources": [
+        {
+          "unit": "organon.preamble",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.preamble",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.charter.overview",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.overview",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.charter.overview",
+          "clause": "p3"
+        }
+      ],
+      "statement": "Preserve adopted authority, normative/factual distinction, all meanings and limits, source roles and structural headings without inventing universal-truth or title theorems.",
+      "premises": [
+        "PHILOSOPHY is treated as adopted requirements, not universal facts.",
+        "Ordinary classical logic and the explicitly explained mathematical model; actual-world reliability and value adequacy are not silently supplied."
+      ],
+      "acceptance": "Complete every branch stated here and in independent source-first T01 through the indicated declarations/cases. Only N/E-V portions identified as non-theorem before encoding may retain an explicit boundary. Review against unchanged source. No deleted, weakened or reclassified D/W branch counts as completed.",
+      "required_declarations": [],
+      "required_cases": []
+    },
+    {
+      "id": "T02",
+      "kind": "satisfiability",
+      "sources": [
+        {
+          "unit": "organon.preamble",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.preamble",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.charter.overview",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.charter.overview",
+          "clause": "p3"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p3"
+        }
+      ],
+      "statement": "Construct a single inhabited, content-bearing shared model of the chosen Core specification: actual held judgments, own principle-process subjects, claims with evidence and goal-related implementation reasons jointly satisfy their model conditions; no priority follows from the conjunction.",
+      "premises": [
+        "PHILOSOPHY is treated as adopted requirements, not universal facts.",
+        "Ordinary classical logic and the explicitly explained mathematical model; actual-world reliability and value adequacy are not silently supplied."
+      ],
+      "acceptance": "Complete every branch stated here and in independent source-first T02 through the indicated declarations/cases. Only N/E-V portions identified as non-theorem before encoding may retain an explicit boundary. Review against unchanged source. No deleted, weakened or reclassified D/W branch counts as completed.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Integration.jointWitness",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Integration.jointWitness"
+      ]
+    },
+    {
+      "id": "T03",
+      "kind": "specification",
+      "sources": [
+        {
+          "unit": "organon.charter.overview",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.charter.overview",
+          "clause": "p3"
+        },
+        {
+          "unit": "organon.charter.self-transcendence",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.self-transcendence.orientation",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.self-transcendence.non-finality",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.self-transcendence.limits",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.self-transcendence.limits",
+          "clause": "p2"
+        }
+      ],
+      "statement": "Specify adopted generative orientation as valuing expansion and keeping organization, methods and principles revisable, separately from permissibility, actual transitions and achieved capabilities; no guaranteed successor or progress is built into the specification.",
+      "premises": [
+        "PHILOSOPHY is treated as adopted requirements, not universal facts.",
+        "Ordinary classical logic and the explicitly explained mathematical model; actual-world reliability and value adequacy are not silently supplied."
+      ],
+      "acceptance": "Complete every branch stated here and in independent source-first T03 through the indicated declarations/cases. Only N/E-V portions identified as non-theorem before encoding may retain an explicit boundary. Review against unchanged source. No deleted, weakened or reclassified D/W branch counts as completed.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Agency.Generative",
+          "kind": "definition"
+        }
+      ],
+      "required_cases": []
+    },
+    {
+      "id": "T04",
+      "kind": "nonentailment",
+      "sources": [
+        {
+          "unit": "organon.charter.self-transcendence.orientation",
+          "clause": "p1"
+        }
+      ],
+      "statement": "Give an inhabited policy permitting an actual change without endorsing expansion as worth pursuing; permission and intrinsic valuation are separate semantic components, not synonyms.",
+      "premises": [
+        "PHILOSOPHY is treated as adopted requirements, not universal facts.",
+        "Ordinary classical logic and the explicitly explained mathematical model; actual-world reliability and value adequacy are not silently supplied."
+      ],
+      "acceptance": "Complete every branch stated here and in independent source-first T04 through the indicated declarations/cases. Only N/E-V portions identified as non-theorem before encoding may retain an explicit boundary. Review against unchanged source. No deleted, weakened or reclassified D/W branch counts as completed.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Agency.permissionNotValuation",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Agency.permissionNotValuation"
+      ]
+    },
+    {
+      "id": "T05",
+      "kind": "theorem",
+      "sources": [
+        {
+          "unit": "organon.charter.self-transcendence.non-finality",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.relationships.terms",
+          "clause": "p1"
+        }
+      ],
+      "statement": "Show the revisability specification covers organization, methods and principles (also appearances/artifacts); construct a revisable system whose trace exhibits no capability expansion.",
+      "premises": [
+        "PHILOSOPHY is treated as adopted requirements, not universal facts.",
+        "Ordinary classical logic and the explicitly explained mathematical model; actual-world reliability and value adequacy are not silently supplied."
+      ],
+      "acceptance": "Complete every branch stated here and in independent source-first T05 through the indicated declarations/cases. Only N/E-V portions identified as non-theorem before encoding may retain an explicit boundary. Review against unchanged source. No deleted, weakened or reclassified D/W branch counts as completed.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Agency.revisabilityCovers",
+          "kind": "theorem"
+        },
+        {
+          "name": "CoreReader.Agency.revisionWithoutProgress",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Agency.revisionWithoutProgress"
+      ]
+    },
+    {
+      "id": "T06",
+      "kind": "nonentailment",
+      "sources": [
+        {
+          "unit": "organon.charter.self-transcendence.limits",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.self-transcendence.limits",
+          "clause": "p2"
+        }
+      ],
+      "statement": "Check all eleven source-first T06 branches: orientation without progress; duplicated artifacts, abstraction layers and terms without capability gain; dependence on external experience, knowledge and collaboration; no autonomous execution/self-improvement; grounded stable action with orientation; self-announced generation without achievement support. Shared witnesses must expose actual transitions, inventories, capacity content and dependency behavior.",
+      "premises": [
+        "PHILOSOPHY is treated as adopted requirements, not universal facts.",
+        "Ordinary classical logic and the explicitly explained mathematical model; actual-world reliability and value adequacy are not silently supplied."
+      ],
+      "acceptance": "Complete every branch stated here and in independent source-first T06 through the indicated declarations/cases. Only N/E-V portions identified as non-theorem before encoding may retain an explicit boundary. Review against unchanged source. No deleted, weakened or reclassified D/W branch counts as completed.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Agency.generationLimits",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Agency.generationLimits"
+      ]
+    },
+    {
+      "id": "T07",
+      "kind": "theorem",
+      "sources": [
+        {
+          "unit": "organon.charter.self-transcendence.limits",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.self-transcendence.limits",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.capabilities",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.capabilities",
+          "clause": "p2"
+        }
+      ],
+      "statement": "For a claim about the same capability change and conditions, derive its truth at an evidence-compatible actual world from semantic inferential support; exhibit that orientation or self-report alone does not supply this support. This is a conditional inferential fragment, not a guarantee of real evidence reliability or of worth. The explicit AchievementAccountability normative interface requires evidence and appropriate assessment for this very achievement claim; the sufficient conditional theorem does not replace that obligation or establish it universally fulfilled.",
+      "premises": [
+        "PHILOSOPHY is treated as adopted requirements, not universal facts.",
+        "Ordinary classical logic and the explicitly explained mathematical model; actual-world reliability and value adequacy are not silently supplied."
+      ],
+      "acceptance": "Complete every branch stated here and in independent source-first T07 through the indicated declarations/cases. Only N/E-V portions identified as non-theorem before encoding may retain an explicit boundary. Review against unchanged source. No deleted, weakened or reclassified D/W branch counts as completed.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Evidence.AchievementAccountability",
+          "kind": "definition"
+        },
+        {
+          "name": "CoreReader.Evidence.achievementNeedsSupport",
+          "kind": "theorem"
+        }
+      ],
+      "required_cases": []
+    },
+    {
+      "id": "T08",
+      "kind": "theorem",
+      "sources": [
+        {
+          "unit": "organon.charter.consistency",
+          "clause": "p1"
+        }
+      ],
+      "statement": "For arbitrary semantic theories and explicit question/assumption/meaning/scope indices, prove a nonempty model prevents a positive and negative consequence of the whole simultaneous theory at the same context; demonstrate a joint conflict that single-premise checks miss.",
+      "premises": [
+        "PHILOSOPHY is treated as adopted requirements, not universal facts.",
+        "Ordinary classical logic and the explicitly explained mathematical model; actual-world reliability and value adequacy are not silently supplied."
+      ],
+      "acceptance": "Complete every branch stated here and in independent source-first T08 through the indicated declarations/cases. Only N/E-V portions identified as non-theorem before encoding may retain an explicit boundary. Review against unchanged source. No deleted, weakened or reclassified D/W branch counts as completed.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Logic.consequenceConsistency",
+          "kind": "theorem"
+        },
+        {
+          "name": "CoreReader.Logic.jointConflict",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Logic.jointConflict"
+      ]
+    },
+    {
+      "id": "T09",
+      "kind": "nonentailment",
+      "sources": [
+        {
+          "unit": "organon.charter.consistency.meaning",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.consistency.meaning",
+          "clause": "p2"
+        }
+      ],
+      "statement": "Check an explicit retraction followed by an opposite judgment, with each time slice consistent while their simultaneous union conflicts. Demonstrate contextual differences separately for assumptions, meanings and scope without requiring global agreement.",
+      "premises": [
+        "PHILOSOPHY is treated as adopted requirements, not universal facts.",
+        "Ordinary classical logic and the explicitly explained mathematical model; actual-world reliability and value adequacy are not silently supplied."
+      ],
+      "acceptance": "Complete every branch stated here and in independent source-first T09 through the indicated declarations/cases. Only N/E-V portions identified as non-theorem before encoding may retain an explicit boundary. Review against unchanged source. No deleted, weakened or reclassified D/W branch counts as completed.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Logic.revisionCanReverse",
+          "kind": "case"
+        },
+        {
+          "name": "CoreReader.Logic.contextDifferences",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Logic.revisionCanReverse",
+        "CoreReader.Logic.contextDifferences"
+      ]
+    },
+    {
+      "id": "T10",
+      "kind": "theorem",
+      "sources": [
+        {
+          "unit": "organon.charter.consistency.meaning",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.consistency.meaning",
+          "clause": "p2"
+        }
+      ],
+      "statement": "Tie actual semantic changes of held judgments or context to truthful change reports; extensional reordering does not count as a new judgment; a hidden assumption/meaning/scope change fails the report condition. Declaring change does not prove the revised theory adequate. Extensional equivalence covers only the represented semantic content. Independently identifiable revisions of wording, adopted forms or conditions must still be reportable; this equivalence cannot erase those changes.",
+      "premises": [
+        "PHILOSOPHY is treated as adopted requirements, not universal facts.",
+        "Ordinary classical logic and the explicitly explained mathematical model; actual-world reliability and value adequacy are not silently supplied."
+      ],
+      "acceptance": "Complete every branch stated here and in independent source-first T10 through the indicated declarations/cases. Only N/E-V portions identified as non-theorem before encoding may retain an explicit boundary. Review against unchanged source. No deleted, weakened or reclassified D/W branch counts as completed.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Logic.semanticChangeMustBeReported",
+          "kind": "theorem"
+        },
+        {
+          "name": "CoreReader.Logic.representationOrderIrrelevant",
+          "kind": "theorem"
+        },
+        {
+          "name": "CoreReader.Logic.hiddenContextChangeRejected",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Logic.hiddenContextChangeRejected"
+      ]
+    },
+    {
+      "id": "T11",
+      "kind": "nonentailment",
+      "sources": [
+        {
+          "unit": "organon.charter.consistency.limits",
+          "clause": "p1"
+        }
+      ],
+      "statement": "Exhibit distinct value objectives with a common feasible interpretation, and show actually incompatible same-context conclusions violate consistency and cannot be retained unchanged under the consistency requirement.",
+      "premises": [
+        "PHILOSOPHY is treated as adopted requirements, not universal facts.",
+        "Ordinary classical logic and the explicitly explained mathematical model; actual-world reliability and value adequacy are not silently supplied."
+      ],
+      "acceptance": "Complete every branch stated here and in independent source-first T11 through the indicated declarations/cases. Only N/E-V portions identified as non-theorem before encoding may retain an explicit boundary. Review against unchanged source. No deleted, weakened or reclassified D/W branch counts as completed.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Logic.tensionWithoutContradiction",
+          "kind": "case"
+        },
+        {
+          "name": "CoreReader.Logic.conflictRequiresChange",
+          "kind": "theorem"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Logic.tensionWithoutContradiction"
+      ]
+    },
+    {
+      "id": "T12",
+      "kind": "nonentailment",
+      "sources": [
+        {
+          "unit": "organon.charter.consistency.limits",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p3"
+        }
+      ],
+      "statement": "Provide consistent theories with a false assumption at a specified actual world and with an explicitly relevant undecided question. These distinguish model consistency from actual truth and coverage.",
+      "premises": [
+        "PHILOSOPHY is treated as adopted requirements, not universal facts.",
+        "Ordinary classical logic and the explicitly explained mathematical model; actual-world reliability and value adequacy are not silently supplied."
+      ],
+      "acceptance": "Complete every branch stated here and in independent source-first T12 through the indicated declarations/cases. Only N/E-V portions identified as non-theorem before encoding may retain an explicit boundary. Review against unchanged source. No deleted, weakened or reclassified D/W branch counts as completed.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Logic.consistentFalse",
+          "kind": "case"
+        },
+        {
+          "name": "CoreReader.Logic.consistentIncomplete",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Logic.consistentFalse",
+        "CoreReader.Logic.consistentIncomplete"
+      ]
+    },
+    {
+      "id": "T13",
+      "kind": "specification",
+      "sources": [
+        {
+          "unit": "organon.charter.reflexivity",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.reflexivity.meaning",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.reflexivity.limits",
+          "clause": "p1"
+        }
+      ],
+      "statement": "Specify generation and assessment responsibilities over systems, principles and principle formation/application/revision; preserve applicability and questions of formation reasons, scope and revision reasons. Compliance projections are specification consequences, not proof that real systems comply.",
+      "premises": [
+        "PHILOSOPHY is treated as adopted requirements, not universal facts.",
+        "Ordinary classical logic and the explicitly explained mathematical model; actual-world reliability and value adequacy are not silently supplied."
+      ],
+      "acceptance": "Complete every branch stated here and in independent source-first T13 through the indicated declarations/cases. Only N/E-V portions identified as non-theorem before encoding may retain an explicit boundary. Review against unchanged source. No deleted, weakened or reclassified D/W branch counts as completed.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Agency.Reflexive",
+          "kind": "definition"
+        }
+      ],
+      "required_cases": []
+    },
+    {
+      "id": "T14",
+      "kind": "nonentailment",
+      "sources": [
+        {
+          "unit": "organon.charter.reflexivity.limits",
+          "clause": "p1"
+        }
+      ],
+      "statement": "Prove applicability is retained for self-owned objects without self exemption; show a nonapplicable self-application is not required, an actual finite self-test can pass with failure outside its sample, and self-origin of revision does not establish semantic support.",
+      "premises": [
+        "PHILOSOPHY is treated as adopted requirements, not universal facts.",
+        "Ordinary classical logic and the explicitly explained mathematical model; actual-world reliability and value adequacy are not silently supplied."
+      ],
+      "acceptance": "Complete every branch stated here and in independent source-first T14 through the indicated declarations/cases. Only N/E-V portions identified as non-theorem before encoding may retain an explicit boundary. Review against unchanged source. No deleted, weakened or reclassified D/W branch counts as completed.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Agency.noSelfExemption",
+          "kind": "theorem"
+        },
+        {
+          "name": "CoreReader.Agency.applicabilityRetained",
+          "kind": "theorem"
+        },
+        {
+          "name": "CoreReader.Agency.selfTestDoesNotProve",
+          "kind": "case"
+        },
+        {
+          "name": "CoreReader.Evidence.selfOriginDoesNotSupport",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Agency.selfTestDoesNotProve",
+        "CoreReader.Evidence.selfOriginDoesNotSupport"
+      ]
+    },
+    {
+      "id": "T15",
+      "kind": "theorem",
+      "sources": [
+        {
+          "unit": "organon.grounds",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p3"
+        }
+      ],
+      "statement": "Define inferential support by what evidence-compatible worlds imply about the same claim. Prove explicit weakening and scope restriction preserve supported conclusions; do not replace full empirical/value adequacy with observation coverage or a numerical score. Weakening means weakening the CONCLUSION; scope restriction narrows the conclusion’s quantified domain. It does not mean weakening evidence while preserving the same conclusion. A separate Grounds specification retains articulation, nature-appropriate assessment and proportionate support as adopted responsibilities, not automatically satisfied facts.",
+      "premises": [
+        "PHILOSOPHY is treated as adopted requirements, not universal facts.",
+        "Ordinary classical logic and the explicitly explained mathematical model; actual-world reliability and value adequacy are not silently supplied."
+      ],
+      "acceptance": "Complete every branch stated here and in independent source-first T15 through the indicated declarations/cases. Only N/E-V portions identified as non-theorem before encoding may retain an explicit boundary. Review against unchanged source. No deleted, weakened or reclassified D/W branch counts as completed.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Evidence.Grounds",
+          "kind": "definition"
+        },
+        {
+          "name": "CoreReader.Evidence.supportWeakening",
+          "kind": "theorem"
+        },
+        {
+          "name": "CoreReader.Evidence.scopeRestriction",
+          "kind": "theorem"
+        }
+      ],
+      "required_cases": []
+    },
+    {
+      "id": "T16",
+      "kind": "theorem",
+      "sources": [
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p3"
+        }
+      ],
+      "statement": "Combine actual aspect responsibilities without exclusive classification, preserve duties when labels are omitted, and check a mixed empirical/value claim with an actual missing value-reason obligation. Represent articulation elements and the three assessed facets without claiming their field presence proves real adequacy.",
+      "premises": [
+        "PHILOSOPHY is treated as adopted requirements, not universal facts.",
+        "Ordinary classical logic and the explicitly explained mathematical model; actual-world reliability and value adequacy are not silently supplied."
+      ],
+      "acceptance": "Complete every branch stated here and in independent source-first T16 through the indicated declarations/cases. Only N/E-V portions identified as non-theorem before encoding may retain an explicit boundary. Review against unchanged source. No deleted, weakened or reclassified D/W branch counts as completed.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Evidence.assessmentUnion",
+          "kind": "theorem"
+        },
+        {
+          "name": "CoreReader.Evidence.labelsCannotWaive",
+          "kind": "theorem"
+        },
+        {
+          "name": "CoreReader.Evidence.mixedMissingResponsibility",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Evidence.mixedMissingResponsibility"
+      ]
+    },
+    {
+      "id": "T17",
+      "kind": "nonentailment",
+      "sources": [
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p3"
+        }
+      ],
+      "statement": "Provide content-based countermodels: articulated argument not entailing conclusion; measurable/repeated observations that do not establish relevance, correctness or value; compatible but non-entailed conclusion; self-assertion missing substantive value reasons. Do not treat non-entailment as falsity.",
+      "premises": [
+        "PHILOSOPHY is treated as adopted requirements, not universal facts.",
+        "Ordinary classical logic and the explicitly explained mathematical model; actual-world reliability and value adequacy are not silently supplied."
+      ],
+      "acceptance": "Complete every branch stated here and in independent source-first T17 through the indicated declarations/cases. Only N/E-V portions identified as non-theorem before encoding may retain an explicit boundary. Review against unchanged source. No deleted, weakened or reclassified D/W branch counts as completed.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Evidence.articulationNotSupport",
+          "kind": "case"
+        },
+        {
+          "name": "CoreReader.Evidence.measurementRepeatNotSupport",
+          "kind": "case"
+        },
+        {
+          "name": "CoreReader.Logic.compatibilityNotEntailment",
+          "kind": "case"
+        },
+        {
+          "name": "CoreReader.Evidence.selfAssertionNotReason",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Evidence.articulationNotSupport",
+        "CoreReader.Evidence.measurementRepeatNotSupport",
+        "CoreReader.Logic.compatibilityNotEntailment",
+        "CoreReader.Evidence.selfAssertionNotReason"
+      ]
+    },
+    {
+      "id": "T18",
+      "kind": "satisfiability",
+      "sources": [
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p3"
+        }
+      ],
+      "statement": "Construct an explicit adopted value position with reasons, limits, consequences and openness while not deriving all starting commitments from facts; combine heterogeneous facet evidence without a common numerical scale. This proves procedural specification consistency, not ultimate value justification. Starting commitments may lack a derivation; this does not permit assuming an inconsistent starting theory.",
+      "premises": [
+        "PHILOSOPHY is treated as adopted requirements, not universal facts.",
+        "Ordinary classical logic and the explicitly explained mathematical model; actual-world reliability and value adequacy are not silently supplied."
+      ],
+      "acceptance": "Complete every branch stated here and in independent source-first T18 through the indicated declarations/cases. Only N/E-V portions identified as non-theorem before encoding may retain an explicit boundary. Review against unchanged source. No deleted, weakened or reclassified D/W branch counts as completed.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Evidence.valueWithoutSelfProof",
+          "kind": "case"
+        },
+        {
+          "name": "CoreReader.Evidence.heterogeneousReasons",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Evidence.valueWithoutSelfProof",
+        "CoreReader.Evidence.heterogeneousReasons"
+      ]
+    },
+    {
+      "id": "T19",
+      "kind": "nonentailment",
+      "sources": [
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "p3"
+        }
+      ],
+      "statement": "Use actual observation contents and compatible counterworlds to refute unrestricted generalization from a proper local scope; construct implementations equal on observed inputs and different on a relevant unobserved input.",
+      "premises": [
+        "PHILOSOPHY is treated as adopted requirements, not universal facts.",
+        "Ordinary classical logic and the explicitly explained mathematical model; actual-world reliability and value adequacy are not silently supplied."
+      ],
+      "acceptance": "Complete every branch stated here and in independent source-first T19 through the indicated declarations/cases. Only N/E-V portions identified as non-theorem before encoding may retain an explicit boundary. Review against unchanged source. No deleted, weakened or reclassified D/W branch counts as completed.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Evidence.localNotUniversal",
+          "kind": "case"
+        },
+        {
+          "name": "CoreReader.Evidence.hiddenDifference",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Evidence.localNotUniversal",
+        "CoreReader.Evidence.hiddenDifference"
+      ]
+    },
+    {
+      "id": "T20",
+      "kind": "satisfiability",
+      "sources": [
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "p3"
+        }
+      ],
+      "statement": "Exhibit bounded support from one unrepeated observation and suitable inferential assessment without a mandatory measurement/repetition/framework chain; differing possible outcomes retaining a specified stable bound, without claiming a probability theorem; distinguish recorded-observation verification, reproducible conditions and stability of the chosen conclusion by interpreted trial examples.",
+      "premises": [
+        "PHILOSOPHY is treated as adopted requirements, not universal facts.",
+        "Ordinary classical logic and the explicitly explained mathematical model; actual-world reliability and value adequacy are not silently supplied."
+      ],
+      "acceptance": "Complete every branch stated here and in independent source-first T20 through the indicated declarations/cases. Only N/E-V portions identified as non-theorem before encoding may retain an explicit boundary. Review against unchanged source. No deleted, weakened or reclassified D/W branch counts as completed.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Evidence.singleObservation",
+          "kind": "case"
+        },
+        {
+          "name": "CoreReader.Evidence.noUniversalChain",
+          "kind": "case"
+        },
+        {
+          "name": "CoreReader.Evidence.variableOutcomesStableBound",
+          "kind": "case"
+        },
+        {
+          "name": "CoreReader.Evidence.verificationReproductionStability",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Evidence.singleObservation",
+        "CoreReader.Evidence.noUniversalChain",
+        "CoreReader.Evidence.variableOutcomesStableBound",
+        "CoreReader.Evidence.verificationReproductionStability"
+      ]
+    },
+    {
+      "id": "T21",
+      "kind": "nonentailment",
+      "sources": [
+        {
+          "unit": "organon.grounds.capabilities",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.capabilities",
+          "clause": "p2"
+        }
+      ],
+      "statement": "Compare output-only and explanation-requiring contracts, with real functions/certificates showing output reliability need not establish process explanation; external assessment can supply output evidence. Prove duplicating documents, terms, tools or artifacts leaves represented capability content unchanged. Output and explanation contracts must concern the same generating process, not unrelated functions.",
+      "premises": [
+        "PHILOSOPHY is treated as adopted requirements, not universal facts.",
+        "Ordinary classical logic and the explicitly explained mathematical model; actual-world reliability and value adequacy are not silently supplied."
+      ],
+      "acceptance": "Complete every branch stated here and in independent source-first T21 through the indicated declarations/cases. Only N/E-V portions identified as non-theorem before encoding may retain an explicit boundary. Review against unchanged source. No deleted, weakened or reclassified D/W branch counts as completed.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Evidence.outputNotExplanation",
+          "kind": "case"
+        },
+        {
+          "name": "CoreReader.Evidence.applicationContractsDiffer",
+          "kind": "case"
+        },
+        {
+          "name": "CoreReader.Evidence.externalAssessment",
+          "kind": "case"
+        },
+        {
+          "name": "CoreReader.Agency.inventoryNotCapability",
+          "kind": "theorem"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Evidence.outputNotExplanation",
+        "CoreReader.Evidence.applicationContractsDiffer",
+        "CoreReader.Evidence.externalAssessment"
+      ]
+    },
+    {
+      "id": "T22",
+      "kind": "theorem",
+      "sources": [
+        {
+          "unit": "organon.grounds.implementations",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.implementations",
+          "clause": "p2"
+        }
+      ],
+      "statement": "Under the separately adopted choice specification, name-only, convention-only and status-only records provide no objective/value/constraint-linked reason; show an existing conventional implementation with an actual relevant reason remains eligible.",
+      "premises": [
+        "PHILOSOPHY is treated as adopted requirements, not universal facts.",
+        "Ordinary classical logic and the explicitly explained mathematical model; actual-world reliability and value adequacy are not silently supplied."
+      ],
+      "acceptance": "Complete every branch stated here and in independent source-first T22 through the indicated declarations/cases. Only N/E-V portions identified as non-theorem before encoding may retain an explicit boundary. Review against unchanged source. No deleted, weakened or reclassified D/W branch counts as completed.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Choice.statusOnlyFails",
+          "kind": "theorem"
+        },
+        {
+          "name": "CoreReader.Choice.conventionWithReason",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Choice.conventionWithReason"
+      ]
+    },
+    {
+      "id": "T23",
+      "kind": "nonentailment",
+      "sources": [
+        {
+          "unit": "organon.grounds.implementations",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.implementations",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p3"
+        }
+      ],
+      "statement": "Exhibit the independence of the added choice obligation from the represented general assessment obligations, without placing it in those premises; qualify the model scope rather than claim neutral facts establish a value commitment.",
+      "premises": [
+        "PHILOSOPHY is treated as adopted requirements, not universal facts.",
+        "Ordinary classical logic and the explicitly explained mathematical model; actual-world reliability and value adequacy are not silently supplied."
+      ],
+      "acceptance": "Complete every branch stated here and in independent source-first T23 through the indicated declarations/cases. Only N/E-V portions identified as non-theorem before encoding may retain an explicit boundary. Review against unchanged source. No deleted, weakened or reclassified D/W branch counts as completed.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Choice.generalGroundsNotChoice",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Choice.generalGroundsNotChoice"
+      ]
+    },
+    {
+      "id": "T24",
+      "kind": "nonentailment",
+      "sources": [
+        {
+          "unit": "organon.grounds.implementations.limits",
+          "clause": "p1"
+        }
+      ],
+      "statement": "Provide exactly one feasible implementation under an open justified-choice policy; two unequal implementations; local equality but global difference; existing/conventional choices with relevant reasons; internal explanatory power, scope limits, simplicity and procedure reasons remain eligible when linked to actual requirements, not automatically sufficient.",
+      "premises": [
+        "PHILOSOPHY is treated as adopted requirements, not universal facts.",
+        "Ordinary classical logic and the explicitly explained mathematical model; actual-world reliability and value adequacy are not silently supplied."
+      ],
+      "acceptance": "Complete every branch stated here and in independent source-first T24 through the indicated declarations/cases. Only N/E-V portions identified as non-theorem before encoding may retain an explicit boundary. Review against unchanged source. No deleted, weakened or reclassified D/W branch counts as completed.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Choice.singleFeasible",
+          "kind": "case"
+        },
+        {
+          "name": "CoreReader.Choice.localNotGlobal",
+          "kind": "case"
+        },
+        {
+          "name": "CoreReader.Choice.internalReasons",
+          "kind": "case"
+        },
+        {
+          "name": "CoreReader.Choice.openNotEquivalent",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Choice.singleFeasible",
+        "CoreReader.Choice.localNotGlobal",
+        "CoreReader.Choice.internalReasons",
+        "CoreReader.Choice.openNotEquivalent"
+      ]
+    },
+    {
+      "id": "T25",
+      "kind": "theorem",
+      "sources": [
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p3"
+        }
+      ],
+      "statement": "In the shared nonempty model, verify revised simultaneous judgments remain constrained, own capability claims require and receive matching assessment, Grounds itself has identifiable reasons/limits, and the current philosophy cannot gain choice priority merely by status. Preserve applicability and no self-proof; show actual module interactions beyond parallel labels.",
+      "premises": [
+        "PHILOSOPHY is treated as adopted requirements, not universal facts.",
+        "Ordinary classical logic and the explicitly explained mathematical model; actual-world reliability and value adequacy are not silently supplied."
+      ],
+      "acceptance": "Complete every branch stated here and in independent source-first T25 through the indicated declarations/cases. Only N/E-V portions identified as non-theorem before encoding may retain an explicit boundary. Review against unchanged source. No deleted, weakened or reclassified D/W branch counts as completed.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Integration.revisionKeepsConsistency",
+          "kind": "theorem"
+        },
+        {
+          "name": "CoreReader.Integration.ownCapabilityGrounded",
+          "kind": "theorem"
+        },
+        {
+          "name": "CoreReader.Integration.groundsSelfAssessment",
+          "kind": "theorem"
+        },
+        {
+          "name": "CoreReader.Integration.existingPhilosophyNotPrivileged",
+          "kind": "theorem"
+        }
+      ],
+      "required_cases": []
+    },
+    {
+      "id": "T26",
+      "kind": "nonentailment",
+      "sources": [
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p3"
+        }
+      ],
+      "statement": "Construct orientation/nonfinality without reflexive compliance and Charter-model compliance without the modeled general Grounds condition; reuse the shared nonempty joint witness as the positive combination. Establish only these stated directions, not a universal independence or chapter hierarchy theorem.",
+      "premises": [
+        "PHILOSOPHY is treated as adopted requirements, not universal facts.",
+        "Ordinary classical logic and the explicitly explained mathematical model; actual-world reliability and value adequacy are not silently supplied."
+      ],
+      "acceptance": "Complete every branch stated here and in independent source-first T26 through the indicated declarations/cases. Only N/E-V portions identified as non-theorem before encoding may retain an explicit boundary. Review against unchanged source. No deleted, weakened or reclassified D/W branch counts as completed.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Agency.generationNotReflexivity",
+          "kind": "case"
+        },
+        {
+          "name": "CoreReader.Integration.charterNotGrounds",
+          "kind": "case"
+        },
+        {
+          "name": "CoreReader.Integration.jointWitness",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Agency.generationNotReflexivity",
+        "CoreReader.Integration.charterNotGrounds",
+        "CoreReader.Integration.jointWitness"
+      ]
+    },
+    {
+      "id": "T27",
+      "kind": "theorem",
+      "sources": [
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p3"
+        }
+      ],
+      "statement": "Application-defined objectives and capability contracts do not remove applicable responsibilities, including self-owned claims. In the shared model, reasons and limits identify their individual commitments rather than one unrelated support flag.",
+      "premises": [
+        "PHILOSOPHY is treated as adopted requirements, not universal facts.",
+        "Ordinary classical logic and the explicitly explained mathematical model; actual-world reliability and value adequacy are not silently supplied."
+      ],
+      "acceptance": "Complete every branch stated here and in independent source-first T27 through the indicated declarations/cases. Only N/E-V portions identified as non-theorem before encoding may retain an explicit boundary. Review against unchanged source. No deleted, weakened or reclassified D/W branch counts as completed.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Integration.applicationRetainsDuties",
+          "kind": "theorem"
+        },
+        {
+          "name": "CoreReader.Integration.reasonsBelongToCommitments",
+          "kind": "theorem"
+        }
+      ],
+      "required_cases": []
+    },
+    {
+      "id": "T28",
+      "kind": "satisfiability",
+      "sources": [
+        {
+          "unit": "organon.relationships.terms",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p3"
+        }
+      ],
+      "statement": "Give a structured assessment of inferential reasons/applicability with actual valid inference and no executable-test requirement; retain empirical observations where their aspect applies. The model distinguishes an assessment method from the Lean tool used to check the model.",
+      "premises": [
+        "PHILOSOPHY is treated as adopted requirements, not universal facts.",
+        "Ordinary classical logic and the explicitly explained mathematical model; actual-world reliability and value adequacy are not silently supplied."
+      ],
+      "acceptance": "Complete every branch stated here and in independent source-first T28 through the indicated declarations/cases. Only N/E-V portions identified as non-theorem before encoding may retain an explicit boundary. Review against unchanged source. No deleted, weakened or reclassified D/W branch counts as completed.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Evidence.nonExecutableAssessment",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Evidence.nonExecutableAssessment"
+      ]
+    }
+  ]
+}

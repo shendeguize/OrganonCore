@@ -1,0 +1,46 @@
+# Local project state
+.local/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+.venv/
+venv/
+env/
+ENV/
+pip-wheel-metadata/
+*.egg-info/
+build/
+dist/
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+
+# Operating system
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor and IDE
+.idea/
+.vscode/
+
+# .local
+
+
+node_modules/
+
+*.log
+
+# Lean compiler outputs
+*.olean

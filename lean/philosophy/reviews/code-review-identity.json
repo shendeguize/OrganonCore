@@ -1,0 +1,52 @@
+{
+  "review_kind": "informed revision comparison, not blind",
+  "snapshot": "Core/private historical check objects/2026-09-14T03-53-09.030Z-12298-3c6aab",
+  "target_statuses": {
+    "accepted": 28,
+    "rejected": 0,
+    "pending": 0
+  },
+  "target_scope": "T23 accepted for represented finite assessment duties A only; stronger full non-Choice Grounds G independence is not established",
+  "source_statuses": {
+    "partial": 31,
+    "full": 0,
+    "not_applicable": 2,
+    "rejected": 0,
+    "pending": 0
+  },
+  "line_fragments": {
+    "files": [
+      "CoreReader.lean",
+      "CoreReader/Agency.lean",
+      "CoreReader/Reflexivity.lean",
+      "CoreReader/Integration.lean"
+    ],
+    "nonempty_lines": 1141,
+    "coverage": "Agency/Reflexivity/Integration/root only; remaining three modules authored separately"
+  },
+  "historical_preserved_sha256": {
+    "BLIND-INITIAL.md": "2575d7f5963e22b2729ac837d30d54e302f63085588030bb25f5ea1961173484",
+    "code-explanations-en.json": "e00bf3e4a16265caea1d065d4103c7dff08235949054efe084308446863a754e",
+    "SOURCE-COMPARISON-INITIAL.md": "7f43edcb8eeefb62f102fde11c239c5f7e286e26c5413dbb59d07bc965d4c273",
+    "target-verdicts-initial.json": "e29e5e008c4b84268c8be97c82687c00edb6d83993e4cef05a330c1e4e43ecb9"
+  },
+  "inputs_sha256": {
+    "Core/PHILOSOPHY.md": "1a0bebd61e35d46a3ba2e882305ce60f423e37a343ecdfd0b6f314e437aade59",
+    "Core/private maintenance records/source-first.md": "9d6db04489a10a5aab217601ad69f006d4fd1ee1183aec9a7314764b4c3d8afd",
+    "Core/private maintenance records/targets-frozen.json": "35cda8ba439af8b32fd180efae2829b370bc5b82960cc91feb24e3e03636d2f4",
+    "Core/private maintenance records/source-paragraphs.json": "011581c7b79823bf0a68275cd7b695ba074a1a027fbe7063d29f7b3f6bf8dab8",
+    "Core/private maintenance records/source-first-T23-design.md": "58486132f6c712c9db3c2a2dc0f159f2a02fd98de5c825d899effbe8d5cd35c4",
+    "Core/private maintenance records/T23-scope-reconciliation.md": "e5faa35d911bddd1100fb16a9b2d651adf4c6fd34ddc8262ae7a38b5428c59c8"
+  },
+  "artifacts_sha256": {
+    "final-target-verdicts.json": "bc7832edfe322293783a91b0583edbeff1435e4ff8c62d182a6a7ad7a32c0a77",
+    "final-source-entries.json": "5e5dd7f82844deb10f246bb83f427a77720a0a39e95a4d64a394b9b7219411df",
+    "final-source-comparison.md": "8676b4e3f63cb3868bdec79e49ed4bd0ead2006ae6fde659dde64159a5bacaa2",
+    "code-explanations-final-en-part.json": "d8743576726a90b5fc4bd40ca2df65265764e1e615f32eb56054ec9a7b8c4311",
+    "code-explanations-final-zh-part.json": "35050657e105df084b4836f9073f56daf5ab634a0fb4f3217d488f3ef2d72fd0",
+    "final-execution-checks-v3.json": "cc25d759d0c2a081bda9f96fe669ce1d09f18d7ad189c861656ebf2cae1e1d22",
+    "final-recheck-receipt.json": "531dd734fcbcd5c2c2d694225bf9ad825290c255bfbaf49e30367b221b741c04",
+    "recheck-final.py": "969ec8fc4f0998044e0576395c27146903f02492c590d26c2f5a556b9d084457",
+    "FinalReviewCheck.lean": "e7037edf17953820b4b05c4a52c9b71ec18bf71d611bf6fb0d9e0eaab86be1d4"
+  }
+}
