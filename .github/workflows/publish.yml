@@ -75,12 +75,16 @@ jobs:
         if: inputs.operation == 'publish' && inputs.bootstrap_npm
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_BOOTSTRAP_TOKEN }}
+          GOVERNANCE_AUDIT_TOKEN: ${{ secrets.GOVERNANCE_AUDIT_TOKEN }}
         run: node tools/scripts/release/publish.mjs publish --manifest candidate/release-manifest.json --product core
-      - name: OIDC publication or credential-free bundle operation
+      - name: OIDC publication or verified bundle operation
         if: inputs.operation != 'promote' && !(inputs.operation == 'publish' && inputs.bootstrap_npm)
+        env:
+          GOVERNANCE_AUDIT_TOKEN: ${{ secrets.GOVERNANCE_AUDIT_TOKEN }}
         run: node tools/scripts/release/publish.mjs "$RELEASE_OPERATION" --manifest candidate/release-manifest.json --product core
       - name: Complete channel recommendation only after all three products match
         if: inputs.operation == 'promote'
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TAG_TOKEN }}
+          GOVERNANCE_AUDIT_TOKEN: ${{ secrets.GOVERNANCE_AUDIT_TOKEN }}
         run: node tools/scripts/release/publish.mjs promote --manifest candidate/release-manifest.json --product core

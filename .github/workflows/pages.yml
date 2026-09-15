@@ -50,6 +50,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
           GH_TOKEN: ${{ github.token }}
+          GOVERNANCE_AUDIT_TOKEN: ${{ secrets.GOVERNANCE_AUDIT_TOKEN }}
           RELEASE_VERSION: ${{ inputs.version }}
           MANIFEST_SHA256: ${{ inputs.manifest_sha256 }}
         run: node .tooling/workspace/scripts/release/site-data.mjs pages --version "$RELEASE_VERSION" --manifest-sha256 "$MANIFEST_SHA256"
