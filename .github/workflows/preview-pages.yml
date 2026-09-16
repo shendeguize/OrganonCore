@@ -30,9 +30,14 @@ jobs:
         env:
           ORGANON_CORE_ROOT: ${{ github.workspace }}/product
         run: npm run check:site
-      - uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa
+      - name: Archive Pages artifact
+        run: tar --dereference --directory product/dist/site/ -cvf "$RUNNER_TEMP/artifact.tar" --exclude=.git --exclude=.github .
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:
-          path: product/dist/site/
+          name: github-pages-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/artifact.tar
+          retention-days: 1
+          if-no-files-found: error
   deploy:
     needs: build
     runs-on: ubuntu-24.04
@@ -46,3 +51,5 @@ jobs:
     steps:
       - uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e
         id: deployment
+        with:
+          artifact_name: github-pages-${{ github.run_attempt }}
