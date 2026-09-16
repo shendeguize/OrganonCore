@@ -1,0 +1,48 @@
+name: Preview Pages
+on:
+  workflow_dispatch:
+permissions: {}
+concurrency:
+  group: site-data-${{ github.repository }}
+  cancel-in-progress: false
+jobs:
+  build:
+    if: github.repository == 'shendeguize/OrganonCore' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    env:
+      ORGANON_SITE_PREVIEW: 'true'
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          path: product
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '22.23.2'
+      - name: Install locked site build dependencies
+        working-directory: product/tools/site
+        run: npm ci --ignore-scripts
+      - name: Build and check current site preview
+        working-directory: product
+        env:
+          ORGANON_CORE_ROOT: ${{ github.workspace }}/product
+        run: npm run check:site
+      - uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa
+        with:
+          path: product/dist/site/
+  deploy:
+    needs: build
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e
+        id: deployment
